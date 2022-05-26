@@ -46,7 +46,7 @@ function check(){
     if(u_odp == odp[rng]) {
         if(ilosc==pytanie.length) {
             end();
-            window.open("/end.html","_top")
+            window.open("end.html","_top")
         } else {
         getRandomNumber(0,pytanie.length) //tu zmienić <--------------------------------------
         document.getElementById("in").focus()
