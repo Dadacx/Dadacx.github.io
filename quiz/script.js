@@ -1,5 +1,5 @@
-const pytanie = ["oceniać","rozwiązanie","podstawowa wiedza","zmieniający się","wymagający","w przypadku","ciągły","spójność danych","baza danych","jednostka"]
-const odp = ["evaluate","solution","fundamental knowledge","varying","demanding","in the event","constant","data integrity","database","entity"]
+const pytanie = ["oceniać","rozwiązanie","podstawowa wiedza","zmieniający się","wymagający","w przypadku","ciągły","spójność danych","baza danych","jednostka","komputer","procesor","zapytanie","plik","programista","arkusz kalkulacyjny","pośród","zapis/rekord"]
+const odp = ["evaluate","solution","fundamental knowledge","varying","demanding","in the event","constant","data integrity","database","entity","computer","processor","query","file","developer","spreadsheet","among","record"]
 rng = 0
 const test = []
 ilosc = 0
@@ -43,7 +43,7 @@ function pokaz() {
 function check(){
     ilosc++
     u_odp = document.getElementById("in").value
-    if(u_odp == odp[rng]) {
+    if(u_odp.toLowerCase() == odp[rng].toLowerCase()) {
         if(ilosc==pytanie.length) {
             end();
             window.open("end.html","_top")
