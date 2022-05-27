@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>QUIZ</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="wynik()">
+    <div class="slowo end">
+        <p class="wynik" id="wynik"></p>
+    </div>
+    <button class="confirm" onclick="window.open('quiz.html','_top')">JESZCZE RAZ!</button>
+</body>
+<script>
+    function wynik() {
+        wynik2 = sessionStorage.getItem("wynik")
+        document.getElementById("wynik").innerHTML = wynik2
+    }
+</script>
+</html>
