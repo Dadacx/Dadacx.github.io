@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Średnia</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="center">
+        <form onsubmit="return licz()">
+        <input type="text" id="input" class="input" placeholder="Wpisz oceny po przecinku" autocomplete="off">
+        </form>
+        <button class="licz" onclick="licz()">Oblicz średnią</button>
+    <p class="wynik" id="wynik"></p>
+    <div id="wrong_number"></div>
+    </div>
+</body>
+</html>
