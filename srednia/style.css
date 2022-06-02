@@ -5,6 +5,10 @@ body {
     flex-direction: column;
     background-image: url("images/background.png");
 }
+a {
+    width:5px;
+    height: 5px;
+}
 div.center {
     width: 75%;
     height: 300px;
