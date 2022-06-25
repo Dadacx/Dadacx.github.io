@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<!-- font awesome  -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+</head>
+<body style="background-image: url('quiz/images/background.png');" onload="getdata()">
+  <div class="pt-3 d-flex justify-content-center">
+    <form>
+    <input type="data" id="data" disabled name="data">
+    <input type="number" id="in" class="in" name="liczba" required>
+    <div class="alert alert-success d-flex align-items-center d-none mt-2" role="alert" id="alert">
+      <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Success:">
+        <use xlink:href="#check-circle-fill" />
+      </svg>
+      <div>
+        Pomyślnie przesłano dane
+      </div>
+    </div>
+    <button id="subbtn" type="submit" class="btn btn-primary col-3.5">
+      <div id="spinner" class="spinner-border text-light spinner-border-sm d-none mt-1" role="status">
+      </div>
+      <span class="" id="sub">Dodaj</span>
+    </button>
+    </form>
+  </div>
+    <script>
+      function getdata() {
+        var adata = new Date();
+        if(adata.getDate()<10) {
+           var d = "0" + adata.getDate()
+        }
+        else {
+          d = adata.getDate()
+        }
+        var m = adata.getMonth() + 1
+        if(m < 10) {
+           var m = "0" + m
+        }
+        data = d + "." + m + "." + adata.getFullYear() + "r"
+        document.querySelector("#data").value = data
+      }
+      function test() {
+        fetch("https://script.google.com/macros/s/AKfycbyt_0AS7tooUGaWwzvC6tAnZGJ7gD0NbLkYqzgxjMeqb0Ug1P4K96akvEpO4CoMU_mJ/exec")
+  .then(res => res.json()).then(data => {for (let i = 1; i < data.content.length; i++) {
+    console.log(data.content[i]);
+  }})
+      }
+      let form = document.querySelector("form");
+      form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      document.querySelector("#sub").innerHTML = "Dodaję...";
+      document.querySelector("#sub").classList.add("ms-2")
+      document.querySelector("#spinner").classList.remove("d-none")
+      document.querySelector("#subbtn").disabled = true
+      document.querySelector("#alert").classList.add("d-none")
+      document.querySelector("#data").disabled = false
+
+        let data = new FormData(form);
+      fetch('https://script.google.com/macros/s/AKfycby5wXUSjaAtokEOH9RZ69lZZ4HKU55flPeS7QrFmFglC2tsXPWne9AkVt2Re1gVudDU/exec', {
+        method: "POST",
+        body: data
+      })
+        .then(res => res.text())
+        .then(data => {
+          //document.querySelector("#msg").innerHTML = data;
+          document.querySelector("#sub").innerHTML = "Dodaj";
+          document.querySelector("#sub").classList.remove("ms-2")
+          document.querySelector("#spinner").classList.add("d-none")
+          document.querySelector("#subbtn").disabled = false
+          document.querySelector("#alert").classList.remove("d-none")
+          document.querySelector("#data").disabled = true
+        });
+  })
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <style>
+      .login_oueter {
+      width: 360px;
+      max-width: 100%;
+  }
+      .logo_outer{
+      text-align: center;
+  }
+      .logo_outer img{
+      width:120px;
+      margin-bottom: 40px;
+  }
+    </style>
+</body>
+</html>
