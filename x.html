@@ -29,29 +29,72 @@
       </div>
     </div>
     </form>
-    <div class="btn btn-primary col-2" style="--bs-btn-hover-bg: #0d6efd; --bs-btn-active-bg: #0d6efd; --bs-btn-active-border-color: rgba(0,0,0,0); --bs-btn-hover-border-color: rgba(0,0,0,0);">Najwięcej:
+    <div class="btn btn-primary col-3 mt-3" style="--bs-btn-hover-bg: #0d6efd; --bs-btn-active-bg: #0d6efd; --bs-btn-active-border-color: rgba(0,0,0,0); --bs-btn-hover-border-color: rgba(0,0,0,0);">Najwięcej:
       <div id="spinner2" class="spinner-border text-light spinner-border-sm mt-1" role="status">
       </div>
       <span id="max"></span>
     </div>
-    <div class="btn btn-primary col-2 mt-2" style="--bs-btn-hover-bg: #0d6efd; --bs-btn-active-bg: #0d6efd; --bs-btn-active-border-color: rgba(0,0,0,0); --bs-btn-hover-border-color: rgba(0,0,0,0);">Najmniej:
+    <div class="btn btn-primary col-3 mt-2" style="--bs-btn-hover-bg: #0d6efd; --bs-btn-active-bg: #0d6efd; --bs-btn-active-border-color: rgba(0,0,0,0); --bs-btn-hover-border-color: rgba(0,0,0,0);">Najmniej:
       <div id="spinner3" class="spinner-border text-light spinner-border-sm mt-1" role="status">
       </div>
       <span id="min"></span>
     </div>
-    <div class="btn btn-primary col-2 mt-2" style="--bs-btn-hover-bg: #0d6efd; --bs-btn-active-bg: #0d6efd; --bs-btn-active-border-color: rgba(0,0,0,0); --bs-btn-hover-border-color: rgba(0,0,0,0);">Łącznie:
+    <div class="btn btn-primary col-3 mt-2" style="--bs-btn-hover-bg: #0d6efd; --bs-btn-active-bg: #0d6efd; --bs-btn-active-border-color: rgba(0,0,0,0); --bs-btn-hover-border-color: rgba(0,0,0,0);">Ostatnie 7 dni:
       <div id="spinner4" class="spinner-border text-light spinner-border-sm mt-1" role="status">
+      </div>
+      <span id="d7"></span>
+    </div>
+    <div class="btn btn-primary col-3 mt-2" style="--bs-btn-hover-bg: #0d6efd; --bs-btn-active-bg: #0d6efd; --bs-btn-active-border-color: rgba(0,0,0,0); --bs-btn-hover-border-color: rgba(0,0,0,0);">Łącznie:
+      <div id="spinner5" class="spinner-border text-light spinner-border-sm mt-1" role="status">
       </div>
       <span id="suma"></span>
     </div>
     <table class="table table-striped w-75 mt-4">
       <tr>
         <th>Data</th>
-        <th>Ilość</th>
+        <th onclick="sortTable(1)">Ilość</th>
       </tr>
     </table>
   </div>
     <script>
+      //sortowanie
+  function sortTable(n) {
+  var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
+  table = document.querySelector("table");
+  switching = true;
+  dir = "asc";
+  while (switching) {
+    switching = false;
+    rows = table.rows;
+    for (i = 1; i < (rows.length - 1); i++) {
+      shouldSwitch = false;
+      x = rows[i].getElementsByTagName("TD")[n];
+      y = rows[i + 1].getElementsByTagName("TD")[n];
+      if (dir == "asc") {
+        if (Number(x.innerHTML) > Number(y.innerHTML)) {
+          shouldSwitch = true;
+          break;
+        }
+      } else if (dir == "desc") {
+        if (Number(x.innerHTML) < Number(y.innerHTML)) {
+          shouldSwitch = true;
+          break;
+        }
+      }
+    }
+    if (shouldSwitch) {
+      rows[i].parentNode.insertBefore(rows[i + 1], rows[i]);
+      switching = true;
+      switchcount ++;
+    } else {
+      if (switchcount == 0 && dir == "asc") {
+        dir = "desc";
+        switching = true;
+      }
+    }
+  }
+}
+
       function getdata() {
         var adata = new Date();
         if(adata.getDate()<10) {
@@ -71,23 +114,30 @@
         document.querySelector("#spinner2").classList.remove("d-none")
         document.querySelector("#spinner3").classList.remove("d-none")
         document.querySelector("#spinner4").classList.remove("d-none")
+        document.querySelector("#spinner5").classList.remove("d-none")
         document.querySelector("#max").innerHTML = ""
         document.querySelector("#min").innerHTML = ""
         document.querySelector("#suma").innerHTML = ""
+        document.querySelector("#d7").innerHTML = ""
         fetch("https://script.google.com/macros/s/AKfycbyt_0AS7tooUGaWwzvC6tAnZGJ7gD0NbLkYqzgxjMeqb0Ug1P4K96akvEpO4CoMU_mJ/exec")
   .then(res => res.json()).then(data => {
+    console.log(data.content)
     var max = data.content[1][3]
     var min = data.content[1][4]
     var suma = data.content[1][5]
+    var ostatnie_7 = data.content[1][6]
     document.querySelector("#spinner2").classList.add("d-none")
     document.querySelector("#spinner3").classList.add("d-none")
     document.querySelector("#spinner4").classList.add("d-none")
+    document.querySelector("#spinner5").classList.add("d-none")
     document.querySelector("#max").innerHTML = max
     document.querySelector("#min").innerHTML = min
     document.querySelector("#suma").innerHTML = suma
+    document.querySelector("#d7").innerHTML = ostatnie_7
     for(i=1;i<data.content.length; i++) {
       add = "<tr><td>" + data.content[i][0] + "</td><td>" + data.content[i][1] + "</td></tr>"
       document.querySelector("tbody").innerHTML = document.querySelector("tbody").innerHTML + add
+      //arr.push({data:data.content[i][0],ilosc:data.content[i][1]})
     }
   })
       }
@@ -126,6 +176,10 @@ td, th {
   text-align: left;
   padding: 8px;
   text-align: center;
+}
+th {
+  user-select: none;
+  cursor: pointer;
 }
 .edit {
   margin-left: -25px;
