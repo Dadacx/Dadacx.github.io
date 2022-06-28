@@ -119,6 +119,7 @@
         document.querySelector("#min").innerHTML = ""
         document.querySelector("#suma").innerHTML = ""
         document.querySelector("#d7").innerHTML = ""
+        document.querySelector("table").innerHTML = '<table class="table table-striped w-75 mt-4"><tbody><tr><th>Data</th><th onclick="sortTable(1)">Ilość</th></tr></tbody></table>'
         fetch("https://script.google.com/macros/s/AKfycbyt_0AS7tooUGaWwzvC6tAnZGJ7gD0NbLkYqzgxjMeqb0Ug1P4K96akvEpO4CoMU_mJ/exec")
   .then(res => res.json()).then(data => {
     console.log(data.content)
@@ -172,7 +173,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <style>
 td, th {
-  border: 1px solid #ababab;
+  border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
   text-align: center;
