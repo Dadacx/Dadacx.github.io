@@ -7,7 +7,7 @@
 <!-- font awesome  -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
 </head>
-<body style="background-image: url('quiz/images/background.png');" onload="getdata(), pobierz()", document.getElementById("in").innerHTML = "">
+<body style="background-image: url('quiz/images/background.png');" onload="getdata(), pobierz()">
   <div class="pt-3 d-flex flex-column align-items-center">
     <form>
       <div class="d-inline">
@@ -186,6 +186,7 @@
           document.querySelector("#subbtn").disabled = false
           document.querySelector("#alert").classList.remove("d-none")
           document.querySelector("#data").disabled = true
+          document.querySelector("#in").innerHTML = ""
           pobierz()
         });
   })
