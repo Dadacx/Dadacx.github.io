@@ -1,0 +1,23 @@
+W wersji Survival Test 0.30 kamień dało się wydobyć ręką
+Blok trawy, bruk i powietrze to najstarsze bloki w grze od wesji Pre-Classic
+Deski można wykorzystać do naprawienia drewnianch narzędzi w kowadle
+W endzie bedrock pali się wiecznie
+W wersji Indev bedrock Po wystawieniu na światło słoneczne po pewnym czasie zamienia się w lawę
+Z obliczeń matematycznych wychodzi, że bedrocka można by zniszczyć netherytowym kilofem z wydajnością V w ok. 1 godzinę i 40 min. Ponieważ: obsydian ma wytrzymałość 6000 i netherytowym kilofem z wydajnością V kopie się go ok. 2 sekundy, więc: 18 000 000 : 6000 = 3000 x 2 sek. = 6000 sekund : 60 = 100 minut = (około) 1 godzina 40 min. Jednak pomimo najwyższych poziomów dzięki komendom, nawet z wydajnością 2 000 000 i pośpiechem 255 nie da się wykopać bedrocka na survivalu.
+Narzędzia wykonane z bruku są nazywane kamiennymi a nie brukowymi
+Kiedy po raz pierwszy wprowadzono diament nazwano go szmaragd.
+Już w 2009 roku Notch wspomniał o kryształowych blokach które miałyby się pojawiać podziemią, przypomina to ametyst dodany w wersji 1.17.
+Blok diamentu ma tą samą teksturę co blok złota ale przebarwioną na niebiesko.
+Po postawieniu gąbki w Netherze automatycznie zmienia się w suchą gąbkę.
+Początkowo wykopywanie piaskowca, nawet za pomocą diamentowego kilofa zajmowało bardzo dużo czasu, dłużej niż obsydianu.
+Przyciemnione szkło ma taką samą nazwę jak blok dodany w primaaprilisowej wersji w 2013 roku.
+Gładki kamień to jedyny blok, który posiada własny wariant półbloku, ale nie posiada wariantu schodów.
+Obsydian w języku Pirate Speak to Rock o' Tears (Skała łez). Jest to nawiązanie do płaczącego obsydianu. Pierwotnie planowanego już w wersji Beta.
+Primaaprilisowy snapshot 20w14∞ zawierał „najbardziej prestiżowe schody”, które były wariantem bloku netherytu. Nosiły nazwę swaggiest stairs ever co po polsku znaczy najwspanialsze schody w historii.
+Dynie są generowane rzadziej niż diamenty.
+Angielska nazwa arbuza to 'watermelon', podczas gdy w angielskiej wersji gry nazywa się on 'melon'
+Łódki oraz rzucone przedmioty poruszają się szybciej na niebieskim lodzie, niż na normalnym lub zbitym lodzie.
+Płaczący obsydian był planowany już w wersji Beta 1.3 miał on służyć do ustawiania punktu odrodzenia, ale jego rolę przejęły łóżka. Co ciekawe stara tekstura jest wciąż dostępna w teksturach programistów [(Pokazać które to)(to są te wbudowane do mc w texture packach)]
+Złocony czernit jest podobny do żwiru, bo może upuścić sam siebie lub inny przedmiot.
+Gdy w wersji Classic 0.0.20 dodano róże i zółte kwiaty, mogły one być postawione na lawie lub na samych sobie
+Żelazny golem dropi mak i czasami może go dawać wieśniakom
