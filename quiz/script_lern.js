@@ -42,7 +42,6 @@ function load() {
   for(i=0;i<pytanie.length; i++) {
     add = "<tr><td>" + pytanie[i] + "</td><td>" + odp[i] + "</td></tr>"
     document.querySelector("tbody").innerHTML = document.querySelector("tbody").innerHTML + add
-    console.log("csads");
     //arr.push({data:data.content[i][0],ilosc:data.content[i][1]})
   }})
 }
