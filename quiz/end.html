@@ -10,12 +10,14 @@
     <div class="slowo end" id="end">
         <h2 class="slowo" id="slowo"></h2>
         <p class="wynik" id="wynik"></p>
+        <span class="liczba_dobrze" id="liczba_dobrze"></span><span class="liczba_zle" id="liczba_zle"></span>
     </div>
     <button class="confirm" onclick="window.open('quiz.html','_top')">JESZCZE RAZ!</button>
 </body>
 <script>
     function wynik() {
-        wynik2 = sessionStorage.getItem("wynik")
+        dane = sessionStorage.getItem("wynik").split(',')
+        wynik2 = dane[0]
         if(wynik2<0) {
             wynik2 = 0
         }
@@ -33,6 +35,9 @@
             document.getElementById("end").style.color = "red"
             document.getElementById("slowo").innerHTML = "Nie tym razem"
         }
+        document.querySelector("#liczba_dobrze").innerHTML = "Poprawnych odpowiedzi: " + dane[1]
+        document.querySelector("#liczba_zle").innerHTML = "Błędnych odpowiedzi: " + dane[2]
+        document.querySelector("#liczba_zle").style.color = "red"
     }
 </script>
 </html>
