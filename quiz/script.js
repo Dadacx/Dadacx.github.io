@@ -74,7 +74,12 @@ function end() {
     x = pytanie.length - zle
     procent = parseFloat(x/pytanie.length*100)
     procent_2_po_przecinku = procent.toFixed(2)
-    sessionStorage.setItem("wynik", procent_2_po_przecinku);
+    const przekaz = []
+    przekaz.push(procent_2_po_przecinku)
+    przekaz.push(x)
+    przekaz.push(zle)
+
+    sessionStorage.setItem("wynik", przekaz);
 }
 function exit() {
     if (confirm("Czy na pewno chcesz opuścić quiz?") == true) {
