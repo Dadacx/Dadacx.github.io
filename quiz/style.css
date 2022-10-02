@@ -15,6 +15,7 @@ div.slowo {
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
+    cursor:pointer;
 }
 p.pytanie {
     font-size: 35px;
@@ -91,6 +92,7 @@ p.lern {
 p.odp_lern {
     font-size: 25px;
     font-weight: normal;
+    cursor:default;
 }
 p.menu {
     font-size: 30px;
