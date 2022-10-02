@@ -7,12 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body onload="load()">
+    <div class="lista" id="lista">
+        <button class="confirm" id="again" style="background-color: red" onclick="document.querySelector('#lista').style.visibility = 'hidden'">ZAMKNIJ</button>
+        <table>
+        <tr><th>Pytanie</th><th>Odpowiedź</th></tr>
+    </table>
+    <button class="confirm" id="again" style="background-color: red" onclick="document.querySelector('#lista').style.visibility = 'hidden'">ZAMKNIJ</button>
+</div>
     <div class="slowo end" onclick="klik()" style="font-weight: normal">
         <p class="postep" id="progress" style="font-size: 17px;"></p>
         <p class="lern" id="lern">Ładuję...</p>
         <p class="odp_lern" id="odp_lern">&nbsp;</p>
     </div>
     <button class="confirm" id="again" onclick="lern()">NASTĘPNY >></button>
+    <button class="confirm" id="list" onclick="document.querySelector('#lista').style.visibility = 'visible'">LISTA PYTAŃ I ODPOWIEDZI</button>
     <button class="confirm" id="menu" onclick="window.open('index.html','_top')">WRÓĆ DO MENU</button>
 </body>
 </html>
