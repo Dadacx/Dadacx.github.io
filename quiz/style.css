@@ -15,7 +15,6 @@ div.slowo {
     justify-content: flex-end;
     align-items: center;
     flex-direction: column;
-    cursor:pointer;
 }
 p.pytanie {
     font-size: 35px;
@@ -92,7 +91,6 @@ p.lern {
 p.odp_lern {
     font-size: 25px;
     font-weight: normal;
-    cursor:default;
 }
 p.menu {
     font-size: 30px;
@@ -100,3 +98,36 @@ p.menu {
     margin-top: 0;
     margin-bottom: 10px;
 }
+div.lista {
+    width: 65%;
+    height: 600px;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    margin: auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: auto;
+    visibility: hidden;
+    background-color: rgb(250, 250, 190);
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  table{
+    width: 90%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  th {
+    font-size: 20px;
+  }
+  td {
+    font-size: 20px;
+  }
