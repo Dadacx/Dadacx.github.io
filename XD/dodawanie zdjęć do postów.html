@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        img {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="previewImage()">Try it</button>
+
+    <script>
+            function previewImage() {
+                var file = document.getElementById("file").files;
+                if (file.length > 0) {
+                    for (var i=0;i<file.length;i++) {
+                    var fileReader = new FileReader();
+                    fileReader.onload = function (event) {
+                        var DOM_img = document.createElement("img");
+                        DOM_img.src = event.target.result;
+                        DOM_img.width = "100"
+                        document.getElementById("myList").appendChild(DOM_img);
+                    };
+                    fileReader.readAsDataURL(file[i]);
+                }
+            }
+            document.getElementById("test").innerHTML=i;
+        }
+            </script>
+    
+    <form method="POST" action="/" name="myForm" enctype="multipart/form-data">
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="file" name="myfile" multiple accept="image/*"><br><br>
+          </form>
+          <ul id="myList">
+    </ul>
+</body>
+</html>

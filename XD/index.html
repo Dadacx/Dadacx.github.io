@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Facebook – zaloguj się lub zarejestruj</title>
+    <link rel="shortcut icon" href="image/fb_logo.png">
+    <style>
+        @import url("style_login.css");
+    </style>
+    <script type="text/javascript" src="script_login.js"></script>
+</head>
+<body>
+    <div class="box">
+    <div class="text">
+    <img class="fb_napis" src="image/fb_napis.svg" height="106">
+    <h2 class="text1">Facebook pomaga kontaktować się z innymi osobami oraz udostępniać im różne informacje i materiały.</h2>
+    </div>
+    <div class="box2">
+    <div class="login_box">
+        <form class="login" name="login_box" onkeyup="check()" onsubmit="return login()">
+            <input autocomplete="off" class="input" type="email" name="email" placeholder="Adres e-mail lub numer telefonu" required><br><br>
+            <div class="password"><input class="input" type="password" name="password" placeholder="Hasło" id="password" required>
+            <div class="show_pass_pos" id="show_pass_pos"><div class="show_pass_bg" onclick="show_password()"><div class="show_pass" id="show_pass"></div></div></div>
+            </div>
+            <p class="error" id="error">Nieprawidłowy adres email lub hasło</p><br>
+            <input type="submit" value="Zaloguj się" class="submit" id="submit_btn"><a id="submit"></a></input>
+        </form><br>
+        <span class="forget_pass">Nie pamiętasz hasła?</span><br><br><hr><br>
+        <button class="create_account">Utwórz nowe konto</button>
+    </div><br>
+    <span class="tekst"><span class="create_side">Utwórz stronę</span> dla gwiazdy, marki lub firmy.</span>
+    </div>
+</div>
+</body>
+</html>

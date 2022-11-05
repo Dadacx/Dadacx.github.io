@@ -1,0 +1,143 @@
+body {
+    background-color: #f0f2f5;
+    font-family: arial;
+}
+img.fb_napis {
+    margin: -28px;
+}
+h2.text1 {
+    color: #333;
+    display: inline-block;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif;
+    width: 456px
+}
+div.box {
+    margin: auto 19%;
+}
+div.text {
+    width: 368px;
+    padding-right: 32px;
+    padding-top: 165px;
+    margin-left: -10px;
+    float: left;
+}
+div.box2 {
+    float: right;
+    width: 400px;
+    text-align: center;
+}
+div.login_box {
+    width: 400px;
+    height: auto;
+    color: #fff;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    box-sizing: border-box;
+    margin-top: 100px;
+    margin-right: 280px;
+    border-radius: 15px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+form.login {
+    padding-top: 15px;
+}
+input.input {
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 334px;
+    border: #e2e3e6 solid 2px;
+    outline: none;
+}
+input.input::placeholder {
+    color: #93979e;
+}
+input.input:focus {
+    border: #64a4f6 solid 2px;
+}
+div.password {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+p.error {
+    color: red;
+    display: none;
+    margin-bottom: 0;
+}
+input.submit {
+    margin-top: 12px;
+    color: white;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    width: 92%;
+    height: 48px;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+input.submit:hover {
+    background-color: #166fe5;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+span.forget_pass {
+    color: #1877f2;
+    cursor: pointer;
+}
+span.forget_pass:hover {
+    text-decoration: underline;
+}
+hr {
+    border: #e5e7ea solid 1px;
+    width: 94%;
+}
+button.create_account {
+    color: white;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    width: 45%;
+    height: 48px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+}
+button.create_account:hover {
+    background-color: #36a420;
+}
+span.tekst {
+    font-size: 14px;
+}
+span.create_side {
+    font-weight: bold;
+    cursor: pointer;
+}
+span.create_side:hover {
+    text-decoration: underline;
+}
+div.show_pass_pos {
+    position: absolute;
+    /*top: 75.7%;
+    right: 22%;*/
+    margin-right: 12px;
+    visibility: hidden;
+}
+div.show_pass_bg {
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    padding: 5px;
+    border-radius: 50%;
+}
+div.show_pass_bg:hover {
+    background-color: rgba(0, 0, 0, .05);
+}
+div.show_pass {
+    background: url("image/password_hide.png");
+    height: 16px;
+    width: 16px;
+}
