@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+    <select name="niezdrowe" id="niezdrowe">
+        <option value="pizza">Pizza</option>
+        <option value="drwal">Drwal</option>
+        <option value="frytki">Frytki</option>
+        <option value="hamburger">Hamburger</option>
+        <option value="schabowy">Schabowy</option>
+        <option value="chipsy">Chipsy</option>
+        <option value="zupka_chinska">Zupka Chińska</option>
+        <option value="hot_dog">Hot Dog</option>
+        <option value="kebab">Kebab</option>
+        <option value="nuggetsy">Nuggetsy</option>
+        <option value="lody_wloskie">Lody Włoskie</option>
+        <option value="zelki_haribo">Żelki Haribo</option>
+        <option value="parowki">Parówki</option>
+      </select>
+      <span class="validation" id="validation">Podaj liczbę między 1 a 10 000</span>
+    <input id="ilosc" type="number" min="1" max="10000" placeholder="Podaj ilość w gramach">
+    <select name="zdrowe" id="zdrowe">
+        <option value="ziemniak">Ziemniak</option>
+        <option value="kasza_jeczmienna">Kasza Jęczmienna</option>
+        <option value="kasza_gryczana">Kasza Gryczana</option>
+        <option value="ryz_brazowy">Ryż Brązowy</option>
+        <option value="platki_owsiane">Płatki Owsiane</option>
+        <option value="jablko">Jabłko</option>
+        <option value="marchewka">Marchewka</option>
+        <option value="gruszka">Gruszka</option>
+        <option value="banan">Banan</option>
+        <option value="arbuz">Arbuz</option>
+        <option value="winogrono">Winogrono</option>
+        <option value="truskawki">Truskawki</option>
+        <option value="pomarancze">Pomarańcze</option>
+      </select>
+      <br>
+      <button onclick="calc()">PRZELICZ</button>
+      <p class="wynik" id="wynik"></p>
+  </div>
+</body>
+</html>
