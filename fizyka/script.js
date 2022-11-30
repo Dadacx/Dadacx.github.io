@@ -1,32 +1,32 @@
 var niezdrowe = {
-    pizza: 2.66,
-    drwal: 2.93,
-    frytki: 2.89,
-    hamburger: 2.42,
-    schabowy: 3.03,
-    chipsy: 5.17,
-    zupka_chinska: 3.43,
-    hot_dog: 2.89,
-    kebab: 1.95,
-    nuggetsy: 2.96,
-    lody_wloskie: 2.22,
-    zelki_haribo: 3.43,
-    parowki: 2.3,
+    pizza: {kcal: 2.66, name: "pizzy"},
+    drwal: {kcal: 2.93, name: "drwala"},
+    frytki: {kcal: 2.89, name: "frytek"},
+    hamburger: {kcal: 2.42, name: "hamburgera"},
+    schabowy: {kcal: 3.03, name: "schabowego"},
+    chipsy: {kcal: 5.17, name: "chipsów"},
+    zupka_chinska: {kcal: 3.43, name: "zupki chińskiej"},
+    hot_dog: {kcal: 2.89, name: "hot doga"},
+    kebab: {kcal: 1.95, name: "kebaba"},
+    nuggetsy: {kcal: 2.96, name: "nuggetsów"},
+    lody_wloskie: {kcal: 2.22, name: "lodów włoskich"},
+    zelki_haribo: {kcal: 3.43, name: "żelków haribo"},
+    parowki: {kcal: 2.3, name: "parówek"},
   }
 var zdrowe = {
-    ziemniak: 0.66,
-    kasza_jeczmienna: 1.23,
-    kasza_gryczana: 1.23,
-    ryz_brazowy: 1.11,
-    platki_owsiane: 0.74,
-    jablko: 0.52,
-    marchewka: 0.41,
-    gruszka: 0.57,
-    banan: 0.88,
-    arbuz: 0.3,
-    winogrono: 0.67,
-    truskawki: 0.32,
-    pomarancze: 0.47,
+    ziemniak: {kcal: 0.66, name: "ziemniaków"},
+    kasza_jeczmienna: {kcal: 1.23, name: "kaszy jęczmiennej"},
+    kasza_gryczana: {kcal: 1.23, name: "kaszy gryczanej"},
+    ryz_brazowy: {kcal: 1.11, name: "ryżu brązowego"},
+    platki_owsiane: {kcal: 0.74, name: "płatków owsianych"},
+    jablko: {kcal: 0.52, name: "jabłek"},
+    marchewka: {kcal: 0.41, name: "marchewek"},
+    gruszka: {kcal: 0.57, name: "gruszek"},
+    banan: {kcal: 0.88, name: "bananów"},
+    arbuz: {kcal: 0.3, name: "arbuza"},
+    winogrono: {kcal: 0.67, name: "winogrona"},
+    truskawki: {kcal: 0.32, name: "truskawek"},
+    pomarancze: {kcal: 0.47, name: "pomarańczy"},
 }
 function calc() {
   ilosc = parseInt(document.querySelector("#ilosc").value)
@@ -38,9 +38,14 @@ function calc() {
     console.log(niezdr)
     console.log(zdr)
     //wynik = parseFloat(eval("niezdrowe."+niezdr)*ilosc/eval("zdrowe."+zdr)).toFixed(2)
-    wynik = parseFloat(niezdrowe[niezdr]*ilosc/zdrowe[zdr]).toFixed(2)
-    document.querySelector("#wynik").innerHTML = ("Zamiast "+ilosc+"g <b>"+niezdr+"</b> możesz zjeść "+ wynik +"g <b>"+zdr)
+    wynik = parseFloat(niezdrowe[niezdr].kcal*ilosc/zdrowe[zdr].kcal).toFixed(2)
+    document.querySelector("#wynik").innerHTML = ("Zamiast "+ilosc+"g <b>"+niezdrowe[niezdr].name+"</b> możesz zjeść "+ wynik +"g <b>"+zdrowe[zdr].name)
   } else {
     document.querySelector("#validation").style.visibility = "visible"
+  }
+}
+function kcal() {
+  for (let i = 0; i < Object.keys(niezdrowe).length; i++) {
+    console.log(document.querySelector("select").options[i].value +": "+niezdrowe[document.querySelector("select").options[i].value].kcal) 
   }
 }
