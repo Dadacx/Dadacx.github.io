@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
-<body>
+<body onload="kcal()">
   <div class="container">
     <select name="niezdrowe" id="niezdrowe">
         <option value="pizza">🍕Pizza</option>
@@ -22,7 +22,7 @@
         <option value="nuggetsy">🍗Nuggetsy</option>
         <option value="lody_wloskie">🍦Lody Włoskie</option>
         <option value="zelki_haribo">🍬Żelki Haribo</option>
-        <option value="parowki">Parówki</option>
+        <option value="parowki">🥓Parówki</option>
       </select>
       <span class="validation" id="validation">Podaj liczbę między 1 a 10 000</span>
     <input id="ilosc" type="number" min="1" max="10000" placeholder="Podaj ilość w gramach">
@@ -43,7 +43,24 @@
       </select>
       <br>
       <button onclick="calc()">PRZELICZ</button>
+      <button onclick="document.querySelector('#table').style.visibility = 'visible'">TABELA KCAL</button>
       <p class="wynik" id="wynik"></p>
+  </div>
+  <div class="table_box" id="table">
+  <div class="table">
+    <div class="close" onclick="document.querySelector('#table').style.visibility = 'hidden'">+</div>
+    <!-- <i class="gg-close"></i> -->
+    <table>
+      <tbody>
+      <tr>
+        <th>Niezdrowe jedzenie</th>
+        <th>Kcal w 100g</th>
+        <th>Zdrowe jedzenie</th>
+        <th>Kcal w 100g</th>
+      </tr>
+      </tbody>
+    </table>
+  </div>
   </div>
 </body>
 </html>
