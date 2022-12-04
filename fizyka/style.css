@@ -14,7 +14,7 @@ body {
 }
 .table {
   width: 70%;
-  background: #c9c9c9;
+  /*background: #c9c9c9;*/
   padding: 7px;
   display: flex;
   flex-direction: column;
