@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Fonts & Decoration</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="fonts/mc.css">
+</head>
+<body>
+    <h1 class="minecraft mc-red mc-shadow">Minecraft Font</h1>
+    <div class="group">
+        <div class="mc" id="mc">
+            <select name="colors" id="colors" onchange="minecraft(1)">
+                <option class="mc-black" value="mc-black">Black</option>
+                <option class="mc-dark_blue" value="mc-dark_blue">Dark Blue</option>
+                <option class="mc-dark_green" value="mc-dark_green">Dark Green</option>
+                <option class="mc-dark_aqua" value="mc-dark_aqua">Dark Aqua</option>
+                <option class="mc-dark_red" value="mc-dark_red">Dark Red</option>
+                <option class="mc-dark_purple" value="mc-dark_purple">Dark Purple</option>
+                <option class="mc-gold" value="mc-gold">Gold</option>
+                <option class="mc-gray" value="mc-gray">Gray</option>
+                <option class="mc-dark_gray" value="mc-dark_gray">Dark Gray</option>
+                <option class="mc-blue" value="mc-blue">Blue</option>
+                <option class="mc-green" value="mc-green">Green</option>
+                <option class="mc-aqua" value="mc-aqua">Aqua</option>
+                <option class="mc-red" value="mc-red">Red</option>
+                <option class="mc-light_purple" value="mc-light_purple">Light Purple</option>
+                <option class="mc-yellow" value="mc-yellow">Yellow</option>
+                <option class="mc-white" value="mc-white">White</option>
+              </select>
+              <div class="checkbox">
+                <span class="text_checkbox mc-gold" style="text-shadow: 2px 2px #2a2a00">Shadow:</span>
+                <label class="toggler-wrapper style-1">
+                  <input name="shadow" type="checkbox" id="shadow" onchange="minecraft(2)">
+                  <div class="toggler-slider">
+                    <div class="toggler-knob"></div>
+                  </div>
+                </label>
+                <span class="text_checkbox mc-gold mc-bold">Bold:</span>
+                <label class="toggler-wrapper style-1">
+                  <input name="shadow" type="checkbox" id="shadow" onchange="minecraft(3)">
+                  <div class="toggler-slider">
+                    <div class="toggler-knob"></div>
+                  </div>
+                </label>
+                <span class="text_checkbox mc-gold mc-strikethrough">Strikethrough:</span>
+                <label class="toggler-wrapper style-1">
+                  <input name="shadow" type="checkbox" id="shadow" onchange="minecraft(4)">
+                  <div class="toggler-slider">
+                    <div class="toggler-knob"></div>
+                  </div>
+                </label>
+                <span class="text_checkbox mc-gold mc-underline">Underline:</span>
+                <label class="toggler-wrapper style-1">
+                  <input name="shadow" type="checkbox" id="shadow" onchange="minecraft(5)">
+                  <div class="toggler-slider">
+                    <div class="toggler-knob"></div>
+                  </div>
+                </label>
+                <span class="text_checkbox mc-gold mc-italic">Italic:</span>
+                <label class="toggler-wrapper style-1">
+                  <input name="shadow" type="checkbox" id="shadow" onchange="minecraft(6)">
+                  <div class="toggler-slider">
+                    <div class="toggler-knob"></div>
+                  </div>
+                </label>
+              </div>
+        </div>
+        <textarea id="minecraft" class="minecraft mc-black" spellcheck="false"></textarea>
+        <div class="mc_footer">
+          <div class="link">Link: https://dadacx.github.io/fad/fonts/mc.css</div>
+          <p id="minecraft"></p>
+        </div>
+    </div>
+</body>
+</html>

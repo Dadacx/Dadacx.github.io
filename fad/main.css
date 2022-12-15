@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    background-color: antiquewhite;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h1.minecraft {
+    font-family: Minecraftia;
+}
+div.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+div.mc {
+    background-color: rgb(228, 228, 228);
+    width: 80%;
+    display: inline-block;
+    padding: 10px 2px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+div.mc_footer {
+  background-color: rgb(228, 228, 228);
+  width: 80%;
+  display: inline-block;
+  padding: 10px 2px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  font-family: Minecraftia;
+}
+div.link {
+  font-size: 18px;
+}
+textarea.minecraft {
+    font-size: 25px;
+    font-family: Minecraftia;
+    width: 80%;
+    height: 100px;
+    outline: none;
+    border: 0;
+    resize: vertical;
+}
+select {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    font-family: Minecraftia;
+    z-index: 1;
+    outline: none;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.25em 0.5em;
+    font-size: 20px;
+    cursor: pointer;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  option {
+    background-color: #dadada;
+  }
+  div.checkbox {
+    display: inline-flex;
+    justify-content: center;
+    width: 95%;
+  }
+  span.text_checkbox {
+    margin-right: 4px;
+    font-family: Minecraftia;
+    margin: 0px 2px 0px 12px;
+  }
+  /*checkbox*/
+  .toggler-wrapper {
+	display: inline-block;
+	width: 45px;
+	height: 25px;
+	cursor: pointer;
+	position: relative;
+}
+.toggler-wrapper input[type="checkbox"] {
+	display: none;
+}
+.toggler-wrapper input[type="checkbox"]:checked+.toggler-slider {
+	background-color: #44cc66;
+}
+.toggler-wrapper .toggler-slider {
+	background-color: #ccc;
+	position: absolute;
+	border-radius: 100px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+.toggler-wrapper .toggler-knob {
+	position: absolute;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+.toggler-wrapper.style-1 input[type="checkbox"]:checked+.toggler-slider .toggler-knob {
+	left: calc(100% - 19px - 3px);
+}
+.toggler-wrapper.style-1 .toggler-knob {
+	width: calc(25px - 6px);
+	height: calc(25px - 6px);
+	border-radius: 50%;
+	left: 3px;
+	top: 3px;
+	background-color: #fff;
+}
+/*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/

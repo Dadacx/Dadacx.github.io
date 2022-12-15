@@ -1,0 +1,149 @@
+@font-face {
+  font-family: Minecraftia;
+  src: url(mc.otf);
+}
+.mc-black {
+  color: #000000;
+}
+
+.mc-black.mc-shadow {
+  text-shadow: 3px 3px #000000;
+}
+
+.mc-dark_blue {
+  color: #0000AA;
+}
+
+.mc-dark_blue.mc-shadow {
+  text-shadow: 3px 3px #00002A;
+}
+
+.mc-dark_green {
+  color: #00AA00;
+}
+
+.mc-dark_green.mc-shadow {
+  text-shadow: 3px 3px #002A00;
+}
+
+.mc-dark_aqua {
+  color: #00AAAA;
+}
+
+.mc-dark_aqua.mc-shadow {
+  text-shadow: 3px 3px #002A2A;
+}
+
+.mc-dark_red {
+  color: #AA0000;
+}
+
+.mc-dark_red.mc-shadow {
+  text-shadow: 3px 3px #2A0000;
+}
+
+.mc-dark_purple {
+  color: #AA00AA;
+}
+
+.mc-dark_purple.mc-shadow {
+  text-shadow: 3px 3px #2A002A;
+}
+
+.mc-gold {
+  color: #FFAA00;
+}
+
+.mc-gold.mc-shadow {
+  text-shadow: 3px 3px #2A2A00;
+}
+
+.mc-gray {
+  color: #AAAAAA;
+}
+
+.mc-gray.mc-shadow {
+  text-shadow: 3px 3px #2A2A2A;
+}
+
+.mc-dark_gray {
+  color: #555555;
+}
+
+.mc-dark_gray.mc-shadow {
+  text-shadow: 3px 3px #151515;
+}
+
+.mc-blue {
+  color: #5555FF;
+}
+
+.mc-blue.mc-shadow {
+  text-shadow: 3px 3px #15153F;
+}
+
+.mc-green {
+  color: #55FF55;
+}
+
+.mc-green.mc-shadow {
+  text-shadow: 3px 3px #153F15;
+}
+
+.mc-aqua {
+  color: #55FFFF;
+}
+
+.mc-aqua.mc-shadow {
+  text-shadow: 3px 3px #153F3F;
+}
+
+.mc-red {
+  color: #FF5555;
+}
+
+.mc-red.mc-shadow {
+  text-shadow: 3px 3px #3F1515;
+}
+
+.mc-light_purple {
+  color: #FF55FF;
+}
+
+.mc-light_purple.mc-shadow {
+  text-shadow: 3px 3px #3F153F;
+}
+
+.mc-yellow {
+  color: #FFFF55;
+}
+
+.mc-yellow.mc-shadow {
+  text-shadow: 3px 3px #3F3F15;
+}
+
+.mc-white {
+  color: #FFFFFF;
+}
+
+.mc-white.mc-shadow {
+  text-shadow: 3px 3px #3F3F3F;
+}
+
+.mc-bold {
+  font-weight: bold;
+}
+
+.mc-strikethrough {
+  text-decoration: line-through;
+}
+
+.mc-underline {
+  text-decoration: underline;
+}
+.mc-strikethrough.mc-underline {
+  text-decoration: line-through underline;
+}
+.mc-italic {
+  font-style: italic;
+}
