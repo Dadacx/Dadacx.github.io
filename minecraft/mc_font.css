@@ -141,7 +141,9 @@
 .mc-underline {
   text-decoration: underline;
 }
-
+.mc-strikethrough.mc-underline {
+  text-decoration: line-through underline;
+}
 .mc-italic {
   font-style: italic;
 }
