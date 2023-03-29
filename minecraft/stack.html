@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Bloki na stacki</title>
+    <link rel="stylesheet" href="https://dadacx.github.io/fad/fonts/mc.css">
+</head>
+<body>
+    <div class="container">
+    <div class="input_group">
+        <span class="input_group_text">Stacki</span>
+        <input type="text" class="stack radius" id="stack">
+        <span class="input_group_text radius">/</span>
+        <input type="text" class="stack_bloki" id="stack_bloki">
+      </div>
+      <div class="buttons">
+        <div class="button" onclick="stacks()">←</div>
+        <div class="button" onclick="blok()">→</div>
+      </div>
+      <div class="input_group">
+        <span class="input_group_text">Bloki</span>
+        <input type="text" class="bloki" id="bloki">
+      </div>
+    </div>
+    <script>
+        stack = document.querySelector("#stack")
+        stack_bloki = document.querySelector("#stack_bloki")
+        bloki = document.querySelector("#bloki")
+        function stacks() {
+            stacki = parseInt(bloki.value) / 64
+            //stacki = stacki.toFixed(0)
+            stacki = parseInt(stacki)
+            stack.value = stacki
+            stacki = stacki * 64
+            stack_bloki.value = bloki.value - stacki
+        }
+        function blok() {
+            if(stack_bloki.value == "") {stack_bloki.value = "0"}
+            bloki.value = parseInt(stack.value) * 64 + parseInt(stack_bloki.value)
+        }
+    </script>
+    <style>
+        body {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    margin:0;
+    font-family: Minecraftia;
+}
+.container {
+    text-align: -webkit-center;
+}
+.input_group {
+    margin-top: 30px;
+    position: relative;
+    display: inline-flex;
+    /*flex-wrap: wrap;*/
+    align-items: stretch;
+    width:25%;
+}
+.input_group_text {
+    display: flex;
+    align-items: center;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-top-left-radius: 0.375rem;
+    border-bottom-left-radius: 0.375rem;
+}
+.radius {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+input {
+    border: 0px solid white;
+    border-top-right-radius: 0.375rem;
+    border-bottom-right-radius: 0.375rem;
+    width: 100%;
+}
+input:focus {
+  outline: none;
+}
+.buttons {
+    height: 55px;
+    background-color: #e9ecef;
+    width: 5%;
+    display: inline-block;
+    border-radius: 0.375rem;
+    margin: 0 5px;
+    position: relative;
+    top: 9px;
+}
+.button {
+    height: 50%;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #c9cccf;
+}
+    </style>
+</body>
+</html>

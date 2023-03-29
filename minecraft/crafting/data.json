@@ -1,0 +1,5112 @@
+{
+    "minecraft:acacia_boat": {
+        "name": "minecraft:acacia_boat",
+        "image": "../images/crafting/items/acacia_boat.png"
+    },
+    "minecraft:acacia_button": {
+        "name": "minecraft:acacia_button",
+        "image": "../images/crafting/items/acacia_button.png"
+    },
+    "minecraft:acacia_chest_boat": {
+        "name": "minecraft:acacia_chest_boat",
+        "image": "../images/crafting/items/acacia_chest_boat.png"
+    },
+    "minecraft:acacia_door": {
+        "name": "minecraft:acacia_door",
+        "image": "../images/crafting/items/acacia_door.png"
+    },
+    "minecraft:acacia_fence": {
+        "name": "minecraft:acacia_fence",
+        "image": "../images/crafting/items/acacia_fence.png"
+    },
+    "minecraft:acacia_fence_gate": {
+        "name": "minecraft:acacia_fence_gate",
+        "image": "../images/crafting/items/acacia_fence_gate.png"
+    },
+    "minecraft:acacia_hanging_sign": {
+        "name": "minecraft:acacia_hanging_sign",
+        "image": "../images/crafting/items/acacia_hanging_sign.png"
+    },
+    "minecraft:acacia_leaves": {
+        "name": "minecraft:acacia_leaves",
+        "image": "../images/crafting/items/acacia_leaves.png"
+    },
+    "minecraft:acacia_log": {
+        "name": "minecraft:acacia_log",
+        "image": "../images/crafting/items/acacia_log.png"
+    },
+    "minecraft:acacia_planks": {
+        "name": "minecraft:acacia_planks",
+        "image": "../images/crafting/items/acacia_planks.png"
+    },
+    "minecraft:acacia_pressure_plate": {
+        "name": "minecraft:acacia_pressure_plate",
+        "image": "../images/crafting/items/acacia_pressure_plate.png"
+    },
+    "minecraft:acacia_sapling": {
+        "name": "minecraft:acacia_sapling",
+        "image": "../images/crafting/items/acacia_sapling.png"
+    },
+    "minecraft:acacia_sign": {
+        "name": "minecraft:acacia_sign",
+        "image": "../images/crafting/items/acacia_sign.png"
+    },
+    "minecraft:acacia_slab": {
+        "name": "minecraft:acacia_slab",
+        "image": "../images/crafting/items/acacia_slab.png"
+    },
+    "minecraft:acacia_stairs": {
+        "name": "minecraft:acacia_stairs",
+        "image": "../images/crafting/items/acacia_stairs.png"
+    },
+    "minecraft:acacia_trapdoor": {
+        "name": "minecraft:acacia_trapdoor",
+        "image": "../images/crafting/items/acacia_trapdoor.png"
+    },
+    "minecraft:acacia_wood": {
+        "name": "minecraft:acacia_wood",
+        "image": "../images/crafting/items/acacia_wood.png"
+    },
+    "minecraft:activator_rail": {
+        "name": "minecraft:activator_rail",
+        "image": "../images/crafting/items/activator_rail.png"
+    },
+    "minecraft:allay_spawn_egg": {
+        "name": "minecraft:allay_spawn_egg",
+        "image": "../images/crafting/items/allay_spawn_egg.png"
+    },
+    "minecraft:allium": {
+        "name": "minecraft:allium",
+        "image": "../images/crafting/items/allium.png"
+    },
+    "minecraft:amethyst_block": {
+        "name": "minecraft:amethyst_block",
+        "image": "../images/crafting/items/amethyst_block.png"
+    },
+    "minecraft:amethyst_cluster": {
+        "name": "minecraft:amethyst_cluster",
+        "image": "../images/crafting/items/amethyst_cluster.png"
+    },
+    "minecraft:amethyst_shard": {
+        "name": "minecraft:amethyst_shard",
+        "image": "../images/crafting/items/amethyst_shard.png"
+    },
+    "minecraft:ancient_debris": {
+        "name": "minecraft:ancient_debris",
+        "image": "../images/crafting/items/ancient_debris.png"
+    },
+    "minecraft:andesite": {
+        "name": "minecraft:andesite",
+        "image": "../images/crafting/items/andesite.png"
+    },
+    "minecraft:andesite_slab": {
+        "name": "minecraft:andesite_slab",
+        "image": "../images/crafting/items/andesite_slab.png"
+    },
+    "minecraft:andesite_stairs": {
+        "name": "minecraft:andesite_stairs",
+        "image": "../images/crafting/items/andesite_stairs.png"
+    },
+    "minecraft:andesite_wall": {
+        "name": "minecraft:andesite_wall",
+        "image": "../images/crafting/items/andesite_wall.png"
+    },
+    "minecraft:anvil": {
+        "name": "minecraft:anvil",
+        "image": "../images/crafting/items/anvil.png"
+    },
+    "minecraft:apple": {
+        "name": "minecraft:apple",
+        "image": "../images/crafting/items/apple.png"
+    },
+    "minecraft:armor_stand": {
+        "name": "minecraft:armor_stand",
+        "image": "../images/crafting/items/armor_stand.png"
+    },
+    "minecraft:arrow": {
+        "name": "minecraft:arrow",
+        "image": "../images/crafting/items/arrow.png"
+    },
+    "minecraft:axolotl_bucket": {
+        "name": "minecraft:axolotl_bucket",
+        "image": "../images/crafting/items/axolotl_bucket.png"
+    },
+    "minecraft:axolotl_spawn_egg": {
+        "name": "minecraft:axolotl_spawn_egg",
+        "image": "../images/crafting/items/axolotl_spawn_egg.png"
+    },
+    "minecraft:azalea": {
+        "name": "minecraft:azalea",
+        "image": "../images/crafting/items/azalea.png"
+    },
+    "minecraft:azalea_leaves": {
+        "name": "minecraft:azalea_leaves",
+        "image": "../images/crafting/items/azalea_leaves.png"
+    },
+    "minecraft:azure_bluet": {
+        "name": "minecraft:azure_bluet",
+        "image": "../images/crafting/items/azure_bluet.png"
+    },
+    "minecraft:baked_potato": {
+        "name": "minecraft:baked_potato",
+        "image": "../images/crafting/items/baked_potato.png"
+    },
+    "minecraft:bamboo": {
+        "name": "minecraft:bamboo",
+        "image": "../images/crafting/items/bamboo.png"
+    },
+    "minecraft:bamboo_block": {
+        "name": "minecraft:bamboo_block",
+        "image": "../images/crafting/items/bamboo_block.png"
+    },
+    "minecraft:bamboo_button": {
+        "name": "minecraft:bamboo_button",
+        "image": "../images/crafting/items/bamboo_button.png"
+    },
+    "minecraft:bamboo_chest_raft": {
+        "name": "minecraft:bamboo_chest_raft",
+        "image": "../images/crafting/items/bamboo_chest_raft.png"
+    },
+    "minecraft:bamboo_door": {
+        "name": "minecraft:bamboo_door",
+        "image": "../images/crafting/items/bamboo_door.png"
+    },
+    "minecraft:bamboo_fence": {
+        "name": "minecraft:bamboo_fence",
+        "image": "../images/crafting/items/bamboo_fence.png"
+    },
+    "minecraft:bamboo_fence_gate": {
+        "name": "minecraft:bamboo_fence_gate",
+        "image": "../images/crafting/items/bamboo_fence_gate.png"
+    },
+    "minecraft:bamboo_hanging_sign": {
+        "name": "minecraft:bamboo_hanging_sign",
+        "image": "../images/crafting/items/bamboo_hanging_sign.png"
+    },
+    "minecraft:bamboo_mosaic": {
+        "name": "minecraft:bamboo_mosaic",
+        "image": "../images/crafting/items/bamboo_mosaic.png"
+    },
+    "minecraft:bamboo_mosaic_slab": {
+        "name": "minecraft:bamboo_mosaic_slab",
+        "image": "../images/crafting/items/bamboo_mosaic_slab.png"
+    },
+    "minecraft:bamboo_mosaic_stairs": {
+        "name": "minecraft:bamboo_mosaic_stairs",
+        "image": "../images/crafting/items/bamboo_mosaic_stairs.png"
+    },
+    "minecraft:bamboo_planks": {
+        "name": "minecraft:bamboo_planks",
+        "image": "../images/crafting/items/bamboo_planks.png"
+    },
+    "minecraft:bamboo_pressure_plate": {
+        "name": "minecraft:bamboo_pressure_plate",
+        "image": "../images/crafting/items/bamboo_pressure_plate.png"
+    },
+    "minecraft:bamboo_raft": {
+        "name": "minecraft:bamboo_raft",
+        "image": "../images/crafting/items/bamboo_raft.png"
+    },
+    "minecraft:bamboo_sign": {
+        "name": "minecraft:bamboo_sign",
+        "image": "../images/crafting/items/bamboo_sign.png"
+    },
+    "minecraft:bamboo_slab": {
+        "name": "minecraft:bamboo_slab",
+        "image": "../images/crafting/items/bamboo_slab.png"
+    },
+    "minecraft:bamboo_stairs": {
+        "name": "minecraft:bamboo_stairs",
+        "image": "../images/crafting/items/bamboo_stairs.png"
+    },
+    "minecraft:bamboo_trapdoor": {
+        "name": "minecraft:bamboo_trapdoor",
+        "image": "../images/crafting/items/bamboo_trapdoor.png"
+    },
+    "minecraft:barrel": {
+        "name": "minecraft:barrel",
+        "image": "../images/crafting/items/barrel.png"
+    },
+    "minecraft:barrier": {
+        "name": "minecraft:barrier",
+        "image": "../images/crafting/items/barrier.png"
+    },
+    "minecraft:basalt": {
+        "name": "minecraft:basalt",
+        "image": "../images/crafting/items/basalt.png"
+    },
+    "minecraft:bat_spawn_egg": {
+        "name": "minecraft:bat_spawn_egg",
+        "image": "../images/crafting/items/bat_spawn_egg.png"
+    },
+    "minecraft:beacon": {
+        "name": "minecraft:beacon",
+        "image": "../images/crafting/items/beacon.png"
+    },
+    "minecraft:bedrock": {
+        "name": "minecraft:bedrock",
+        "image": "../images/crafting/items/bedrock.png"
+    },
+    "minecraft:bee_nest": {
+        "name": "minecraft:bee_nest",
+        "image": "../images/crafting/items/bee_nest.png"
+    },
+    "minecraft:bee_spawn_egg": {
+        "name": "minecraft:bee_spawn_egg",
+        "image": "../images/crafting/items/bee_spawn_egg.png"
+    },
+    "minecraft:beef": {
+        "name": "minecraft:beef",
+        "image": "../images/crafting/items/beef.png"
+    },
+    "minecraft:beehive": {
+        "name": "minecraft:beehive",
+        "image": "../images/crafting/items/beehive.png"
+    },
+    "minecraft:beetroot": {
+        "name": "minecraft:beetroot",
+        "image": "../images/crafting/items/beetroot.png"
+    },
+    "minecraft:beetroot_seeds": {
+        "name": "minecraft:beetroot_seeds",
+        "image": "../images/crafting/items/beetroot_seeds.png"
+    },
+    "minecraft:beetroot_soup": {
+        "name": "minecraft:beetroot_soup",
+        "image": "../images/crafting/items/beetroot_soup.png"
+    },
+    "minecraft:bell": {
+        "name": "minecraft:bell",
+        "image": "../images/crafting/items/bell.png"
+    },
+    "minecraft:big_dripleaf": {
+        "name": "minecraft:big_dripleaf",
+        "image": "../images/crafting/items/big_dripleaf.png"
+    },
+    "minecraft:birch_boat": {
+        "name": "minecraft:birch_boat",
+        "image": "../images/crafting/items/birch_boat.png"
+    },
+    "minecraft:birch_button": {
+        "name": "minecraft:birch_button",
+        "image": "../images/crafting/items/birch_button.png"
+    },
+    "minecraft:birch_chest_boat": {
+        "name": "minecraft:birch_chest_boat",
+        "image": "../images/crafting/items/birch_chest_boat.png"
+    },
+    "minecraft:birch_door": {
+        "name": "minecraft:birch_door",
+        "image": "../images/crafting/items/birch_door.png"
+    },
+    "minecraft:birch_fence": {
+        "name": "minecraft:birch_fence",
+        "image": "../images/crafting/items/birch_fence.png"
+    },
+    "minecraft:birch_fence_gate": {
+        "name": "minecraft:birch_fence_gate",
+        "image": "../images/crafting/items/birch_fence_gate.png"
+    },
+    "minecraft:birch_hanging_sign": {
+        "name": "minecraft:birch_hanging_sign",
+        "image": "../images/crafting/items/birch_hanging_sign.png"
+    },
+    "minecraft:birch_leaves": {
+        "name": "minecraft:birch_leaves",
+        "image": "../images/crafting/items/birch_leaves.png"
+    },
+    "minecraft:birch_log": {
+        "name": "minecraft:birch_log",
+        "image": "../images/crafting/items/birch_log.png"
+    },
+    "minecraft:birch_planks": {
+        "name": "minecraft:birch_planks",
+        "image": "../images/crafting/items/birch_planks.png"
+    },
+    "minecraft:birch_pressure_plate": {
+        "name": "minecraft:birch_pressure_plate",
+        "image": "../images/crafting/items/birch_pressure_plate.png"
+    },
+    "minecraft:birch_sapling": {
+        "name": "minecraft:birch_sapling",
+        "image": "../images/crafting/items/birch_sapling.png"
+    },
+    "minecraft:birch_sign": {
+        "name": "minecraft:birch_sign",
+        "image": "../images/crafting/items/birch_sign.png"
+    },
+    "minecraft:birch_slab": {
+        "name": "minecraft:birch_slab",
+        "image": "../images/crafting/items/birch_slab.png"
+    },
+    "minecraft:birch_stairs": {
+        "name": "minecraft:birch_stairs",
+        "image": "../images/crafting/items/birch_stairs.png"
+    },
+    "minecraft:birch_trapdoor": {
+        "name": "minecraft:birch_trapdoor",
+        "image": "../images/crafting/items/birch_trapdoor.png"
+    },
+    "minecraft:birch_wood": {
+        "name": "minecraft:birch_wood",
+        "image": "../images/crafting/items/birch_wood.png"
+    },
+    "minecraft:black_banner": {
+        "name": "minecraft:black_banner",
+        "image": "../images/crafting/items/black_banner.png"
+    },
+    "minecraft:black_bed": {
+        "name": "minecraft:black_bed",
+        "image": "../images/crafting/items/black_bed.png"
+    },
+    "minecraft:black_candle": {
+        "name": "minecraft:black_candle",
+        "image": "../images/crafting/items/black_candle.png"
+    },
+    "minecraft:black_carpet": {
+        "name": "minecraft:black_carpet",
+        "image": "../images/crafting/items/black_carpet.png"
+    },
+    "minecraft:black_concrete": {
+        "name": "minecraft:black_concrete",
+        "image": "../images/crafting/items/black_concrete.png"
+    },
+    "minecraft:black_concrete_powder": {
+        "name": "minecraft:black_concrete_powder",
+        "image": "../images/crafting/items/black_concrete_powder.png"
+    },
+    "minecraft:black_dye": {
+        "name": "minecraft:black_dye",
+        "image": "../images/crafting/items/black_dye.png"
+    },
+    "minecraft:black_glazed_terracotta": {
+        "name": "minecraft:black_glazed_terracotta",
+        "image": "../images/crafting/items/black_glazed_terracotta.png"
+    },
+    "minecraft:black_shulker_box": {
+        "name": "minecraft:black_shulker_box",
+        "image": "../images/crafting/items/black_shulker_box.png"
+    },
+    "minecraft:black_stained_glass": {
+        "name": "minecraft:black_stained_glass",
+        "image": "../images/crafting/items/black_stained_glass.png"
+    },
+    "minecraft:black_stained_glass_pane": {
+        "name": "minecraft:black_stained_glass_pane",
+        "image": "../images/crafting/items/black_stained_glass_pane.png"
+    },
+    "minecraft:black_terracotta": {
+        "name": "minecraft:black_terracotta",
+        "image": "../images/crafting/items/black_terracotta.png"
+    },
+    "minecraft:black_wool": {
+        "name": "minecraft:black_wool",
+        "image": "../images/crafting/items/black_wool.png"
+    },
+    "minecraft:blackstone": {
+        "name": "minecraft:blackstone",
+        "image": "../images/crafting/items/blackstone.png"
+    },
+    "minecraft:blackstone_slab": {
+        "name": "minecraft:blackstone_slab",
+        "image": "../images/crafting/items/blackstone_slab.png"
+    },
+    "minecraft:blackstone_stairs": {
+        "name": "minecraft:blackstone_stairs",
+        "image": "../images/crafting/items/blackstone_stairs.png"
+    },
+    "minecraft:blackstone_wall": {
+        "name": "minecraft:blackstone_wall",
+        "image": "../images/crafting/items/blackstone_wall.png"
+    },
+    "minecraft:blast_furnace": {
+        "name": "minecraft:blast_furnace",
+        "image": "../images/crafting/items/blast_furnace.png"
+    },
+    "minecraft:blaze_powder": {
+        "name": "minecraft:blaze_powder",
+        "image": "../images/crafting/items/blaze_powder.png"
+    },
+    "minecraft:blaze_rod": {
+        "name": "minecraft:blaze_rod",
+        "image": "../images/crafting/items/blaze_rod.png"
+    },
+    "minecraft:blaze_spawn_egg": {
+        "name": "minecraft:blaze_spawn_egg",
+        "image": "../images/crafting/items/blaze_spawn_egg.png"
+    },
+    "minecraft:blue_banner": {
+        "name": "minecraft:blue_banner",
+        "image": "../images/crafting/items/blue_banner.png"
+    },
+    "minecraft:blue_bed": {
+        "name": "minecraft:blue_bed",
+        "image": "../images/crafting/items/blue_bed.png"
+    },
+    "minecraft:blue_candle": {
+        "name": "minecraft:blue_candle",
+        "image": "../images/crafting/items/blue_candle.png"
+    },
+    "minecraft:blue_carpet": {
+        "name": "minecraft:blue_carpet",
+        "image": "../images/crafting/items/blue_carpet.png"
+    },
+    "minecraft:blue_concrete": {
+        "name": "minecraft:blue_concrete",
+        "image": "../images/crafting/items/blue_concrete.png"
+    },
+    "minecraft:blue_concrete_powder": {
+        "name": "minecraft:blue_concrete_powder",
+        "image": "../images/crafting/items/blue_concrete_powder.png"
+    },
+    "minecraft:blue_dye": {
+        "name": "minecraft:blue_dye",
+        "image": "../images/crafting/items/blue_dye.png"
+    },
+    "minecraft:blue_glazed_terracotta": {
+        "name": "minecraft:blue_glazed_terracotta",
+        "image": "../images/crafting/items/blue_glazed_terracotta.png"
+    },
+    "minecraft:blue_ice": {
+        "name": "minecraft:blue_ice",
+        "image": "../images/crafting/items/blue_ice.png"
+    },
+    "minecraft:blue_orchid": {
+        "name": "minecraft:blue_orchid",
+        "image": "../images/crafting/items/blue_orchid.png"
+    },
+    "minecraft:blue_shulker_box": {
+        "name": "minecraft:blue_shulker_box",
+        "image": "../images/crafting/items/blue_shulker_box.png"
+    },
+    "minecraft:blue_stained_glass": {
+        "name": "minecraft:blue_stained_glass",
+        "image": "../images/crafting/items/blue_stained_glass.png"
+    },
+    "minecraft:blue_stained_glass_pane": {
+        "name": "minecraft:blue_stained_glass_pane",
+        "image": "../images/crafting/items/blue_stained_glass_pane.png"
+    },
+    "minecraft:blue_terracotta": {
+        "name": "minecraft:blue_terracotta",
+        "image": "../images/crafting/items/blue_terracotta.png"
+    },
+    "minecraft:blue_wool": {
+        "name": "minecraft:blue_wool",
+        "image": "../images/crafting/items/blue_wool.png"
+    },
+    "minecraft:bone": {
+        "name": "minecraft:bone",
+        "image": "../images/crafting/items/bone.png"
+    },
+    "minecraft:bone_block": {
+        "name": "minecraft:bone_block",
+        "image": "../images/crafting/items/bone_block.png"
+    },
+    "minecraft:bone_meal": {
+        "name": "minecraft:bone_meal",
+        "image": "../images/crafting/items/bone_meal.png"
+    },
+    "minecraft:book": {
+        "name": "minecraft:book",
+        "image": "../images/crafting/items/book.png"
+    },
+    "minecraft:bookshelf": {
+        "name": "minecraft:bookshelf",
+        "image": "../images/crafting/items/bookshelf.png"
+    },
+    "minecraft:bow": {
+        "name": "minecraft:bow",
+        "image": "../images/crafting/items/bow.png"
+    },
+    "minecraft:bowl": {
+        "name": "minecraft:bowl",
+        "image": "../images/crafting/items/bowl.png"
+    },
+    "minecraft:brain_coral": {
+        "name": "minecraft:brain_coral",
+        "image": "../images/crafting/items/brain_coral.png"
+    },
+    "minecraft:brain_coral_block": {
+        "name": "minecraft:brain_coral_block",
+        "image": "../images/crafting/items/brain_coral_block.png"
+    },
+    "minecraft:brain_coral_fan": {
+        "name": "minecraft:brain_coral_fan",
+        "image": "../images/crafting/items/brain_coral_fan.png"
+    },
+    "minecraft:bread": {
+        "name": "minecraft:bread",
+        "image": "../images/crafting/items/bread.png"
+    },
+    "minecraft:brewing_stand": {
+        "name": "minecraft:brewing_stand",
+        "image": "../images/crafting/items/brewing_stand.png"
+    },
+    "minecraft:brick": {
+        "name": "minecraft:brick",
+        "image": "../images/crafting/items/brick.png"
+    },
+    "minecraft:brick_slab": {
+        "name": "minecraft:brick_slab",
+        "image": "../images/crafting/items/brick_slab.png"
+    },
+    "minecraft:brick_stairs": {
+        "name": "minecraft:brick_stairs",
+        "image": "../images/crafting/items/brick_stairs.png"
+    },
+    "minecraft:brick_wall": {
+        "name": "minecraft:brick_wall",
+        "image": "../images/crafting/items/brick_wall.png"
+    },
+    "minecraft:bricks": {
+        "name": "minecraft:bricks",
+        "image": "../images/crafting/items/bricks.png"
+    },
+    "minecraft:brown_banner": {
+        "name": "minecraft:brown_banner",
+        "image": "../images/crafting/items/brown_banner.png"
+    },
+    "minecraft:brown_bed": {
+        "name": "minecraft:brown_bed",
+        "image": "../images/crafting/items/brown_bed.png"
+    },
+    "minecraft:brown_candle": {
+        "name": "minecraft:brown_candle",
+        "image": "../images/crafting/items/brown_candle.png"
+    },
+    "minecraft:brown_carpet": {
+        "name": "minecraft:brown_carpet",
+        "image": "../images/crafting/items/brown_carpet.png"
+    },
+    "minecraft:brown_concrete": {
+        "name": "minecraft:brown_concrete",
+        "image": "../images/crafting/items/brown_concrete.png"
+    },
+    "minecraft:brown_concrete_powder": {
+        "name": "minecraft:brown_concrete_powder",
+        "image": "../images/crafting/items/brown_concrete_powder.png"
+    },
+    "minecraft:brown_dye": {
+        "name": "minecraft:brown_dye",
+        "image": "../images/crafting/items/brown_dye.png"
+    },
+    "minecraft:brown_glazed_terracotta": {
+        "name": "minecraft:brown_glazed_terracotta",
+        "image": "../images/crafting/items/brown_glazed_terracotta.png"
+    },
+    "minecraft:brown_mushroom": {
+        "name": "minecraft:brown_mushroom",
+        "image": "../images/crafting/items/brown_mushroom.png"
+    },
+    "minecraft:brown_mushroom_block": {
+        "name": "minecraft:brown_mushroom_block",
+        "image": "../images/crafting/items/brown_mushroom_block.png"
+    },
+    "minecraft:brown_shulker_box": {
+        "name": "minecraft:brown_shulker_box",
+        "image": "../images/crafting/items/brown_shulker_box.png"
+    },
+    "minecraft:brown_stained_glass": {
+        "name": "minecraft:brown_stained_glass",
+        "image": "../images/crafting/items/brown_stained_glass.png"
+    },
+    "minecraft:brown_stained_glass_pane": {
+        "name": "minecraft:brown_stained_glass_pane",
+        "image": "../images/crafting/items/brown_stained_glass_pane.png"
+    },
+    "minecraft:brown_terracotta": {
+        "name": "minecraft:brown_terracotta",
+        "image": "../images/crafting/items/brown_terracotta.png"
+    },
+    "minecraft:brown_wool": {
+        "name": "minecraft:brown_wool",
+        "image": "../images/crafting/items/brown_wool.png"
+    },
+    "minecraft:brush": {
+        "name": "minecraft:brush",
+        "image": "../images/crafting/items/brush.png"
+    },
+    "minecraft:bubble_coral": {
+        "name": "minecraft:bubble_coral",
+        "image": "../images/crafting/items/bubble_coral.png"
+    },
+    "minecraft:bubble_coral_block": {
+        "name": "minecraft:bubble_coral_block",
+        "image": "../images/crafting/items/bubble_coral_block.png"
+    },
+    "minecraft:bubble_coral_fan": {
+        "name": "minecraft:bubble_coral_fan",
+        "image": "../images/crafting/items/bubble_coral_fan.png"
+    },
+    "minecraft:bucket": {
+        "name": "minecraft:bucket",
+        "image": "../images/crafting/items/bucket.png"
+    },
+    "minecraft:budding_amethyst": {
+        "name": "minecraft:budding_amethyst",
+        "image": "../images/crafting/items/budding_amethyst.png"
+    },
+    "minecraft:bundle": {
+        "name": "minecraft:bundle",
+        "image": "../images/crafting/items/bundle.png"
+    },
+    "minecraft:cactus": {
+        "name": "minecraft:cactus",
+        "image": "../images/crafting/items/cactus.png"
+    },
+    "minecraft:cake": {
+        "name": "minecraft:cake",
+        "image": "../images/crafting/items/cake.png"
+    },
+    "minecraft:calcite": {
+        "name": "minecraft:calcite",
+        "image": "../images/crafting/items/calcite.png"
+    },
+    "minecraft:camel_spawn_egg": {
+        "name": "minecraft:camel_spawn_egg",
+        "image": "../images/crafting/items/camel_spawn_egg.png"
+    },
+    "minecraft:campfire": {
+        "name": "minecraft:campfire",
+        "image": "../images/crafting/items/campfire.png"
+    },
+    "minecraft:candle": {
+        "name": "minecraft:candle",
+        "image": "../images/crafting/items/candle.png"
+    },
+    "minecraft:carrot": {
+        "name": "minecraft:carrot",
+        "image": "../images/crafting/items/carrot.png"
+    },
+    "minecraft:carrot_on_a_stick": {
+        "name": "minecraft:carrot_on_a_stick",
+        "image": "../images/crafting/items/carrot_on_a_stick.png"
+    },
+    "minecraft:cartography_table": {
+        "name": "minecraft:cartography_table",
+        "image": "../images/crafting/items/cartography_table.png"
+    },
+    "minecraft:carved_pumpkin": {
+        "name": "minecraft:carved_pumpkin",
+        "image": "../images/crafting/items/carved_pumpkin.png"
+    },
+    "minecraft:cat_spawn_egg": {
+        "name": "minecraft:cat_spawn_egg",
+        "image": "../images/crafting/items/cat_spawn_egg.png"
+    },
+    "minecraft:cauldron": {
+        "name": "minecraft:cauldron",
+        "image": "../images/crafting/items/cauldron.png"
+    },
+    "minecraft:cave_spider_spawn_egg": {
+        "name": "minecraft:cave_spider_spawn_egg",
+        "image": "../images/crafting/items/cave_spider_spawn_egg.png"
+    },
+    "minecraft:chain": {
+        "name": "minecraft:chain",
+        "image": "../images/crafting/items/chain.png"
+    },
+    "minecraft:chain_command_block": {
+        "name": "minecraft:chain_command_block",
+        "image": "../images/crafting/items/chain_command_block.png"
+    },
+    "minecraft:chainmail_boots": {
+        "name": "minecraft:chainmail_boots",
+        "image": "../images/crafting/items/chainmail_boots.png"
+    },
+    "minecraft:chainmail_chestplate": {
+        "name": "minecraft:chainmail_chestplate",
+        "image": "../images/crafting/items/chainmail_chestplate.png"
+    },
+    "minecraft:chainmail_helmet": {
+        "name": "minecraft:chainmail_helmet",
+        "image": "../images/crafting/items/chainmail_helmet.png"
+    },
+    "minecraft:chainmail_leggings": {
+        "name": "minecraft:chainmail_leggings",
+        "image": "../images/crafting/items/chainmail_leggings.png"
+    },
+    "minecraft:charcoal": {
+        "name": "minecraft:charcoal",
+        "image": "../images/crafting/items/charcoal.png"
+    },
+    "minecraft:cherry_boat": {
+        "name": "minecraft:cherry_boat",
+        "image": "../images/crafting/items/cherry_boat.png"
+    },
+    "minecraft:cherry_button": {
+        "name": "minecraft:cherry_button",
+        "image": "../images/crafting/items/cherry_button.png"
+    },
+    "minecraft:cherry_chest_boat": {
+        "name": "minecraft:cherry_chest_boat",
+        "image": "../images/crafting/items/cherry_chest_boat.png"
+    },
+    "minecraft:cherry_door": {
+        "name": "minecraft:cherry_door",
+        "image": "../images/crafting/items/cherry_door.png"
+    },
+    "minecraft:cherry_fence": {
+        "name": "minecraft:cherry_fence",
+        "image": "../images/crafting/items/cherry_fence.png"
+    },
+    "minecraft:cherry_fence_gate": {
+        "name": "minecraft:cherry_fence_gate",
+        "image": "../images/crafting/items/cherry_fence_gate.png"
+    },
+    "minecraft:cherry_hanging_sign": {
+        "name": "minecraft:cherry_hanging_sign",
+        "image": "../images/crafting/items/cherry_hanging_sign.png"
+    },
+    "minecraft:cherry_leaves": {
+        "name": "minecraft:cherry_leaves",
+        "image": "../images/crafting/items/cherry_leaves.png"
+    },
+    "minecraft:cherry_log": {
+        "name": "minecraft:cherry_log",
+        "image": "../images/crafting/items/cherry_log.png"
+    },
+    "minecraft:cherry_planks": {
+        "name": "minecraft:cherry_planks",
+        "image": "../images/crafting/items/cherry_planks.png"
+    },
+    "minecraft:cherry_pressure_plate": {
+        "name": "minecraft:cherry_pressure_plate",
+        "image": "../images/crafting/items/cherry_pressure_plate.png"
+    },
+    "minecraft:cherry_sapling": {
+        "name": "minecraft:cherry_sapling",
+        "image": "../images/crafting/items/cherry_sapling.png"
+    },
+    "minecraft:cherry_sign": {
+        "name": "minecraft:cherry_sign",
+        "image": "../images/crafting/items/cherry_sign.png"
+    },
+    "minecraft:cherry_slab": {
+        "name": "minecraft:cherry_slab",
+        "image": "../images/crafting/items/cherry_slab.png"
+    },
+    "minecraft:cherry_stairs": {
+        "name": "minecraft:cherry_stairs",
+        "image": "../images/crafting/items/cherry_stairs.png"
+    },
+    "minecraft:cherry_trapdoor": {
+        "name": "minecraft:cherry_trapdoor",
+        "image": "../images/crafting/items/cherry_trapdoor.png"
+    },
+    "minecraft:cherry_wood": {
+        "name": "minecraft:cherry_wood",
+        "image": "../images/crafting/items/cherry_wood.png"
+    },
+    "minecraft:chest": {
+        "name": "minecraft:chest",
+        "image": "../images/crafting/items/chest.png"
+    },
+    "minecraft:chest_minecart": {
+        "name": "minecraft:chest_minecart",
+        "image": "../images/crafting/items/chest_minecart.png"
+    },
+    "minecraft:chicken": {
+        "name": "minecraft:chicken",
+        "image": "../images/crafting/items/chicken.png"
+    },
+    "minecraft:chicken_spawn_egg": {
+        "name": "minecraft:chicken_spawn_egg",
+        "image": "../images/crafting/items/chicken_spawn_egg.png"
+    },
+    "minecraft:chipped_anvil": {
+        "name": "minecraft:chipped_anvil",
+        "image": "../images/crafting/items/chipped_anvil.png"
+    },
+    "minecraft:chiseled_bookshelf": {
+        "name": "minecraft:chiseled_bookshelf",
+        "image": "../images/crafting/items/chiseled_bookshelf.png"
+    },
+    "minecraft:chiseled_deepslate": {
+        "name": "minecraft:chiseled_deepslate",
+        "image": "../images/crafting/items/chiseled_deepslate.png"
+    },
+    "minecraft:chiseled_nether_bricks": {
+        "name": "minecraft:chiseled_nether_bricks",
+        "image": "../images/crafting/items/chiseled_nether_bricks.png"
+    },
+    "minecraft:chiseled_polished_blackstone": {
+        "name": "minecraft:chiseled_polished_blackstone",
+        "image": "../images/crafting/items/chiseled_polished_blackstone.png"
+    },
+    "minecraft:chiseled_quartz_block": {
+        "name": "minecraft:chiseled_quartz_block",
+        "image": "../images/crafting/items/chiseled_quartz_block.png"
+    },
+    "minecraft:chiseled_red_sandstone": {
+        "name": "minecraft:chiseled_red_sandstone",
+        "image": "../images/crafting/items/chiseled_red_sandstone.png"
+    },
+    "minecraft:chiseled_sandstone": {
+        "name": "minecraft:chiseled_sandstone",
+        "image": "../images/crafting/items/chiseled_sandstone.png"
+    },
+    "minecraft:chiseled_stone_bricks": {
+        "name": "minecraft:chiseled_stone_bricks",
+        "image": "../images/crafting/items/chiseled_stone_bricks.png"
+    },
+    "minecraft:chorus_flower": {
+        "name": "minecraft:chorus_flower",
+        "image": "../images/crafting/items/chorus_flower.png"
+    },
+    "minecraft:chorus_fruit": {
+        "name": "minecraft:chorus_fruit",
+        "image": "../images/crafting/items/chorus_fruit.png"
+    },
+    "minecraft:chorus_plant": {
+        "name": "minecraft:chorus_plant",
+        "image": "../images/crafting/items/chorus_plant.png"
+    },
+    "minecraft:clay": {
+        "name": "minecraft:clay",
+        "image": "../images/crafting/items/clay.png"
+    },
+    "minecraft:clay_ball": {
+        "name": "minecraft:clay_ball",
+        "image": "../images/crafting/items/clay_ball.png"
+    },
+    "minecraft:clock": {
+        "name": "minecraft:clock",
+        "image": "../images/crafting/items/clock.png"
+    },
+    "minecraft:coal": {
+        "name": "minecraft:coal",
+        "image": "../images/crafting/items/coal.png"
+    },
+    "minecraft:coal_block": {
+        "name": "minecraft:coal_block",
+        "image": "../images/crafting/items/coal_block.png"
+    },
+    "minecraft:coal_ore": {
+        "name": "minecraft:coal_ore",
+        "image": "../images/crafting/items/coal_ore.png"
+    },
+    "minecraft:coarse_dirt": {
+        "name": "minecraft:coarse_dirt",
+        "image": "../images/crafting/items/coarse_dirt.png"
+    },
+    "minecraft:coast_armor_trim_smithing_template": {
+        "name": "minecraft:coast_armor_trim_smithing_template",
+        "image": "../images/crafting/items/coast_armor_trim_smithing_template.png"
+    },
+    "minecraft:cobbled_deepslate": {
+        "name": "minecraft:cobbled_deepslate",
+        "image": "../images/crafting/items/cobbled_deepslate.png"
+    },
+    "minecraft:cobbled_deepslate_slab": {
+        "name": "minecraft:cobbled_deepslate_slab",
+        "image": "../images/crafting/items/cobbled_deepslate_slab.png"
+    },
+    "minecraft:cobbled_deepslate_stairs": {
+        "name": "minecraft:cobbled_deepslate_stairs",
+        "image": "../images/crafting/items/cobbled_deepslate_stairs.png"
+    },
+    "minecraft:cobbled_deepslate_wall": {
+        "name": "minecraft:cobbled_deepslate_wall",
+        "image": "../images/crafting/items/cobbled_deepslate_wall.png"
+    },
+    "minecraft:cobblestone": {
+        "name": "minecraft:cobblestone",
+        "image": "../images/crafting/items/cobblestone.png"
+    },
+    "minecraft:cobblestone_slab": {
+        "name": "minecraft:cobblestone_slab",
+        "image": "../images/crafting/items/cobblestone_slab.png"
+    },
+    "minecraft:cobblestone_stairs": {
+        "name": "minecraft:cobblestone_stairs",
+        "image": "../images/crafting/items/cobblestone_stairs.png"
+    },
+    "minecraft:cobblestone_wall": {
+        "name": "minecraft:cobblestone_wall",
+        "image": "../images/crafting/items/cobblestone_wall.png"
+    },
+    "minecraft:cobweb": {
+        "name": "minecraft:cobweb",
+        "image": "../images/crafting/items/cobweb.png"
+    },
+    "minecraft:cocoa_beans": {
+        "name": "minecraft:cocoa_beans",
+        "image": "../images/crafting/items/cocoa_beans.png"
+    },
+    "minecraft:cod": {
+        "name": "minecraft:cod",
+        "image": "../images/crafting/items/cod.png"
+    },
+    "minecraft:cod_bucket": {
+        "name": "minecraft:cod_bucket",
+        "image": "../images/crafting/items/cod_bucket.png"
+    },
+    "minecraft:cod_spawn_egg": {
+        "name": "minecraft:cod_spawn_egg",
+        "image": "../images/crafting/items/cod_spawn_egg.png"
+    },
+    "minecraft:command_block": {
+        "name": "minecraft:command_block",
+        "image": "../images/crafting/items/command_block.png"
+    },
+    "minecraft:command_block_minecart": {
+        "name": "minecraft:command_block_minecart",
+        "image": "../images/crafting/items/command_block_minecart.png"
+    },
+    "minecraft:comparator": {
+        "name": "minecraft:comparator",
+        "image": "../images/crafting/items/comparator.png"
+    },
+    "minecraft:compass": {
+        "name": "minecraft:compass",
+        "image": "../images/crafting/items/compass.png"
+    },
+    "minecraft:composter": {
+        "name": "minecraft:composter",
+        "image": "../images/crafting/items/composter.png"
+    },
+    "minecraft:conduit": {
+        "name": "minecraft:conduit",
+        "image": "../images/crafting/items/conduit.png"
+    },
+    "minecraft:cooked_beef": {
+        "name": "minecraft:cooked_beef",
+        "image": "../images/crafting/items/cooked_beef.png"
+    },
+    "minecraft:cooked_chicken": {
+        "name": "minecraft:cooked_chicken",
+        "image": "../images/crafting/items/cooked_chicken.png"
+    },
+    "minecraft:cooked_cod": {
+        "name": "minecraft:cooked_cod",
+        "image": "../images/crafting/items/cooked_cod.png"
+    },
+    "minecraft:cooked_mutton": {
+        "name": "minecraft:cooked_mutton",
+        "image": "../images/crafting/items/cooked_mutton.png"
+    },
+    "minecraft:cooked_porkchop": {
+        "name": "minecraft:cooked_porkchop",
+        "image": "../images/crafting/items/cooked_porkchop.png"
+    },
+    "minecraft:cooked_rabbit": {
+        "name": "minecraft:cooked_rabbit",
+        "image": "../images/crafting/items/cooked_rabbit.png"
+    },
+    "minecraft:cooked_salmon": {
+        "name": "minecraft:cooked_salmon",
+        "image": "../images/crafting/items/cooked_salmon.png"
+    },
+    "minecraft:cookie": {
+        "name": "minecraft:cookie",
+        "image": "../images/crafting/items/cookie.png"
+    },
+    "minecraft:copper_block": {
+        "name": "minecraft:copper_block",
+        "image": "../images/crafting/items/copper_block.png"
+    },
+    "minecraft:copper_ingot": {
+        "name": "minecraft:copper_ingot",
+        "image": "../images/crafting/items/copper_ingot.png"
+    },
+    "minecraft:copper_ore": {
+        "name": "minecraft:copper_ore",
+        "image": "../images/crafting/items/copper_ore.png"
+    },
+    "minecraft:cornflower": {
+        "name": "minecraft:cornflower",
+        "image": "../images/crafting/items/cornflower.png"
+    },
+    "minecraft:cow_spawn_egg": {
+        "name": "minecraft:cow_spawn_egg",
+        "image": "../images/crafting/items/cow_spawn_egg.png"
+    },
+    "minecraft:cracked_deepslate_bricks": {
+        "name": "minecraft:cracked_deepslate_bricks",
+        "image": "../images/crafting/items/cracked_deepslate_bricks.png"
+    },
+    "minecraft:cracked_deepslate_tiles": {
+        "name": "minecraft:cracked_deepslate_tiles",
+        "image": "../images/crafting/items/cracked_deepslate_tiles.png"
+    },
+    "minecraft:cracked_nether_bricks": {
+        "name": "minecraft:cracked_nether_bricks",
+        "image": "../images/crafting/items/cracked_nether_bricks.png"
+    },
+    "minecraft:cracked_polished_blackstone_bricks": {
+        "name": "minecraft:cracked_polished_blackstone_bricks",
+        "image": "../images/crafting/items/cracked_polished_blackstone_bricks.png"
+    },
+    "minecraft:cracked_stone_bricks": {
+        "name": "minecraft:cracked_stone_bricks",
+        "image": "../images/crafting/items/cracked_stone_bricks.png"
+    },
+    "minecraft:crafting_table": {
+        "name": "minecraft:crafting_table",
+        "image": "../images/crafting/items/crafting_table.png"
+    },
+    "minecraft:creeper_banner_pattern": {
+        "name": "minecraft:creeper_banner_pattern",
+        "image": "../images/crafting/items/creeper_banner_pattern.png"
+    },
+    "minecraft:creeper_head": {
+        "name": "minecraft:creeper_head",
+        "image": "../images/crafting/items/creeper_head.png"
+    },
+    "minecraft:creeper_spawn_egg": {
+        "name": "minecraft:creeper_spawn_egg",
+        "image": "../images/crafting/items/creeper_spawn_egg.png"
+    },
+    "minecraft:crimson_button": {
+        "name": "minecraft:crimson_button",
+        "image": "../images/crafting/items/crimson_button.png"
+    },
+    "minecraft:crimson_door": {
+        "name": "minecraft:crimson_door",
+        "image": "../images/crafting/items/crimson_door.png"
+    },
+    "minecraft:crimson_fence": {
+        "name": "minecraft:crimson_fence",
+        "image": "../images/crafting/items/crimson_fence.png"
+    },
+    "minecraft:crimson_fence_gate": {
+        "name": "minecraft:crimson_fence_gate",
+        "image": "../images/crafting/items/crimson_fence_gate.png"
+    },
+    "minecraft:crimson_fungus": {
+        "name": "minecraft:crimson_fungus",
+        "image": "../images/crafting/items/crimson_fungus.png"
+    },
+    "minecraft:crimson_hanging_sign": {
+        "name": "minecraft:crimson_hanging_sign",
+        "image": "../images/crafting/items/crimson_hanging_sign.png"
+    },
+    "minecraft:crimson_hyphae": {
+        "name": "minecraft:crimson_hyphae",
+        "image": "../images/crafting/items/crimson_hyphae.png"
+    },
+    "minecraft:crimson_nylium": {
+        "name": "minecraft:crimson_nylium",
+        "image": "../images/crafting/items/crimson_nylium.png"
+    },
+    "minecraft:crimson_planks": {
+        "name": "minecraft:crimson_planks",
+        "image": "../images/crafting/items/crimson_planks.png"
+    },
+    "minecraft:crimson_pressure_plate": {
+        "name": "minecraft:crimson_pressure_plate",
+        "image": "../images/crafting/items/crimson_pressure_plate.png"
+    },
+    "minecraft:crimson_roots": {
+        "name": "minecraft:crimson_roots",
+        "image": "../images/crafting/items/crimson_roots.png"
+    },
+    "minecraft:crimson_sign": {
+        "name": "minecraft:crimson_sign",
+        "image": "../images/crafting/items/crimson_sign.png"
+    },
+    "minecraft:crimson_slab": {
+        "name": "minecraft:crimson_slab",
+        "image": "../images/crafting/items/crimson_slab.png"
+    },
+    "minecraft:crimson_stairs": {
+        "name": "minecraft:crimson_stairs",
+        "image": "../images/crafting/items/crimson_stairs.png"
+    },
+    "minecraft:crimson_stem": {
+        "name": "minecraft:crimson_stem",
+        "image": "../images/crafting/items/crimson_stem.png"
+    },
+    "minecraft:crimson_trapdoor": {
+        "name": "minecraft:crimson_trapdoor",
+        "image": "../images/crafting/items/crimson_trapdoor.png"
+    },
+    "minecraft:crossbow": {
+        "name": "minecraft:crossbow",
+        "image": "../images/crafting/items/crossbow.png"
+    },
+    "minecraft:crying_obsidian": {
+        "name": "minecraft:crying_obsidian",
+        "image": "../images/crafting/items/crying_obsidian.png"
+    },
+    "minecraft:cut_copper": {
+        "name": "minecraft:cut_copper",
+        "image": "../images/crafting/items/cut_copper.png"
+    },
+    "minecraft:cut_copper_slab": {
+        "name": "minecraft:cut_copper_slab",
+        "image": "../images/crafting/items/cut_copper_slab.png"
+    },
+    "minecraft:cut_copper_stairs": {
+        "name": "minecraft:cut_copper_stairs",
+        "image": "../images/crafting/items/cut_copper_stairs.png"
+    },
+    "minecraft:cut_red_sandstone": {
+        "name": "minecraft:cut_red_sandstone",
+        "image": "../images/crafting/items/cut_red_sandstone.png"
+    },
+    "minecraft:cut_red_sandstone_slab": {
+        "name": "minecraft:cut_red_sandstone_slab",
+        "image": "../images/crafting/items/cut_red_sandstone_slab.png"
+    },
+    "minecraft:cut_sandstone": {
+        "name": "minecraft:cut_sandstone",
+        "image": "../images/crafting/items/cut_sandstone.png"
+    },
+    "minecraft:cut_sandstone_slab": {
+        "name": "minecraft:cut_sandstone_slab",
+        "image": "../images/crafting/items/cut_sandstone_slab.png"
+    },
+    "minecraft:cyan_banner": {
+        "name": "minecraft:cyan_banner",
+        "image": "../images/crafting/items/cyan_banner.png"
+    },
+    "minecraft:cyan_bed": {
+        "name": "minecraft:cyan_bed",
+        "image": "../images/crafting/items/cyan_bed.png"
+    },
+    "minecraft:cyan_candle": {
+        "name": "minecraft:cyan_candle",
+        "image": "../images/crafting/items/cyan_candle.png"
+    },
+    "minecraft:cyan_carpet": {
+        "name": "minecraft:cyan_carpet",
+        "image": "../images/crafting/items/cyan_carpet.png"
+    },
+    "minecraft:cyan_concrete": {
+        "name": "minecraft:cyan_concrete",
+        "image": "../images/crafting/items/cyan_concrete.png"
+    },
+    "minecraft:cyan_concrete_powder": {
+        "name": "minecraft:cyan_concrete_powder",
+        "image": "../images/crafting/items/cyan_concrete_powder.png"
+    },
+    "minecraft:cyan_dye": {
+        "name": "minecraft:cyan_dye",
+        "image": "../images/crafting/items/cyan_dye.png"
+    },
+    "minecraft:cyan_glazed_terracotta": {
+        "name": "minecraft:cyan_glazed_terracotta",
+        "image": "../images/crafting/items/cyan_glazed_terracotta.png"
+    },
+    "minecraft:cyan_shulker_box": {
+        "name": "minecraft:cyan_shulker_box",
+        "image": "../images/crafting/items/cyan_shulker_box.png"
+    },
+    "minecraft:cyan_stained_glass": {
+        "name": "minecraft:cyan_stained_glass",
+        "image": "../images/crafting/items/cyan_stained_glass.png"
+    },
+    "minecraft:cyan_stained_glass_pane": {
+        "name": "minecraft:cyan_stained_glass_pane",
+        "image": "../images/crafting/items/cyan_stained_glass_pane.png"
+    },
+    "minecraft:cyan_terracotta": {
+        "name": "minecraft:cyan_terracotta",
+        "image": "../images/crafting/items/cyan_terracotta.png"
+    },
+    "minecraft:cyan_wool": {
+        "name": "minecraft:cyan_wool",
+        "image": "../images/crafting/items/cyan_wool.png"
+    },
+    "minecraft:damaged_anvil": {
+        "name": "minecraft:damaged_anvil",
+        "image": "../images/crafting/items/damaged_anvil.png"
+    },
+    "minecraft:dandelion": {
+        "name": "minecraft:dandelion",
+        "image": "../images/crafting/items/dandelion.png"
+    },
+    "minecraft:dark_oak_boat": {
+        "name": "minecraft:dark_oak_boat",
+        "image": "../images/crafting/items/dark_oak_boat.png"
+    },
+    "minecraft:dark_oak_button": {
+        "name": "minecraft:dark_oak_button",
+        "image": "../images/crafting/items/dark_oak_button.png"
+    },
+    "minecraft:dark_oak_chest_boat": {
+        "name": "minecraft:dark_oak_chest_boat",
+        "image": "../images/crafting/items/dark_oak_chest_boat.png"
+    },
+    "minecraft:dark_oak_door": {
+        "name": "minecraft:dark_oak_door",
+        "image": "../images/crafting/items/dark_oak_door.png"
+    },
+    "minecraft:dark_oak_fence": {
+        "name": "minecraft:dark_oak_fence",
+        "image": "../images/crafting/items/dark_oak_fence.png"
+    },
+    "minecraft:dark_oak_fence_gate": {
+        "name": "minecraft:dark_oak_fence_gate",
+        "image": "../images/crafting/items/dark_oak_fence_gate.png"
+    },
+    "minecraft:dark_oak_hanging_sign": {
+        "name": "minecraft:dark_oak_hanging_sign",
+        "image": "../images/crafting/items/dark_oak_hanging_sign.png"
+    },
+    "minecraft:dark_oak_leaves": {
+        "name": "minecraft:dark_oak_leaves",
+        "image": "../images/crafting/items/dark_oak_leaves.png"
+    },
+    "minecraft:dark_oak_log": {
+        "name": "minecraft:dark_oak_log",
+        "image": "../images/crafting/items/dark_oak_log.png"
+    },
+    "minecraft:dark_oak_planks": {
+        "name": "minecraft:dark_oak_planks",
+        "image": "../images/crafting/items/dark_oak_planks.png"
+    },
+    "minecraft:dark_oak_pressure_plate": {
+        "name": "minecraft:dark_oak_pressure_plate",
+        "image": "../images/crafting/items/dark_oak_pressure_plate.png"
+    },
+    "minecraft:dark_oak_sapling": {
+        "name": "minecraft:dark_oak_sapling",
+        "image": "../images/crafting/items/dark_oak_sapling.png"
+    },
+    "minecraft:dark_oak_sign": {
+        "name": "minecraft:dark_oak_sign",
+        "image": "../images/crafting/items/dark_oak_sign.png"
+    },
+    "minecraft:dark_oak_slab": {
+        "name": "minecraft:dark_oak_slab",
+        "image": "../images/crafting/items/dark_oak_slab.png"
+    },
+    "minecraft:dark_oak_stairs": {
+        "name": "minecraft:dark_oak_stairs",
+        "image": "../images/crafting/items/dark_oak_stairs.png"
+    },
+    "minecraft:dark_oak_trapdoor": {
+        "name": "minecraft:dark_oak_trapdoor",
+        "image": "../images/crafting/items/dark_oak_trapdoor.png"
+    },
+    "minecraft:dark_oak_wood": {
+        "name": "minecraft:dark_oak_wood",
+        "image": "../images/crafting/items/dark_oak_wood.png"
+    },
+    "minecraft:dark_prismarine": {
+        "name": "minecraft:dark_prismarine",
+        "image": "../images/crafting/items/dark_prismarine.png"
+    },
+    "minecraft:dark_prismarine_slab": {
+        "name": "minecraft:dark_prismarine_slab",
+        "image": "../images/crafting/items/dark_prismarine_slab.png"
+    },
+    "minecraft:dark_prismarine_stairs": {
+        "name": "minecraft:dark_prismarine_stairs",
+        "image": "../images/crafting/items/dark_prismarine_stairs.png"
+    },
+    "minecraft:daylight_detector": {
+        "name": "minecraft:daylight_detector",
+        "image": "../images/crafting/items/daylight_detector.png"
+    },
+    "minecraft:dead_brain_coral": {
+        "name": "minecraft:dead_brain_coral",
+        "image": "../images/crafting/items/dead_brain_coral.png"
+    },
+    "minecraft:dead_brain_coral_block": {
+        "name": "minecraft:dead_brain_coral_block",
+        "image": "../images/crafting/items/dead_brain_coral_block.png"
+    },
+    "minecraft:dead_brain_coral_fan": {
+        "name": "minecraft:dead_brain_coral_fan",
+        "image": "../images/crafting/items/dead_brain_coral_fan.png"
+    },
+    "minecraft:dead_bubble_coral": {
+        "name": "minecraft:dead_bubble_coral",
+        "image": "../images/crafting/items/dead_bubble_coral.png"
+    },
+    "minecraft:dead_bubble_coral_block": {
+        "name": "minecraft:dead_bubble_coral_block",
+        "image": "../images/crafting/items/dead_bubble_coral_block.png"
+    },
+    "minecraft:dead_bubble_coral_fan": {
+        "name": "minecraft:dead_bubble_coral_fan",
+        "image": "../images/crafting/items/dead_bubble_coral_fan.png"
+    },
+    "minecraft:dead_bush": {
+        "name": "minecraft:dead_bush",
+        "image": "../images/crafting/items/dead_bush.png"
+    },
+    "minecraft:dead_fire_coral": {
+        "name": "minecraft:dead_fire_coral",
+        "image": "../images/crafting/items/dead_fire_coral.png"
+    },
+    "minecraft:dead_fire_coral_block": {
+        "name": "minecraft:dead_fire_coral_block",
+        "image": "../images/crafting/items/dead_fire_coral_block.png"
+    },
+    "minecraft:dead_fire_coral_fan": {
+        "name": "minecraft:dead_fire_coral_fan",
+        "image": "../images/crafting/items/dead_fire_coral_fan.png"
+    },
+    "minecraft:dead_horn_coral": {
+        "name": "minecraft:dead_horn_coral",
+        "image": "../images/crafting/items/dead_horn_coral.png"
+    },
+    "minecraft:dead_horn_coral_block": {
+        "name": "minecraft:dead_horn_coral_block",
+        "image": "../images/crafting/items/dead_horn_coral_block.png"
+    },
+    "minecraft:dead_horn_coral_fan": {
+        "name": "minecraft:dead_horn_coral_fan",
+        "image": "../images/crafting/items/dead_horn_coral_fan.png"
+    },
+    "minecraft:dead_tube_coral": {
+        "name": "minecraft:dead_tube_coral",
+        "image": "../images/crafting/items/dead_tube_coral.png"
+    },
+    "minecraft:dead_tube_coral_block": {
+        "name": "minecraft:dead_tube_coral_block",
+        "image": "../images/crafting/items/dead_tube_coral_block.png"
+    },
+    "minecraft:dead_tube_coral_fan": {
+        "name": "minecraft:dead_tube_coral_fan",
+        "image": "../images/crafting/items/dead_tube_coral_fan.png"
+    },
+    "minecraft:debug_stick": {
+        "name": "minecraft:debug_stick",
+        "image": "../images/crafting/items/debug_stick.gif"
+    },
+    "minecraft:decorated_pot": {
+        "name": "minecraft:decorated_pot",
+        "image": "../images/crafting/items/decorated_pot.png"
+    },
+    "minecraft:deepslate": {
+        "name": "minecraft:deepslate",
+        "image": "../images/crafting/items/deepslate.png"
+    },
+    "minecraft:deepslate_brick_slab": {
+        "name": "minecraft:deepslate_brick_slab",
+        "image": "../images/crafting/items/deepslate_brick_slab.png"
+    },
+    "minecraft:deepslate_brick_stairs": {
+        "name": "minecraft:deepslate_brick_stairs",
+        "image": "../images/crafting/items/deepslate_brick_stairs.png"
+    },
+    "minecraft:deepslate_brick_wall": {
+        "name": "minecraft:deepslate_brick_wall",
+        "image": "../images/crafting/items/deepslate_brick_wall.png"
+    },
+    "minecraft:deepslate_bricks": {
+        "name": "minecraft:deepslate_bricks",
+        "image": "../images/crafting/items/deepslate_bricks.png"
+    },
+    "minecraft:deepslate_coal_ore": {
+        "name": "minecraft:deepslate_coal_ore",
+        "image": "../images/crafting/items/deepslate_coal_ore.png"
+    },
+    "minecraft:deepslate_copper_ore": {
+        "name": "minecraft:deepslate_copper_ore",
+        "image": "../images/crafting/items/deepslate_copper_ore.png"
+    },
+    "minecraft:deepslate_diamond_ore": {
+        "name": "minecraft:deepslate_diamond_ore",
+        "image": "../images/crafting/items/deepslate_diamond_ore.png"
+    },
+    "minecraft:deepslate_emerald_ore": {
+        "name": "minecraft:deepslate_emerald_ore",
+        "image": "../images/crafting/items/deepslate_emerald_ore.png"
+    },
+    "minecraft:deepslate_gold_ore": {
+        "name": "minecraft:deepslate_gold_ore",
+        "image": "../images/crafting/items/deepslate_gold_ore.png"
+    },
+    "minecraft:deepslate_iron_ore": {
+        "name": "minecraft:deepslate_iron_ore",
+        "image": "../images/crafting/items/deepslate_iron_ore.png"
+    },
+    "minecraft:deepslate_lapis_ore": {
+        "name": "minecraft:deepslate_lapis_ore",
+        "image": "../images/crafting/items/deepslate_lapis_ore.png"
+    },
+    "minecraft:deepslate_redstone_ore": {
+        "name": "minecraft:deepslate_redstone_ore",
+        "image": "../images/crafting/items/deepslate_redstone_ore.png"
+    },
+    "minecraft:deepslate_tile_slab": {
+        "name": "minecraft:deepslate_tile_slab",
+        "image": "../images/crafting/items/deepslate_tile_slab.png"
+    },
+    "minecraft:deepslate_tile_stairs": {
+        "name": "minecraft:deepslate_tile_stairs",
+        "image": "../images/crafting/items/deepslate_tile_stairs.png"
+    },
+    "minecraft:deepslate_tile_wall": {
+        "name": "minecraft:deepslate_tile_wall",
+        "image": "../images/crafting/items/deepslate_tile_wall.png"
+    },
+    "minecraft:deepslate_tiles": {
+        "name": "minecraft:deepslate_tiles",
+        "image": "../images/crafting/items/deepslate_tiles.png"
+    },
+    "minecraft:detector_rail": {
+        "name": "minecraft:detector_rail",
+        "image": "../images/crafting/items/detector_rail.png"
+    },
+    "minecraft:diamond": {
+        "name": "minecraft:diamond",
+        "image": "../images/crafting/items/diamond.png"
+    },
+    "minecraft:diamond_axe": {
+        "name": "minecraft:diamond_axe",
+        "image": "../images/crafting/items/diamond_axe.png"
+    },
+    "minecraft:diamond_block": {
+        "name": "minecraft:diamond_block",
+        "image": "../images/crafting/items/diamond_block.png"
+    },
+    "minecraft:diamond_boots": {
+        "name": "minecraft:diamond_boots",
+        "image": "../images/crafting/items/diamond_boots.png"
+    },
+    "minecraft:diamond_chestplate": {
+        "name": "minecraft:diamond_chestplate",
+        "image": "../images/crafting/items/diamond_chestplate.png"
+    },
+    "minecraft:diamond_helmet": {
+        "name": "minecraft:diamond_helmet",
+        "image": "../images/crafting/items/diamond_helmet.png"
+    },
+    "minecraft:diamond_hoe": {
+        "name": "minecraft:diamond_hoe",
+        "image": "../images/crafting/items/diamond_hoe.png"
+    },
+    "minecraft:diamond_horse_armor": {
+        "name": "minecraft:diamond_horse_armor",
+        "image": "../images/crafting/items/diamond_horse_armor.png"
+    },
+    "minecraft:diamond_leggings": {
+        "name": "minecraft:diamond_leggings",
+        "image": "../images/crafting/items/diamond_leggings.png"
+    },
+    "minecraft:diamond_ore": {
+        "name": "minecraft:diamond_ore",
+        "image": "../images/crafting/items/diamond_ore.png"
+    },
+    "minecraft:diamond_pickaxe": {
+        "name": "minecraft:diamond_pickaxe",
+        "image": "../images/crafting/items/diamond_pickaxe.png"
+    },
+    "minecraft:diamond_shovel": {
+        "name": "minecraft:diamond_shovel",
+        "image": "../images/crafting/items/diamond_shovel.png"
+    },
+    "minecraft:diamond_sword": {
+        "name": "minecraft:diamond_sword",
+        "image": "../images/crafting/items/diamond_sword.png"
+    },
+    "minecraft:diorite": {
+        "name": "minecraft:diorite",
+        "image": "../images/crafting/items/diorite.png"
+    },
+    "minecraft:diorite_slab": {
+        "name": "minecraft:diorite_slab",
+        "image": "../images/crafting/items/diorite_slab.png"
+    },
+    "minecraft:diorite_stairs": {
+        "name": "minecraft:diorite_stairs",
+        "image": "../images/crafting/items/diorite_stairs.png"
+    },
+    "minecraft:diorite_wall": {
+        "name": "minecraft:diorite_wall",
+        "image": "../images/crafting/items/diorite_wall.png"
+    },
+    "minecraft:dirt": {
+        "name": "minecraft:dirt",
+        "image": "../images/crafting/items/dirt.png"
+    },
+    "minecraft:dirt_path": {
+        "name": "minecraft:dirt_path",
+        "image": "../images/crafting/items/dirt_path.png"
+    },
+    "minecraft:disc_fragment_5": {
+        "name": "minecraft:disc_fragment_5",
+        "image": "../images/crafting/items/disc_fragment_5.png"
+    },
+    "minecraft:dispenser": {
+        "name": "minecraft:dispenser",
+        "image": "../images/crafting/items/dispenser.png"
+    },
+    "minecraft:dolphin_spawn_egg": {
+        "name": "minecraft:dolphin_spawn_egg",
+        "image": "../images/crafting/items/dolphin_spawn_egg.png"
+    },
+    "minecraft:donkey_spawn_egg": {
+        "name": "minecraft:donkey_spawn_egg",
+        "image": "../images/crafting/items/donkey_spawn_egg.png"
+    },
+    "minecraft:dragon_breath": {
+        "name": "minecraft:dragon_breath",
+        "image": "../images/crafting/items/dragon_breath.png"
+    },
+    "minecraft:dragon_egg": {
+        "name": "minecraft:dragon_egg",
+        "image": "../images/crafting/items/dragon_egg.png"
+    },
+    "minecraft:dragon_head": {
+        "name": "minecraft:dragon_head",
+        "image": "../images/crafting/items/dragon_head.png"
+    },
+    "minecraft:dried_kelp": {
+        "name": "minecraft:dried_kelp",
+        "image": "../images/crafting/items/dried_kelp.png"
+    },
+    "minecraft:dried_kelp_block": {
+        "name": "minecraft:dried_kelp_block",
+        "image": "../images/crafting/items/dried_kelp_block.png"
+    },
+    "minecraft:dripstone_block": {
+        "name": "minecraft:dripstone_block",
+        "image": "../images/crafting/items/dripstone_block.png"
+    },
+    "minecraft:dropper": {
+        "name": "minecraft:dropper",
+        "image": "../images/crafting/items/dropper.png"
+    },
+    "minecraft:drowned_spawn_egg": {
+        "name": "minecraft:drowned_spawn_egg",
+        "image": "../images/crafting/items/drowned_spawn_egg.png"
+    },
+    "minecraft:dune_armor_trim_smithing_template": {
+        "name": "minecraft:dune_armor_trim_smithing_template",
+        "image": "../images/crafting/items/dune_armor_trim_smithing_template.png"
+    },
+    "minecraft:echo_shard": {
+        "name": "minecraft:echo_shard",
+        "image": "../images/crafting/items/echo_shard.png"
+    },
+    "minecraft:egg": {
+        "name": "minecraft:egg",
+        "image": "../images/crafting/items/egg.png"
+    },
+    "minecraft:elder_guardian_spawn_egg": {
+        "name": "minecraft:elder_guardian_spawn_egg",
+        "image": "../images/crafting/items/elder_guardian_spawn_egg.png"
+    },
+    "minecraft:elytra": {
+        "name": "minecraft:elytra",
+        "image": "../images/crafting/items/elytra.png"
+    },
+    "minecraft:emerald": {
+        "name": "minecraft:emerald",
+        "image": "../images/crafting/items/emerald.png"
+    },
+    "minecraft:emerald_block": {
+        "name": "minecraft:emerald_block",
+        "image": "../images/crafting/items/emerald_block.png"
+    },
+    "minecraft:emerald_ore": {
+        "name": "minecraft:emerald_ore",
+        "image": "../images/crafting/items/emerald_ore.png"
+    },
+    "minecraft:enchanted_book": {
+        "name": "minecraft:enchanted_book",
+        "image": "../images/crafting/items/enchanted_book.gif"
+    },
+    "minecraft:enchanted_golden_apple": {
+        "name": "minecraft:enchanted_golden_apple",
+        "image": "../images/crafting/items/enchanted_golden_apple.gif"
+    },
+    "minecraft:enchanting_table": {
+        "name": "minecraft:enchanting_table",
+        "image": "../images/crafting/items/enchanting_table.png"
+    },
+    "minecraft:end_crystal": {
+        "name": "minecraft:end_crystal",
+        "image": "../images/crafting/items/end_crystal.gif"
+    },
+    "minecraft:end_portal_frame": {
+        "name": "minecraft:end_portal_frame",
+        "image": "../images/crafting/items/end_portal_frame.png"
+    },
+    "minecraft:end_rod": {
+        "name": "minecraft:end_rod",
+        "image": "../images/crafting/items/end_rod.png"
+    },
+    "minecraft:end_stone": {
+        "name": "minecraft:end_stone",
+        "image": "../images/crafting/items/end_stone.png"
+    },
+    "minecraft:end_stone_brick_slab": {
+        "name": "minecraft:end_stone_brick_slab",
+        "image": "../images/crafting/items/end_stone_brick_slab.png"
+    },
+    "minecraft:end_stone_brick_stairs": {
+        "name": "minecraft:end_stone_brick_stairs",
+        "image": "../images/crafting/items/end_stone_brick_stairs.png"
+    },
+    "minecraft:end_stone_brick_wall": {
+        "name": "minecraft:end_stone_brick_wall",
+        "image": "../images/crafting/items/end_stone_brick_wall.png"
+    },
+    "minecraft:end_stone_bricks": {
+        "name": "minecraft:end_stone_bricks",
+        "image": "../images/crafting/items/end_stone_bricks.png"
+    },
+    "minecraft:ender_chest": {
+        "name": "minecraft:ender_chest",
+        "image": "../images/crafting/items/ender_chest.png"
+    },
+    "minecraft:ender_dragon_spawn_egg": {
+        "name": "minecraft:ender_dragon_spawn_egg",
+        "image": "../images/crafting/items/ender_dragon_spawn_egg.png"
+    },
+    "minecraft:ender_eye": {
+        "name": "minecraft:ender_eye",
+        "image": "../images/crafting/items/ender_eye.png"
+    },
+    "minecraft:ender_pearl": {
+        "name": "minecraft:ender_pearl",
+        "image": "../images/crafting/items/ender_pearl.png"
+    },
+    "minecraft:enderman_spawn_egg": {
+        "name": "minecraft:enderman_spawn_egg",
+        "image": "../images/crafting/items/enderman_spawn_egg.png"
+    },
+    "minecraft:endermite_spawn_egg": {
+        "name": "minecraft:endermite_spawn_egg",
+        "image": "../images/crafting/items/endermite_spawn_egg.png"
+    },
+    "minecraft:evoker_spawn_egg": {
+        "name": "minecraft:evoker_spawn_egg",
+        "image": "../images/crafting/items/evoker_spawn_egg.png"
+    },
+    "minecraft:experience_bottle": {
+        "name": "minecraft:experience_bottle",
+        "image": "../images/crafting/items/experience_bottle.gif"
+    },
+    "minecraft:exposed_copper": {
+        "name": "minecraft:exposed_copper",
+        "image": "../images/crafting/items/exposed_copper.png"
+    },
+    "minecraft:exposed_cut_copper": {
+        "name": "minecraft:exposed_cut_copper",
+        "image": "../images/crafting/items/exposed_cut_copper.png"
+    },
+    "minecraft:exposed_cut_copper_slab": {
+        "name": "minecraft:exposed_cut_copper_slab",
+        "image": "../images/crafting/items/exposed_cut_copper_slab.png"
+    },
+    "minecraft:exposed_cut_copper_stairs": {
+        "name": "minecraft:exposed_cut_copper_stairs",
+        "image": "../images/crafting/items/exposed_cut_copper_stairs.png"
+    },
+    "minecraft:eye_armor_trim_smithing_template": {
+        "name": "minecraft:eye_armor_trim_smithing_template",
+        "image": "../images/crafting/items/eye_armor_trim_smithing_template.png"
+    },
+    "minecraft:farmland": {
+        "name": "minecraft:farmland",
+        "image": "../images/crafting/items/farmland.png"
+    },
+    "minecraft:feather": {
+        "name": "minecraft:feather",
+        "image": "../images/crafting/items/feather.png"
+    },
+    "minecraft:fermented_spider_eye": {
+        "name": "minecraft:fermented_spider_eye",
+        "image": "../images/crafting/items/fermented_spider_eye.png"
+    },
+    "minecraft:fern": {
+        "name": "minecraft:fern",
+        "image": "../images/crafting/items/fern.png"
+    },
+    "minecraft:filled_map": {
+        "name": "minecraft:filled_map",
+        "image": "../images/crafting/items/filled_map.png"
+    },
+    "minecraft:fire_charge": {
+        "name": "minecraft:fire_charge",
+        "image": "../images/crafting/items/fire_charge.png"
+    },
+    "minecraft:fire_coral": {
+        "name": "minecraft:fire_coral",
+        "image": "../images/crafting/items/fire_coral.png"
+    },
+    "minecraft:fire_coral_block": {
+        "name": "minecraft:fire_coral_block",
+        "image": "../images/crafting/items/fire_coral_block.png"
+    },
+    "minecraft:fire_coral_fan": {
+        "name": "minecraft:fire_coral_fan",
+        "image": "../images/crafting/items/fire_coral_fan.png"
+    },
+    "minecraft:firework_rocket": {
+        "name": "minecraft:firework_rocket",
+        "image": "../images/crafting/items/firework_rocket.png"
+    },
+    "minecraft:firework_star": {
+        "name": "minecraft:firework_star",
+        "image": "../images/crafting/items/firework_star.png"
+    },
+    "minecraft:fishing_rod": {
+        "name": "minecraft:fishing_rod",
+        "image": "../images/crafting/items/fishing_rod.png"
+    },
+    "minecraft:fletching_table": {
+        "name": "minecraft:fletching_table",
+        "image": "../images/crafting/items/fletching_table.png"
+    },
+    "minecraft:flint": {
+        "name": "minecraft:flint",
+        "image": "../images/crafting/items/flint.png"
+    },
+    "minecraft:flint_and_steel": {
+        "name": "minecraft:flint_and_steel",
+        "image": "../images/crafting/items/flint_and_steel.png"
+    },
+    "minecraft:flower_banner_pattern": {
+        "name": "minecraft:flower_banner_pattern",
+        "image": "../images/crafting/items/flower_banner_pattern.png"
+    },
+    "minecraft:flower_pot": {
+        "name": "minecraft:flower_pot",
+        "image": "../images/crafting/items/flower_pot.png"
+    },
+    "minecraft:flowering_azalea": {
+        "name": "minecraft:flowering_azalea",
+        "image": "../images/crafting/items/flowering_azalea.png"
+    },
+    "minecraft:flowering_azalea_leaves": {
+        "name": "minecraft:flowering_azalea_leaves",
+        "image": "../images/crafting/items/flowering_azalea_leaves.png"
+    },
+    "minecraft:fox_spawn_egg": {
+        "name": "minecraft:fox_spawn_egg",
+        "image": "../images/crafting/items/fox_spawn_egg.png"
+    },
+    "minecraft:frog_spawn_egg": {
+        "name": "minecraft:frog_spawn_egg",
+        "image": "../images/crafting/items/frog_spawn_egg.png"
+    },
+    "minecraft:frogspawn": {
+        "name": "minecraft:frogspawn",
+        "image": "../images/crafting/items/frogspawn.png"
+    },
+    "minecraft:furnace": {
+        "name": "minecraft:furnace",
+        "image": "../images/crafting/items/furnace.png"
+    },
+    "minecraft:furnace_minecart": {
+        "name": "minecraft:furnace_minecart",
+        "image": "../images/crafting/items/furnace_minecart.png"
+    },
+    "minecraft:ghast_spawn_egg": {
+        "name": "minecraft:ghast_spawn_egg",
+        "image": "../images/crafting/items/ghast_spawn_egg.png"
+    },
+    "minecraft:ghast_tear": {
+        "name": "minecraft:ghast_tear",
+        "image": "../images/crafting/items/ghast_tear.png"
+    },
+    "minecraft:gilded_blackstone": {
+        "name": "minecraft:gilded_blackstone",
+        "image": "../images/crafting/items/gilded_blackstone.png"
+    },
+    "minecraft:glass": {
+        "name": "minecraft:glass",
+        "image": "../images/crafting/items/glass.png"
+    },
+    "minecraft:glass_bottle": {
+        "name": "minecraft:glass_bottle",
+        "image": "../images/crafting/items/glass_bottle.png"
+    },
+    "minecraft:glass_pane": {
+        "name": "minecraft:glass_pane",
+        "image": "../images/crafting/items/glass_pane.png"
+    },
+    "minecraft:glistering_melon_slice": {
+        "name": "minecraft:glistering_melon_slice",
+        "image": "../images/crafting/items/glistering_melon_slice.png"
+    },
+    "minecraft:globe_banner_pattern": {
+        "name": "minecraft:globe_banner_pattern",
+        "image": "../images/crafting/items/globe_banner_pattern.png"
+    },
+    "minecraft:glow_berries": {
+        "name": "minecraft:glow_berries",
+        "image": "../images/crafting/items/glow_berries.png"
+    },
+    "minecraft:glow_ink_sac": {
+        "name": "minecraft:glow_ink_sac",
+        "image": "../images/crafting/items/glow_ink_sac.png"
+    },
+    "minecraft:glow_item_frame": {
+        "name": "minecraft:glow_item_frame",
+        "image": "../images/crafting/items/glow_item_frame.png"
+    },
+    "minecraft:glow_lichen": {
+        "name": "minecraft:glow_lichen",
+        "image": "../images/crafting/items/glow_lichen.png"
+    },
+    "minecraft:glow_squid_spawn_egg": {
+        "name": "minecraft:glow_squid_spawn_egg",
+        "image": "../images/crafting/items/glow_squid_spawn_egg.png"
+    },
+    "minecraft:glowstone": {
+        "name": "minecraft:glowstone",
+        "image": "../images/crafting/items/glowstone.png"
+    },
+    "minecraft:glowstone_dust": {
+        "name": "minecraft:glowstone_dust",
+        "image": "../images/crafting/items/glowstone_dust.png"
+    },
+    "minecraft:goat_horn": {
+        "name": "minecraft:goat_horn",
+        "image": "../images/crafting/items/goat_horn.png"
+    },
+    "minecraft:goat_spawn_egg": {
+        "name": "minecraft:goat_spawn_egg",
+        "image": "../images/crafting/items/goat_spawn_egg.png"
+    },
+    "minecraft:gold_block": {
+        "name": "minecraft:gold_block",
+        "image": "../images/crafting/items/gold_block.png"
+    },
+    "minecraft:gold_ingot": {
+        "name": "minecraft:gold_ingot",
+        "image": "../images/crafting/items/gold_ingot.png"
+    },
+    "minecraft:gold_nugget": {
+        "name": "minecraft:gold_nugget",
+        "image": "../images/crafting/items/gold_nugget.png"
+    },
+    "minecraft:gold_ore": {
+        "name": "minecraft:gold_ore",
+        "image": "../images/crafting/items/gold_ore.png"
+    },
+    "minecraft:golden_apple": {
+        "name": "minecraft:golden_apple",
+        "image": "../images/crafting/items/golden_apple.png"
+    },
+    "minecraft:golden_axe": {
+        "name": "minecraft:golden_axe",
+        "image": "../images/crafting/items/golden_axe.png"
+    },
+    "minecraft:golden_boots": {
+        "name": "minecraft:golden_boots",
+        "image": "../images/crafting/items/golden_boots.png"
+    },
+    "minecraft:golden_carrot": {
+        "name": "minecraft:golden_carrot",
+        "image": "../images/crafting/items/golden_carrot.png"
+    },
+    "minecraft:golden_chestplate": {
+        "name": "minecraft:golden_chestplate",
+        "image": "../images/crafting/items/golden_chestplate.png"
+    },
+    "minecraft:golden_helmet": {
+        "name": "minecraft:golden_helmet",
+        "image": "../images/crafting/items/golden_helmet.png"
+    },
+    "minecraft:golden_hoe": {
+        "name": "minecraft:golden_hoe",
+        "image": "../images/crafting/items/golden_hoe.png"
+    },
+    "minecraft:golden_horse_armor": {
+        "name": "minecraft:golden_horse_armor",
+        "image": "../images/crafting/items/golden_horse_armor.png"
+    },
+    "minecraft:golden_leggings": {
+        "name": "minecraft:golden_leggings",
+        "image": "../images/crafting/items/golden_leggings.png"
+    },
+    "minecraft:golden_pickaxe": {
+        "name": "minecraft:golden_pickaxe",
+        "image": "../images/crafting/items/golden_pickaxe.png"
+    },
+    "minecraft:golden_shovel": {
+        "name": "minecraft:golden_shovel",
+        "image": "../images/crafting/items/golden_shovel.png"
+    },
+    "minecraft:golden_sword": {
+        "name": "minecraft:golden_sword",
+        "image": "../images/crafting/items/golden_sword.png"
+    },
+    "minecraft:granite": {
+        "name": "minecraft:granite",
+        "image": "../images/crafting/items/granite.png"
+    },
+    "minecraft:granite_slab": {
+        "name": "minecraft:granite_slab",
+        "image": "../images/crafting/items/granite_slab.png"
+    },
+    "minecraft:granite_stairs": {
+        "name": "minecraft:granite_stairs",
+        "image": "../images/crafting/items/granite_stairs.png"
+    },
+    "minecraft:granite_wall": {
+        "name": "minecraft:granite_wall",
+        "image": "../images/crafting/items/granite_wall.png"
+    },
+    "minecraft:grass": {
+        "name": "minecraft:grass",
+        "image": "../images/crafting/items/grass.png"
+    },
+    "minecraft:grass_block": {
+        "name": "minecraft:grass_block",
+        "image": "../images/crafting/items/grass_block.png"
+    },
+    "minecraft:gravel": {
+        "name": "minecraft:gravel",
+        "image": "../images/crafting/items/gravel.png"
+    },
+    "minecraft:gray_banner": {
+        "name": "minecraft:gray_banner",
+        "image": "../images/crafting/items/gray_banner.png"
+    },
+    "minecraft:gray_bed": {
+        "name": "minecraft:gray_bed",
+        "image": "../images/crafting/items/gray_bed.png"
+    },
+    "minecraft:gray_candle": {
+        "name": "minecraft:gray_candle",
+        "image": "../images/crafting/items/gray_candle.png"
+    },
+    "minecraft:gray_carpet": {
+        "name": "minecraft:gray_carpet",
+        "image": "../images/crafting/items/gray_carpet.png"
+    },
+    "minecraft:gray_concrete": {
+        "name": "minecraft:gray_concrete",
+        "image": "../images/crafting/items/gray_concrete.png"
+    },
+    "minecraft:gray_concrete_powder": {
+        "name": "minecraft:gray_concrete_powder",
+        "image": "../images/crafting/items/gray_concrete_powder.png"
+    },
+    "minecraft:gray_dye": {
+        "name": "minecraft:gray_dye",
+        "image": "../images/crafting/items/gray_dye.png"
+    },
+    "minecraft:gray_glazed_terracotta": {
+        "name": "minecraft:gray_glazed_terracotta",
+        "image": "../images/crafting/items/gray_glazed_terracotta.png"
+    },
+    "minecraft:gray_shulker_box": {
+        "name": "minecraft:gray_shulker_box",
+        "image": "../images/crafting/items/gray_shulker_box.png"
+    },
+    "minecraft:gray_stained_glass": {
+        "name": "minecraft:gray_stained_glass",
+        "image": "../images/crafting/items/gray_stained_glass.png"
+    },
+    "minecraft:gray_stained_glass_pane": {
+        "name": "minecraft:gray_stained_glass_pane",
+        "image": "../images/crafting/items/gray_stained_glass_pane.png"
+    },
+    "minecraft:gray_terracotta": {
+        "name": "minecraft:gray_terracotta",
+        "image": "../images/crafting/items/gray_terracotta.png"
+    },
+    "minecraft:gray_wool": {
+        "name": "minecraft:gray_wool",
+        "image": "../images/crafting/items/gray_wool.png"
+    },
+    "minecraft:green_banner": {
+        "name": "minecraft:green_banner",
+        "image": "../images/crafting/items/green_banner.png"
+    },
+    "minecraft:green_bed": {
+        "name": "minecraft:green_bed",
+        "image": "../images/crafting/items/green_bed.png"
+    },
+    "minecraft:green_candle": {
+        "name": "minecraft:green_candle",
+        "image": "../images/crafting/items/green_candle.png"
+    },
+    "minecraft:green_carpet": {
+        "name": "minecraft:green_carpet",
+        "image": "../images/crafting/items/green_carpet.png"
+    },
+    "minecraft:green_concrete": {
+        "name": "minecraft:green_concrete",
+        "image": "../images/crafting/items/green_concrete.png"
+    },
+    "minecraft:green_concrete_powder": {
+        "name": "minecraft:green_concrete_powder",
+        "image": "../images/crafting/items/green_concrete_powder.png"
+    },
+    "minecraft:green_dye": {
+        "name": "minecraft:green_dye",
+        "image": "../images/crafting/items/green_dye.png"
+    },
+    "minecraft:green_glazed_terracotta": {
+        "name": "minecraft:green_glazed_terracotta",
+        "image": "../images/crafting/items/green_glazed_terracotta.png"
+    },
+    "minecraft:green_shulker_box": {
+        "name": "minecraft:green_shulker_box",
+        "image": "../images/crafting/items/green_shulker_box.png"
+    },
+    "minecraft:green_stained_glass": {
+        "name": "minecraft:green_stained_glass",
+        "image": "../images/crafting/items/green_stained_glass.png"
+    },
+    "minecraft:green_stained_glass_pane": {
+        "name": "minecraft:green_stained_glass_pane",
+        "image": "../images/crafting/items/green_stained_glass_pane.png"
+    },
+    "minecraft:green_terracotta": {
+        "name": "minecraft:green_terracotta",
+        "image": "../images/crafting/items/green_terracotta.png"
+    },
+    "minecraft:green_wool": {
+        "name": "minecraft:green_wool",
+        "image": "../images/crafting/items/green_wool.png"
+    },
+    "minecraft:grindstone": {
+        "name": "minecraft:grindstone",
+        "image": "../images/crafting/items/grindstone.png"
+    },
+    "minecraft:guardian_spawn_egg": {
+        "name": "minecraft:guardian_spawn_egg",
+        "image": "../images/crafting/items/guardian_spawn_egg.png"
+    },
+    "minecraft:gunpowder": {
+        "name": "minecraft:gunpowder",
+        "image": "../images/crafting/items/gunpowder.png"
+    },
+    "minecraft:hanging_roots": {
+        "name": "minecraft:hanging_roots",
+        "image": "../images/crafting/items/hanging_roots.png"
+    },
+    "minecraft:hay_block": {
+        "name": "minecraft:hay_block",
+        "image": "../images/crafting/items/hay_block.png"
+    },
+    "minecraft:heart_of_the_sea": {
+        "name": "minecraft:heart_of_the_sea",
+        "image": "../images/crafting/items/heart_of_the_sea.png"
+    },
+    "minecraft:heavy_weighted_pressure_plate": {
+        "name": "minecraft:heavy_weighted_pressure_plate",
+        "image": "../images/crafting/items/heavy_weighted_pressure_plate.png"
+    },
+    "minecraft:hoglin_spawn_egg": {
+        "name": "minecraft:hoglin_spawn_egg",
+        "image": "../images/crafting/items/hoglin_spawn_egg.png"
+    },
+    "minecraft:honey_block": {
+        "name": "minecraft:honey_block",
+        "image": "../images/crafting/items/honey_block.png"
+    },
+    "minecraft:honey_bottle": {
+        "name": "minecraft:honey_bottle",
+        "image": "../images/crafting/items/honey_bottle.png"
+    },
+    "minecraft:honeycomb": {
+        "name": "minecraft:honeycomb",
+        "image": "../images/crafting/items/honeycomb.png"
+    },
+    "minecraft:honeycomb_block": {
+        "name": "minecraft:honeycomb_block",
+        "image": "../images/crafting/items/honeycomb_block.png"
+    },
+    "minecraft:hopper": {
+        "name": "minecraft:hopper",
+        "image": "../images/crafting/items/hopper.png"
+    },
+    "minecraft:hopper_minecart": {
+        "name": "minecraft:hopper_minecart",
+        "image": "../images/crafting/items/hopper_minecart.png"
+    },
+    "minecraft:horn_coral": {
+        "name": "minecraft:horn_coral",
+        "image": "../images/crafting/items/horn_coral.png"
+    },
+    "minecraft:horn_coral_block": {
+        "name": "minecraft:horn_coral_block",
+        "image": "../images/crafting/items/horn_coral_block.png"
+    },
+    "minecraft:horn_coral_fan": {
+        "name": "minecraft:horn_coral_fan",
+        "image": "../images/crafting/items/horn_coral_fan.png"
+    },
+    "minecraft:horse_spawn_egg": {
+        "name": "minecraft:horse_spawn_egg",
+        "image": "../images/crafting/items/horse_spawn_egg.png"
+    },
+    "minecraft:husk_spawn_egg": {
+        "name": "minecraft:husk_spawn_egg",
+        "image": "../images/crafting/items/husk_spawn_egg.png"
+    },
+    "minecraft:ice": {
+        "name": "minecraft:ice",
+        "image": "../images/crafting/items/ice.png"
+    },
+    "minecraft:infested_chiseled_stone_bricks": {
+        "name": "minecraft:infested_chiseled_stone_bricks",
+        "image": "../images/crafting/items/infested_chiseled_stone_bricks.png"
+    },
+    "minecraft:infested_cobblestone": {
+        "name": "minecraft:infested_cobblestone",
+        "image": "../images/crafting/items/infested_cobblestone.png"
+    },
+    "minecraft:infested_cracked_stone_bricks": {
+        "name": "minecraft:infested_cracked_stone_bricks",
+        "image": "../images/crafting/items/infested_cracked_stone_bricks.png"
+    },
+    "minecraft:infested_deepslate": {
+        "name": "minecraft:infested_deepslate",
+        "image": "../images/crafting/items/infested_deepslate.png"
+    },
+    "minecraft:infested_mossy_stone_bricks": {
+        "name": "minecraft:infested_mossy_stone_bricks",
+        "image": "../images/crafting/items/infested_mossy_stone_bricks.png"
+    },
+    "minecraft:infested_stone": {
+        "name": "minecraft:infested_stone",
+        "image": "../images/crafting/items/infested_stone.png"
+    },
+    "minecraft:infested_stone_bricks": {
+        "name": "minecraft:infested_stone_bricks",
+        "image": "../images/crafting/items/infested_stone_bricks.png"
+    },
+    "minecraft:ink_sac": {
+        "name": "minecraft:ink_sac",
+        "image": "../images/crafting/items/ink_sac.png"
+    },
+    "minecraft:iron_axe": {
+        "name": "minecraft:iron_axe",
+        "image": "../images/crafting/items/iron_axe.png"
+    },
+    "minecraft:iron_bars": {
+        "name": "minecraft:iron_bars",
+        "image": "../images/crafting/items/iron_bars.png"
+    },
+    "minecraft:iron_block": {
+        "name": "minecraft:iron_block",
+        "image": "../images/crafting/items/iron_block.png"
+    },
+    "minecraft:iron_boots": {
+        "name": "minecraft:iron_boots",
+        "image": "../images/crafting/items/iron_boots.png"
+    },
+    "minecraft:iron_chestplate": {
+        "name": "minecraft:iron_chestplate",
+        "image": "../images/crafting/items/iron_chestplate.png"
+    },
+    "minecraft:iron_door": {
+        "name": "minecraft:iron_door",
+        "image": "../images/crafting/items/iron_door.png"
+    },
+    "minecraft:iron_golem_spawn_egg": {
+        "name": "minecraft:iron_golem_spawn_egg",
+        "image": "../images/crafting/items/iron_golem_spawn_egg.png"
+    },
+    "minecraft:iron_helmet": {
+        "name": "minecraft:iron_helmet",
+        "image": "../images/crafting/items/iron_helmet.png"
+    },
+    "minecraft:iron_hoe": {
+        "name": "minecraft:iron_hoe",
+        "image": "../images/crafting/items/iron_hoe.png"
+    },
+    "minecraft:iron_horse_armor": {
+        "name": "minecraft:iron_horse_armor",
+        "image": "../images/crafting/items/iron_horse_armor.png"
+    },
+    "minecraft:iron_ingot": {
+        "name": "minecraft:iron_ingot",
+        "image": "../images/crafting/items/iron_ingot.png"
+    },
+    "minecraft:iron_leggings": {
+        "name": "minecraft:iron_leggings",
+        "image": "../images/crafting/items/iron_leggings.png"
+    },
+    "minecraft:iron_nugget": {
+        "name": "minecraft:iron_nugget",
+        "image": "../images/crafting/items/iron_nugget.png"
+    },
+    "minecraft:iron_ore": {
+        "name": "minecraft:iron_ore",
+        "image": "../images/crafting/items/iron_ore.png"
+    },
+    "minecraft:iron_pickaxe": {
+        "name": "minecraft:iron_pickaxe",
+        "image": "../images/crafting/items/iron_pickaxe.png"
+    },
+    "minecraft:iron_shovel": {
+        "name": "minecraft:iron_shovel",
+        "image": "../images/crafting/items/iron_shovel.png"
+    },
+    "minecraft:iron_sword": {
+        "name": "minecraft:iron_sword",
+        "image": "../images/crafting/items/iron_sword.png"
+    },
+    "minecraft:iron_trapdoor": {
+        "name": "minecraft:iron_trapdoor",
+        "image": "../images/crafting/items/iron_trapdoor.png"
+    },
+    "minecraft:item_frame": {
+        "name": "minecraft:item_frame",
+        "image": "../images/crafting/items/item_frame.png"
+    },
+    "minecraft:jack_o_lantern": {
+        "name": "minecraft:jack_o_lantern",
+        "image": "../images/crafting/items/jack_o_lantern.png"
+    },
+    "minecraft:jigsaw": {
+        "name": "minecraft:jigsaw",
+        "image": "../images/crafting/items/jigsaw.png"
+    },
+    "minecraft:jukebox": {
+        "name": "minecraft:jukebox",
+        "image": "../images/crafting/items/jukebox.png"
+    },
+    "minecraft:jungle_boat": {
+        "name": "minecraft:jungle_boat",
+        "image": "../images/crafting/items/jungle_boat.png"
+    },
+    "minecraft:jungle_button": {
+        "name": "minecraft:jungle_button",
+        "image": "../images/crafting/items/jungle_button.png"
+    },
+    "minecraft:jungle_chest_boat": {
+        "name": "minecraft:jungle_chest_boat",
+        "image": "../images/crafting/items/jungle_chest_boat.png"
+    },
+    "minecraft:jungle_door": {
+        "name": "minecraft:jungle_door",
+        "image": "../images/crafting/items/jungle_door.png"
+    },
+    "minecraft:jungle_fence": {
+        "name": "minecraft:jungle_fence",
+        "image": "../images/crafting/items/jungle_fence.png"
+    },
+    "minecraft:jungle_fence_gate": {
+        "name": "minecraft:jungle_fence_gate",
+        "image": "../images/crafting/items/jungle_fence_gate.png"
+    },
+    "minecraft:jungle_hanging_sign": {
+        "name": "minecraft:jungle_hanging_sign",
+        "image": "../images/crafting/items/jungle_hanging_sign.png"
+    },
+    "minecraft:jungle_leaves": {
+        "name": "minecraft:jungle_leaves",
+        "image": "../images/crafting/items/jungle_leaves.png"
+    },
+    "minecraft:jungle_log": {
+        "name": "minecraft:jungle_log",
+        "image": "../images/crafting/items/jungle_log.png"
+    },
+    "minecraft:jungle_planks": {
+        "name": "minecraft:jungle_planks",
+        "image": "../images/crafting/items/jungle_planks.png"
+    },
+    "minecraft:jungle_pressure_plate": {
+        "name": "minecraft:jungle_pressure_plate",
+        "image": "../images/crafting/items/jungle_pressure_plate.png"
+    },
+    "minecraft:jungle_sapling": {
+        "name": "minecraft:jungle_sapling",
+        "image": "../images/crafting/items/jungle_sapling.png"
+    },
+    "minecraft:jungle_sign": {
+        "name": "minecraft:jungle_sign",
+        "image": "../images/crafting/items/jungle_sign.png"
+    },
+    "minecraft:jungle_slab": {
+        "name": "minecraft:jungle_slab",
+        "image": "../images/crafting/items/jungle_slab.png"
+    },
+    "minecraft:jungle_stairs": {
+        "name": "minecraft:jungle_stairs",
+        "image": "../images/crafting/items/jungle_stairs.png"
+    },
+    "minecraft:jungle_trapdoor": {
+        "name": "minecraft:jungle_trapdoor",
+        "image": "../images/crafting/items/jungle_trapdoor.png"
+    },
+    "minecraft:jungle_wood": {
+        "name": "minecraft:jungle_wood",
+        "image": "../images/crafting/items/jungle_wood.png"
+    },
+    "minecraft:kelp": {
+        "name": "minecraft:kelp",
+        "image": "../images/crafting/items/kelp.png"
+    },
+    "minecraft:knowledge_book": {
+        "name": "minecraft:knowledge_book",
+        "image": "../images/crafting/items/knowledge_book.png"
+    },
+    "minecraft:ladder": {
+        "name": "minecraft:ladder",
+        "image": "../images/crafting/items/ladder.png"
+    },
+    "minecraft:lantern": {
+        "name": "minecraft:lantern",
+        "image": "../images/crafting/items/lantern.png"
+    },
+    "minecraft:lapis_block": {
+        "name": "minecraft:lapis_block",
+        "image": "../images/crafting/items/lapis_block.png"
+    },
+    "minecraft:lapis_lazuli": {
+        "name": "minecraft:lapis_lazuli",
+        "image": "../images/crafting/items/lapis_lazuli.png"
+    },
+    "minecraft:lapis_ore": {
+        "name": "minecraft:lapis_ore",
+        "image": "../images/crafting/items/lapis_ore.png"
+    },
+    "minecraft:large_amethyst_bud": {
+        "name": "minecraft:large_amethyst_bud",
+        "image": "../images/crafting/items/large_amethyst_bud.png"
+    },
+    "minecraft:large_fern": {
+        "name": "minecraft:large_fern",
+        "image": "../images/crafting/items/large_fern.png"
+    },
+    "minecraft:lava_bucket": {
+        "name": "minecraft:lava_bucket",
+        "image": "../images/crafting/items/lava_bucket.png"
+    },
+    "minecraft:lead": {
+        "name": "minecraft:lead",
+        "image": "../images/crafting/items/lead.png"
+    },
+    "minecraft:leather": {
+        "name": "minecraft:leather",
+        "image": "../images/crafting/items/leather.png"
+    },
+    "minecraft:leather_boots": {
+        "name": "minecraft:leather_boots",
+        "image": "../images/crafting/items/leather_boots.png"
+    },
+    "minecraft:leather_chestplate": {
+        "name": "minecraft:leather_chestplate",
+        "image": "../images/crafting/items/leather_chestplate.png"
+    },
+    "minecraft:leather_helmet": {
+        "name": "minecraft:leather_helmet",
+        "image": "../images/crafting/items/leather_helmet.png"
+    },
+    "minecraft:leather_horse_armor": {
+        "name": "minecraft:leather_horse_armor",
+        "image": "../images/crafting/items/leather_horse_armor.png"
+    },
+    "minecraft:leather_leggings": {
+        "name": "minecraft:leather_leggings",
+        "image": "../images/crafting/items/leather_leggings.png"
+    },
+    "minecraft:lectern": {
+        "name": "minecraft:lectern",
+        "image": "../images/crafting/items/lectern.png"
+    },
+    "minecraft:lever": {
+        "name": "minecraft:lever",
+        "image": "../images/crafting/items/lever.png"
+    },
+    "minecraft:light": {
+        "name": "minecraft:light",
+        "image": "../images/crafting/items/light.png"
+    },
+    "minecraft:light_blue_banner": {
+        "name": "minecraft:light_blue_banner",
+        "image": "../images/crafting/items/light_blue_banner.png"
+    },
+    "minecraft:light_blue_bed": {
+        "name": "minecraft:light_blue_bed",
+        "image": "../images/crafting/items/light_blue_bed.png"
+    },
+    "minecraft:light_blue_candle": {
+        "name": "minecraft:light_blue_candle",
+        "image": "../images/crafting/items/light_blue_candle.png"
+    },
+    "minecraft:light_blue_carpet": {
+        "name": "minecraft:light_blue_carpet",
+        "image": "../images/crafting/items/light_blue_carpet.png"
+    },
+    "minecraft:light_blue_concrete": {
+        "name": "minecraft:light_blue_concrete",
+        "image": "../images/crafting/items/light_blue_concrete.png"
+    },
+    "minecraft:light_blue_concrete_powder": {
+        "name": "minecraft:light_blue_concrete_powder",
+        "image": "../images/crafting/items/light_blue_concrete_powder.png"
+    },
+    "minecraft:light_blue_dye": {
+        "name": "minecraft:light_blue_dye",
+        "image": "../images/crafting/items/light_blue_dye.png"
+    },
+    "minecraft:light_blue_glazed_terracotta": {
+        "name": "minecraft:light_blue_glazed_terracotta",
+        "image": "../images/crafting/items/light_blue_glazed_terracotta.png"
+    },
+    "minecraft:light_blue_shulker_box": {
+        "name": "minecraft:light_blue_shulker_box",
+        "image": "../images/crafting/items/light_blue_shulker_box.png"
+    },
+    "minecraft:light_blue_stained_glass": {
+        "name": "minecraft:light_blue_stained_glass",
+        "image": "../images/crafting/items/light_blue_stained_glass.png"
+    },
+    "minecraft:light_blue_stained_glass_pane": {
+        "name": "minecraft:light_blue_stained_glass_pane",
+        "image": "../images/crafting/items/light_blue_stained_glass_pane.png"
+    },
+    "minecraft:light_blue_terracotta": {
+        "name": "minecraft:light_blue_terracotta",
+        "image": "../images/crafting/items/light_blue_terracotta.png"
+    },
+    "minecraft:light_blue_wool": {
+        "name": "minecraft:light_blue_wool",
+        "image": "../images/crafting/items/light_blue_wool.png"
+    },
+    "minecraft:light_gray_banner": {
+        "name": "minecraft:light_gray_banner",
+        "image": "../images/crafting/items/light_gray_banner.png"
+    },
+    "minecraft:light_gray_bed": {
+        "name": "minecraft:light_gray_bed",
+        "image": "../images/crafting/items/light_gray_bed.png"
+    },
+    "minecraft:light_gray_candle": {
+        "name": "minecraft:light_gray_candle",
+        "image": "../images/crafting/items/light_gray_candle.png"
+    },
+    "minecraft:light_gray_carpet": {
+        "name": "minecraft:light_gray_carpet",
+        "image": "../images/crafting/items/light_gray_carpet.png"
+    },
+    "minecraft:light_gray_concrete": {
+        "name": "minecraft:light_gray_concrete",
+        "image": "../images/crafting/items/light_gray_concrete.png"
+    },
+    "minecraft:light_gray_concrete_powder": {
+        "name": "minecraft:light_gray_concrete_powder",
+        "image": "../images/crafting/items/light_gray_concrete_powder.png"
+    },
+    "minecraft:light_gray_dye": {
+        "name": "minecraft:light_gray_dye",
+        "image": "../images/crafting/items/light_gray_dye.png"
+    },
+    "minecraft:light_gray_glazed_terracotta": {
+        "name": "minecraft:light_gray_glazed_terracotta",
+        "image": "../images/crafting/items/light_gray_glazed_terracotta.png"
+    },
+    "minecraft:light_gray_shulker_box": {
+        "name": "minecraft:light_gray_shulker_box",
+        "image": "../images/crafting/items/light_gray_shulker_box.png"
+    },
+    "minecraft:light_gray_stained_glass": {
+        "name": "minecraft:light_gray_stained_glass",
+        "image": "../images/crafting/items/light_gray_stained_glass.png"
+    },
+    "minecraft:light_gray_stained_glass_pane": {
+        "name": "minecraft:light_gray_stained_glass_pane",
+        "image": "../images/crafting/items/light_gray_stained_glass_pane.png"
+    },
+    "minecraft:light_gray_terracotta": {
+        "name": "minecraft:light_gray_terracotta",
+        "image": "../images/crafting/items/light_gray_terracotta.png"
+    },
+    "minecraft:light_gray_wool": {
+        "name": "minecraft:light_gray_wool",
+        "image": "../images/crafting/items/light_gray_wool.png"
+    },
+    "minecraft:light_weighted_pressure_plate": {
+        "name": "minecraft:light_weighted_pressure_plate",
+        "image": "../images/crafting/items/light_weighted_pressure_plate.png"
+    },
+    "minecraft:lightning_rod": {
+        "name": "minecraft:lightning_rod",
+        "image": "../images/crafting/items/lightning_rod.png"
+    },
+    "minecraft:lilac": {
+        "name": "minecraft:lilac",
+        "image": "../images/crafting/items/lilac.png"
+    },
+    "minecraft:lily_of_the_valley": {
+        "name": "minecraft:lily_of_the_valley",
+        "image": "../images/crafting/items/lily_of_the_valley.png"
+    },
+    "minecraft:lily_pad": {
+        "name": "minecraft:lily_pad",
+        "image": "../images/crafting/items/lily_pad.png"
+    },
+    "minecraft:lime_banner": {
+        "name": "minecraft:lime_banner",
+        "image": "../images/crafting/items/lime_banner.png"
+    },
+    "minecraft:lime_bed": {
+        "name": "minecraft:lime_bed",
+        "image": "../images/crafting/items/lime_bed.png"
+    },
+    "minecraft:lime_candle": {
+        "name": "minecraft:lime_candle",
+        "image": "../images/crafting/items/lime_candle.png"
+    },
+    "minecraft:lime_carpet": {
+        "name": "minecraft:lime_carpet",
+        "image": "../images/crafting/items/lime_carpet.png"
+    },
+    "minecraft:lime_concrete": {
+        "name": "minecraft:lime_concrete",
+        "image": "../images/crafting/items/lime_concrete.png"
+    },
+    "minecraft:lime_concrete_powder": {
+        "name": "minecraft:lime_concrete_powder",
+        "image": "../images/crafting/items/lime_concrete_powder.png"
+    },
+    "minecraft:lime_dye": {
+        "name": "minecraft:lime_dye",
+        "image": "../images/crafting/items/lime_dye.png"
+    },
+    "minecraft:lime_glazed_terracotta": {
+        "name": "minecraft:lime_glazed_terracotta",
+        "image": "../images/crafting/items/lime_glazed_terracotta.png"
+    },
+    "minecraft:lime_shulker_box": {
+        "name": "minecraft:lime_shulker_box",
+        "image": "../images/crafting/items/lime_shulker_box.png"
+    },
+    "minecraft:lime_stained_glass": {
+        "name": "minecraft:lime_stained_glass",
+        "image": "../images/crafting/items/lime_stained_glass.png"
+    },
+    "minecraft:lime_stained_glass_pane": {
+        "name": "minecraft:lime_stained_glass_pane",
+        "image": "../images/crafting/items/lime_stained_glass_pane.png"
+    },
+    "minecraft:lime_terracotta": {
+        "name": "minecraft:lime_terracotta",
+        "image": "../images/crafting/items/lime_terracotta.png"
+    },
+    "minecraft:lime_wool": {
+        "name": "minecraft:lime_wool",
+        "image": "../images/crafting/items/lime_wool.png"
+    },
+    "minecraft:lingering_potion": {
+        "name": "minecraft:lingering_potion",
+        "image": "../images/crafting/items/lingering_potion.png",
+        "potions": {
+            "minecraft:regeneration": {
+                "name": "minecraft:regeneration",
+                "image": "../images/crafting/items/potions/lingering_regeneration.png"
+            },
+            "minecraft:swiftness": {
+                "name": "minecraft:swiftness",
+                "image": "../images/crafting/items/potions/lingering_swiftness.png"
+            },
+            "minecraft:fire_resistance": {
+                "name": "minecraft:fire_resistance",
+                "image": "../images/crafting/items/potions/lingering_fire_resistance.png"
+            },
+            "minecraft:poison": {
+                "name": "minecraft:poison",
+                "image": "../images/crafting/items/potions/lingering_poison.png"
+            },
+            "minecraft:healing": {
+                "name": "minecraft:healing",
+                "image": "../images/crafting/items/potions/lingering_healing.png"
+            },
+            "minecraft:night_vision": {
+                "name": "minecraft:night_vision",
+                "image": "../images/crafting/items/potions/lingering_night_vision.png"
+            },
+            "minecraft:weakness": {
+                "name": "minecraft:weakness",
+                "image": "../images/crafting/items/potions/lingering_weakness.png"
+            },
+            "minecraft:strength": {
+                "name": "minecraft:strength",
+                "image": "../images/crafting/items/potions/lingering_strength.png"
+            },
+            "minecraft:slowness": {
+                "name": "minecraft:slowness",
+                "image": "../images/crafting/items/potions/lingering_slowness.png"
+            },
+            "minecraft:leaping": {
+                "name": "minecraft:leaping",
+                "image": "../images/crafting/items/potions/lingering_leaping.png"
+            },
+            "minecraft:harming": {
+                "name": "minecraft:harming",
+                "image": "../images/crafting/items/potions/lingering_harming.png"
+            },
+            "minecraft:water_breathing": {
+                "name": "minecraft:water_breathing",
+                "image": "../images/crafting/items/potions/lingering_water_breathing.png"
+            },
+            "minecraft:invisibility": {
+                "name": "minecraft:invisibility",
+                "image": "../images/crafting/items/potions/lingering_invisibility.png"
+            },
+            "minecraft:luck": {
+                "name": "minecraft:luck",
+                "image": "../images/crafting/items/potions/lingering_luck.png"
+            },
+            "minecraft:turtle_master": {
+                "name": "minecraft:turtle_master",
+                "image": "../images/crafting/items/potions/lingering_turtle_master.png"
+            },
+            "minecraft:slow_falling": {
+                "name": "minecraft:slow_falling",
+                "image": "../images/crafting/items/potions/lingering_slow_falling.png"
+            }
+        }
+    },
+    "minecraft:llama_spawn_egg": {
+        "name": "minecraft:llama_spawn_egg",
+        "image": "../images/crafting/items/llama_spawn_egg.png"
+    },
+    "minecraft:lodestone": {
+        "name": "minecraft:lodestone",
+        "image": "../images/crafting/items/lodestone.png"
+    },
+    "minecraft:loom": {
+        "name": "minecraft:loom",
+        "image": "../images/crafting/items/loom.png"
+    },
+    "minecraft:magenta_banner": {
+        "name": "minecraft:magenta_banner",
+        "image": "../images/crafting/items/magenta_banner.png"
+    },
+    "minecraft:magenta_bed": {
+        "name": "minecraft:magenta_bed",
+        "image": "../images/crafting/items/magenta_bed.png"
+    },
+    "minecraft:magenta_candle": {
+        "name": "minecraft:magenta_candle",
+        "image": "../images/crafting/items/magenta_candle.png"
+    },
+    "minecraft:magenta_carpet": {
+        "name": "minecraft:magenta_carpet",
+        "image": "../images/crafting/items/magenta_carpet.png"
+    },
+    "minecraft:magenta_concrete": {
+        "name": "minecraft:magenta_concrete",
+        "image": "../images/crafting/items/magenta_concrete.png"
+    },
+    "minecraft:magenta_concrete_powder": {
+        "name": "minecraft:magenta_concrete_powder",
+        "image": "../images/crafting/items/magenta_concrete_powder.png"
+    },
+    "minecraft:magenta_dye": {
+        "name": "minecraft:magenta_dye",
+        "image": "../images/crafting/items/magenta_dye.png"
+    },
+    "minecraft:magenta_glazed_terracotta": {
+        "name": "minecraft:magenta_glazed_terracotta",
+        "image": "../images/crafting/items/magenta_glazed_terracotta.png"
+    },
+    "minecraft:magenta_shulker_box": {
+        "name": "minecraft:magenta_shulker_box",
+        "image": "../images/crafting/items/magenta_shulker_box.png"
+    },
+    "minecraft:magenta_stained_glass": {
+        "name": "minecraft:magenta_stained_glass",
+        "image": "../images/crafting/items/magenta_stained_glass.png"
+    },
+    "minecraft:magenta_stained_glass_pane": {
+        "name": "minecraft:magenta_stained_glass_pane",
+        "image": "../images/crafting/items/magenta_stained_glass_pane.png"
+    },
+    "minecraft:magenta_terracotta": {
+        "name": "minecraft:magenta_terracotta",
+        "image": "../images/crafting/items/magenta_terracotta.png"
+    },
+    "minecraft:magenta_wool": {
+        "name": "minecraft:magenta_wool",
+        "image": "../images/crafting/items/magenta_wool.png"
+    },
+    "minecraft:magma_block": {
+        "name": "minecraft:magma_block",
+        "image": "../images/crafting/items/magma_block.png"
+    },
+    "minecraft:magma_cream": {
+        "name": "minecraft:magma_cream",
+        "image": "../images/crafting/items/magma_cream.png"
+    },
+    "minecraft:magma_cube_spawn_egg": {
+        "name": "minecraft:magma_cube_spawn_egg",
+        "image": "../images/crafting/items/magma_cube_spawn_egg.png"
+    },
+    "minecraft:mangrove_boat": {
+        "name": "minecraft:mangrove_boat",
+        "image": "../images/crafting/items/mangrove_boat.png"
+    },
+    "minecraft:mangrove_button": {
+        "name": "minecraft:mangrove_button",
+        "image": "../images/crafting/items/mangrove_button.png"
+    },
+    "minecraft:mangrove_chest_boat": {
+        "name": "minecraft:mangrove_chest_boat",
+        "image": "../images/crafting/items/mangrove_chest_boat.png"
+    },
+    "minecraft:mangrove_door": {
+        "name": "minecraft:mangrove_door",
+        "image": "../images/crafting/items/mangrove_door.png"
+    },
+    "minecraft:mangrove_fence": {
+        "name": "minecraft:mangrove_fence",
+        "image": "../images/crafting/items/mangrove_fence.png"
+    },
+    "minecraft:mangrove_fence_gate": {
+        "name": "minecraft:mangrove_fence_gate",
+        "image": "../images/crafting/items/mangrove_fence_gate.png"
+    },
+    "minecraft:mangrove_hanging_sign": {
+        "name": "minecraft:mangrove_hanging_sign",
+        "image": "../images/crafting/items/mangrove_hanging_sign.png"
+    },
+    "minecraft:mangrove_leaves": {
+        "name": "minecraft:mangrove_leaves",
+        "image": "../images/crafting/items/mangrove_leaves.png"
+    },
+    "minecraft:mangrove_log": {
+        "name": "minecraft:mangrove_log",
+        "image": "../images/crafting/items/mangrove_log.png"
+    },
+    "minecraft:mangrove_planks": {
+        "name": "minecraft:mangrove_planks",
+        "image": "../images/crafting/items/mangrove_planks.png"
+    },
+    "minecraft:mangrove_pressure_plate": {
+        "name": "minecraft:mangrove_pressure_plate",
+        "image": "../images/crafting/items/mangrove_pressure_plate.png"
+    },
+    "minecraft:mangrove_propagule": {
+        "name": "minecraft:mangrove_propagule",
+        "image": "../images/crafting/items/mangrove_propagule.png"
+    },
+    "minecraft:mangrove_roots": {
+        "name": "minecraft:mangrove_roots",
+        "image": "../images/crafting/items/mangrove_roots.png"
+    },
+    "minecraft:mangrove_sign": {
+        "name": "minecraft:mangrove_sign",
+        "image": "../images/crafting/items/mangrove_sign.png"
+    },
+    "minecraft:mangrove_slab": {
+        "name": "minecraft:mangrove_slab",
+        "image": "../images/crafting/items/mangrove_slab.png"
+    },
+    "minecraft:mangrove_stairs": {
+        "name": "minecraft:mangrove_stairs",
+        "image": "../images/crafting/items/mangrove_stairs.png"
+    },
+    "minecraft:mangrove_trapdoor": {
+        "name": "minecraft:mangrove_trapdoor",
+        "image": "../images/crafting/items/mangrove_trapdoor.png"
+    },
+    "minecraft:mangrove_wood": {
+        "name": "minecraft:mangrove_wood",
+        "image": "../images/crafting/items/mangrove_wood.png"
+    },
+    "minecraft:map": {
+        "name": "minecraft:map",
+        "image": "../images/crafting/items/map.png"
+    },
+    "minecraft:medium_amethyst_bud": {
+        "name": "minecraft:medium_amethyst_bud",
+        "image": "../images/crafting/items/medium_amethyst_bud.png"
+    },
+    "minecraft:melon": {
+        "name": "minecraft:melon",
+        "image": "../images/crafting/items/melon.png"
+    },
+    "minecraft:melon_seeds": {
+        "name": "minecraft:melon_seeds",
+        "image": "../images/crafting/items/melon_seeds.png"
+    },
+    "minecraft:melon_slice": {
+        "name": "minecraft:melon_slice",
+        "image": "../images/crafting/items/melon_slice.png"
+    },
+    "minecraft:milk_bucket": {
+        "name": "minecraft:milk_bucket",
+        "image": "../images/crafting/items/milk_bucket.png"
+    },
+    "minecraft:minecart": {
+        "name": "minecraft:minecart",
+        "image": "../images/crafting/items/minecart.png"
+    },
+    "minecraft:mojang_banner_pattern": {
+        "name": "minecraft:mojang_banner_pattern",
+        "image": "../images/crafting/items/mojang_banner_pattern.png"
+    },
+    "minecraft:mooshroom_spawn_egg": {
+        "name": "minecraft:mooshroom_spawn_egg",
+        "image": "../images/crafting/items/mooshroom_spawn_egg.png"
+    },
+    "minecraft:moss_block": {
+        "name": "minecraft:moss_block",
+        "image": "../images/crafting/items/moss_block.png"
+    },
+    "minecraft:moss_carpet": {
+        "name": "minecraft:moss_carpet",
+        "image": "../images/crafting/items/moss_carpet.png"
+    },
+    "minecraft:mossy_cobblestone": {
+        "name": "minecraft:mossy_cobblestone",
+        "image": "../images/crafting/items/mossy_cobblestone.png"
+    },
+    "minecraft:mossy_cobblestone_slab": {
+        "name": "minecraft:mossy_cobblestone_slab",
+        "image": "../images/crafting/items/mossy_cobblestone_slab.png"
+    },
+    "minecraft:mossy_cobblestone_stairs": {
+        "name": "minecraft:mossy_cobblestone_stairs",
+        "image": "../images/crafting/items/mossy_cobblestone_stairs.png"
+    },
+    "minecraft:mossy_cobblestone_wall": {
+        "name": "minecraft:mossy_cobblestone_wall",
+        "image": "../images/crafting/items/mossy_cobblestone_wall.png"
+    },
+    "minecraft:mossy_stone_brick_slab": {
+        "name": "minecraft:mossy_stone_brick_slab",
+        "image": "../images/crafting/items/mossy_stone_brick_slab.png"
+    },
+    "minecraft:mossy_stone_brick_stairs": {
+        "name": "minecraft:mossy_stone_brick_stairs",
+        "image": "../images/crafting/items/mossy_stone_brick_stairs.png"
+    },
+    "minecraft:mossy_stone_brick_wall": {
+        "name": "minecraft:mossy_stone_brick_wall",
+        "image": "../images/crafting/items/mossy_stone_brick_wall.png"
+    },
+    "minecraft:mossy_stone_bricks": {
+        "name": "minecraft:mossy_stone_bricks",
+        "image": "../images/crafting/items/mossy_stone_bricks.png"
+    },
+    "minecraft:mud": {
+        "name": "minecraft:mud",
+        "image": "../images/crafting/items/mud.png"
+    },
+    "minecraft:mud_brick_slab": {
+        "name": "minecraft:mud_brick_slab",
+        "image": "../images/crafting/items/mud_brick_slab.png"
+    },
+    "minecraft:mud_brick_stairs": {
+        "name": "minecraft:mud_brick_stairs",
+        "image": "../images/crafting/items/mud_brick_stairs.png"
+    },
+    "minecraft:mud_brick_wall": {
+        "name": "minecraft:mud_brick_wall",
+        "image": "../images/crafting/items/mud_brick_wall.png"
+    },
+    "minecraft:mud_bricks": {
+        "name": "minecraft:mud_bricks",
+        "image": "../images/crafting/items/mud_bricks.png"
+    },
+    "minecraft:muddy_mangrove_roots": {
+        "name": "minecraft:muddy_mangrove_roots",
+        "image": "../images/crafting/items/muddy_mangrove_roots.png"
+    },
+    "minecraft:mule_spawn_egg": {
+        "name": "minecraft:mule_spawn_egg",
+        "image": "../images/crafting/items/mule_spawn_egg.png"
+    },
+    "minecraft:mushroom_stem": {
+        "name": "minecraft:mushroom_stem",
+        "image": "../images/crafting/items/mushroom_stem.png"
+    },
+    "minecraft:mushroom_stew": {
+        "name": "minecraft:mushroom_stew",
+        "image": "../images/crafting/items/mushroom_stew.png"
+    },
+    "minecraft:music_disc_11": {
+        "name": "minecraft:music_disc_11",
+        "image": "../images/crafting/items/music_disc_11.png"
+    },
+    "minecraft:music_disc_13": {
+        "name": "minecraft:music_disc_13",
+        "image": "../images/crafting/items/music_disc_13.png"
+    },
+    "minecraft:music_disc_5": {
+        "name": "minecraft:music_disc_5",
+        "image": "../images/crafting/items/music_disc_5.png"
+    },
+    "minecraft:music_disc_blocks": {
+        "name": "minecraft:music_disc_blocks",
+        "image": "../images/crafting/items/music_disc_blocks.png"
+    },
+    "minecraft:music_disc_cat": {
+        "name": "minecraft:music_disc_cat",
+        "image": "../images/crafting/items/music_disc_cat.png"
+    },
+    "minecraft:music_disc_chirp": {
+        "name": "minecraft:music_disc_chirp",
+        "image": "../images/crafting/items/music_disc_chirp.png"
+    },
+    "minecraft:music_disc_far": {
+        "name": "minecraft:music_disc_far",
+        "image": "../images/crafting/items/music_disc_far.png"
+    },
+    "minecraft:music_disc_mall": {
+        "name": "minecraft:music_disc_mall",
+        "image": "../images/crafting/items/music_disc_mall.png"
+    },
+    "minecraft:music_disc_mellohi": {
+        "name": "minecraft:music_disc_mellohi",
+        "image": "../images/crafting/items/music_disc_mellohi.png"
+    },
+    "minecraft:music_disc_otherside": {
+        "name": "minecraft:music_disc_otherside",
+        "image": "../images/crafting/items/music_disc_otherside.png"
+    },
+    "minecraft:music_disc_pigstep": {
+        "name": "minecraft:music_disc_pigstep",
+        "image": "../images/crafting/items/music_disc_pigstep.png"
+    },
+    "minecraft:music_disc_stal": {
+        "name": "minecraft:music_disc_stal",
+        "image": "../images/crafting/items/music_disc_stal.png"
+    },
+    "minecraft:music_disc_strad": {
+        "name": "minecraft:music_disc_strad",
+        "image": "../images/crafting/items/music_disc_strad.png"
+    },
+    "minecraft:music_disc_wait": {
+        "name": "minecraft:music_disc_wait",
+        "image": "../images/crafting/items/music_disc_wait.png"
+    },
+    "minecraft:music_disc_ward": {
+        "name": "minecraft:music_disc_ward",
+        "image": "../images/crafting/items/music_disc_ward.png"
+    },
+    "minecraft:mutton": {
+        "name": "minecraft:mutton",
+        "image": "../images/crafting/items/mutton.png"
+    },
+    "minecraft:mycelium": {
+        "name": "minecraft:mycelium",
+        "image": "../images/crafting/items/mycelium.png"
+    },
+    "minecraft:name_tag": {
+        "name": "minecraft:name_tag",
+        "image": "../images/crafting/items/name_tag.png"
+    },
+    "minecraft:nautilus_shell": {
+        "name": "minecraft:nautilus_shell",
+        "image": "../images/crafting/items/nautilus_shell.png"
+    },
+    "minecraft:nether_brick": {
+        "name": "minecraft:nether_brick",
+        "image": "../images/crafting/items/nether_brick.png"
+    },
+    "minecraft:nether_brick_fence": {
+        "name": "minecraft:nether_brick_fence",
+        "image": "../images/crafting/items/nether_brick_fence.png"
+    },
+    "minecraft:nether_brick_slab": {
+        "name": "minecraft:nether_brick_slab",
+        "image": "../images/crafting/items/nether_brick_slab.png"
+    },
+    "minecraft:nether_brick_stairs": {
+        "name": "minecraft:nether_brick_stairs",
+        "image": "../images/crafting/items/nether_brick_stairs.png"
+    },
+    "minecraft:nether_brick_wall": {
+        "name": "minecraft:nether_brick_wall",
+        "image": "../images/crafting/items/nether_brick_wall.png"
+    },
+    "minecraft:nether_bricks": {
+        "name": "minecraft:nether_bricks",
+        "image": "../images/crafting/items/nether_bricks.png"
+    },
+    "minecraft:nether_gold_ore": {
+        "name": "minecraft:nether_gold_ore",
+        "image": "../images/crafting/items/nether_gold_ore.png"
+    },
+    "minecraft:nether_quartz_ore": {
+        "name": "minecraft:nether_quartz_ore",
+        "image": "../images/crafting/items/nether_quartz_ore.png"
+    },
+    "minecraft:nether_sprouts": {
+        "name": "minecraft:nether_sprouts",
+        "image": "../images/crafting/items/nether_sprouts.png"
+    },
+    "minecraft:nether_star": {
+        "name": "minecraft:nether_star",
+        "image": "../images/crafting/items/nether_star.gif"
+    },
+    "minecraft:nether_wart": {
+        "name": "minecraft:nether_wart",
+        "image": "../images/crafting/items/nether_wart.png"
+    },
+    "minecraft:nether_wart_block": {
+        "name": "minecraft:nether_wart_block",
+        "image": "../images/crafting/items/nether_wart_block.png"
+    },
+    "minecraft:netherite_axe": {
+        "name": "minecraft:netherite_axe",
+        "image": "../images/crafting/items/netherite_axe.png"
+    },
+    "minecraft:netherite_block": {
+        "name": "minecraft:netherite_block",
+        "image": "../images/crafting/items/netherite_block.png"
+    },
+    "minecraft:netherite_boots": {
+        "name": "minecraft:netherite_boots",
+        "image": "../images/crafting/items/netherite_boots.png"
+    },
+    "minecraft:netherite_chestplate": {
+        "name": "minecraft:netherite_chestplate",
+        "image": "../images/crafting/items/netherite_chestplate.png"
+    },
+    "minecraft:netherite_helmet": {
+        "name": "minecraft:netherite_helmet",
+        "image": "../images/crafting/items/netherite_helmet.png"
+    },
+    "minecraft:netherite_hoe": {
+        "name": "minecraft:netherite_hoe",
+        "image": "../images/crafting/items/netherite_hoe.png"
+    },
+    "minecraft:netherite_ingot": {
+        "name": "minecraft:netherite_ingot",
+        "image": "../images/crafting/items/netherite_ingot.png"
+    },
+    "minecraft:netherite_leggings": {
+        "name": "minecraft:netherite_leggings",
+        "image": "../images/crafting/items/netherite_leggings.png"
+    },
+    "minecraft:netherite_pickaxe": {
+        "name": "minecraft:netherite_pickaxe",
+        "image": "../images/crafting/items/netherite_pickaxe.png"
+    },
+    "minecraft:netherite_scrap": {
+        "name": "minecraft:netherite_scrap",
+        "image": "../images/crafting/items/netherite_scrap.png"
+    },
+    "minecraft:netherite_shovel": {
+        "name": "minecraft:netherite_shovel",
+        "image": "../images/crafting/items/netherite_shovel.png"
+    },
+    "minecraft:netherite_sword": {
+        "name": "minecraft:netherite_sword",
+        "image": "../images/crafting/items/netherite_sword.png"
+    },
+    "minecraft:netherite_upgrade_smithing_template": {
+        "name": "minecraft:netherite_upgrade_smithing_template",
+        "image": "../images/crafting/items/netherite_upgrade_smithing_template.png"
+    },
+    "minecraft:netherrack": {
+        "name": "minecraft:netherrack",
+        "image": "../images/crafting/items/netherrack.png"
+    },
+    "minecraft:note_block": {
+        "name": "minecraft:note_block",
+        "image": "../images/crafting/items/note_block.png"
+    },
+    "minecraft:oak_boat": {
+        "name": "minecraft:oak_boat",
+        "image": "../images/crafting/items/oak_boat.png"
+    },
+    "minecraft:oak_button": {
+        "name": "minecraft:oak_button",
+        "image": "../images/crafting/items/oak_button.png"
+    },
+    "minecraft:oak_chest_boat": {
+        "name": "minecraft:oak_chest_boat",
+        "image": "../images/crafting/items/oak_chest_boat.png"
+    },
+    "minecraft:oak_door": {
+        "name": "minecraft:oak_door",
+        "image": "../images/crafting/items/oak_door.png"
+    },
+    "minecraft:oak_fence": {
+        "name": "minecraft:oak_fence",
+        "image": "../images/crafting/items/oak_fence.png"
+    },
+    "minecraft:oak_fence_gate": {
+        "name": "minecraft:oak_fence_gate",
+        "image": "../images/crafting/items/oak_fence_gate.png"
+    },
+    "minecraft:oak_hanging_sign": {
+        "name": "minecraft:oak_hanging_sign",
+        "image": "../images/crafting/items/oak_hanging_sign.png"
+    },
+    "minecraft:oak_leaves": {
+        "name": "minecraft:oak_leaves",
+        "image": "../images/crafting/items/oak_leaves.png"
+    },
+    "minecraft:oak_log": {
+        "name": "minecraft:oak_log",
+        "image": "../images/crafting/items/oak_log.png"
+    },
+    "minecraft:oak_planks": {
+        "name": "minecraft:oak_planks",
+        "image": "../images/crafting/items/oak_planks.png"
+    },
+    "minecraft:oak_pressure_plate": {
+        "name": "minecraft:oak_pressure_plate",
+        "image": "../images/crafting/items/oak_pressure_plate.png"
+    },
+    "minecraft:oak_sapling": {
+        "name": "minecraft:oak_sapling",
+        "image": "../images/crafting/items/oak_sapling.png"
+    },
+    "minecraft:oak_sign": {
+        "name": "minecraft:oak_sign",
+        "image": "../images/crafting/items/oak_sign.png"
+    },
+    "minecraft:oak_slab": {
+        "name": "minecraft:oak_slab",
+        "image": "../images/crafting/items/oak_slab.png"
+    },
+    "minecraft:oak_stairs": {
+        "name": "minecraft:oak_stairs",
+        "image": "../images/crafting/items/oak_stairs.png"
+    },
+    "minecraft:oak_trapdoor": {
+        "name": "minecraft:oak_trapdoor",
+        "image": "../images/crafting/items/oak_trapdoor.png"
+    },
+    "minecraft:oak_wood": {
+        "name": "minecraft:oak_wood",
+        "image": "../images/crafting/items/oak_wood.png"
+    },
+    "minecraft:observer": {
+        "name": "minecraft:observer",
+        "image": "../images/crafting/items/observer.png"
+    },
+    "minecraft:obsidian": {
+        "name": "minecraft:obsidian",
+        "image": "../images/crafting/items/obsidian.png"
+    },
+    "minecraft:ocelot_spawn_egg": {
+        "name": "minecraft:ocelot_spawn_egg",
+        "image": "../images/crafting/items/ocelot_spawn_egg.png"
+    },
+    "minecraft:ochre_froglight": {
+        "name": "minecraft:ochre_froglight",
+        "image": "../images/crafting/items/ochre_froglight.png"
+    },
+    "minecraft:orange_banner": {
+        "name": "minecraft:orange_banner",
+        "image": "../images/crafting/items/orange_banner.png"
+    },
+    "minecraft:orange_bed": {
+        "name": "minecraft:orange_bed",
+        "image": "../images/crafting/items/orange_bed.png"
+    },
+    "minecraft:orange_candle": {
+        "name": "minecraft:orange_candle",
+        "image": "../images/crafting/items/orange_candle.png"
+    },
+    "minecraft:orange_carpet": {
+        "name": "minecraft:orange_carpet",
+        "image": "../images/crafting/items/orange_carpet.png"
+    },
+    "minecraft:orange_concrete": {
+        "name": "minecraft:orange_concrete",
+        "image": "../images/crafting/items/orange_concrete.png"
+    },
+    "minecraft:orange_concrete_powder": {
+        "name": "minecraft:orange_concrete_powder",
+        "image": "../images/crafting/items/orange_concrete_powder.png"
+    },
+    "minecraft:orange_dye": {
+        "name": "minecraft:orange_dye",
+        "image": "../images/crafting/items/orange_dye.png"
+    },
+    "minecraft:orange_glazed_terracotta": {
+        "name": "minecraft:orange_glazed_terracotta",
+        "image": "../images/crafting/items/orange_glazed_terracotta.png"
+    },
+    "minecraft:orange_shulker_box": {
+        "name": "minecraft:orange_shulker_box",
+        "image": "../images/crafting/items/orange_shulker_box.png"
+    },
+    "minecraft:orange_stained_glass": {
+        "name": "minecraft:orange_stained_glass",
+        "image": "../images/crafting/items/orange_stained_glass.png"
+    },
+    "minecraft:orange_stained_glass_pane": {
+        "name": "minecraft:orange_stained_glass_pane",
+        "image": "../images/crafting/items/orange_stained_glass_pane.png"
+    },
+    "minecraft:orange_terracotta": {
+        "name": "minecraft:orange_terracotta",
+        "image": "../images/crafting/items/orange_terracotta.png"
+    },
+    "minecraft:orange_tulip": {
+        "name": "minecraft:orange_tulip",
+        "image": "../images/crafting/items/orange_tulip.png"
+    },
+    "minecraft:orange_wool": {
+        "name": "minecraft:orange_wool",
+        "image": "../images/crafting/items/orange_wool.png"
+    },
+    "minecraft:oxeye_daisy": {
+        "name": "minecraft:oxeye_daisy",
+        "image": "../images/crafting/items/oxeye_daisy.png"
+    },
+    "minecraft:oxidized_copper": {
+        "name": "minecraft:oxidized_copper",
+        "image": "../images/crafting/items/oxidized_copper.png"
+    },
+    "minecraft:oxidized_cut_copper": {
+        "name": "minecraft:oxidized_cut_copper",
+        "image": "../images/crafting/items/oxidized_cut_copper.png"
+    },
+    "minecraft:oxidized_cut_copper_slab": {
+        "name": "minecraft:oxidized_cut_copper_slab",
+        "image": "../images/crafting/items/oxidized_cut_copper_slab.png"
+    },
+    "minecraft:oxidized_cut_copper_stairs": {
+        "name": "minecraft:oxidized_cut_copper_stairs",
+        "image": "../images/crafting/items/oxidized_cut_copper_stairs.png"
+    },
+    "minecraft:packed_ice": {
+        "name": "minecraft:packed_ice",
+        "image": "../images/crafting/items/packed_ice.png"
+    },
+    "minecraft:packed_mud": {
+        "name": "minecraft:packed_mud",
+        "image": "../images/crafting/items/packed_mud.png"
+    },
+    "minecraft:painting": {
+        "name": "minecraft:painting",
+        "image": "../images/crafting/items/painting.png"
+    },
+    "minecraft:panda_spawn_egg": {
+        "name": "minecraft:panda_spawn_egg",
+        "image": "../images/crafting/items/panda_spawn_egg.png"
+    },
+    "minecraft:paper": {
+        "name": "minecraft:paper",
+        "image": "../images/crafting/items/paper.png"
+    },
+    "minecraft:parrot_spawn_egg": {
+        "name": "minecraft:parrot_spawn_egg",
+        "image": "../images/crafting/items/parrot_spawn_egg.png"
+    },
+    "minecraft:pearlescent_froglight": {
+        "name": "minecraft:pearlescent_froglight",
+        "image": "../images/crafting/items/pearlescent_froglight.png"
+    },
+    "minecraft:peony": {
+        "name": "minecraft:peony",
+        "image": "../images/crafting/items/peony.png"
+    },
+    "minecraft:petrified_oak_slab": {
+        "name": "minecraft:petrified_oak_slab",
+        "image": "../images/crafting/items/petrified_oak_slab.png"
+    },
+    "minecraft:phantom_membrane": {
+        "name": "minecraft:phantom_membrane",
+        "image": "../images/crafting/items/phantom_membrane.png"
+    },
+    "minecraft:phantom_spawn_egg": {
+        "name": "minecraft:phantom_spawn_egg",
+        "image": "../images/crafting/items/phantom_spawn_egg.png"
+    },
+    "minecraft:pig_spawn_egg": {
+        "name": "minecraft:pig_spawn_egg",
+        "image": "../images/crafting/items/pig_spawn_egg.png"
+    },
+    "minecraft:piglin_banner_pattern": {
+        "name": "minecraft:piglin_banner_pattern",
+        "image": "../images/crafting/items/piglin_banner_pattern.png"
+    },
+    "minecraft:piglin_brute_spawn_egg": {
+        "name": "minecraft:piglin_brute_spawn_egg",
+        "image": "../images/crafting/items/piglin_brute_spawn_egg.png"
+    },
+    "minecraft:piglin_head": {
+        "name": "minecraft:piglin_head",
+        "image": "../images/crafting/items/piglin_head.png"
+    },
+    "minecraft:piglin_spawn_egg": {
+        "name": "minecraft:piglin_spawn_egg",
+        "image": "../images/crafting/items/piglin_spawn_egg.png"
+    },
+    "minecraft:pillager_spawn_egg": {
+        "name": "minecraft:pillager_spawn_egg",
+        "image": "../images/crafting/items/pillager_spawn_egg.png"
+    },
+    "minecraft:pink_banner": {
+        "name": "minecraft:pink_banner",
+        "image": "../images/crafting/items/pink_banner.png"
+    },
+    "minecraft:pink_bed": {
+        "name": "minecraft:pink_bed",
+        "image": "../images/crafting/items/pink_bed.png"
+    },
+    "minecraft:pink_candle": {
+        "name": "minecraft:pink_candle",
+        "image": "../images/crafting/items/pink_candle.png"
+    },
+    "minecraft:pink_carpet": {
+        "name": "minecraft:pink_carpet",
+        "image": "../images/crafting/items/pink_carpet.png"
+    },
+    "minecraft:pink_concrete": {
+        "name": "minecraft:pink_concrete",
+        "image": "../images/crafting/items/pink_concrete.png"
+    },
+    "minecraft:pink_concrete_powder": {
+        "name": "minecraft:pink_concrete_powder",
+        "image": "../images/crafting/items/pink_concrete_powder.png"
+    },
+    "minecraft:pink_dye": {
+        "name": "minecraft:pink_dye",
+        "image": "../images/crafting/items/pink_dye.png"
+    },
+    "minecraft:pink_glazed_terracotta": {
+        "name": "minecraft:pink_glazed_terracotta",
+        "image": "../images/crafting/items/pink_glazed_terracotta.png"
+    },
+    "minecraft:pink_petals": {
+        "name": "minecraft:pink_petals",
+        "image": "../images/crafting/items/pink_petals.png"
+    },
+    "minecraft:pink_shulker_box": {
+        "name": "minecraft:pink_shulker_box",
+        "image": "../images/crafting/items/pink_shulker_box.png"
+    },
+    "minecraft:pink_stained_glass": {
+        "name": "minecraft:pink_stained_glass",
+        "image": "../images/crafting/items/pink_stained_glass.png"
+    },
+    "minecraft:pink_stained_glass_pane": {
+        "name": "minecraft:pink_stained_glass_pane",
+        "image": "../images/crafting/items/pink_stained_glass_pane.png"
+    },
+    "minecraft:pink_terracotta": {
+        "name": "minecraft:pink_terracotta",
+        "image": "../images/crafting/items/pink_terracotta.png"
+    },
+    "minecraft:pink_tulip": {
+        "name": "minecraft:pink_tulip",
+        "image": "../images/crafting/items/pink_tulip.png"
+    },
+    "minecraft:pink_wool": {
+        "name": "minecraft:pink_wool",
+        "image": "../images/crafting/items/pink_wool.png"
+    },
+    "minecraft:piston": {
+        "name": "minecraft:piston",
+        "image": "../images/crafting/items/piston.png"
+    },
+    "minecraft:player_head": {
+        "name": "minecraft:player_head",
+        "image": "../images/crafting/items/player_head.png"
+    },
+    "minecraft:podzol": {
+        "name": "minecraft:podzol",
+        "image": "../images/crafting/items/podzol.png"
+    },
+    "minecraft:pointed_dripstone": {
+        "name": "minecraft:pointed_dripstone",
+        "image": "../images/crafting/items/pointed_dripstone.png"
+    },
+    "minecraft:poisonous_potato": {
+        "name": "minecraft:poisonous_potato",
+        "image": "../images/crafting/items/poisonous_potato.png"
+    },
+    "minecraft:polar_bear_spawn_egg": {
+        "name": "minecraft:polar_bear_spawn_egg",
+        "image": "../images/crafting/items/polar_bear_spawn_egg.png"
+    },
+    "minecraft:polished_andesite": {
+        "name": "minecraft:polished_andesite",
+        "image": "../images/crafting/items/polished_andesite.png"
+    },
+    "minecraft:polished_andesite_slab": {
+        "name": "minecraft:polished_andesite_slab",
+        "image": "../images/crafting/items/polished_andesite_slab.png"
+    },
+    "minecraft:polished_andesite_stairs": {
+        "name": "minecraft:polished_andesite_stairs",
+        "image": "../images/crafting/items/polished_andesite_stairs.png"
+    },
+    "minecraft:polished_basalt": {
+        "name": "minecraft:polished_basalt",
+        "image": "../images/crafting/items/polished_basalt.png"
+    },
+    "minecraft:polished_blackstone": {
+        "name": "minecraft:polished_blackstone",
+        "image": "../images/crafting/items/polished_blackstone.png"
+    },
+    "minecraft:polished_blackstone_brick_slab": {
+        "name": "minecraft:polished_blackstone_brick_slab",
+        "image": "../images/crafting/items/polished_blackstone_brick_slab.png"
+    },
+    "minecraft:polished_blackstone_brick_stairs": {
+        "name": "minecraft:polished_blackstone_brick_stairs",
+        "image": "../images/crafting/items/polished_blackstone_brick_stairs.png"
+    },
+    "minecraft:polished_blackstone_brick_wall": {
+        "name": "minecraft:polished_blackstone_brick_wall",
+        "image": "../images/crafting/items/polished_blackstone_brick_wall.png"
+    },
+    "minecraft:polished_blackstone_bricks": {
+        "name": "minecraft:polished_blackstone_bricks",
+        "image": "../images/crafting/items/polished_blackstone_bricks.png"
+    },
+    "minecraft:polished_blackstone_button": {
+        "name": "minecraft:polished_blackstone_button",
+        "image": "../images/crafting/items/polished_blackstone_button.png"
+    },
+    "minecraft:polished_blackstone_pressure_plate": {
+        "name": "minecraft:polished_blackstone_pressure_plate",
+        "image": "../images/crafting/items/polished_blackstone_pressure_plate.png"
+    },
+    "minecraft:polished_blackstone_slab": {
+        "name": "minecraft:polished_blackstone_slab",
+        "image": "../images/crafting/items/polished_blackstone_slab.png"
+    },
+    "minecraft:polished_blackstone_stairs": {
+        "name": "minecraft:polished_blackstone_stairs",
+        "image": "../images/crafting/items/polished_blackstone_stairs.png"
+    },
+    "minecraft:polished_blackstone_wall": {
+        "name": "minecraft:polished_blackstone_wall",
+        "image": "../images/crafting/items/polished_blackstone_wall.png"
+    },
+    "minecraft:polished_deepslate": {
+        "name": "minecraft:polished_deepslate",
+        "image": "../images/crafting/items/polished_deepslate.png"
+    },
+    "minecraft:polished_deepslate_slab": {
+        "name": "minecraft:polished_deepslate_slab",
+        "image": "../images/crafting/items/polished_deepslate_slab.png"
+    },
+    "minecraft:polished_deepslate_stairs": {
+        "name": "minecraft:polished_deepslate_stairs",
+        "image": "../images/crafting/items/polished_deepslate_stairs.png"
+    },
+    "minecraft:polished_deepslate_wall": {
+        "name": "minecraft:polished_deepslate_wall",
+        "image": "../images/crafting/items/polished_deepslate_wall.png"
+    },
+    "minecraft:polished_diorite": {
+        "name": "minecraft:polished_diorite",
+        "image": "../images/crafting/items/polished_diorite.png"
+    },
+    "minecraft:polished_diorite_slab": {
+        "name": "minecraft:polished_diorite_slab",
+        "image": "../images/crafting/items/polished_diorite_slab.png"
+    },
+    "minecraft:polished_diorite_stairs": {
+        "name": "minecraft:polished_diorite_stairs",
+        "image": "../images/crafting/items/polished_diorite_stairs.png"
+    },
+    "minecraft:polished_granite": {
+        "name": "minecraft:polished_granite",
+        "image": "../images/crafting/items/polished_granite.png"
+    },
+    "minecraft:polished_granite_slab": {
+        "name": "minecraft:polished_granite_slab",
+        "image": "../images/crafting/items/polished_granite_slab.png"
+    },
+    "minecraft:polished_granite_stairs": {
+        "name": "minecraft:polished_granite_stairs",
+        "image": "../images/crafting/items/polished_granite_stairs.png"
+    },
+    "minecraft:popped_chorus_fruit": {
+        "name": "minecraft:popped_chorus_fruit",
+        "image": "../images/crafting/items/popped_chorus_fruit.png"
+    },
+    "minecraft:poppy": {
+        "name": "minecraft:poppy",
+        "image": "../images/crafting/items/poppy.png"
+    },
+    "minecraft:porkchop": {
+        "name": "minecraft:porkchop",
+        "image": "../images/crafting/items/porkchop.png"
+    },
+    "minecraft:potato": {
+        "name": "minecraft:potato",
+        "image": "../images/crafting/items/potato.png"
+    },
+    "minecraft:potion": {
+        "name": "minecraft:potion",
+        "image": "../images/crafting/items/potion.png",
+        "potions": {
+            "minecraft:regeneration": {
+                "name": "minecraft:regeneration",
+                "image": "../images/crafting/items/potions/regeneration.png"
+            },
+            "minecraft:swiftness": {
+                "name": "minecraft:swiftness",
+                "image": "../images/crafting/items/potions/swiftness.png"
+            },
+            "minecraft:fire_resistance": {
+                "name": "minecraft:fire_resistance",
+                "image": "../images/crafting/items/potions/fire_resistance.png"
+            },
+            "minecraft:poison": {
+                "name": "minecraft:poison",
+                "image": "../images/crafting/items/potions/poison.png"
+            },
+            "minecraft:healing": {
+                "name": "minecraft:healing",
+                "image": "../images/crafting/items/potions/healing.png"
+            },
+            "minecraft:night_vision": {
+                "name": "minecraft:night_vision",
+                "image": "../images/crafting/items/potions/night_vision.png"
+            },
+            "minecraft:weakness": {
+                "name": "minecraft:weakness",
+                "image": "../images/crafting/items/potions/weakness.png"
+            },
+            "minecraft:strength": {
+                "name": "minecraft:strength",
+                "image": "../images/crafting/items/potions/strength.png"
+            },
+            "minecraft:slowness": {
+                "name": "minecraft:slowness",
+                "image": "../images/crafting/items/potions/slowness.png"
+            },
+            "minecraft:leaping": {
+                "name": "minecraft:leaping",
+                "image": "../images/crafting/items/potions/leaping.png"
+            },
+            "minecraft:harming": {
+                "name": "minecraft:harming",
+                "image": "../images/crafting/items/potions/harming.png"
+            },
+            "minecraft:water_breathing": {
+                "name": "minecraft:water_breathing",
+                "image": "../images/crafting/items/potions/water_breathing.png"
+            },
+            "minecraft:invisibility": {
+                "name": "minecraft:invisibility",
+                "image": "../images/crafting/items/potions/invisibility.png"
+            },
+            "minecraft:luck": {
+                "name": "minecraft:luck",
+                "image": "../images/crafting/items/potions/luck.png"
+            },
+            "minecraft:turtle_master": {
+                "name": "minecraft:turtle_master",
+                "image": "../images/crafting/items/potions/turtle_master.png"
+            },
+            "minecraft:slow_falling": {
+                "name": "minecraft:slow_falling",
+                "image": "../images/crafting/items/potions/slow_falling.png"
+            }
+        }
+    },
+    "minecraft:pottery_shard_archer": {
+        "name": "minecraft:pottery_shard_archer",
+        "image": "../images/crafting/items/pottery_shard_archer.png"
+    },
+    "minecraft:pottery_shard_arms_up": {
+        "name": "minecraft:pottery_shard_arms_up",
+        "image": "../images/crafting/items/pottery_shard_arms_up.png"
+    },
+    "minecraft:pottery_shard_prize": {
+        "name": "minecraft:pottery_shard_prize",
+        "image": "../images/crafting/items/pottery_shard_prize.png"
+    },
+    "minecraft:pottery_shard_skull": {
+        "name": "minecraft:pottery_shard_skull",
+        "image": "../images/crafting/items/pottery_shard_skull.png"
+    },
+    "minecraft:powder_snow_bucket": {
+        "name": "minecraft:powder_snow_bucket",
+        "image": "../images/crafting/items/powder_snow_bucket.png"
+    },
+    "minecraft:powered_rail": {
+        "name": "minecraft:powered_rail",
+        "image": "../images/crafting/items/powered_rail.png"
+    },
+    "minecraft:prismarine": {
+        "name": "minecraft:prismarine",
+        "image": "../images/crafting/items/prismarine.png"
+    },
+    "minecraft:prismarine_brick_slab": {
+        "name": "minecraft:prismarine_brick_slab",
+        "image": "../images/crafting/items/prismarine_brick_slab.png"
+    },
+    "minecraft:prismarine_brick_stairs": {
+        "name": "minecraft:prismarine_brick_stairs",
+        "image": "../images/crafting/items/prismarine_brick_stairs.png"
+    },
+    "minecraft:prismarine_bricks": {
+        "name": "minecraft:prismarine_bricks",
+        "image": "../images/crafting/items/prismarine_bricks.png"
+    },
+    "minecraft:prismarine_crystals": {
+        "name": "minecraft:prismarine_crystals",
+        "image": "../images/crafting/items/prismarine_crystals.png"
+    },
+    "minecraft:prismarine_shard": {
+        "name": "minecraft:prismarine_shard",
+        "image": "../images/crafting/items/prismarine_shard.png"
+    },
+    "minecraft:prismarine_slab": {
+        "name": "minecraft:prismarine_slab",
+        "image": "../images/crafting/items/prismarine_slab.png"
+    },
+    "minecraft:prismarine_stairs": {
+        "name": "minecraft:prismarine_stairs",
+        "image": "../images/crafting/items/prismarine_stairs.png"
+    },
+    "minecraft:prismarine_wall": {
+        "name": "minecraft:prismarine_wall",
+        "image": "../images/crafting/items/prismarine_wall.png"
+    },
+    "minecraft:pufferfish": {
+        "name": "minecraft:pufferfish",
+        "image": "../images/crafting/items/pufferfish.png"
+    },
+    "minecraft:pufferfish_bucket": {
+        "name": "minecraft:pufferfish_bucket",
+        "image": "../images/crafting/items/pufferfish_bucket.png"
+    },
+    "minecraft:pufferfish_spawn_egg": {
+        "name": "minecraft:pufferfish_spawn_egg",
+        "image": "../images/crafting/items/pufferfish_spawn_egg.png"
+    },
+    "minecraft:pumpkin": {
+        "name": "minecraft:pumpkin",
+        "image": "../images/crafting/items/pumpkin.png"
+    },
+    "minecraft:pumpkin_pie": {
+        "name": "minecraft:pumpkin_pie",
+        "image": "../images/crafting/items/pumpkin_pie.png"
+    },
+    "minecraft:pumpkin_seeds": {
+        "name": "minecraft:pumpkin_seeds",
+        "image": "../images/crafting/items/pumpkin_seeds.png"
+    },
+    "minecraft:purple_banner": {
+        "name": "minecraft:purple_banner",
+        "image": "../images/crafting/items/purple_banner.png"
+    },
+    "minecraft:purple_bed": {
+        "name": "minecraft:purple_bed",
+        "image": "../images/crafting/items/purple_bed.png"
+    },
+    "minecraft:purple_candle": {
+        "name": "minecraft:purple_candle",
+        "image": "../images/crafting/items/purple_candle.png"
+    },
+    "minecraft:purple_carpet": {
+        "name": "minecraft:purple_carpet",
+        "image": "../images/crafting/items/purple_carpet.png"
+    },
+    "minecraft:purple_concrete": {
+        "name": "minecraft:purple_concrete",
+        "image": "../images/crafting/items/purple_concrete.png"
+    },
+    "minecraft:purple_concrete_powder": {
+        "name": "minecraft:purple_concrete_powder",
+        "image": "../images/crafting/items/purple_concrete_powder.png"
+    },
+    "minecraft:purple_dye": {
+        "name": "minecraft:purple_dye",
+        "image": "../images/crafting/items/purple_dye.png"
+    },
+    "minecraft:purple_glazed_terracotta": {
+        "name": "minecraft:purple_glazed_terracotta",
+        "image": "../images/crafting/items/purple_glazed_terracotta.png"
+    },
+    "minecraft:purple_shulker_box": {
+        "name": "minecraft:purple_shulker_box",
+        "image": "../images/crafting/items/purple_shulker_box.png"
+    },
+    "minecraft:purple_stained_glass": {
+        "name": "minecraft:purple_stained_glass",
+        "image": "../images/crafting/items/purple_stained_glass.png"
+    },
+    "minecraft:purple_stained_glass_pane": {
+        "name": "minecraft:purple_stained_glass_pane",
+        "image": "../images/crafting/items/purple_stained_glass_pane.png"
+    },
+    "minecraft:purple_terracotta": {
+        "name": "minecraft:purple_terracotta",
+        "image": "../images/crafting/items/purple_terracotta.png"
+    },
+    "minecraft:purple_wool": {
+        "name": "minecraft:purple_wool",
+        "image": "../images/crafting/items/purple_wool.png"
+    },
+    "minecraft:purpur_block": {
+        "name": "minecraft:purpur_block",
+        "image": "../images/crafting/items/purpur_block.png"
+    },
+    "minecraft:purpur_pillar": {
+        "name": "minecraft:purpur_pillar",
+        "image": "../images/crafting/items/purpur_pillar.png"
+    },
+    "minecraft:purpur_slab": {
+        "name": "minecraft:purpur_slab",
+        "image": "../images/crafting/items/purpur_slab.png"
+    },
+    "minecraft:purpur_stairs": {
+        "name": "minecraft:purpur_stairs",
+        "image": "../images/crafting/items/purpur_stairs.png"
+    },
+    "minecraft:quartz": {
+        "name": "minecraft:quartz",
+        "image": "../images/crafting/items/quartz.png"
+    },
+    "minecraft:quartz_block": {
+        "name": "minecraft:quartz_block",
+        "image": "../images/crafting/items/quartz_block.png"
+    },
+    "minecraft:quartz_bricks": {
+        "name": "minecraft:quartz_bricks",
+        "image": "../images/crafting/items/quartz_bricks.png"
+    },
+    "minecraft:quartz_pillar": {
+        "name": "minecraft:quartz_pillar",
+        "image": "../images/crafting/items/quartz_pillar.png"
+    },
+    "minecraft:quartz_slab": {
+        "name": "minecraft:quartz_slab",
+        "image": "../images/crafting/items/quartz_slab.png"
+    },
+    "minecraft:quartz_stairs": {
+        "name": "minecraft:quartz_stairs",
+        "image": "../images/crafting/items/quartz_stairs.png"
+    },
+    "minecraft:rabbit": {
+        "name": "minecraft:rabbit",
+        "image": "../images/crafting/items/rabbit.png"
+    },
+    "minecraft:rabbit_foot": {
+        "name": "minecraft:rabbit_foot",
+        "image": "../images/crafting/items/rabbit_foot.png"
+    },
+    "minecraft:rabbit_hide": {
+        "name": "minecraft:rabbit_hide",
+        "image": "../images/crafting/items/rabbit_hide.png"
+    },
+    "minecraft:rabbit_spawn_egg": {
+        "name": "minecraft:rabbit_spawn_egg",
+        "image": "../images/crafting/items/rabbit_spawn_egg.png"
+    },
+    "minecraft:rabbit_stew": {
+        "name": "minecraft:rabbit_stew",
+        "image": "../images/crafting/items/rabbit_stew.png"
+    },
+    "minecraft:rail": {
+        "name": "minecraft:rail",
+        "image": "../images/crafting/items/rail.png"
+    },
+    "minecraft:ravager_spawn_egg": {
+        "name": "minecraft:ravager_spawn_egg",
+        "image": "../images/crafting/items/ravager_spawn_egg.png"
+    },
+    "minecraft:raw_copper": {
+        "name": "minecraft:raw_copper",
+        "image": "../images/crafting/items/raw_copper.png"
+    },
+    "minecraft:raw_copper_block": {
+        "name": "minecraft:raw_copper_block",
+        "image": "../images/crafting/items/raw_copper_block.png"
+    },
+    "minecraft:raw_gold": {
+        "name": "minecraft:raw_gold",
+        "image": "../images/crafting/items/raw_gold.png"
+    },
+    "minecraft:raw_gold_block": {
+        "name": "minecraft:raw_gold_block",
+        "image": "../images/crafting/items/raw_gold_block.png"
+    },
+    "minecraft:raw_iron": {
+        "name": "minecraft:raw_iron",
+        "image": "../images/crafting/items/raw_iron.png"
+    },
+    "minecraft:raw_iron_block": {
+        "name": "minecraft:raw_iron_block",
+        "image": "../images/crafting/items/raw_iron_block.png"
+    },
+    "minecraft:recovery_compass": {
+        "name": "minecraft:recovery_compass",
+        "image": "../images/crafting/items/recovery_compass.png"
+    },
+    "minecraft:red_banner": {
+        "name": "minecraft:red_banner",
+        "image": "../images/crafting/items/red_banner.png"
+    },
+    "minecraft:red_bed": {
+        "name": "minecraft:red_bed",
+        "image": "../images/crafting/items/red_bed.png"
+    },
+    "minecraft:red_candle": {
+        "name": "minecraft:red_candle",
+        "image": "../images/crafting/items/red_candle.png"
+    },
+    "minecraft:red_carpet": {
+        "name": "minecraft:red_carpet",
+        "image": "../images/crafting/items/red_carpet.png"
+    },
+    "minecraft:red_concrete": {
+        "name": "minecraft:red_concrete",
+        "image": "../images/crafting/items/red_concrete.png"
+    },
+    "minecraft:red_concrete_powder": {
+        "name": "minecraft:red_concrete_powder",
+        "image": "../images/crafting/items/red_concrete_powder.png"
+    },
+    "minecraft:red_dye": {
+        "name": "minecraft:red_dye",
+        "image": "../images/crafting/items/red_dye.png"
+    },
+    "minecraft:red_glazed_terracotta": {
+        "name": "minecraft:red_glazed_terracotta",
+        "image": "../images/crafting/items/red_glazed_terracotta.png"
+    },
+    "minecraft:red_mushroom": {
+        "name": "minecraft:red_mushroom",
+        "image": "../images/crafting/items/red_mushroom.png"
+    },
+    "minecraft:red_mushroom_block": {
+        "name": "minecraft:red_mushroom_block",
+        "image": "../images/crafting/items/red_mushroom_block.png"
+    },
+    "minecraft:red_nether_brick_slab": {
+        "name": "minecraft:red_nether_brick_slab",
+        "image": "../images/crafting/items/red_nether_brick_slab.png"
+    },
+    "minecraft:red_nether_brick_stairs": {
+        "name": "minecraft:red_nether_brick_stairs",
+        "image": "../images/crafting/items/red_nether_brick_stairs.png"
+    },
+    "minecraft:red_nether_brick_wall": {
+        "name": "minecraft:red_nether_brick_wall",
+        "image": "../images/crafting/items/red_nether_brick_wall.png"
+    },
+    "minecraft:red_nether_bricks": {
+        "name": "minecraft:red_nether_bricks",
+        "image": "../images/crafting/items/red_nether_bricks.png"
+    },
+    "minecraft:red_sand": {
+        "name": "minecraft:red_sand",
+        "image": "../images/crafting/items/red_sand.png"
+    },
+    "minecraft:red_sandstone": {
+        "name": "minecraft:red_sandstone",
+        "image": "../images/crafting/items/red_sandstone.png"
+    },
+    "minecraft:red_sandstone_slab": {
+        "name": "minecraft:red_sandstone_slab",
+        "image": "../images/crafting/items/red_sandstone_slab.png"
+    },
+    "minecraft:red_sandstone_stairs": {
+        "name": "minecraft:red_sandstone_stairs",
+        "image": "../images/crafting/items/red_sandstone_stairs.png"
+    },
+    "minecraft:red_sandstone_wall": {
+        "name": "minecraft:red_sandstone_wall",
+        "image": "../images/crafting/items/red_sandstone_wall.png"
+    },
+    "minecraft:red_shulker_box": {
+        "name": "minecraft:red_shulker_box",
+        "image": "../images/crafting/items/red_shulker_box.png"
+    },
+    "minecraft:red_stained_glass": {
+        "name": "minecraft:red_stained_glass",
+        "image": "../images/crafting/items/red_stained_glass.png"
+    },
+    "minecraft:red_stained_glass_pane": {
+        "name": "minecraft:red_stained_glass_pane",
+        "image": "../images/crafting/items/red_stained_glass_pane.png"
+    },
+    "minecraft:red_terracotta": {
+        "name": "minecraft:red_terracotta",
+        "image": "../images/crafting/items/red_terracotta.png"
+    },
+    "minecraft:red_tulip": {
+        "name": "minecraft:red_tulip",
+        "image": "../images/crafting/items/red_tulip.png"
+    },
+    "minecraft:red_wool": {
+        "name": "minecraft:red_wool",
+        "image": "../images/crafting/items/red_wool.png"
+    },
+    "minecraft:redstone": {
+        "name": "minecraft:redstone",
+        "image": "../images/crafting/items/redstone.png"
+    },
+    "minecraft:redstone_block": {
+        "name": "minecraft:redstone_block",
+        "image": "../images/crafting/items/redstone_block.png"
+    },
+    "minecraft:redstone_lamp": {
+        "name": "minecraft:redstone_lamp",
+        "image": "../images/crafting/items/redstone_lamp.png"
+    },
+    "minecraft:redstone_ore": {
+        "name": "minecraft:redstone_ore",
+        "image": "../images/crafting/items/redstone_ore.png"
+    },
+    "minecraft:redstone_torch": {
+        "name": "minecraft:redstone_torch",
+        "image": "../images/crafting/items/redstone_torch.png"
+    },
+    "minecraft:reinforced_deepslate": {
+        "name": "minecraft:reinforced_deepslate",
+        "image": "../images/crafting/items/reinforced_deepslate.png"
+    },
+    "minecraft:repeater": {
+        "name": "minecraft:repeater",
+        "image": "../images/crafting/items/repeater.png"
+    },
+    "minecraft:repeating_command_block": {
+        "name": "minecraft:repeating_command_block",
+        "image": "../images/crafting/items/repeating_command_block.png"
+    },
+    "minecraft:respawn_anchor": {
+        "name": "minecraft:respawn_anchor",
+        "image": "../images/crafting/items/respawn_anchor.png"
+    },
+    "minecraft:rib_armor_trim_smithing_template": {
+        "name": "minecraft:rib_armor_trim_smithing_template",
+        "image": "../images/crafting/items/rib_armor_trim_smithing_template.png"
+    },
+    "minecraft:rooted_dirt": {
+        "name": "minecraft:rooted_dirt",
+        "image": "../images/crafting/items/rooted_dirt.png"
+    },
+    "minecraft:rose_bush": {
+        "name": "minecraft:rose_bush",
+        "image": "../images/crafting/items/rose_bush.png"
+    },
+    "minecraft:rotten_flesh": {
+        "name": "minecraft:rotten_flesh",
+        "image": "../images/crafting/items/rotten_flesh.png"
+    },
+    "minecraft:saddle": {
+        "name": "minecraft:saddle",
+        "image": "../images/crafting/items/saddle.png"
+    },
+    "minecraft:salmon": {
+        "name": "minecraft:salmon",
+        "image": "../images/crafting/items/salmon.png"
+    },
+    "minecraft:salmon_bucket": {
+        "name": "minecraft:salmon_bucket",
+        "image": "../images/crafting/items/salmon_bucket.png"
+    },
+    "minecraft:salmon_spawn_egg": {
+        "name": "minecraft:salmon_spawn_egg",
+        "image": "../images/crafting/items/salmon_spawn_egg.png"
+    },
+    "minecraft:sand": {
+        "name": "minecraft:sand",
+        "image": "../images/crafting/items/sand.png"
+    },
+    "minecraft:sandstone": {
+        "name": "minecraft:sandstone",
+        "image": "../images/crafting/items/sandstone.png"
+    },
+    "minecraft:sandstone_slab": {
+        "name": "minecraft:sandstone_slab",
+        "image": "../images/crafting/items/sandstone_slab.png"
+    },
+    "minecraft:sandstone_stairs": {
+        "name": "minecraft:sandstone_stairs",
+        "image": "../images/crafting/items/sandstone_stairs.png"
+    },
+    "minecraft:sandstone_wall": {
+        "name": "minecraft:sandstone_wall",
+        "image": "../images/crafting/items/sandstone_wall.png"
+    },
+    "minecraft:scaffolding": {
+        "name": "minecraft:scaffolding",
+        "image": "../images/crafting/items/scaffolding.png"
+    },
+    "minecraft:sculk": {
+        "name": "minecraft:sculk",
+        "image": "../images/crafting/items/sculk.png"
+    },
+    "minecraft:sculk_catalyst": {
+        "name": "minecraft:sculk_catalyst",
+        "image": "../images/crafting/items/sculk_catalyst.png"
+    },
+    "minecraft:sculk_sensor": {
+        "name": "minecraft:sculk_sensor",
+        "image": "../images/crafting/items/sculk_sensor.png"
+    },
+    "minecraft:sculk_shrieker": {
+        "name": "minecraft:sculk_shrieker",
+        "image": "../images/crafting/items/sculk_shrieker.png"
+    },
+    "minecraft:sculk_vein": {
+        "name": "minecraft:sculk_vein",
+        "image": "../images/crafting/items/sculk_vein.png"
+    },
+    "minecraft:scute": {
+        "name": "minecraft:scute",
+        "image": "../images/crafting/items/scute.png"
+    },
+    "minecraft:sea_lantern": {
+        "name": "minecraft:sea_lantern",
+        "image": "../images/crafting/items/sea_lantern.png"
+    },
+    "minecraft:sea_pickle": {
+        "name": "minecraft:sea_pickle",
+        "image": "../images/crafting/items/sea_pickle.png"
+    },
+    "minecraft:seagrass": {
+        "name": "minecraft:seagrass",
+        "image": "../images/crafting/items/seagrass.png"
+    },
+    "minecraft:sentry_armor_trim_smithing_template": {
+        "name": "minecraft:sentry_armor_trim_smithing_template",
+        "image": "../images/crafting/items/sentry_armor_trim_smithing_template.png"
+    },
+    "minecraft:shears": {
+        "name": "minecraft:shears",
+        "image": "../images/crafting/items/shears.png"
+    },
+    "minecraft:sheep_spawn_egg": {
+        "name": "minecraft:sheep_spawn_egg",
+        "image": "../images/crafting/items/sheep_spawn_egg.png"
+    },
+    "minecraft:shield": {
+        "name": "minecraft:shield",
+        "image": "../images/crafting/items/shield.png"
+    },
+    "minecraft:shroomlight": {
+        "name": "minecraft:shroomlight",
+        "image": "../images/crafting/items/shroomlight.png"
+    },
+    "minecraft:shulker_box": {
+        "name": "minecraft:shulker_box",
+        "image": "../images/crafting/items/shulker_box.png"
+    },
+    "minecraft:shulker_shell": {
+        "name": "minecraft:shulker_shell",
+        "image": "../images/crafting/items/shulker_shell.png"
+    },
+    "minecraft:shulker_spawn_egg": {
+        "name": "minecraft:shulker_spawn_egg",
+        "image": "../images/crafting/items/shulker_spawn_egg.png"
+    },
+    "minecraft:silverfish_spawn_egg": {
+        "name": "minecraft:silverfish_spawn_egg",
+        "image": "../images/crafting/items/silverfish_spawn_egg.png"
+    },
+    "minecraft:skeleton_horse_spawn_egg": {
+        "name": "minecraft:skeleton_horse_spawn_egg",
+        "image": "../images/crafting/items/skeleton_horse_spawn_egg.png"
+    },
+    "minecraft:skeleton_skull": {
+        "name": "minecraft:skeleton_skull",
+        "image": "../images/crafting/items/skeleton_skull.png"
+    },
+    "minecraft:skeleton_spawn_egg": {
+        "name": "minecraft:skeleton_spawn_egg",
+        "image": "../images/crafting/items/skeleton_spawn_egg.png"
+    },
+    "minecraft:skull_banner_pattern": {
+        "name": "minecraft:skull_banner_pattern",
+        "image": "../images/crafting/items/skull_banner_pattern.png"
+    },
+    "minecraft:slime_ball": {
+        "name": "minecraft:slime_ball",
+        "image": "../images/crafting/items/slime_ball.png"
+    },
+    "minecraft:slime_block": {
+        "name": "minecraft:slime_block",
+        "image": "../images/crafting/items/slime_block.png"
+    },
+    "minecraft:slime_spawn_egg": {
+        "name": "minecraft:slime_spawn_egg",
+        "image": "../images/crafting/items/slime_spawn_egg.png"
+    },
+    "minecraft:small_amethyst_bud": {
+        "name": "minecraft:small_amethyst_bud",
+        "image": "../images/crafting/items/small_amethyst_bud.png"
+    },
+    "minecraft:small_dripleaf": {
+        "name": "minecraft:small_dripleaf",
+        "image": "../images/crafting/items/small_dripleaf.png"
+    },
+    "minecraft:smithing_table": {
+        "name": "minecraft:smithing_table",
+        "image": "../images/crafting/items/smithing_table.png"
+    },
+    "minecraft:smoker": {
+        "name": "minecraft:smoker",
+        "image": "../images/crafting/items/smoker.png"
+    },
+    "minecraft:smooth_basalt": {
+        "name": "minecraft:smooth_basalt",
+        "image": "../images/crafting/items/smooth_basalt.png"
+    },
+    "minecraft:smooth_quartz": {
+        "name": "minecraft:smooth_quartz",
+        "image": "../images/crafting/items/smooth_quartz.png"
+    },
+    "minecraft:smooth_quartz_slab": {
+        "name": "minecraft:smooth_quartz_slab",
+        "image": "../images/crafting/items/smooth_quartz_slab.png"
+    },
+    "minecraft:smooth_quartz_stairs": {
+        "name": "minecraft:smooth_quartz_stairs",
+        "image": "../images/crafting/items/smooth_quartz_stairs.png"
+    },
+    "minecraft:smooth_red_sandstone": {
+        "name": "minecraft:smooth_red_sandstone",
+        "image": "../images/crafting/items/smooth_red_sandstone.png"
+    },
+    "minecraft:smooth_red_sandstone_slab": {
+        "name": "minecraft:smooth_red_sandstone_slab",
+        "image": "../images/crafting/items/smooth_red_sandstone_slab.png"
+    },
+    "minecraft:smooth_red_sandstone_stairs": {
+        "name": "minecraft:smooth_red_sandstone_stairs",
+        "image": "../images/crafting/items/smooth_red_sandstone_stairs.png"
+    },
+    "minecraft:smooth_sandstone": {
+        "name": "minecraft:smooth_sandstone",
+        "image": "../images/crafting/items/smooth_sandstone.png"
+    },
+    "minecraft:smooth_sandstone_slab": {
+        "name": "minecraft:smooth_sandstone_slab",
+        "image": "../images/crafting/items/smooth_sandstone_slab.png"
+    },
+    "minecraft:smooth_sandstone_stairs": {
+        "name": "minecraft:smooth_sandstone_stairs",
+        "image": "../images/crafting/items/smooth_sandstone_stairs.png"
+    },
+    "minecraft:smooth_stone": {
+        "name": "minecraft:smooth_stone",
+        "image": "../images/crafting/items/smooth_stone.png"
+    },
+    "minecraft:smooth_stone_slab": {
+        "name": "minecraft:smooth_stone_slab",
+        "image": "../images/crafting/items/smooth_stone_slab.png"
+    },
+    "minecraft:sniffer_spawn_egg": {
+        "name": "minecraft:sniffer_spawn_egg",
+        "image": "../images/crafting/items/sniffer_spawn_egg.png"
+    },
+    "minecraft:snout_armor_trim_smithing_template": {
+        "name": "minecraft:snout_armor_trim_smithing_template",
+        "image": "../images/crafting/items/snout_armor_trim_smithing_template.png"
+    },
+    "minecraft:snow": {
+        "name": "minecraft:snow",
+        "image": "../images/crafting/items/snow.png"
+    },
+    "minecraft:snow_block": {
+        "name": "minecraft:snow_block",
+        "image": "../images/crafting/items/snow_block.png"
+    },
+    "minecraft:snow_golem_spawn_egg": {
+        "name": "minecraft:snow_golem_spawn_egg",
+        "image": "../images/crafting/items/snow_golem_spawn_egg.png"
+    },
+    "minecraft:snowball": {
+        "name": "minecraft:snowball",
+        "image": "../images/crafting/items/snowball.png"
+    },
+    "minecraft:soul_campfire": {
+        "name": "minecraft:soul_campfire",
+        "image": "../images/crafting/items/soul_campfire.png"
+    },
+    "minecraft:soul_lantern": {
+        "name": "minecraft:soul_lantern",
+        "image": "../images/crafting/items/soul_lantern.png"
+    },
+    "minecraft:soul_sand": {
+        "name": "minecraft:soul_sand",
+        "image": "../images/crafting/items/soul_sand.png"
+    },
+    "minecraft:soul_soil": {
+        "name": "minecraft:soul_soil",
+        "image": "../images/crafting/items/soul_soil.png"
+    },
+    "minecraft:soul_torch": {
+        "name": "minecraft:soul_torch",
+        "image": "../images/crafting/items/soul_torch.png"
+    },
+    "minecraft:spawner": {
+        "name": "minecraft:spawner",
+        "image": "../images/crafting/items/spawner.png"
+    },
+    "minecraft:spectral_arrow": {
+        "name": "minecraft:spectral_arrow",
+        "image": "../images/crafting/items/spectral_arrow.png"
+    },
+    "minecraft:spider_eye": {
+        "name": "minecraft:spider_eye",
+        "image": "../images/crafting/items/spider_eye.png"
+    },
+    "minecraft:spider_spawn_egg": {
+        "name": "minecraft:spider_spawn_egg",
+        "image": "../images/crafting/items/spider_spawn_egg.png"
+    },
+    "minecraft:spire_armor_trim_smithing_template": {
+        "name": "minecraft:spire_armor_trim_smithing_template",
+        "image": "../images/crafting/items/spire_armor_trim_smithing_template.png"
+    },
+    "minecraft:splash_potion": {
+        "name": "minecraft:splash_potion",
+        "image": "../images/crafting/items/splash_potion.png",
+        "potions": {
+            "minecraft:regeneration": {
+                "name": "minecraft:regeneration",
+                "image": "../images/crafting/items/potions/splash_regeneration.png"
+            },
+            "minecraft:swiftness": {
+                "name": "minecraft:swiftness",
+                "image": "../images/crafting/items/potions/splash_swiftness.png"
+            },
+            "minecraft:fire_resistance": {
+                "name": "minecraft:fire_resistance",
+                "image": "../images/crafting/items/potions/splash_fire_resistance.png"
+            },
+            "minecraft:poison": {
+                "name": "minecraft:poison",
+                "image": "../images/crafting/items/potions/splash_poison.png"
+            },
+            "minecraft:healing": {
+                "name": "minecraft:healing",
+                "image": "../images/crafting/items/potions/splash_healing.png"
+            },
+            "minecraft:night_vision": {
+                "name": "minecraft:night_vision",
+                "image": "../images/crafting/items/potions/splash_night_vision.png"
+            },
+            "minecraft:weakness": {
+                "name": "minecraft:weakness",
+                "image": "../images/crafting/items/potions/splash_weakness.png"
+            },
+            "minecraft:strength": {
+                "name": "minecraft:strength",
+                "image": "../images/crafting/items/potions/splash_strength.png"
+            },
+            "minecraft:slowness": {
+                "name": "minecraft:slowness",
+                "image": "../images/crafting/items/potions/splash_slowness.png"
+            },
+            "minecraft:leaping": {
+                "name": "minecraft:leaping",
+                "image": "../images/crafting/items/potions/splash_leaping.png"
+            },
+            "minecraft:harming": {
+                "name": "minecraft:harming",
+                "image": "../images/crafting/items/potions/splash_harming.png"
+            },
+            "minecraft:water_breathing": {
+                "name": "minecraft:water_breathing",
+                "image": "../images/crafting/items/potions/splash_water_breathing.png"
+            },
+            "minecraft:invisibility": {
+                "name": "minecraft:invisibility",
+                "image": "../images/crafting/items/potions/splash_invisibility.png"
+            },
+            "minecraft:luck": {
+                "name": "minecraft:luck",
+                "image": "../images/crafting/items/potions/splash_luck.png"
+            },
+            "minecraft:turtle_master": {
+                "name": "minecraft:turtle_master",
+                "image": "../images/crafting/items/potions/splash_turtle_master.png"
+            },
+            "minecraft:slow_falling": {
+                "name": "minecraft:slow_falling",
+                "image": "../images/crafting/items/potions/splash_slow_falling.png"
+            }
+        }
+    },
+    "minecraft:sponge": {
+        "name": "minecraft:sponge",
+        "image": "../images/crafting/items/sponge.png"
+    },
+    "minecraft:spore_blossom": {
+        "name": "minecraft:spore_blossom",
+        "image": "../images/crafting/items/spore_blossom.png"
+    },
+    "minecraft:spruce_boat": {
+        "name": "minecraft:spruce_boat",
+        "image": "../images/crafting/items/spruce_boat.png"
+    },
+    "minecraft:spruce_button": {
+        "name": "minecraft:spruce_button",
+        "image": "../images/crafting/items/spruce_button.png"
+    },
+    "minecraft:spruce_chest_boat": {
+        "name": "minecraft:spruce_chest_boat",
+        "image": "../images/crafting/items/spruce_chest_boat.png"
+    },
+    "minecraft:spruce_door": {
+        "name": "minecraft:spruce_door",
+        "image": "../images/crafting/items/spruce_door.png"
+    },
+    "minecraft:spruce_fence": {
+        "name": "minecraft:spruce_fence",
+        "image": "../images/crafting/items/spruce_fence.png"
+    },
+    "minecraft:spruce_fence_gate": {
+        "name": "minecraft:spruce_fence_gate",
+        "image": "../images/crafting/items/spruce_fence_gate.png"
+    },
+    "minecraft:spruce_hanging_sign": {
+        "name": "minecraft:spruce_hanging_sign",
+        "image": "../images/crafting/items/spruce_hanging_sign.png"
+    },
+    "minecraft:spruce_leaves": {
+        "name": "minecraft:spruce_leaves",
+        "image": "../images/crafting/items/spruce_leaves.png"
+    },
+    "minecraft:spruce_log": {
+        "name": "minecraft:spruce_log",
+        "image": "../images/crafting/items/spruce_log.png"
+    },
+    "minecraft:spruce_planks": {
+        "name": "minecraft:spruce_planks",
+        "image": "../images/crafting/items/spruce_planks.png"
+    },
+    "minecraft:spruce_pressure_plate": {
+        "name": "minecraft:spruce_pressure_plate",
+        "image": "../images/crafting/items/spruce_pressure_plate.png"
+    },
+    "minecraft:spruce_sapling": {
+        "name": "minecraft:spruce_sapling",
+        "image": "../images/crafting/items/spruce_sapling.png"
+    },
+    "minecraft:spruce_sign": {
+        "name": "minecraft:spruce_sign",
+        "image": "../images/crafting/items/spruce_sign.png"
+    },
+    "minecraft:spruce_slab": {
+        "name": "minecraft:spruce_slab",
+        "image": "../images/crafting/items/spruce_slab.png"
+    },
+    "minecraft:spruce_stairs": {
+        "name": "minecraft:spruce_stairs",
+        "image": "../images/crafting/items/spruce_stairs.png"
+    },
+    "minecraft:spruce_trapdoor": {
+        "name": "minecraft:spruce_trapdoor",
+        "image": "../images/crafting/items/spruce_trapdoor.png"
+    },
+    "minecraft:spruce_wood": {
+        "name": "minecraft:spruce_wood",
+        "image": "../images/crafting/items/spruce_wood.png"
+    },
+    "minecraft:spyglass": {
+        "name": "minecraft:spyglass",
+        "image": "../images/crafting/items/spyglass.png"
+    },
+    "minecraft:squid_spawn_egg": {
+        "name": "minecraft:squid_spawn_egg",
+        "image": "../images/crafting/items/squid_spawn_egg.png"
+    },
+    "minecraft:stick": {
+        "name": "minecraft:stick",
+        "image": "../images/crafting/items/stick.png"
+    },
+    "minecraft:sticky_piston": {
+        "name": "minecraft:sticky_piston",
+        "image": "../images/crafting/items/sticky_piston.png"
+    },
+    "minecraft:stone": {
+        "name": "minecraft:stone",
+        "image": "../images/crafting/items/stone.png"
+    },
+    "minecraft:stone_axe": {
+        "name": "minecraft:stone_axe",
+        "image": "../images/crafting/items/stone_axe.png"
+    },
+    "minecraft:stone_brick_slab": {
+        "name": "minecraft:stone_brick_slab",
+        "image": "../images/crafting/items/stone_brick_slab.png"
+    },
+    "minecraft:stone_brick_stairs": {
+        "name": "minecraft:stone_brick_stairs",
+        "image": "../images/crafting/items/stone_brick_stairs.png"
+    },
+    "minecraft:stone_brick_wall": {
+        "name": "minecraft:stone_brick_wall",
+        "image": "../images/crafting/items/stone_brick_wall.png"
+    },
+    "minecraft:stone_bricks": {
+        "name": "minecraft:stone_bricks",
+        "image": "../images/crafting/items/stone_bricks.png"
+    },
+    "minecraft:stone_button": {
+        "name": "minecraft:stone_button",
+        "image": "../images/crafting/items/stone_button.png"
+    },
+    "minecraft:stone_hoe": {
+        "name": "minecraft:stone_hoe",
+        "image": "../images/crafting/items/stone_hoe.png"
+    },
+    "minecraft:stone_pickaxe": {
+        "name": "minecraft:stone_pickaxe",
+        "image": "../images/crafting/items/stone_pickaxe.png"
+    },
+    "minecraft:stone_pressure_plate": {
+        "name": "minecraft:stone_pressure_plate",
+        "image": "../images/crafting/items/stone_pressure_plate.png"
+    },
+    "minecraft:stone_shovel": {
+        "name": "minecraft:stone_shovel",
+        "image": "../images/crafting/items/stone_shovel.png"
+    },
+    "minecraft:stone_slab": {
+        "name": "minecraft:stone_slab",
+        "image": "../images/crafting/items/stone_slab.png"
+    },
+    "minecraft:stone_stairs": {
+        "name": "minecraft:stone_stairs",
+        "image": "../images/crafting/items/stone_stairs.png"
+    },
+    "minecraft:stone_sword": {
+        "name": "minecraft:stone_sword",
+        "image": "../images/crafting/items/stone_sword.png"
+    },
+    "minecraft:stonecutter": {
+        "name": "minecraft:stonecutter",
+        "image": "../images/crafting/items/stonecutter.png"
+    },
+    "minecraft:stray_spawn_egg": {
+        "name": "minecraft:stray_spawn_egg",
+        "image": "../images/crafting/items/stray_spawn_egg.png"
+    },
+    "minecraft:strider_spawn_egg": {
+        "name": "minecraft:strider_spawn_egg",
+        "image": "../images/crafting/items/strider_spawn_egg.png"
+    },
+    "minecraft:string": {
+        "name": "minecraft:string",
+        "image": "../images/crafting/items/string.png"
+    },
+    "minecraft:stripped_acacia_log": {
+        "name": "minecraft:stripped_acacia_log",
+        "image": "../images/crafting/items/stripped_acacia_log.png"
+    },
+    "minecraft:stripped_acacia_wood": {
+        "name": "minecraft:stripped_acacia_wood",
+        "image": "../images/crafting/items/stripped_acacia_wood.png"
+    },
+    "minecraft:stripped_bamboo_block": {
+        "name": "minecraft:stripped_bamboo_block",
+        "image": "../images/crafting/items/stripped_bamboo_block.png"
+    },
+    "minecraft:stripped_birch_log": {
+        "name": "minecraft:stripped_birch_log",
+        "image": "../images/crafting/items/stripped_birch_log.png"
+    },
+    "minecraft:stripped_birch_wood": {
+        "name": "minecraft:stripped_birch_wood",
+        "image": "../images/crafting/items/stripped_birch_wood.png"
+    },
+    "minecraft:stripped_cherry_log": {
+        "name": "minecraft:stripped_cherry_log",
+        "image": "../images/crafting/items/stripped_cherry_log.png"
+    },
+    "minecraft:stripped_cherry_wood": {
+        "name": "minecraft:stripped_cherry_wood",
+        "image": "../images/crafting/items/stripped_cherry_wood.png"
+    },
+    "minecraft:stripped_crimson_hyphae": {
+        "name": "minecraft:stripped_crimson_hyphae",
+        "image": "../images/crafting/items/stripped_crimson_hyphae.png"
+    },
+    "minecraft:stripped_crimson_stem": {
+        "name": "minecraft:stripped_crimson_stem",
+        "image": "../images/crafting/items/stripped_crimson_stem.png"
+    },
+    "minecraft:stripped_dark_oak_log": {
+        "name": "minecraft:stripped_dark_oak_log",
+        "image": "../images/crafting/items/stripped_dark_oak_log.png"
+    },
+    "minecraft:stripped_dark_oak_wood": {
+        "name": "minecraft:stripped_dark_oak_wood",
+        "image": "../images/crafting/items/stripped_dark_oak_wood.png"
+    },
+    "minecraft:stripped_jungle_log": {
+        "name": "minecraft:stripped_jungle_log",
+        "image": "../images/crafting/items/stripped_jungle_log.png"
+    },
+    "minecraft:stripped_jungle_wood": {
+        "name": "minecraft:stripped_jungle_wood",
+        "image": "../images/crafting/items/stripped_jungle_wood.png"
+    },
+    "minecraft:stripped_mangrove_log": {
+        "name": "minecraft:stripped_mangrove_log",
+        "image": "../images/crafting/items/stripped_mangrove_log.png"
+    },
+    "minecraft:stripped_mangrove_wood": {
+        "name": "minecraft:stripped_mangrove_wood",
+        "image": "../images/crafting/items/stripped_mangrove_wood.png"
+    },
+    "minecraft:stripped_oak_log": {
+        "name": "minecraft:stripped_oak_log",
+        "image": "../images/crafting/items/stripped_oak_log.png"
+    },
+    "minecraft:stripped_oak_wood": {
+        "name": "minecraft:stripped_oak_wood",
+        "image": "../images/crafting/items/stripped_oak_wood.png"
+    },
+    "minecraft:stripped_spruce_log": {
+        "name": "minecraft:stripped_spruce_log",
+        "image": "../images/crafting/items/stripped_spruce_log.png"
+    },
+    "minecraft:stripped_spruce_wood": {
+        "name": "minecraft:stripped_spruce_wood",
+        "image": "../images/crafting/items/stripped_spruce_wood.png"
+    },
+    "minecraft:stripped_warped_hyphae": {
+        "name": "minecraft:stripped_warped_hyphae",
+        "image": "../images/crafting/items/stripped_warped_hyphae.png"
+    },
+    "minecraft:stripped_warped_stem": {
+        "name": "minecraft:stripped_warped_stem",
+        "image": "../images/crafting/items/stripped_warped_stem.png"
+    },
+    "minecraft:structure_block": {
+        "name": "minecraft:structure_block",
+        "image": "../images/crafting/items/structure_block.png"
+    },
+    "minecraft:structure_void": {
+        "name": "minecraft:structure_void",
+        "image": "../images/crafting/items/structure_void.png"
+    },
+    "minecraft:sugar": {
+        "name": "minecraft:sugar",
+        "image": "../images/crafting/items/sugar.png"
+    },
+    "minecraft:sugar_cane": {
+        "name": "minecraft:sugar_cane",
+        "image": "../images/crafting/items/sugar_cane.png"
+    },
+    "minecraft:sunflower": {
+        "name": "minecraft:sunflower",
+        "image": "../images/crafting/items/sunflower.png"
+    },
+    "minecraft:suspicious_sand": {
+        "name": "minecraft:suspicious_sand",
+        "image": "../images/crafting/items/suspicious_sand.png"
+    },
+    "minecraft:suspicious_stew": {
+        "name": "minecraft:suspicious_stew",
+        "image": "../images/crafting/items/suspicious_stew.png"
+    },
+    "minecraft:sweet_berries": {
+        "name": "minecraft:sweet_berries",
+        "image": "../images/crafting/items/sweet_berries.png"
+    },
+    "minecraft:tadpole_bucket": {
+        "name": "minecraft:tadpole_bucket",
+        "image": "../images/crafting/items/tadpole_bucket.png"
+    },
+    "minecraft:tadpole_spawn_egg": {
+        "name": "minecraft:tadpole_spawn_egg",
+        "image": "../images/crafting/items/tadpole_spawn_egg.png"
+    },
+    "minecraft:tall_grass": {
+        "name": "minecraft:tall_grass",
+        "image": "../images/crafting/items/tall_grass.png"
+    },
+    "minecraft:target": {
+        "name": "minecraft:target",
+        "image": "../images/crafting/items/target.png"
+    },
+    "minecraft:terracotta": {
+        "name": "minecraft:terracotta",
+        "image": "../images/crafting/items/terracotta.png"
+    },
+    "minecraft:tide_armor_trim_smithing_template": {
+        "name": "minecraft:tide_armor_trim_smithing_template",
+        "image": "../images/crafting/items/tide_armor_trim_smithing_template.png"
+    },
+    "minecraft:tinted_glass": {
+        "name": "minecraft:tinted_glass",
+        "image": "../images/crafting/items/tinted_glass.png"
+    },
+    "minecraft:tipped_arrow": {
+        "name": "minecraft:tipped_arrow",
+        "image": "../images/crafting/items/tipped_arrow.png"
+    },
+    "minecraft:tnt": {
+        "name": "minecraft:tnt",
+        "image": "../images/crafting/items/tnt.png"
+    },
+    "minecraft:tnt_minecart": {
+        "name": "minecraft:tnt_minecart",
+        "image": "../images/crafting/items/tnt_minecart.png"
+    },
+    "minecraft:torch": {
+        "name": "minecraft:torch",
+        "image": "../images/crafting/items/torch.png"
+    },
+    "minecraft:torchflower": {
+        "name": "minecraft:torchflower",
+        "image": "../images/crafting/items/torchflower.png"
+    },
+    "minecraft:torchflower_seeds": {
+        "name": "minecraft:torchflower_seeds",
+        "image": "../images/crafting/items/torchflower_seeds.png"
+    },
+    "minecraft:totem_of_undying": {
+        "name": "minecraft:totem_of_undying",
+        "image": "../images/crafting/items/totem_of_undying.png"
+    },
+    "minecraft:trader_llama_spawn_egg": {
+        "name": "minecraft:trader_llama_spawn_egg",
+        "image": "../images/crafting/items/trader_llama_spawn_egg.png"
+    },
+    "minecraft:trapped_chest": {
+        "name": "minecraft:trapped_chest",
+        "image": "../images/crafting/items/trapped_chest.png"
+    },
+    "minecraft:trident": {
+        "name": "minecraft:trident",
+        "image": "../images/crafting/items/trident.png"
+    },
+    "minecraft:tripwire_hook": {
+        "name": "minecraft:tripwire_hook",
+        "image": "../images/crafting/items/tripwire_hook.png"
+    },
+    "minecraft:tropical_fish": {
+        "name": "minecraft:tropical_fish",
+        "image": "../images/crafting/items/tropical_fish.png"
+    },
+    "minecraft:tropical_fish_bucket": {
+        "name": "minecraft:tropical_fish_bucket",
+        "image": "../images/crafting/items/tropical_fish_bucket.png"
+    },
+    "minecraft:tropical_fish_spawn_egg": {
+        "name": "minecraft:tropical_fish_spawn_egg",
+        "image": "../images/crafting/items/tropical_fish_spawn_egg.png"
+    },
+    "minecraft:tube_coral": {
+        "name": "minecraft:tube_coral",
+        "image": "../images/crafting/items/tube_coral.png"
+    },
+    "minecraft:tube_coral_block": {
+        "name": "minecraft:tube_coral_block",
+        "image": "../images/crafting/items/tube_coral_block.png"
+    },
+    "minecraft:tube_coral_fan": {
+        "name": "minecraft:tube_coral_fan",
+        "image": "../images/crafting/items/tube_coral_fan.png"
+    },
+    "minecraft:tuff": {
+        "name": "minecraft:tuff",
+        "image": "../images/crafting/items/tuff.png"
+    },
+    "minecraft:turtle_egg": {
+        "name": "minecraft:turtle_egg",
+        "image": "../images/crafting/items/turtle_egg.png"
+    },
+    "minecraft:turtle_helmet": {
+        "name": "minecraft:turtle_helmet",
+        "image": "../images/crafting/items/turtle_helmet.png"
+    },
+    "minecraft:turtle_spawn_egg": {
+        "name": "minecraft:turtle_spawn_egg",
+        "image": "../images/crafting/items/turtle_spawn_egg.png"
+    },
+    "minecraft:twisting_vines": {
+        "name": "minecraft:twisting_vines",
+        "image": "../images/crafting/items/twisting_vines.png"
+    },
+    "minecraft:verdant_froglight": {
+        "name": "minecraft:verdant_froglight",
+        "image": "../images/crafting/items/verdant_froglight.png"
+    },
+    "minecraft:vex_armor_trim_smithing_template": {
+        "name": "minecraft:vex_armor_trim_smithing_template",
+        "image": "../images/crafting/items/vex_armor_trim_smithing_template.png"
+    },
+    "minecraft:vex_spawn_egg": {
+        "name": "minecraft:vex_spawn_egg",
+        "image": "../images/crafting/items/vex_spawn_egg.png"
+    },
+    "minecraft:villager_spawn_egg": {
+        "name": "minecraft:villager_spawn_egg",
+        "image": "../images/crafting/items/villager_spawn_egg.png"
+    },
+    "minecraft:vindicator_spawn_egg": {
+        "name": "minecraft:vindicator_spawn_egg",
+        "image": "../images/crafting/items/vindicator_spawn_egg.png"
+    },
+    "minecraft:vine": {
+        "name": "minecraft:vine",
+        "image": "../images/crafting/items/vine.png"
+    },
+    "minecraft:wandering_trader_spawn_egg": {
+        "name": "minecraft:wandering_trader_spawn_egg",
+        "image": "../images/crafting/items/wandering_trader_spawn_egg.png"
+    },
+    "minecraft:ward_armor_trim_smithing_template": {
+        "name": "minecraft:ward_armor_trim_smithing_template",
+        "image": "../images/crafting/items/ward_armor_trim_smithing_template.png"
+    },
+    "minecraft:warden_spawn_egg": {
+        "name": "minecraft:warden_spawn_egg",
+        "image": "../images/crafting/items/warden_spawn_egg.png"
+    },
+    "minecraft:warped_button": {
+        "name": "minecraft:warped_button",
+        "image": "../images/crafting/items/warped_button.png"
+    },
+    "minecraft:warped_door": {
+        "name": "minecraft:warped_door",
+        "image": "../images/crafting/items/warped_door.png"
+    },
+    "minecraft:warped_fence": {
+        "name": "minecraft:warped_fence",
+        "image": "../images/crafting/items/warped_fence.png"
+    },
+    "minecraft:warped_fence_gate": {
+        "name": "minecraft:warped_fence_gate",
+        "image": "../images/crafting/items/warped_fence_gate.png"
+    },
+    "minecraft:warped_fungus": {
+        "name": "minecraft:warped_fungus",
+        "image": "../images/crafting/items/warped_fungus.png"
+    },
+    "minecraft:warped_fungus_on_a_stick": {
+        "name": "minecraft:warped_fungus_on_a_stick",
+        "image": "../images/crafting/items/warped_fungus_on_a_stick.png"
+    },
+    "minecraft:warped_hanging_sign": {
+        "name": "minecraft:warped_hanging_sign",
+        "image": "../images/crafting/items/warped_hanging_sign.png"
+    },
+    "minecraft:warped_hyphae": {
+        "name": "minecraft:warped_hyphae",
+        "image": "../images/crafting/items/warped_hyphae.png"
+    },
+    "minecraft:warped_nylium": {
+        "name": "minecraft:warped_nylium",
+        "image": "../images/crafting/items/warped_nylium.png"
+    },
+    "minecraft:warped_planks": {
+        "name": "minecraft:warped_planks",
+        "image": "../images/crafting/items/warped_planks.png"
+    },
+    "minecraft:warped_pressure_plate": {
+        "name": "minecraft:warped_pressure_plate",
+        "image": "../images/crafting/items/warped_pressure_plate.png"
+    },
+    "minecraft:warped_roots": {
+        "name": "minecraft:warped_roots",
+        "image": "../images/crafting/items/warped_roots.png"
+    },
+    "minecraft:warped_sign": {
+        "name": "minecraft:warped_sign",
+        "image": "../images/crafting/items/warped_sign.png"
+    },
+    "minecraft:warped_slab": {
+        "name": "minecraft:warped_slab",
+        "image": "../images/crafting/items/warped_slab.png"
+    },
+    "minecraft:warped_stairs": {
+        "name": "minecraft:warped_stairs",
+        "image": "../images/crafting/items/warped_stairs.png"
+    },
+    "minecraft:warped_stem": {
+        "name": "minecraft:warped_stem",
+        "image": "../images/crafting/items/warped_stem.png"
+    },
+    "minecraft:warped_trapdoor": {
+        "name": "minecraft:warped_trapdoor",
+        "image": "../images/crafting/items/warped_trapdoor.png"
+    },
+    "minecraft:warped_wart_block": {
+        "name": "minecraft:warped_wart_block",
+        "image": "../images/crafting/items/warped_wart_block.png"
+    },
+    "minecraft:water_bucket": {
+        "name": "minecraft:water_bucket",
+        "image": "../images/crafting/items/water_bucket.png"
+    },
+    "minecraft:water_bottle": {
+        "name": "minecraft:water_bottle",
+        "image": "../images/crafting/items/water_bottle.png"
+    },
+    "minecraft:waxed_copper_block": {
+        "name": "minecraft:waxed_copper_block",
+        "image": "../images/crafting/items/waxed_copper_block.png"
+    },
+    "minecraft:waxed_cut_copper": {
+        "name": "minecraft:waxed_cut_copper",
+        "image": "../images/crafting/items/waxed_cut_copper.png"
+    },
+    "minecraft:waxed_cut_copper_slab": {
+        "name": "minecraft:waxed_cut_copper_slab",
+        "image": "../images/crafting/items/waxed_cut_copper_slab.png"
+    },
+    "minecraft:waxed_cut_copper_stairs": {
+        "name": "minecraft:waxed_cut_copper_stairs",
+        "image": "../images/crafting/items/waxed_cut_copper_stairs.png"
+    },
+    "minecraft:waxed_exposed_copper": {
+        "name": "minecraft:waxed_exposed_copper",
+        "image": "../images/crafting/items/waxed_exposed_copper.png"
+    },
+    "minecraft:waxed_exposed_cut_copper": {
+        "name": "minecraft:waxed_exposed_cut_copper",
+        "image": "../images/crafting/items/waxed_exposed_cut_copper.png"
+    },
+    "minecraft:waxed_exposed_cut_copper_slab": {
+        "name": "minecraft:waxed_exposed_cut_copper_slab",
+        "image": "../images/crafting/items/waxed_exposed_cut_copper_slab.png"
+    },
+    "minecraft:waxed_exposed_cut_copper_stairs": {
+        "name": "minecraft:waxed_exposed_cut_copper_stairs",
+        "image": "../images/crafting/items/waxed_exposed_cut_copper_stairs.png"
+    },
+    "minecraft:waxed_oxidized_copper": {
+        "name": "minecraft:waxed_oxidized_copper",
+        "image": "../images/crafting/items/waxed_oxidized_copper.png"
+    },
+    "minecraft:waxed_oxidized_cut_copper": {
+        "name": "minecraft:waxed_oxidized_cut_copper",
+        "image": "../images/crafting/items/waxed_oxidized_cut_copper.png"
+    },
+    "minecraft:waxed_oxidized_cut_copper_slab": {
+        "name": "minecraft:waxed_oxidized_cut_copper_slab",
+        "image": "../images/crafting/items/waxed_oxidized_cut_copper_slab.png"
+    },
+    "minecraft:waxed_oxidized_cut_copper_stairs": {
+        "name": "minecraft:waxed_oxidized_cut_copper_stairs",
+        "image": "../images/crafting/items/waxed_oxidized_cut_copper_stairs.png"
+    },
+    "minecraft:waxed_weathered_copper": {
+        "name": "minecraft:waxed_weathered_copper",
+        "image": "../images/crafting/items/waxed_weathered_copper.png"
+    },
+    "minecraft:waxed_weathered_cut_copper": {
+        "name": "minecraft:waxed_weathered_cut_copper",
+        "image": "../images/crafting/items/waxed_weathered_cut_copper.png"
+    },
+    "minecraft:waxed_weathered_cut_copper_slab": {
+        "name": "minecraft:waxed_weathered_cut_copper_slab",
+        "image": "../images/crafting/items/waxed_weathered_cut_copper_slab.png"
+    },
+    "minecraft:waxed_weathered_cut_copper_stairs": {
+        "name": "minecraft:waxed_weathered_cut_copper_stairs",
+        "image": "../images/crafting/items/waxed_weathered_cut_copper_stairs.png"
+    },
+    "minecraft:weathered_copper": {
+        "name": "minecraft:weathered_copper",
+        "image": "../images/crafting/items/weathered_copper.png"
+    },
+    "minecraft:weathered_cut_copper": {
+        "name": "minecraft:weathered_cut_copper",
+        "image": "../images/crafting/items/weathered_cut_copper.png"
+    },
+    "minecraft:weathered_cut_copper_slab": {
+        "name": "minecraft:weathered_cut_copper_slab",
+        "image": "../images/crafting/items/weathered_cut_copper_slab.png"
+    },
+    "minecraft:weathered_cut_copper_stairs": {
+        "name": "minecraft:weathered_cut_copper_stairs",
+        "image": "../images/crafting/items/weathered_cut_copper_stairs.png"
+    },
+    "minecraft:weeping_vines": {
+        "name": "minecraft:weeping_vines",
+        "image": "../images/crafting/items/weeping_vines.png"
+    },
+    "minecraft:wet_sponge": {
+        "name": "minecraft:wet_sponge",
+        "image": "../images/crafting/items/wet_sponge.png"
+    },
+    "minecraft:wheat": {
+        "name": "minecraft:wheat",
+        "image": "../images/crafting/items/wheat.png"
+    },
+    "minecraft:wheat_seeds": {
+        "name": "minecraft:wheat_seeds",
+        "image": "../images/crafting/items/wheat_seeds.png"
+    },
+    "minecraft:white_banner": {
+        "name": "minecraft:white_banner",
+        "image": "../images/crafting/items/white_banner.png"
+    },
+    "minecraft:white_bed": {
+        "name": "minecraft:white_bed",
+        "image": "../images/crafting/items/white_bed.png"
+    },
+    "minecraft:white_candle": {
+        "name": "minecraft:white_candle",
+        "image": "../images/crafting/items/white_candle.png"
+    },
+    "minecraft:white_carpet": {
+        "name": "minecraft:white_carpet",
+        "image": "../images/crafting/items/white_carpet.png"
+    },
+    "minecraft:white_concrete": {
+        "name": "minecraft:white_concrete",
+        "image": "../images/crafting/items/white_concrete.png"
+    },
+    "minecraft:white_concrete_powder": {
+        "name": "minecraft:white_concrete_powder",
+        "image": "../images/crafting/items/white_concrete_powder.png"
+    },
+    "minecraft:white_dye": {
+        "name": "minecraft:white_dye",
+        "image": "../images/crafting/items/white_dye.png"
+    },
+    "minecraft:white_glazed_terracotta": {
+        "name": "minecraft:white_glazed_terracotta",
+        "image": "../images/crafting/items/white_glazed_terracotta.png"
+    },
+    "minecraft:white_shulker_box": {
+        "name": "minecraft:white_shulker_box",
+        "image": "../images/crafting/items/white_shulker_box.png"
+    },
+    "minecraft:white_stained_glass": {
+        "name": "minecraft:white_stained_glass",
+        "image": "../images/crafting/items/white_stained_glass.png"
+    },
+    "minecraft:white_stained_glass_pane": {
+        "name": "minecraft:white_stained_glass_pane",
+        "image": "../images/crafting/items/white_stained_glass_pane.png"
+    },
+    "minecraft:white_terracotta": {
+        "name": "minecraft:white_terracotta",
+        "image": "../images/crafting/items/white_terracotta.png"
+    },
+    "minecraft:white_tulip": {
+        "name": "minecraft:white_tulip",
+        "image": "../images/crafting/items/white_tulip.png"
+    },
+    "minecraft:white_wool": {
+        "name": "minecraft:white_wool",
+        "image": "../images/crafting/items/white_wool.png"
+    },
+    "minecraft:wild_armor_trim_smithing_template": {
+        "name": "minecraft:wild_armor_trim_smithing_template",
+        "image": "../images/crafting/items/wild_armor_trim_smithing_template.png"
+    },
+    "minecraft:witch_spawn_egg": {
+        "name": "minecraft:witch_spawn_egg",
+        "image": "../images/crafting/items/witch_spawn_egg.png"
+    },
+    "minecraft:wither_rose": {
+        "name": "minecraft:wither_rose",
+        "image": "../images/crafting/items/wither_rose.png"
+    },
+    "minecraft:wither_skeleton_skull": {
+        "name": "minecraft:wither_skeleton_skull",
+        "image": "../images/crafting/items/wither_skeleton_skull.png"
+    },
+    "minecraft:wither_skeleton_spawn_egg": {
+        "name": "minecraft:wither_skeleton_spawn_egg",
+        "image": "../images/crafting/items/wither_skeleton_spawn_egg.png"
+    },
+    "minecraft:wither_spawn_egg": {
+        "name": "minecraft:wither_spawn_egg",
+        "image": "../images/crafting/items/wither_spawn_egg.png"
+    },
+    "minecraft:wolf_spawn_egg": {
+        "name": "minecraft:wolf_spawn_egg",
+        "image": "../images/crafting/items/wolf_spawn_egg.png"
+    },
+    "minecraft:wooden_axe": {
+        "name": "minecraft:wooden_axe",
+        "image": "../images/crafting/items/wooden_axe.png"
+    },
+    "minecraft:wooden_hoe": {
+        "name": "minecraft:wooden_hoe",
+        "image": "../images/crafting/items/wooden_hoe.png"
+    },
+    "minecraft:wooden_pickaxe": {
+        "name": "minecraft:wooden_pickaxe",
+        "image": "../images/crafting/items/wooden_pickaxe.png"
+    },
+    "minecraft:wooden_shovel": {
+        "name": "minecraft:wooden_shovel",
+        "image": "../images/crafting/items/wooden_shovel.png"
+    },
+    "minecraft:wooden_sword": {
+        "name": "minecraft:wooden_sword",
+        "image": "../images/crafting/items/wooden_sword.png"
+    },
+    "minecraft:writable_book": {
+        "name": "minecraft:writable_book",
+        "image": "../images/crafting/items/writable_book.png"
+    },
+    "minecraft:written_book": {
+        "name": "minecraft:written_book",
+        "image": "../images/crafting/items/written_book.gif"
+    },
+    "minecraft:yellow_banner": {
+        "name": "minecraft:yellow_banner",
+        "image": "../images/crafting/items/yellow_banner.png"
+    },
+    "minecraft:yellow_bed": {
+        "name": "minecraft:yellow_bed",
+        "image": "../images/crafting/items/yellow_bed.png"
+    },
+    "minecraft:yellow_candle": {
+        "name": "minecraft:yellow_candle",
+        "image": "../images/crafting/items/yellow_candle.png"
+    },
+    "minecraft:yellow_carpet": {
+        "name": "minecraft:yellow_carpet",
+        "image": "../images/crafting/items/yellow_carpet.png"
+    },
+    "minecraft:yellow_concrete": {
+        "name": "minecraft:yellow_concrete",
+        "image": "../images/crafting/items/yellow_concrete.png"
+    },
+    "minecraft:yellow_concrete_powder": {
+        "name": "minecraft:yellow_concrete_powder",
+        "image": "../images/crafting/items/yellow_concrete_powder.png"
+    },
+    "minecraft:yellow_dye": {
+        "name": "minecraft:yellow_dye",
+        "image": "../images/crafting/items/yellow_dye.png"
+    },
+    "minecraft:yellow_glazed_terracotta": {
+        "name": "minecraft:yellow_glazed_terracotta",
+        "image": "../images/crafting/items/yellow_glazed_terracotta.png"
+    },
+    "minecraft:yellow_shulker_box": {
+        "name": "minecraft:yellow_shulker_box",
+        "image": "../images/crafting/items/yellow_shulker_box.png"
+    },
+    "minecraft:yellow_stained_glass": {
+        "name": "minecraft:yellow_stained_glass",
+        "image": "../images/crafting/items/yellow_stained_glass.png"
+    },
+    "minecraft:yellow_stained_glass_pane": {
+        "name": "minecraft:yellow_stained_glass_pane",
+        "image": "../images/crafting/items/yellow_stained_glass_pane.png"
+    },
+    "minecraft:yellow_terracotta": {
+        "name": "minecraft:yellow_terracotta",
+        "image": "../images/crafting/items/yellow_terracotta.png"
+    },
+    "minecraft:yellow_wool": {
+        "name": "minecraft:yellow_wool",
+        "image": "../images/crafting/items/yellow_wool.png"
+    },
+    "minecraft:zoglin_spawn_egg": {
+        "name": "minecraft:zoglin_spawn_egg",
+        "image": "../images/crafting/items/zoglin_spawn_egg.png"
+    },
+    "minecraft:zombie_head": {
+        "name": "minecraft:zombie_head",
+        "image": "../images/crafting/items/zombie_head.png"
+    },
+    "minecraft:zombie_horse_spawn_egg": {
+        "name": "minecraft:zombie_horse_spawn_egg",
+        "image": "../images/crafting/items/zombie_horse_spawn_egg.png"
+    },
+    "minecraft:zombie_spawn_egg": {
+        "name": "minecraft:zombie_spawn_egg",
+        "image": "../images/crafting/items/zombie_spawn_egg.png"
+    },
+    "minecraft:zombie_villager_spawn_egg": {
+        "name": "minecraft:zombie_villager_spawn_egg",
+        "image": "../images/crafting/items/zombie_villager_spawn_egg.png"
+    },
+    "minecraft:zombified_piglin_spawn_egg": {
+        "name": "minecraft:zombified_piglin_spawn_egg",
+        "image": "../images/crafting/items/zombified_piglin_spawn_egg.png"
+    }
+}
