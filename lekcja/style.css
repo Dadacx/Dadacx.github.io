@@ -1,0 +1,38 @@
+  .scroll_container {
+    display: flex;
+    align-items: center;
+    height: 9vh;
+    overflow: hidden;
+    font-family: Minecraftia;
+  }
+  
+  .scroll {
+    white-space: nowrap;
+    margin: 0 2em;
+  }
+  
+  .scroll div {
+    display: flex;
+    gap: 2em;
+  }
+  
+  .scroll p {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    line-height: 10px;
+  }
+  
+  .RightToLeft {
+    animation: RightToLeft 40s infinite linear;
+  }
+  
+  @keyframes  RightToLeft {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
