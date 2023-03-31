@@ -663,6 +663,10 @@
         "name": "minecraft:calcite",
         "image": "../images/crafting/items/calcite.png"
     },
+    "minecraft:calibrated_sculk_sensor": {
+        "name": "minecraft:calibrated_sculk_sensor",
+        "image": "../images/crafting/items/calibrated_sculk_sensor.png"
+    },
     "minecraft:camel_spawn_egg": {
         "name": "minecraft:camel_spawn_egg",
         "image": "../images/crafting/items/camel_spawn_egg.png"
@@ -2131,6 +2135,10 @@
         "name": "minecraft:horse_spawn_egg",
         "image": "../images/crafting/items/horse_spawn_egg.png"
     },
+    "minecraft:host_armor_trim_smithing_template": {
+        "name": "minecraft:host_armor_trim_smithing_template",
+        "image": "../images/crafting/items/host_armor_trim_smithing_template.png"
+    },
     "minecraft:husk_spawn_egg": {
         "name": "minecraft:husk_spawn_egg",
         "image": "../images/crafting/items/husk_spawn_egg.png"
@@ -3389,6 +3397,14 @@
         "name": "minecraft:piston",
         "image": "../images/crafting/items/piston.png"
     },
+    "minecraft:pitcher_plant": {
+        "name": "minecraft:pitcher_plant",
+        "image": "../images/crafting/items/pitcher_plant.png"
+    },
+    "minecraft:pitcher_pod": {
+        "name": "minecraft:pitcher_pod",
+        "image": "../images/crafting/items/pitcher_pod.png"
+    },
     "minecraft:player_head": {
         "name": "minecraft:player_head",
         "image": "../images/crafting/items/player_head.png"
@@ -3591,6 +3607,10 @@
             }
         }
     },
+    "minecraft:pottery_shard_angler": {
+        "name": "minecraft:pottery_shard_angler",
+        "image": "../images/crafting/items/pottery_shard_angler.png"
+    },
     "minecraft:pottery_shard_archer": {
         "name": "minecraft:pottery_shard_archer",
         "image": "../images/crafting/items/pottery_shard_archer.png"
@@ -3599,13 +3619,73 @@
         "name": "minecraft:pottery_shard_arms_up",
         "image": "../images/crafting/items/pottery_shard_arms_up.png"
     },
+    "minecraft:pottery_shard_blade": {
+        "name": "minecraft:pottery_shard_blade",
+        "image": "../images/crafting/items/pottery_shard_blade.png"
+    },
+    "minecraft:pottery_shard_brewer": {
+        "name": "minecraft:pottery_shard_brewer",
+        "image": "../images/crafting/items/pottery_shard_brewer.png"
+    },
+    "minecraft:pottery_shard_burn": {
+        "name": "minecraft:pottery_shard_burn",
+        "image": "../images/crafting/items/pottery_shard_burn.png"
+    },
+    "minecraft:pottery_shard_danger": {
+        "name": "minecraft:pottery_shard_danger",
+        "image": "../images/crafting/items/pottery_shard_danger.png"
+    },
+    "minecraft:pottery_shard_explorer": {
+        "name": "minecraft:pottery_shard_explorer",
+        "image": "../images/crafting/items/pottery_shard_explorer.png"
+    },
+    "minecraft:pottery_shard_friend": {
+        "name": "minecraft:pottery_shard_friend",
+        "image": "../images/crafting/items/pottery_shard_friend.png"
+    },
+    "minecraft:pottery_shard_heart": {
+        "name": "minecraft:pottery_shard_heart",
+        "image": "../images/crafting/items/pottery_shard_heart.png"
+    },
+    "minecraft:pottery_shard_heartbreak": {
+        "name": "minecraft:pottery_shard_heartbreak",
+        "image": "../images/crafting/items/pottery_shard_heartbreak.png"
+    },
+    "minecraft:pottery_shard_howl": {
+        "name": "minecraft:pottery_shard_howl",
+        "image": "../images/crafting/items/pottery_shard_howl.png"
+    },
+    "minecraft:pottery_shard_miner": {
+        "name": "minecraft:pottery_shard_miner",
+        "image": "../images/crafting/items/pottery_shard_miner.png"
+    },
+    "minecraft:pottery_shard_mourner": {
+        "name": "minecraft:pottery_shard_mourner",
+        "image": "../images/crafting/items/pottery_shard_mourner.png"
+    },
+    "minecraft:pottery_shard_plenty": {
+        "name": "minecraft:pottery_shard_plenty",
+        "image": "../images/crafting/items/pottery_shard_plenty.png"
+    },
     "minecraft:pottery_shard_prize": {
         "name": "minecraft:pottery_shard_prize",
         "image": "../images/crafting/items/pottery_shard_prize.png"
     },
+    "minecraft:pottery_shard_sheaf": {
+        "name": "minecraft:pottery_shard_sheaf",
+        "image": "../images/crafting/items/pottery_shard_sheaf.png"
+    },
+    "minecraft:pottery_shard_shelter": {
+        "name": "minecraft:pottery_shard_shelter",
+        "image": "../images/crafting/items/pottery_shard_shelter.png"
+    },
     "minecraft:pottery_shard_skull": {
         "name": "minecraft:pottery_shard_skull",
         "image": "../images/crafting/items/pottery_shard_skull.png"
+    },
+    "minecraft:pottery_shard_snort": {
+        "name": "minecraft:pottery_shard_snort",
+        "image": "../images/crafting/items/pottery_shard_snort.png"
     },
     "minecraft:powder_snow_bucket": {
         "name": "minecraft:powder_snow_bucket",
@@ -3790,6 +3870,10 @@
     "minecraft:rail": {
         "name": "minecraft:rail",
         "image": "../images/crafting/items/rail.png"
+    },
+    "minecraft:raiser_armor_trim_smithing_template": {
+        "name": "minecraft:raiser_armor_trim_smithing_template",
+        "image": "../images/crafting/items/raiser_armor_trim_smithing_template.png"
     },
     "minecraft:ravager_spawn_egg": {
         "name": "minecraft:ravager_spawn_egg",
@@ -4055,6 +4139,10 @@
         "name": "minecraft:sentry_armor_trim_smithing_template",
         "image": "../images/crafting/items/sentry_armor_trim_smithing_template.png"
     },
+    "minecraft:shaper_armor_trim_smithing_template": {
+        "name": "minecraft:shaper_armor_trim_smithing_template",
+        "image": "../images/crafting/items/shaper_armor_trim_smithing_template.png"
+    },
     "minecraft:shears": {
         "name": "minecraft:shears",
         "image": "../images/crafting/items/shears.png"
@@ -4082,6 +4170,10 @@
     "minecraft:shulker_spawn_egg": {
         "name": "minecraft:shulker_spawn_egg",
         "image": "../images/crafting/items/shulker_spawn_egg.png"
+    },
+    "minecraft:silence_armor_trim_smithing_template": {
+        "name": "minecraft:silence_armor_trim_smithing_template",
+        "image": "../images/crafting/items/silence_armor_trim_smithing_template.png"
     },
     "minecraft:silverfish_spawn_egg": {
         "name": "minecraft:silverfish_spawn_egg",
@@ -4178,6 +4270,10 @@
     "minecraft:smooth_stone_slab": {
         "name": "minecraft:smooth_stone_slab",
         "image": "../images/crafting/items/smooth_stone_slab.png"
+    },
+    "minecraft:sniffer_egg": {
+        "name": "minecraft:sniffer_egg",
+        "image": "../images/crafting/items/sniffer_egg.png"
     },
     "minecraft:sniffer_spawn_egg": {
         "name": "minecraft:sniffer_spawn_egg",
@@ -4581,6 +4677,10 @@
         "name": "minecraft:sunflower",
         "image": "../images/crafting/items/sunflower.png"
     },
+    "minecraft:suspicious_gravel": {
+        "name": "minecraft:suspicious_gravel",
+        "image": "../images/crafting/items/suspicious_gravel.png"
+    },
     "minecraft:suspicious_sand": {
         "name": "minecraft:suspicious_sand",
         "image": "../images/crafting/items/suspicious_sand.png"
@@ -4888,6 +4988,10 @@
     "minecraft:waxed_weathered_cut_copper_stairs": {
         "name": "minecraft:waxed_weathered_cut_copper_stairs",
         "image": "../images/crafting/items/waxed_weathered_cut_copper_stairs.png"
+    },
+    "minecraft:wayfinder_armor_trim_smithing_template": {
+        "name": "minecraft:wayfinder_armor_trim_smithing_template",
+        "image": "../images/crafting/items/wayfinder_armor_trim_smithing_template.png"
     },
     "minecraft:weathered_copper": {
         "name": "minecraft:weathered_copper",
