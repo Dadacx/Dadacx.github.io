@@ -12,7 +12,7 @@
         let body = document.querySelector('body');
         //let tooltip = document.getElementById('tooltip');
         let left = e.offsetX+5;
-        let top = e.offsetY-100;
+        let top = e.offsetY-110;
         tooltip.querySelector('#tooltip').style.left = left + 'px';
         tooltip.querySelector('#tooltip').style.top = top + 'px';
         })}
@@ -296,11 +296,12 @@
             </div>
             </div>
             <div class="tooltip inv" style="left:106px" onmouseover="move(this)">
-            <img alt="elytra" width="55" src="images/enchanty/elytra.png">
+            <img alt="brush" width="55" src="images/enchanty/brush.png">
+            <img class="grid" alt="brush_overlay" style="-webkit-mask-image: url(images/enchanty/brush.png);" src="images/enchanty/Grid_Layout_Glint.png">
             <div id="tooltip" class="box tooltiptext">
                 <div class="outer">
                     <div class="inner">
-                        <div id="name" class="mc-aqua mc-shadow">Elytra</div>
+                        <div id="name" class="mc-aqua mc-shadow">Brush</div>
                         <div id="lore" class="mc-light_purple mc-shadow">
                             <span class="mc-green mc-shadow">Unbreaking III</span><br>
                             <span class="mc-green mc-shadow">Mending</span>
@@ -364,6 +365,20 @@
                                 <span class="mc-dark_green mc-shadow">Można połączyć ze sobą ale nie z kolorem czerwonym</span><br>
                                 <span class="mc-red mc-shadow">Wyklucza się z tym samym kolorem</span><br>
                                 <span class="mc-dark_red mc-shadow">Wyklucza się z tym samym kolorem</span><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tooltip inv" style="left:357px" onmouseover="move(this)">
+                <img alt="elytra" width="55" src="images/enchanty/elytra.png">
+                <div id="tooltip" class="box tooltiptext">
+                    <div class="outer">
+                        <div class="inner">
+                            <div id="name" class="mc-aqua mc-shadow">Elytra</div>
+                            <div id="lore" class="mc-light_purple mc-shadow">
+                                <span class="mc-green mc-shadow">Unbreaking III</span><br>
+                                <span class="mc-green mc-shadow">Mending</span>
                             </div>
                         </div>
                     </div>
