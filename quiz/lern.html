@@ -9,8 +9,8 @@
 <body onload="load()">
     <div class="lista" id="lista">
         <button class="confirm" id="close" style="background-color: red" onclick="document.querySelector('#lista').style.visibility = 'hidden'">ZAMKNIJ</button>
-        <table>
-        <tr><th>Pytanie</th><th>Odpowiedź</th></tr>
+       <table id="table">
+        <tr><th onclick="sortTable()">Pytanie</th><th>Odpowiedź</th></tr>
     </table>
     <button class="confirm" id="close" style="background-color: red" onclick="document.querySelector('#lista').style.visibility = 'hidden'">ZAMKNIJ</button>
 </div>
