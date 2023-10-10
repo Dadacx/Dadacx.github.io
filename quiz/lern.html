@@ -8,11 +8,13 @@
 </head>
 <body onload="load()">
     <div class="lista" id="lista">
-        <button class="confirm" id="close" style="background-color: red" onclick="document.querySelector('#lista').style.visibility = 'hidden'">ZAMKNIJ</button>
-       <table id="table">
+        <button class="confirm" id="again" style="background-color: red" onclick="document.querySelector('#lista').style.visibility = 'hidden'">ZAMKNIJ</button>
+        <div class="break"></div>
+        <input id="search" class="search" onkeyup="search()">
+        <table id="table">
         <tr><th onclick="sortTable()">Pytanie</th><th>Odpowiedź</th></tr>
     </table>
-    <button class="confirm" id="close" style="background-color: red" onclick="document.querySelector('#lista').style.visibility = 'hidden'">ZAMKNIJ</button>
+    <button class="confirm" id="again" style="background-color: red" onclick="document.querySelector('#lista').style.visibility = 'hidden'">ZAMKNIJ</button>
 </div>
     <div class="slowo end" onclick="klik()" style="font-weight: normal">
         <p class="postep" id="progress" style="font-size: 17px;"></p>
