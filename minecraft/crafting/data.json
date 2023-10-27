@@ -1,4 +1,5 @@
 {
+    "last_version": "23w42a",
     "minecraft:acacia_boat": {
         "name": "minecraft:acacia_boat",
         "image": "../images/crafting/items/acacia_boat.png"
@@ -1046,6 +1047,10 @@
     "minecraft:cracked_stone_bricks": {
         "name": "minecraft:cracked_stone_bricks",
         "image": "../images/crafting/items/cracked_stone_bricks.png"
+    },
+    "minecraft:crafter": {
+        "name": "minecraft:crafter",
+        "image": "../images/crafting/items/crafter.png"
     },
     "minecraft:crafting_table": {
         "name": "minecraft:crafting_table",

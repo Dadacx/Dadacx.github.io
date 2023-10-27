@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Bloki na stacki</title>
+    <link rel="stylesheet" href="https://dadacx.github.io/fad/fonts/mc.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="input_group">
+        <span class="input_group_text">Stacki (64)</span>
+        <input type="text" class="stack radius" id="stack">
+        <span class="input_group_text radius">/</span>
+        <input type="text" class="stack_bloki" id="stack_bloki">
+      </div>
+      <div class="buttons">
+        <div class="button" onclick="stacks64()">←</div>
+        <div class="button" onclick="blok64()">→</div>
+      </div>
+      <div class="input_group">
+        <span class="input_group_text">Bloki</span>
+        <input type="text" class="bloki" id="bloki">
+      </div>
+      <br>
+      <div class="input_group">
+        <span class="input_group_text">Stacki (16)</span>
+        <input type="text" class="stack radius" id="stack2">
+        <span class="input_group_text radius">/</span>
+        <input type="text" class="stack_bloki" id="stack_bloki2">
+      </div>
+      <div class="buttons">
+        <div class="button" onclick="stacks16()">←</div>
+        <div class="button" onclick="blok16()">→</div>
+      </div>
+      <div class="input_group">
+        <span class="input_group_text">Bloki</span>
+        <input type="text" class="bloki" id="bloki2">
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

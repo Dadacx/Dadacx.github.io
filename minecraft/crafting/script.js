@@ -1,3 +1,4 @@
+var data = {}
 fetch('./data.json')
     .then((response) => response.json())
     .then((json) => data = json);
@@ -17,6 +18,7 @@ fetch('./data.json')
         })
     });
     function createDatalist() {
+        console.log("Ostatnia wersja: " + data.last_version)
         datalist = json2array(data)
         options = ""
         datalist.forEach(item => {
