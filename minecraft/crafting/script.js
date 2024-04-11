@@ -1,5 +1,5 @@
 var data = {}
-fetch('./data.json')
+fetch('../api/items/data.json')
     .then((response) => response.json())
     .then((json) => data = json);
     fetch('./custom_data.json')
