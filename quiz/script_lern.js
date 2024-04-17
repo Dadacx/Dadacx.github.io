@@ -3,6 +3,14 @@ const odp = []
 rng = 0
 const test = []
 ilosc = 0
+document.body.onkeyup = function(e) {
+  if (e.key == " ") {
+    klik()
+  }
+     if (e.key == "ArrowRight") {
+    lern()
+  }
+}
 function search() {
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("search");
