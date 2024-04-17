@@ -11,7 +11,7 @@ ilosc = 0
     lern()
   }
 }*/
-document.addEventListener('keyup', event => {
+document.addEventListener('keyup', e => {
   if (e.key == " " || e.key == "ArrowDown") {
     klik()
   }
