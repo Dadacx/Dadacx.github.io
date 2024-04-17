@@ -4,10 +4,10 @@ rng = 0
 const test = []
 ilosc = 0
 document.body.onkeyup = function(e) {
-  if (e.key == " ") {
+  if (e.key == " " || e.key == "ArrowDown") {
     klik()
   }
-     if (e.key == "ArrowRight" || e.key == "ArrowDown") {
+     if (e.key == "ArrowRight") {
     lern()
   }
 }
