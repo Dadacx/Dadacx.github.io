@@ -7,7 +7,7 @@ document.body.onkeyup = function(e) {
   if (e.key == " ") {
     klik()
   }
-     if (e.key == "ArrowRight") {
+     if (e.key == "ArrowRight" || e.key == "ArrowDown") {
     lern()
   }
 }
