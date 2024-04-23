@@ -1,0 +1,355 @@
+#root {
+  height: 100vh;
+}
+body {
+  background-image: url("./images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  user-select: none;
+}
+.content {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Lacquer;
+}
+.board {
+  width: 80%;
+  height: 600px;
+}
+.menu_items {
+  width: 80%;
+  position: absolute;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+}
+.matelife {
+  width: 50%;
+  margin-top: -75px;
+}
+.btn {
+  width: fit-content;
+  color: #fff;
+  font-size: 50px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+.btn:hover {
+  text-shadow: 3px 3px 4px #a5a5a5;
+}
+.underline-animation {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+}
+.underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  box-shadow: 2px 3px 4px #a5a5a5;
+}
+
+.underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.mode_items {
+  width: 80%;
+  position: absolute;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25px;
+  font-size: 20px;
+}
+.select_mode {
+  color: white;
+  font-size: 65px;
+  margin-top: -95px;
+  text-align: center;
+}
+.boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0px 120px;
+}
+.mode_box {
+  background-image: url("./images/frame.png");
+  background-size: 150px;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  flex-direction: column;
+  cursor: pointer;
+}
+.mode_box:hover {
+  filter: drop-shadow(5px 5px 4px #a5a5a5);
+}
+.settings_items {
+  width: 80%;
+  position: absolute;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25px;
+  font-size: 20px;
+  align-items: center;
+  color: #fff;
+  font-size: 45px;
+}
+.ustawienia {
+  font-size:65px;
+  margin-top: -115px;
+  margin-bottom: 45px;
+}
+.flag {
+  width: 55px;
+  margin-bottom: -2px;
+  cursor: pointer;
+  margin-left: 25px;
+}
+.font {
+  display: flex;
+  align-items: center;
+}
+.font_box {
+  background-image: url("./images/frame2.png");
+  background-size: 120px;
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 45px;
+  font-size: 25px;
+  margin-bottom: -10px;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.sound {
+  display: flex;
+  align-items: center;
+}
+.settings_item {
+  margin-top: 25px;
+}
+.settings_shadow:hover {
+  filter: drop-shadow(3px 4px 4px #a5a5a5);
+}
+.selected_mode {
+  color: white;
+  font-size: 65px;
+  margin-top: -95px;
+  text-align: center;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 450px;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: -49px;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.toggler-wrapper {
+	display: block;
+	width: 45px;
+	height: 25px;
+	cursor: pointer;
+	position: relative;
+  margin-bottom: -3px;
+  margin-left: 25px;
+}
+
+.toggler-wrapper input[type="checkbox"] {
+	display: none;
+}
+
+.toggler-wrapper input[type="checkbox"]:checked+.toggler-slider {
+	background-color: #44cc66;
+}
+
+.toggler-wrapper .toggler-slider {
+	background-color: #ccc;
+	position: absolute;
+	border-radius: 100px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+
+.toggler-wrapper .toggler-knob {
+	position: absolute;
+	-webkit-transition: all 300ms ease;
+	transition: all 300ms ease;
+}
+.toggler-wrapper input[type="checkbox"]:checked+.toggler-slider .toggler-knob {
+	left: calc(100% - 19px - 3px);
+}
+
+.toggler-wrapper .toggler-knob {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	left: 0;
+	top: 0;
+	background-color: #fff;
+	-webkit-box-shadow: 0 2px 6px rgba(153, 153, 153, 0.75);
+	box-shadow: 0 2px 6px rgba(153, 153, 153, 0.75);
+}
+.serca
+{
+  display: block;
+  float: left;
+  padding: 15px;
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.game_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 55px;
+}
+.sercarazem {
+  margin-left: auto;
+  margin-right: auto;
+}
+#gameover {
+  font-size: 90px;
+}
+.try_again {
+  width: 100%;
+  text-align: center;
+  margin-top: 55px;
+}
+.win {
+  display: none;
+  text-align: center;
+  color: #fff;
+}
+.congratulations {
+  font-size: 65px;
+  margin-bottom: 5px;
+  margin-top: -80px;
+}
+.finished {
+  margin-top: -65px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+.minionki {
+  margin-bottom: 25px;
+}
+.play_again {
+  margin-left: 80px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.back_to_mode {
+  font-size: 30px;
+  cursor: pointer;
+}
+.back {
+  position: absolute;
+  top: 62px;
+  left: 14%;
+  font-size: 25px;
+  cursor: pointer;
+  color: #fff;
+}
+.shadow:hover {
+  text-shadow: 3px 3px 4px #a5a5a5;
+}
+.dzialanie {
+  display: inline;
+  font-size: 40px;
+}
+.wynik {
+  background-color: unset;
+  border: 0;
+  border-bottom: 3px white solid;
+  height: 41px;
+  width: 70px;
+  outline: 0;
+  color: #fff;
+  padding: 0;
+  font-size: 40px;
+  font-family: 'Lacquer';
+  text-align: center;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.dzialanie_box {
+  display: flex;
+}
+.hint {
+  visibility: hidden;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.score {
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin-top: 15px;
+}
+.stats_items {
+  width: 80%;
+  position: absolute;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 25px;
+  font-size: 20px;
+  align-items: center;
+  color: #fff;
+  font-size: 45px;
+}
+.stats {
+  font-size: 65px;
+  margin-top: -115px;
+  margin-bottom: 45px;
+}
+.stat {
+  font-size: 30px;
+}
