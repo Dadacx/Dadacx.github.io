@@ -1,0 +1,123 @@
+:root {
+    --slot-size: 50px;
+    --mobile-slot-size: 20px;
+
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-family: Minecraftia;
+
+}
+.box i *{
+    font-size: calc(var(--slot-size) - 6px);
+    line-height: var(--slot-size);
+    width: var(--slot-size);
+    height: var(--slot-size);
+    text-align: center;
+    color: #292929;
+    display: block;
+    z-index: -1;
+}
+.chest {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+
+    height: auto;
+    padding: 0 15px;
+    padding-bottom: 15px;
+    width: auto;
+    background-color: #393939;
+    box-shadow: 8px 0 0 0 #232323,
+        0 8px 0 0 #232323,
+        4px 4px 0 0 #232323,
+        -8px 0 0 0 #585858,
+        0 -8px 0 0 #585858,
+        -4px -4px 0 0 #585858,
+        0 0 0 4px #393939,
+        4px 8px 0 0 #232323,
+        8px 4px 0 0 #232323,
+        -4px -8px 0 0 #585858,
+        -8px -4px 0 0 #585858,
+        8px -4px 0 0 #000,
+        4px -8px 0 0 #000,
+        -8px 4px 0 0 #000,
+        -4px 8px 0 0 #000,
+        -8px -8px 0 0 #000,
+        8px 8px 0 0 #000,
+        -12px 0 0 0 #000,
+        -12px -4px 0 0 #000,
+        12px 0 0 0 #000,
+        12px 4px 0 0 #000,
+        0 -12px 0 0 #000,
+        -4px -12px 0 0 #000,
+        0 12px 0 0 #000,
+        4px 12px 0 0 #000;
+}
+.box {
+    height: var(--slot-size);
+    width: var(--slot-size);
+    background-color: #232323;
+    box-shadow: 2px 2px 0 2px #585858, -2px -2px 0 2px #000000, 0 0 0 4px #232323;
+}
+.box:hover {
+    background-color: #919191;
+}
+.boxes {
+    display: grid;
+    align-content: center;
+    grid-template-columns: repeat(9, calc(var(--slot-size) + 8px));
+    grid-template-rows: repeat(3, calc(var(--slot-size) + 8px)); /* 3 - ilość wierszy */
+    margin-top: 5px;
+}
+.inv {
+    display: grid;
+    grid-template-columns: repeat(9, calc(var(--slot-size) + 8px));
+    grid-template-rows: repeat(3, calc(var(--slot-size) + 8px));
+    margin-bottom: 25px;
+}
+.hotbar {
+    display: grid;
+    grid-template-columns: repeat(9, calc(var(--slot-size) + 8px));
+    grid-template-rows: repeat(1, calc(var(--slot-size) + 8px))
+}
+.boxes,
+.inv,
+.hotbar {
+    margin-left: 8px;
+    cursor: pointer;
+}
+.name {
+    width: 100%;
+    height: 38px;
+    background-image: url("../images/ec/name_bar2.png");
+    background-repeat: no-repeat;
+    background-size: 100% 38px;
+    margin: 5px 0px;
+}
+p {
+    font-weight: normal;
+    font-style: normal;
+    color: #3f3f3f;
+    display: inline-block;
+    width: 100%;
+    padding-left: 7px;
+    font-size: 1.3em;
+    line-height: 30px;
+    margin: 0;
+    margin-top: 1px;
+}

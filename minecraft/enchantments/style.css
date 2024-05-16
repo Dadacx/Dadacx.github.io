@@ -1,0 +1,267 @@
+body {
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    font-family: Minecraftia;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.items {
+    position: absolute;
+    width: 700px;
+    height: 677.412px
+}
+/* HOTBAR ITEMS */
+.hotbar1 {
+    position: absolute;
+    top: 488px;
+    left:45px
+}
+.hotbar2 {
+    position: absolute;
+    top: 488px;
+    left:107px
+}
+.hotbar3 {
+    position: absolute;
+    top: 488px;
+    left:169px
+}
+.hotbar4 {
+    position: absolute;
+    top: 488px;
+    left:232px
+}
+.hotbar5 {
+    position: absolute;
+    top: 488px;
+    left:294px
+}
+.hotbar6 {
+    position: absolute;
+    top: 488px;
+    left:357px
+}
+.hotbar7 {
+    position: absolute;
+    top: 488px;
+    left:420px
+}
+.hotbar8 {
+    position: absolute;
+    top: 488px;
+    left:482px
+}
+.hotbar9 {
+    position: absolute;
+    top: 488px;
+    left:544px
+}
+/* ARMOR ITEMS */
+.helmet {
+    position: absolute;
+    top: 120px;
+    left: 201px
+}
+.chestplate {
+    position: absolute;
+    top: 214px;
+    left: 201px
+}
+.leggings {
+    position: absolute;
+    top: 120px;
+    left: 389px
+}
+.boots {
+    position: absolute;
+    top: 214px;
+    left: 389px
+}
+.second_hand {
+    position: absolute;
+    top: 169px;
+    left: 135px
+}
+/* INVENTORY ITEMS */
+.inv1 {
+    position: absolute;
+    top: 287px;
+    left:45px
+}
+.inv2 {
+    position: absolute;
+    top: 287px;
+    left:107px
+}
+.inv3 {
+    position: absolute;
+    top: 287px;
+    left:169px
+}
+.inv4 {
+    position: absolute;
+    top: 287px;
+    left:232px
+}
+.inv5 {
+    position: absolute;
+    top: 287px;
+    left:294px
+}
+.inv6 {
+    position: absolute;
+    top: 287px;
+    left:357px
+}
+.inv7 {
+    position: absolute;
+    top: 287px;
+    left:420px
+}
+.inv8 {
+    position: absolute;
+    top: 287px;
+    left:482px
+}
+.inv9 {
+    position: absolute;
+    top: 287px;
+    left:544px
+}
+.inv10 {
+    position: absolute;
+    top: 350px;
+    left:45px
+}
+.inv11 {
+    position: absolute;
+    top: 350px;
+    left:107px
+}
+.inv12 {
+    position: absolute;
+    top: 350px;
+    left:169px
+}
+.inv13 {
+    position: absolute;
+    top: 350px;
+    left:232px
+}
+.inv14 {
+    position: absolute;
+    top: 350px;
+    left:294px
+}
+.inv15 {
+    position: absolute;
+    top: 350px;
+    left:357px
+}
+.inv16 {
+    position: absolute;
+    top: 350px;
+    left:420px
+}
+.inv17 {
+    position: absolute;
+    top: 350px;
+    left:482px
+}
+.inv18 {
+    position: absolute;
+    top: 350px;
+    left:544px
+}
+.inv19 {
+    position: absolute;
+    top: 412px;
+    left:45px
+}
+.inv20 {
+    position: absolute;
+    top: 412px;
+    left:107px
+}
+.inv21 {
+    position: absolute;
+    top: 412px;
+    left:169px
+}
+.inv22 {
+    position: absolute;
+    top: 412px;
+    left:232px
+}
+.inv23 {
+    position: absolute;
+    top: 412px;
+    left:294px
+}
+.inv24 {
+    position: absolute;
+    top: 412px;
+    left:357px
+}
+.inv25 {
+    position: absolute;
+    top: 412px;
+    left:420px
+}
+.inv26 {
+    position: absolute;
+    top: 412px;
+    left:482px
+}
+.inv27 {
+    position: absolute;
+    top: 412px;
+    left:544px
+}
+
+.grid {
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-size: 55px;
+    width: 55px;
+    position: absolute;
+    mix-blend-mode: plus-lighter;
+    margin-left: -55px;
+}
+.tooltip {
+    /*position: relative;*/
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: max-content;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+/*tooltip minecraft*/
+.box {
+    overflow: auto;
+    margin-left: 10px;
+    line-height: 1.3;
+    max-width: 610px;
+}
+.outer {
+    padding: 2px;
+    display: inline-block;
+    background-color: #110410;
+}
+.inner {
+    font-size: 24px;
+    padding: 4px 5px;
+    border: 2px solid #2c0863;
+    border-radius: 2px;
+}
