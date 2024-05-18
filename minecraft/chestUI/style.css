@@ -81,7 +81,7 @@ body {
     display: grid;
     align-content: center;
     grid-template-columns: repeat(9, calc(var(--slot-size) + 8px));
-    grid-template-rows: repeat(3, calc(var(--slot-size) + 8px)); /* 3 - ilość wierszy */
+    grid-template-rows: repeat(6, calc(var(--slot-size) + 8px)); /* ilość wierszy */
     margin-top: 5px;
 }
 .inv {
