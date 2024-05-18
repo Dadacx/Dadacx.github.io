@@ -20,7 +20,7 @@ body {
     font-family: Minecraftia;
 
 }
-.box i, .box i .tooltip, .box div img{
+.box, .box .tooltip, .box div img{
     font-size: calc(var(--slot-size) - 6px);
     line-height: var(--slot-size);
     width: var(--slot-size);
@@ -28,15 +28,16 @@ body {
     text-align: center;
     color: #292929;
     display: block;
-    z-index: -1;
+}
+.box div img {
+    position: absolute;
 }
 .chest {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    /*position: relative;*/
     flex-direction: column;
-
     height: auto;
     padding: 0 15px;
     padding-bottom: 15px;
@@ -122,11 +123,10 @@ p {
 }
 .grid {
     -webkit-mask-repeat: no-repeat;
-    -webkit-mask-size: 55px;
-    width: 55px;
+    -webkit-mask-size: var(--slot-size);
+    width: var(--slot-size);
     position: absolute;
     mix-blend-mode: plus-lighter;
-    margin-left: -55px;
 }
 .tooltip {
     /*position: relative;*/
@@ -136,6 +136,8 @@ p {
   .tooltip .tooltiptext {
     visibility: hidden;
     width: max-content;
+    height: max-content;
+    text-align: left;
     position: absolute;
     z-index: 1;
   }
@@ -144,7 +146,7 @@ p {
     visibility: visible;
   }
 /*tooltip minecraft*/
-.box {
+.box_tooltip {
     overflow: auto;
     margin-left: 10px;
     line-height: 1.3;

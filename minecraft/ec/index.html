@@ -1,71 +1,316 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <title>Ender Chest</title>
     <link rel="shortcut icon" href="../images/api/items/ender_chest.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://dadacx.github.io/fad/fonts/mc.css">
+    <script src="script.js"></script>
 </head>
+
 <body>
     <div class="chest">
         <div class="name">
             <p>Ender Chest</p>
-        </div> 
+        </div>
         <div class="boxes">
-          <div class="box"><i><img src="../images/api/items/red_shulker_box.png"></i></div>
-          <div class="box"><i><img src="../images/api/items/brown_shulker_box.png"></i></div>
-          <div class="box"><i><img src="../images/api/items/blue_shulker_box.png"></i></div>
-          <div class="box"></div>
-          <div class="box"><i><img src="../images/api/items/ender_chest.png"></i></div>
-          <div class="box"></div>
-          <div class="box"><i><img src="../images/api/items/bow.png"></i></div>
-          <div class="box"><i><img src="../images/api/items/crossbow.png"></i></div>
-          <div class="box"><i><img src="../images/api/items/shield.png"></i></div>
-          
-          <div class="box"><i><img src="../images/api/items/white_shulker_box.png"></i></div>
-          <div class="box"><i><img src="../images/api/items/lime_shulker_box.png"></i></div>
-          <div class="box"><i><img src="../images/api/items/light_blue_shulker_box.png"></i></div>
-          <div class="box"></div>
-          <div class="box"><i><img src="../images/api/items/recovery_compass.png"></i></div>
-          <div class="box"></div>
-          <div class="box"><i><img src="../images/enchanty/mace.png"></i></div>
-          <div class="box"><i><img src="../images/api/items/trident.png"></i></div>
-          <div class="box"><i><img src="../images/api/items/diamond_pickaxe.png"></i></div>
-          
-          <div class="box"><i><img src="../images/api/items/light_gray_shulker_box.png"></i></div>
-          <div class="box"><i><img src="../images/api/items/yellow_shulker_box.png"></i></div>
-          <div class="box"><i><img src="../images/api/items/orange_shulker_box.png"></i></div>
-          <div class="box"></div>
-          <div class="box"><i><img src="../images/api/items/diamond_chestplate.png"></i></div>
-          <div class="box"></div>
-          <div class="box"><i><img src="../images/api/items/arrow.png"></i></div>
-          <div class="box"><i><img src="../images/api/items/trident.png"></i></div>
-          <div class="box"><i>
-            <div class="tooltip" onmouseover="move(this)">
-            <img alt="sword" width="55" src="../images/api/items/diamond_hoe.png">
-            <img class="grid" alt="sword_overlay" style="-webkit-mask-image: url(../images/api/items/diamond_sword.png);" src="../images/enchanty/glint.png">
-            <div id="tooltip" class="box tooltiptext">
-                <div class="outer">
-                    <div class="inner">
-                        <div id="name" class="mc-aqua mc-shadow">Diamond Sword</div>
-                        <div id="lore" class="mc-light_purple mc-shadow">
-                            <span class="mc-red mc-shadow">Sharpness V</span><br>
-                            <span class="mc-red mc-shadow">Smite V</span><br>
-                            <span class="mc-red mc-shadow">Bane of Arthropods V</span><br>
-                            <span class="mc-green mc-shadow">Sweeping Edge III</span><br>
-                            <span class="mc-green mc-shadow">Knockback II</span><br>
-                            <span class="mc-green mc-shadow">Looting III</span><br>
-                            <span class="mc-green mc-shadow">Fire Aspect II</span><br>
-                            <span class="mc-green mc-shadow">Unbreaking III</span><br>
-                            <span class="mc-green mc-shadow">Mending</span>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="shulker (fajerwerki)" src="../images/api/items/red_shulker_box.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-white mc-shadow mc-italic">1. Paliwo Elytrowe</div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="shulker (jedzenie)" src="../images/api/items/brown_shulker_box.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-white mc-shadow mc-italic">4. Jedzenie</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </i></div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="shulker (elytry)" src="../images/api/items/blue_shulker_box.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-white mc-shadow mc-italic">7. Elytry</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box"></div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="ender_chest" src="../images/api/items/ender_chest.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-white mc-shadow">Ender Chest</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box"></div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="bow" src="../images/api/items/bow.png">
+                    <img class="grid" alt="bow-overlay"
+                        style="-webkit-mask-image: url(../images/api/items/bow.png);" src="../images/enchanty/glint.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-aqua mc-shadow">Bow</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="crossbow" src="../images/api/items/crossbow.png">
+                    <img class="grid" alt="crossbow-overlay"
+                        style="-webkit-mask-image: url(../images/api/items/crossbow.png);" src="../images/enchanty/glint.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-aqua mc-shadow">Crossbow</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="shield" src="../images/api/items/shield.png">
+                    <img class="grid" alt="shield-overlay"
+                        style="-webkit-mask-image: url(../images/api/items/shield.png);" src="../images/enchanty/glint.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-aqua mc-shadow">Shield</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="shulker (papier)" src="../images/api/items/white_shulker_box.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-white mc-shadow mc-italic">2. Papier</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="shulker (potki night vision)" src="../images/api/items/lime_shulker_box.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-white mc-shadow mc-italic">5. Night Vision</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="shulker (narzędzia)" src="../images/api/items/light_blue_shulker_box.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-white mc-shadow mc-italic">8. Narzędzia</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box"></div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="recovery_compass" src="../images/api/items/recovery_compass.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-white mc-shadow">Recovery Compass</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box"></div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="mace" src="../images/enchanty/mace.png">
+                    <img class="grid" alt="mace-overlay"
+                        style="-webkit-mask-image: url(../images/enchanty/mace.png);" src="../images/enchanty/glint.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-aqua mc-shadow">Mace</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="trident" src="../images/api/items/trident.png">
+                    <img class="grid" alt="trident-overlay"
+                        style="-webkit-mask-image: url(../images/api/items/trident.png);" src="../images/enchanty/glint.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-aqua mc-shadow">Trident</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="pickaxe" src="../images/api/items/netherite_pickaxe.png">
+                    <img class="grid" alt="pickaxe-overlay"
+                        style="-webkit-mask-image: url(../images/api/items/netherite_pickaxe.png);" src="../images/enchanty/glint.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-aqua mc-shadow">Netherite Pickaxe</div>
+                                <div id="lore" class="mc-light_purple mc-shadow">
+                                    <span class="mc-gray mc-shadow">(Fortune III)</span><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="shulker (gunpowder)" src="../images/api/items/light_gray_shulker_box.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-white mc-shadow mc-italic">3. Gunpowder</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="shulker (totemy)" src="../images/api/items/yellow_shulker_box.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-white mc-shadow mc-italic">6. Totemy</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="shulker (różne)" src="../images/api/items/orange_shulker_box.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-white mc-shadow mc-italic">9. Różne</div>
+                                <div id="lore" class="mc-light_purple mc-shadow">
+                                    <span class="mc-white mc-shadow">Flint and Steel</span><br>
+                                    <span class="mc-white mc-shadow">Shears</span><br>
+                                    <span class="mc-white mc-shadow">Brush</span><br>
+                                    <span class="mc-white mc-shadow">Logs</span><br>
+                                    <span class="mc-white mc-shadow">Torches</span><br>
+                                    <span class="mc-white mc-shadow">Crafting</span><br>
+                                    <span class="mc-white mc-shadow">Anvil</span><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box"></div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="chestplate" src="../images/api/items/netherite_chestplate.png">
+                    <img class="grid" alt="chestplate-overlay"
+                        style="-webkit-mask-image: url(../images/api/items/netherite_chestplate.png);" src="../images/enchanty/glint.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-aqua mc-shadow">Netherite Chestplate</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box"></div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="arrow" src="../images/api/items/arrow.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-white mc-shadow">Arrow</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="trident" src="../images/api/items/trident.png">
+                    <img class="grid" alt="trident-overlay"
+                        style="-webkit-mask-image: url(../images/api/items/trident.png);" src="../images/enchanty/glint.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-aqua mc-shadow">Trident</div>
+                                <div id="lore" class="mc-light_purple mc-shadow">
+                                    <span class="mc-gray mc-shadow">(Riptide III)</span><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <div class="tooltip" onmousemove="tooltipPos(this)">
+                    <img alt="hoe" src="../images/api/items/netherite_hoe.png">
+                    <img class="grid" alt="hoe-overlay"
+                        style="-webkit-mask-image: url(../images/api/items/netherite_hoe.png);" src="../images/enchanty/glint.png">
+                    <div id="tooltip" class="box_tooltip tooltiptext">
+                        <div class="outer">
+                            <div class="inner">
+                                <div id="name" class="mc-aqua mc-shadow">Netherite Hoe</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
+    </div>
 </body>
+
 </html>
