@@ -7,7 +7,7 @@ const supabase = createClient(supabaseUrl, supabaseKey)
 export async function GET() {
   try {
     // Fetch data to prevent Supabase project from pausing
-    const { data, error } = await supabase.from("user").select()
+    const { data, error } = await supabase.from("test").select()
     if (error) throw new Error(error.message)
     return Response.json(data)
   } catch (error) {
