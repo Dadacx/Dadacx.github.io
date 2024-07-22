@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Send HTTP Request
-        run: curl https://dadacx.github.io/api/etc/supabase-activity-scheduler
+        run: curl https://dadacx.github.io/app/api/etc/supabase-activity-scheduler
