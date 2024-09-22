@@ -24,7 +24,6 @@ zle = 0
          next()
      }
      test.push(rng)
-     console.log(test)
  }
  function getRandomNumber(min, max) {
     min = Math.ceil(min);
