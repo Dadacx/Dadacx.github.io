@@ -66,6 +66,7 @@ function check(){
             document.getElementById("in").classList.remove('shake')
           },600)
         zle++
+      console.log(pytanie[rng], odp[rng])
     }
     document.getElementById("progress").innerHTML = "Pytanie: " + parseInt(ilosc) + "/" + pytanie.length
     return false
