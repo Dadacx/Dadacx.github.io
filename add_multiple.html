@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dodaj quiz</title>
+</head>
+
+<body>
+  <h2>Dodaj quiz</h2>
+  <form onsubmit="return false">
+    <input type="text" name="name" id="name" placeholder="Nazwa quizu" required>
+    <input type="text" name="author" id="author" placeholder="Autor quizu" required>
+    <textarea style="height:360px" placeholder="Pytania" id="pytania" name="pytania" required></textarea>
+  </form>
+  <button id="subbtn" type="submit" onclick="add()">Prześlij</button>
+  <button onclick="overview()">Podgląd</button>
+  <div id="overview"></div>
+  <script>
+    var questions = []
+    var answers = []
+    function extractQuestions() {
+      console.log("fdg")
+      var pytania_odp = []
+      var pytania = document.querySelector("textarea").value
+      if (pytania != "") {
+        var odp_i_pytania = pytania.split("\n\n\n")
+        for (i = 0; i < odp_i_pytania.length; i++) {
+          pytania_odp.push(odp_i_pytania[i].split("\n"))
+        }
+        console.log(pytania_odp)
+        for (let i = 0; i < pytania_odp.length; i++) {
+          questions.push(pytania_odp[i][1])
+          answers.push(pytania_odp[i][0])
+        }
+      } else {
+        alert("Podaj pytania")
+        return 0
+      }
+    }
+    function add() {
+      const name = document.querySelector("#name").value
+      const author = document.querySelector("#author").value
+      if (name == "") alert("Podaj nazwe quizu")
+      if (author == "") alert("Podaj autora quizu")
+      if (extractQuestions() != 0 && name != "" && author != "") {
+        const data = {
+          display_name: name,
+          author: author,
+          questions: questions,
+          answers: answers,
+          password: prompt("Podaj hasło")
+        };
+        console.log(data)
+        fetch("https://frog02-20766.wykr.es/add.php", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json" // ustawienie nagłówka na JSON
+          },
+          body: JSON.stringify(data) // konwersja danych do formatu JSON
+        })
+          .then(response => response.json()) // odbieranie odpowiedzi
+          .then(data => {
+            console.log("Odpowiedź z serwera:", data);
+            alert(data.message)
+          })
+          .catch(error => console.error("Błąd:", error));
+          console.log("koniec")
+      }
+    }
+    function overview() {
+      extractQuestions()
+      var table = `<div class="close" onclick='document.querySelector("#overview").style.visibility = "hidden"''>+</div><table>
+        <tr><th>Pytanie</th><th>Odpowiedź</th></tr>`
+      questions.map((q, i) => {
+        console.log(q, answers[i])
+        table += `<tr><td>${q}</td><td>${answers[i]}</td></tr>`
+      })
+      table += `</table>`
+      document.querySelector("#overview").innerHTML = table
+      document.querySelector("#overview").style.visibility = "visible"
+    }
+
+  </script>
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    form {
+      width: 90%;
+    }
+
+    textarea,
+    input {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    #overview {
+      visibility: hidden;
+      width: 100%;
+      position: absolute;
+      background-color: white;
+      overflow: auto;
+      height: 90vh;
+      margin-top: 10px;
+      text-align: center;
+    }
+
+    .close {
+      margin: auto;
+      top: 5px;
+      font-family: none;
+      font-size: 40px;
+      width: 45px;
+      transform: rotate(45deg);
+      background: red;
+      height: 45px;
+      display: flex;
+      justify-content: center;
+      border-radius: 50%;
+      align-items: center;
+      font-weight: bold;
+      color: white;
+      cursor: pointer;
+      user-select: none;
+    }
+
+    table {
+      font-family: Arial, Helvetica, sans-serif;
+      border-collapse: collapse;
+      width: 90%;
+      margin: auto;
+    }
+
+    table td,
+    table th {
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+
+    table tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+
+    table tr:hover {
+      background-color: #ddd;
+    }
+
+    table th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      font-weight: bold;
+      background-color: #04AA6D;
+      color: white;
+    }
+  </style>
+</body>
+
+</html>
