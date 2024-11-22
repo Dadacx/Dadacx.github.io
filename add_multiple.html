@@ -21,6 +21,8 @@
     var questions = []
     var answers = []
     function extractQuestions() {
+      questions = []
+      answers = []
       console.log("fdg")
       var pytania_odp = []
       var pytania = document.querySelector("textarea").value
@@ -53,7 +55,7 @@
           password: prompt("Podaj hasło")
         };
         console.log(data)
-        fetch("https://frog02-20766.wykr.es/add.php", {
+        fetch("http://localhost/quiz/add.php", {
           method: "POST",
           headers: {
             "Content-Type": "application/json" // ustawienie nagłówka na JSON
