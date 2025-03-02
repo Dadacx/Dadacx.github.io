@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rafineria</title>
+</head>
+
+<body>
+  <span>Ilość drewna:</span>
+  <input type="number" name="ilosc" id="ilosc" class="ilosc" oninput="iloscChange()">
+  <span>Czas rafinowania 1 drewna:</span>
+  <input type="number" name="duration" id="duration" class="duration" value="20" oninput="iloscChange()">
+  <h2 id="ilosc_display" class="isplay"></h2>
+  <br>
+  <span>Godzina:</span>
+  <input type="time" name="time" id="time" class="time" onchange="timeChanege()">
+  <span>Czas rafinowania 1 drewna:</span>
+  <input type="number" name="duration" id="duration" class="duration" value="20" oninput="iloscChange()">
+  <h2 id="time_display" class="display"></h2>
+
+  <script>
+    function iloscChange() {
+      const ilosc = parseInt(document.querySelector('#ilosc').value);
+      const duration = parseInt(document.querySelector('#duration').value);
+      const ilosc_display = document.querySelector('#ilosc_display');
+      const time = parseInt(document.querySelector('#time').value)
+      const time_display = document.querySelector('#time_display');
+      const date = new Date()
+
+      const seconds = ilosc * duration
+      const minutes = seconds / 60
+      const hours = minutes / 60
+
+      var secondsLeft = Math.floor(seconds % 60)
+      var minutesLeft = Math.floor(minutes % 60)
+      var hoursLeft = Math.floor(hours % 24)
+
+      const workTo = new Date(date.getTime() + seconds * 1000)
+
+      ilosc_display.innerHTML = `Rafineria z ${ilosc} sztukami drewna będzie działać przez ${hoursLeft}h ${minutesLeft}m ${secondsLeft}s, czyli do ${workTo.getHours()}:${workTo.getMinutes()}`
+    }
+    function timeChanege() {
+      const time = document.querySelector('#time').value;
+      const time_display = document.querySelector('#time_display');
+      const duration = parseInt(document.querySelector('#duration').value);
+      var now = new Date();
+
+      var targetParts = time.split(":");
+      var targetHours = parseInt(targetParts[0], 10);
+      var targetMinutes = parseInt(targetParts[1], 10);
+
+      var targetDate = new Date();
+      targetDate.setHours(targetHours, targetMinutes, 0, 0);
+
+      if (targetDate < now) {
+        targetDate.setDate(targetDate.getDate() + 1); // Przesuń na następny dzień, jeśli godzina już minęła
+      }
+
+      var diffMilliseconds = targetDate - now;
+      var seconds = Math.floor(diffMilliseconds / 1000);
+
+      const iloscDrewna = Math.round(seconds / duration)
+      const stacki = parseInt(iloscDrewna / 64)
+      const sztuki = iloscDrewna % 64
+
+      console.log(iloscDrewna)
+      time_display.innerHTML = `Aby rafineria działała do ${time} potrzebujesz ${stacki} stacków i ${sztuki} sztuk drewna`;
+    }
+  </script>
+</body>
+
+</html>
