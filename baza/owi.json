@@ -1,0 +1,590 @@
+[
+  {
+    "pytanie": "Przedmiotem prawa autorskiego jest:",
+    "odp": "każdy przejaw działalności twórczej o indywidualnym charakterze"
+  },
+  {
+    "pytanie": "Warunkiem zaistnienia praw autorskich jest:",
+    "odp": "ustalenie utworu w jakiejkolwiek postaci"
+  },
+  {
+    "pytanie": "Nie są przedmiotem prawa autorskiego utwory:",
+    "odp": "odkrycia i idee"
+  },
+  {
+    "pytanie": "Utwór jest przedmiotem prawa autorskiego od chwili ustalenia:",
+    "odp": "chociażby miał postać nieukończoną"
+  },
+  {
+    "pytanie": "Opracowanie cudzego utworu, w szczególności tłumaczenie, przeróbka, adaptacja:",
+    "odp": "jest przedmiotem prawa autorskiego"
+  },
+  {
+    "pytanie": "Rozporządzanie i korzystanie z opracowania zależy od zezwolenia:",
+    "odp": "twórcy utworu pierwotnego"
+  },
+  {
+    "pytanie": "Twórca utworu pierwotnego może cofnąć zezwolenie, jeżeli opracowanie nie zostało rozpowszechnione w ciągu:",
+    "odp": "pięciu lat od jego udzielenia"
+  },
+  {
+    "pytanie": "Jeżeli twórca utworu pierwotnego cofnął zgodę po upływie czasu wymaganego do rozpowszechnienia opracowania, to:",
+    "odp": "wypłacone twórcy wynagrodzenie nie podlega zwrotowi"
+  },
+  {
+    "pytanie": "Utworu, który powstał w wyniku inspiracji cudzym utworem:",
+    "odp": "nie uważa się za opracowanie"
+  },
+  {
+    "pytanie": "Na egzemplarzach opracowania należy wymienić:",
+    "odp": "twórcę i tytuł utworu pierwotnego"
+  },
+  {
+    "pytanie": "Zbiory, antologie, wybory, bazy danych spełniające cechy utworu są przedmiotem prawa autorskiego:",
+    "odp": "o ile przyjęty w nich dobór, układ lub zestawienie mają twórczy charakter"
+  },
+  {
+    "pytanie": "Przedmiot prawa autorskiego stanowią:",
+    "odp": "artykuły prasowe"
+  },
+  {
+    "pytanie": "Do utworów, które zostały opublikowane równocześnie na terytorium Rzeczypospolitej Polskiej i za granicą:",
+    "odp": "stosuje się przepisy ustawy o prawach autorskich"
+  },
+  {
+    "pytanie": "Utworem opublikowanym jest utwór, który:",
+    "odp": "za zezwoleniem twórcy został zwielokrotniony i którego egzemplarze zostały udostępnione publicznie"
+  },
+  {
+    "pytanie": "Opublikowaniem równoczesnym utworu jest opublikowanie utworu na terytorium Rzeczypospolitej Polskiej i za granicą w okresie:",
+    "odp": "trzydziestu dni od jego pierwszej publikacji"
+  },
+  {
+    "pytanie": "Utworem rozpowszechnionym jest utwór, który:",
+    "odp": "za zezwoleniem twórcy został w jakikolwiek sposób udostępniony publicznie"
+  },
+  {
+    "pytanie": "Najmem egzemplarzy utworu jest:",
+    "odp": "ich przekazanie do ograniczonego czasowo korzystania w celu bezpośredniego lub pośredniego uzyskania korzyści majątkowej"
+  },
+  {
+    "pytanie": "Użyczeniem egzemplarzy utworu jest:",
+    "odp": "ich przekazanie do ograniczonego czasowo korzystania, niemajace na celu bezpośredniego lub pośredniego uzyskania korzyści majątkowej"
+  },
+  {
+    "pytanie": "Prawo autorskie:",
+    "odp": "co do zasady przysługuje twórcy"
+  },
+  {
+    "pytanie": "Dopóki twórca nie ujawnił swojego autorstwa, w wykonywaniu prawa autorskiego zastępuje go:",
+    "odp": "producent lub wydawca"
+  },
+  {
+    "pytanie": "Współtwórcom przysługuje prawo autorskie:",
+    "odp": "wspólnie"
+  },
+  {
+    "pytanie": "Każdy ze współtwórców może żądać określenia wielkości udziałów przez:",
+    "odp": "sąd"
+  },
+  {
+    "pytanie": "Do wykonywania prawa autorskiego do całości utworu:",
+    "odp": "potrzebna jest zgoda wszystkich współtwórców"
+  },
+  {
+    "pytanie": "Autorskie prawa majątkowe do utworu zbiorowego, w szczególności do encyklopedii lub publikacji periodycznej, przysługują:",
+    "odp": "producentowi lub wydawcy, a do poszczególnych części mających samodzielne znaczenie ich twórcom"
+  },
+  {
+    "pytanie": "Prawo do tytułu utworu zbiorowego co do zasady przysługuje:",
+    "odp": "producentowi lub wydawcy"
+  },
+  {
+    "pytanie": "Jeżeli ustawa lub umowa o pracę nie stanowią inaczej, pracodawca, którego pracownik stworzył utwór w wyniku wykonywania obowiązków ze stosunku pracy:",
+    "odp": "nabywa z chwilą przyjęcia utworu autorskie prawa majątkowe"
+  },
+  {
+    "pytanie": "Twórca może wyznaczyć pracodawcy na piśmie odpowiedni termin na rozpowszechnienie utworu z tym skutkiem, że po jego bezskutecznym upływie prawa wracają do twórcy, jeżeli pracodawca:",
+    "odp": "w okresie dwóch lat od daty przyjęcia utworu, nie przystąpi do rozpowszechniania utworu przeznaczonego w umowie o pracę do rozpowszechnienia"
+  },
+  {
+    "pytanie": "Uważa się, że utwór został przyjęty bez zastrzeżeń, jeżeli pracodawca nie zawiadomi twórcy o jego nieprzyjęciu lub uzależnieniu przyjęcia od dokonania określonych zmian w terminie:",
+    "odp": "sześciu miesięcy od dostarczenia utworu"
+  },
+  {
+    "pytanie": "Pierwszeństwo instytucji naukowej do opublikowania utworu pracownika naukowego wygasa (...) jeżeli w okresie:",
+    "odp": "dwóch lat od daty jego przyjęcia utwór nie został opublikowany"
+  },
+  {
+    "pytanie": "Pierwszeństwo w opublikowaniu pracy dyplomowej studenta przysługuje:",
+    "odp": "uczelni wyższej, w której napisano pracę dyplomową"
+  },
+  {
+    "pytanie": "Student, który przygotował pracę dyplomową może ją opublikować, jeżeli uczelnia nie opublikowała pracy dyplomowej w ciągu:",
+    "odp": "6 miesięcy od jej obrony"
+  },
+  {
+    "pytanie": "Autorskie prawa osobiste:",
+    "odp": "nigdy nie wygasają"
+  },
+  {
+    "pytanie": "Autorskie prawa osobiste:",
+    "odp": "nie podlegają zrzeczeniu się lub zbyciu"
+  },
+  {
+    "pytanie": "Prawo do nienaruszalności treści i formy utworu oraz jego rzetelnego wykorzystania to:",
+    "odp": "autorskie prawo osobiste"
+  },
+  {
+    "pytanie": "Autorskie prawa majątkowe:",
+    "odp": "nie podlegają egzekucji, dopóki służą twórcy"
+  },
+  {
+    "pytanie": "Prawo do wynagrodzenia (droit de suite) zależne od wartości sprzedaży mieści się w przedziale:",
+    "odp": "od 0,25% do 5% ceny sprzedaży"
+  },
+  {
+    "pytanie": "Kopie uznane za oryginalne egzemplarze utworu, jeżeli zostały wykonane osobiście, w ograniczonej ilości, przez twórcę lub pod jego nadzorem:",
+    "odp": "są oryginalnymi egzemplarzami utworu"
+  },
+  {
+    "pytanie": "Za dokonaną zawodowo odsprzedaż rękopisów utworów literackich i muzycznych twórcom przysługuje prawo do wynagrodzenia w wysokości:",
+    "odp": "5% ceny"
+  },
+  {
+    "pytanie": "Producenci i importerzy magnetofonów/czystych nośników są obowiązani do uiszczania opłat w wysokości nieprzekraczającej:",
+    "odp": "3% kwoty należnej z tytułu sprzedaży"
+  },
+  {
+    "pytanie": "Posiadacze urządzeń reprograficznych (ksero), którzy prowadzą działalność gospodarczą, są obowiązani do uiszczania opłat w wysokości:",
+    "odp": "do 3% wpływów z tego tytułu na rzecz twórców oraz wydawców"
+  },
+  {
+    "pytanie": "Bez zezwolenia twórcy:",
+    "odp": "wolno nieodpłatnie korzystać z już rozpowszechnionego utworu w zakresie własnego użytku osobistego"
+  },
+  {
+    "pytanie": "Zakres własnego użytku osobistego obejmuje korzystanie z pojedynczych egzemplarzy utworów przez:",
+    "odp": "krąg osób pozostających w związku osobistym, w szczególności pokrewieństwa, powinowactwa lub stosunku towarzyskiego"
+  },
+  {
+    "pytanie": "Wolno rozpowszechniać za pomocą anteny zbiorowej (...) jeżeli przeznaczone jest do oznaczonego grona odbiorców znajdujących się:",
+    "odp": "w jednym budynku lub w domach jednorodzinnych obejmujących do 50 gospodarstw domowych"
+  },
+  {
+    "pytanie": "Jeżeli urządzenia służące do odbioru (...) umieszczone w miejscu ogólnie dostępnym służą do odbierania nadawanych utworów, to ich posiadacze:",
+    "odp": "mogą je nieodpłatnie odbierać, jeżeli nie łączy się z tym osiąganie korzyści majątkowych"
+  },
+  {
+    "pytanie": "W sprawozdaniach o aktualnych wydarzeniach:",
+    "odp": "wolno przytaczać utwory udostępniane podczas tych wydarzeń"
+  },
+  {
+    "pytanie": "Instytucje naukowe i oświatowe w celach dydaktycznych lub prowadzenia własnych badań:",
+    "odp": "mogą korzystać z rozpowszechnionych utworów w oryginale i w tłumaczeniu oraz sporządzać w tym celu egzemplarze fragmentów"
+  },
+  {
+    "pytanie": "W zakresie uzasadnionym wyjaśnianiem, analizą krytyczną, nauczaniem lub prawami gatunku twórczości:",
+    "odp": "wolno przytaczać w utworach stanowiących samoistną całość urywki rozpowszechnionych utworów lub drobne utwory w całości"
+  },
+  {
+    "pytanie": "W celach dydaktycznych i naukowych:",
+    "odp": "wolno zamieszczać w podręcznikach i wypisach rozpowszechnione drobne utwory lub fragmenty większych utworów"
+  },
+  {
+    "pytanie": "Podczas ceremonii religijnych, imprez szkolnych (...) jeżeli nie łączy się z tym osiąganie korzyści:",
+    "odp": "wolno nieodpłatnie wykonywać publicznie rozpowszechnione utwory"
+  },
+  {
+    "pytanie": "Z już rozpowszechnionych utworów dla dobra osób niepełnosprawnych (...):",
+    "odp": "wolno nieodpłatnie korzystać"
+  },
+  {
+    "pytanie": "Z utworów w związku z prezentacją lub naprawą sprzętu:",
+    "odp": "wolno nieodpłatnie korzystać"
+  },
+  {
+    "pytanie": "Z utworu w postaci obiektu budowlanego, jego rysunku, planu lub innego ustalenia, w celu odbudowy lub remontu obiektu budowlanego:",
+    "odp": "wolno korzystać"
+  },
+  {
+    "pytanie": "Można korzystać z utworów w granicach dozwolonego użytku:",
+    "odp": "pod warunkiem wymienienia imienia i nazwiska twórcy oraz źródła"
+  },
+  {
+    "pytanie": "Autorskie prawa majątkowe gasną z upływem lat:",
+    "odp": "siedemdziesięciu od śmierci twórcy"
+  },
+  {
+    "pytanie": "Autorskie prawa majątkowe w odniesieniu do utworów współautorskich gasną z upływem lat:",
+    "odp": "siedemdziesięciu od śmierci współtwórcy, który przeżył pozostałych"
+  },
+  {
+    "pytanie": "Autorskie prawa majątkowe w odniesieniu do utworu, którego twórca nie jest znany gasną z upływem lat:",
+    "odp": "siedemdziesięciu od daty pierwszego rozpowszechnienia"
+  },
+  {
+    "pytanie": "Autorskie prawa majątkowe w odniesieniu do utworu audiowizualnego gasną z upływem lat:",
+    "odp": "siedemdziesięciu od śmierci najpóźniej zmarłej z wymienionych osób: głównego reżysera, autora scenariusza, autora dialogów, kompozytora"
+  },
+  {
+    "pytanie": "Czas trwania autorskich praw majątkowych:",
+    "odp": "liczy się w latach pełnych następujących po roku, w którym nastąpiło zdarzenie, od którego zaczyna się bieg terminów"
+  },
+  {
+    "pytanie": "Autorskie prawa majątkowe:",
+    "odp": "mogą przejść na inne osoby w drodze dziedziczenia lub na podstawie umowy"
+  },
+  {
+    "pytanie": "Nabywca autorskich praw majątkowych:",
+    "odp": "nie może przenosić ich na inne osoby (chyba że umowa stanowi inaczej)"
+  },
+  {
+    "pytanie": "Umowa o przeniesienie autorskich praw majątkowych lub umowa o korzystanie z utworu nazywana jest:",
+    "odp": "licencją (umowa o korzystanie) lub przeniesieniem (umowa o przeniesienie)"
+  },
+  {
+    "pytanie": "Jeżeli autorskie prawa majątkowe jednego ze współtwórców miałyby przypaść Skarbowi Państwa jako spadkobiercy ustawowemu, część ta przechodzi na:",
+    "odp": "pozostałych przy życiu współtwórców lub ich następców prawnych, stosownie do wielkości ich udziałów"
+  },
+  {
+    "pytanie": "Jeżeli z umowy nie wynika, że przeniesienie autorskich praw majątkowych lub udzielenie licencji nastąpiło nieodpłatnie:",
+    "odp": "twórcy przysługuje prawo do wynagrodzenia"
+  },
+  {
+    "pytanie": "W razie rażącej dysproporcji między wynagrodzeniem twórcy a korzyściami nabywcy (...), twórca:",
+    "odp": "może żądać stosownego podwyższenia wynagrodzenia przez sąd"
+  },
+  {
+    "pytanie": "Mimo że w umowie postanowiono o przeniesieniu całości autorskich praw majątkowych twórca:",
+    "odp": "zachowuje wyłączne prawo zezwalania na wykonywanie zależnego prawa autorskiego"
+  },
+  {
+    "pytanie": "Jednostronne obniżenie ceny sprzedaży egzemplarzy przed upływem roku od przystąpienia do rozpowszechniania utworu:",
+    "odp": "nie wpływa na wysokość wynagrodzenia"
+  },
+  {
+    "pytanie": "Wytwarzanie określoną techniką egzemplarzy utworu (...) oraz inne formy eksploatacji:",
+    "odp": "stanowią odrębne pola eksploatacji"
+  },
+  {
+    "pytanie": "Jeżeli umowa nie stanowi inaczej, przeniesienie własności egzemplarza utworu:",
+    "odp": "nie powoduje przejścia autorskich praw majątkowych do utworu"
+  },
+  {
+    "pytanie": "Umowa o przeniesienie autorskich praw majątkowych:",
+    "odp": "wymaga zachowania formy pisemnej pod rygorem nieważności"
+  },
+  {
+    "pytanie": "Twórca jest obowiązany dostarczyć utwór w terminie określonym w umowie, a jeżeli termin nie został oznaczony:",
+    "odp": "niezwłocznie po ukończeniu utworu"
+  },
+  {
+    "pytanie": "Jeżeli twórca nie dostarczył utworu w przewidzianym terminie (...) po bezskutecznym upływie dodatkowego terminu zamawiający:",
+    "odp": "może od umowy odstąpić"
+  },
+  {
+    "pytanie": "Jeżeli zamówiony utwór ma usterki (...) po bezskutecznym upływie terminu naprawy zamawiający może od umowy odstąpić lub:",
+    "odp": "żądać odpowiedniego obniżenia umówionego wynagrodzenia"
+  },
+  {
+    "pytanie": "Jeżeli twórca nie usunął w terminie usterek, a zamawiający odstąpił od umowy, to ma on prawo do części zapłaconego wynagrodzenia, jednak nie wyższego niż:",
+    "odp": "25% umówionej ceny"
+  },
+  {
+    "pytanie": "Jeżeli utwór ma wady prawne, zamawiający może od umowy odstąpić i:",
+    "odp": "żądać naprawienia poniesionej szkody"
+  },
+  {
+    "pytanie": "Jeżeli zamawiający nie zawiadomi twórcy w terminie sześciu miesięcy od dostarczenia utworu o jego przyjęciu (...) to uważa się, że utwór:",
+    "odp": "został przyjęty bez zastrzeżeń"
+  },
+  {
+    "pytanie": "Jeżeli nabywca (...) nie przystąpi do rozpowszechniania w umówionym terminie (...) twórca może odstąpić od umowy (...) po upływie dodatkowego terminu, nie krótszego niż:",
+    "odp": "sześć miesięcy"
+  },
+  {
+    "pytanie": "Jeżeli publiczne udostępnienie utworu następuje w nieodpowiedniej formie albo ze zmianami, którym twórca mógłby słusznie się sprzeciwić, może on:",
+    "odp": "odstąpić od umowy lub ją wypowiedzieć"
+  },
+  {
+    "pytanie": "Korzystający z utworu:",
+    "odp": "jest obowiązany umożliwić twórcy przed rozpowszechnieniem utworu przeprowadzenie nadzoru autorskiego"
+  },
+  {
+    "pytanie": "Jeżeli twórca nie przeprowadzi nadzoru autorskiego w odpowiednim terminie, uważa się, że:",
+    "odp": "wyraził zgodę na rozpowszechnianie utworu"
+  },
+  {
+    "pytanie": "Jeżeli umowa obejmuje sporządzenie egzemplarzy przeznaczonych do udostępnienia publiczności, twórcy należą się egzemplarze autorskie w liczbie:",
+    "odp": "określonej w umowie"
+  },
+  {
+    "pytanie": "W braku wyraźnego postanowienia w umowie o przeniesieniu prawa, uważa się, że twórca:",
+    "odp": "udzielił licencji"
+  },
+  {
+    "pytanie": "Umowa licencyjna co do zasady uprawnia do korzystania z utworu w okresie:",
+    "odp": "pięciu lat na terytorium państwa, w którym licencjobiorca ma swoją siedzibę"
+  },
+  {
+    "pytanie": "Licencja wyłączna polega na:",
+    "odp": "zastrzeżeniu wyłączności korzystania z utworu w określony sposób"
+  },
+  {
+    "pytanie": "Licencja niewyłączna polega na:",
+    "odp": "nie ograniczaniu udzielenia przez twórcę upoważnienia innym osobom do korzystania z utworu na tym samym polu eksploatacji"
+  },
+  {
+    "pytanie": "Umowa licencyjna wyłączna:",
+    "odp": "wymaga zachowania formy pisemnej pod rygorem nieważności"
+  },
+  {
+    "pytanie": "Jeżeli umowa nie stanowi inaczej, a licencji udzielono na czas nieoznaczony, twórca może ją wypowiedzieć (...) na:",
+    "odp": "na rok naprzód, na koniec roku kalendarzowego"
+  },
+  {
+    "pytanie": "Licencję udzieloną na okres dłuższy niż pięć lat uważa się, po upływie tego terminu, za udzieloną:",
+    "odp": "na czas nieoznaczony"
+  },
+  {
+    "pytanie": "Reżyser, operator obrazu, twórca adaptacji (...) są:",
+    "odp": "współtwórcami utworu audiowizualnego"
+  },
+  {
+    "pytanie": "Producent utworu audiowizualnego nabywa na mocy umowy:",
+    "odp": "wyłączne prawa majątkowe do eksploatacji tych utworów w ramach utworu audiowizualnego jako całości"
+  },
+  {
+    "pytanie": "Współtwórcy utworu audiowizualnego oraz artyści wykonawcy:",
+    "odp": "są uprawnieni do wynagrodzenia proporcjonalnego do wpływów z tytułu wyświetlania utworu audiowizualnego w kinach"
+  },
+  {
+    "pytanie": "Programy komputerowe podlegają ochronie jak utwory:",
+    "odp": "literackie"
+  },
+  {
+    "pytanie": "Prawa majątkowe do programu komputerowego stworzonego przez pracownika w wyniku wykonywania obowiązków ze stosunku pracy przysługują:",
+    "odp": "pracodawcy, o ile umowa nie stanowi inaczej"
+  },
+  {
+    "pytanie": "Twórca może żądać od osoby, która naruszyła jego autorskie prawa majątkowe, zaniechania naruszenia, wydania uzyskanych korzyści albo zapłacenia:",
+    "odp": "w podwójnej (lub dawniej potrójnej przy zawinieniu) wysokości stosownego wynagrodzenia"
+  },
+  {
+    "pytanie": "Sąd orzeka przepadek bezprawnie wytworzonych egzemplarzy utworów na rzecz:",
+    "odp": "Skarbu Państwa lub poszkodowanego"
+  },
+  {
+    "pytanie": "Rozpowszechnianie wizerunku wymaga zezwolenia osoby na nim przedstawionej. W braku wyraźnego zastrzeżenia zezwolenie:",
+    "odp": "nie jest wymagane, jeżeli osoba ta otrzymała umówioną zapłatę za pozowanie"
+  },
+  {
+    "pytanie": "Rozpowszechnianie wizerunku osoby powszechnie znanej (w związku z funkcją publiczną) lub osoby będącej szczegółem całości:",
+    "odp": "nie wymaga zezwolenia"
+  },
+  {
+    "pytanie": "Działania aktorów, recytatorów, dyrygentów (...) są:",
+    "odp": "artystycznymi wykonaniami, które są prawami pokrewnymi"
+  },
+  {
+    "pytanie": "Prawo do wynagrodzenia za korzystanie z artystycznego wykonania (...) wygasa z upływem:",
+    "odp": "pięćdziesięciu lat następujących po roku, w którym artystyczne wykonanie ustalono"
+  },
+  {
+    "pytanie": "Kierownik zespołu:",
+    "odp": "jest umocowany do reprezentowania praw do zespołowego artystycznego wykonania"
+  },
+  {
+    "pytanie": "Fonogramem jest:",
+    "odp": "pierwsze utrwalenie warstwy dźwiękowej wykonania utworu albo innych zjawisk akustycznych"
+  },
+  {
+    "pytanie": "Wideogramem jest:",
+    "odp": "pierwsze utrwalenie sekwencji ruchomych obrazów, z dźwiękiem lub bez, niezależnie od tego, czy stanowi ono utwór audiowizualny"
+  },
+  {
+    "pytanie": "Wydawcy, który jako pierwszy (...) opublikował utwór, którego czas ochrony już wygasł (...) przysługuje wyłączne prawo przez okres:",
+    "odp": "dwudziestu pięciu lat od daty pierwszej publikacji lub rozpowszechnienia"
+  },
+  {
+    "pytanie": "Temu, kto (...) przygotował wydanie krytyczne lub naukowe (utworu z domeny publicznej) przysługuje wyłączne prawo przez okres:",
+    "odp": "trzydziestu lat od daty publikacji"
+  },
+  {
+    "pytanie": "Zezwolenia na zbiorowe zarządzanie prawami autorskimi (OZZ) udziela:",
+    "odp": "minister właściwy do spraw kultury i ochrony dziedzictwa narodowego"
+  },
+  {
+    "pytanie": "Organizacja zbiorowego zarządzania prawami autorskimi:",
+    "odp": "nie może, bez ważnych powodów, odmówić podjęcia zarządzania prawem autorskim lub prawem pokrewnym"
+  },
+  {
+    "pytanie": "Ściganie przestępstw określonych w ustawie o prawie autorskim i prawach pokrewnych następuje (co do zasady):",
+    "odp": "na wniosek pokrzywdzonego"
+  },
+  {
+    "pytanie": "Patentu udziela się na:",
+    "odp": "wynalazki"
+  },
+  {
+    "pytanie": "Patenty udzielane są na wynalazki, które:",
+    "odp": "są nowe, posiadają poziom wynalazczy i nadają się do przemysłowego stosowania"
+  },
+  {
+    "pytanie": "Patenty udzielane są:",
+    "odp": "bez względu na dziedzinę techniki"
+  },
+  {
+    "pytanie": "Rejestr patentowy prowadzi:",
+    "odp": "Urząd Patentowy RP"
+  },
+  {
+    "pytanie": "Odkrycia, teorie naukowe i metody matematyczne:",
+    "odp": "nie uważa się za wynalazki"
+  },
+  {
+    "pytanie": "Patentów nie udziela się na:",
+    "odp": "sposoby leczenia ludzi i zwierząt"
+  },
+  {
+    "pytanie": "Zakres przedmiotowy patentu określają zastrzeżenia patentowe zawarte w:",
+    "odp": "opisie patentowym"
+  },
+  {
+    "pytanie": "Czas trwania patentu wynosi:",
+    "odp": "20 lat od dnia zgłoszenia"
+  },
+  {
+    "pytanie": "Udzielone patenty podlegają wpisowi:",
+    "odp": "do rejestru patentowego"
+  },
+  {
+    "pytanie": "Patent jest:",
+    "odp": "zbywalny"
+  },
+  {
+    "pytanie": "Aby wynalazek był chroniony w krajach europejskich należy dokonać zgłoszenia do:",
+    "odp": "Europejskiego Urzędu Patentowego"
+  },
+  {
+    "pytanie": "Na wzór użytkowy organ rejestrowy udziela:",
+    "odp": "prawa ochronnego"
+  },
+  {
+    "pytanie": "Aby wzór użytkowy mógł być wpisany do właściwego rejestru:",
+    "odp": "musi mieć nowe i użyteczne rozwiązanie"
+  },
+  {
+    "pytanie": "Czas trwania prawa ochronnego na wzór użytkowy wynosi:",
+    "odp": "10 lat od dnia zgłoszenia"
+  },
+  {
+    "pytanie": "Aby wzór przemysłowy mógł być wpisany do właściwego rejestru:",
+    "odp": "musi być nowy i mieć indywidualny charakter"
+  },
+  {
+    "pytanie": "Na wzór przemysłowy udziela się:",
+    "odp": "prawa z rejestracji"
+  },
+  {
+    "pytanie": "Czas trwania prawa z rejestracji wzoru przemysłowego wynosi:",
+    "odp": "25 lat od dnia zgłoszenia"
+  },
+  {
+    "pytanie": "Znakiem towarowym mogą być:",
+    "odp": "oznaczenia przedstawione w sposób graficzny (lub pozwalający na ustalenie przedmiotu ochrony)"
+  },
+  {
+    "pytanie": "Na znak towarowy udziela się:",
+    "odp": "prawa ochronnego"
+  },
+  {
+    "pytanie": "Czas trwania prawa ochronnego na znak towarowy wynosi:",
+    "odp": "10 lat od dnia zgłoszenia (z możliwością przedłużania)"
+  },
+  {
+    "pytanie": "Na oznaczenie geograficzne udziela się:",
+    "odp": "prawa z rejestracji"
+  },
+  {
+    "pytanie": "Ochrona oznaczenia geograficznego trwa:",
+    "odp": "bezterminowo od dnia zgłoszenia"
+  },
+  {
+    "pytanie": "Na topografię układów scalonych udziela się:",
+    "odp": "prawa z rejestracji"
+  },
+  {
+    "pytanie": "Ochrona topografii ustaje po upływie:",
+    "odp": "10 lat od końca roku kalendarzowego, w którym dokonano zgłoszenia"
+  },
+  {
+    "pytanie": "Własność przemysłowa objęta jest:",
+    "odp": "ochroną cywilnoprawną i karnoprawną"
+  },
+  {
+    "pytanie": "Czynem nieuczciwej konkurencji jest działanie sprzeczne z prawem lub dobrymi obyczajami naruszające interes:",
+    "odp": "przedsiębiorcy lub klienta"
+  },
+  {
+    "pytanie": "Wypowiedź, która, zachęcając do nabywania towarów i usług, sprawia wrażenia neutralnej wypowiedzi:",
+    "odp": "jest czynem nieuczciwej konkurencji"
+  },
+  {
+    "pytanie": "Pojęcie sprzedaży lawinowej dotyczy:",
+    "odp": "składania obietnicy uzyskania korzyści materialnych nabywcom w zamian za nakłonienie innych osób do dokonania takich samych transakcji"
+  },
+  {
+    "pytanie": "Domena publiczna obejmuje dobra niematerialne:",
+    "odp": "z których można swobodnie korzystać"
+  },
+  {
+    "pytanie": "W przypadku popełnienia plagiatu w pracy dyplomowej student musi liczyć się z karą:",
+    "odp": "wydalenia z uczelni (odpowiedzialność dyscyplinarna)"
+  },
+  {
+    "pytanie": "Kto nie będąc uprawnionym do uzyskania patentu, zgłasza cudzy wynalazek podlega karze:",
+    "odp": "grzywny, ograniczenia wolności lub pozbawienia wolności do lat 2"
+  },
+  {
+    "pytanie": "Uprawniony z patentu:",
+    "odp": "może go sprzedać, udzielić licencji lub zapisać w testamencie (wszystkie powyższe)"
+  },
+  {
+    "pytanie": "Znaki towarowe:",
+    "odp": "pełnią funkcję odróżniającą dla towarów bądź usług"
+  },
+  {
+    "pytanie": "Spod ochrony patentowej wyłączone są:",
+    "odp": "odkrycia i teorie naukowe"
+  },
+  {
+    "pytanie": "Wynalazkami chronionymi patentem mogą być:",
+    "odp": "maszyny, procesy technologiczne, leki (wszystkie z wymienionych)"
+  },
+  {
+    "pytanie": "Plagiat w rozumieniu prawa autorskiego:",
+    "odp": "zachodzi w sytuacji przejęcia elementów twórczych z cudzego utworu i przypisania sobie autorstwa tych elementów"
+  },
+  {
+    "pytanie": "Jako tajemnicę przedsiębiorstwa możemy chronić:",
+    "odp": "jakiekolwiek informacje, które posiadają wartość gospodarczą dla przedsiębiorcy (i są poufne)"
+  },
+  {
+    "pytanie": "Ochrona tajemnicy przedsiębiorstwa w PL:",
+    "odp": "trwa tak długo, jak długo know-how objęte jest tajemnicą"
+  },
+  {
+    "pytanie": "Za plagiat projektu wynalazczego grozi kara:",
+    "odp": "grzywny, ograniczenia wolności lub pozbawienia wolności do lat 2"
+  },
+  {
+    "pytanie": "Unijny znak towarowy jest chroniony:",
+    "odp": "na terytorium wszystkich państw UE"
+  },
+  {
+    "pytanie": "Prawo własności intelektualnej reguluje ochronę:",
+    "odp": "utworów, wynalazków, wzorów i tajemnicy przedsiębiorstwa"
+  }
+]

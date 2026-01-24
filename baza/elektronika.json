@@ -1,0 +1,250 @@
+[
+  {
+    "pytanie": "Jakie dwie charakterystyki częstotliwościowe opisują właściwości wzmacniacza?",
+    "odp": "Charakterystyka amplitudowa $$ k_u=k_u(f) $$ oraz charakterystyka fazowa $\\phi = \\phi(f)$."
+  },
+  {
+    "pytanie": "Co przedstawia charakterystyka amplitudowa wzmacniacza?",
+    "odp": "Zależność współczynnika wzmocnienia napięciowego od częstotliwości."
+  },
+  {
+    "pytanie": "Co przedstawia charakterystyka fazowa wzmacniacza?",
+    "odp": "Zależność kąta przesunięcia fazowego $\\phi$ między sygnałem wyjściowym a wejściowym od częstotliwości."
+  },
+  {
+    "pytanie": "Jaka jest graniczna wartość, do jakiej może zmniejszyć się współczynnik wzmocnienia napięciowego w skali liniowej, wyznaczająca pasmo przenoszenia?",
+    "odp": "Wartość graniczna to $\\frac{k_{u0}}{\\sqrt{2}}$, gdzie $k_{u0}$ to wzmocnienie w środku pasma."
+  },
+  {
+    "pytanie": "Jak nazywa się zakres częstotliwości mieszczący się pomiędzy dolną ($f_d$) i górną ($f_g$) częstotliwością graniczną wzmacniacza?",
+    "odp": "Pasmo przenoszenia wzmacniacza (B)."
+  },
+  {
+    "pytanie": "Jak oblicza się pasmo przenoszenia (B) wzmacniacza, znając jego częstotliwości graniczne?",
+    "odp": "Ze wzoru: $B = f_g - f_d$."
+  },
+  {
+    "pytanie": "W jakiej skali najczęściej przedstawia się charakterystyki amplitudowe wzmacniaczy?",
+    "odp": "W skali logarytmicznej, wyrażając wzmocnienie w decybelach [dB]."
+  },
+  {
+    "pytanie": "Jak definiuje się wzmocnienie napięciowe w decybelach ($K_u$)?",
+    "odp": "$K_u [dB] = 20 \\log(\\frac{k_u}{1}) = 20 \\log(k_u)$."
+  },
+  {
+    "pytanie": "Jak definiuje się wzmocnienie mocy w decybelach ($K_P$)?",
+    "odp": "$K_P [dB] = 10 \\log(\\frac{P_{wy}}{P_{we}})$."
+  },
+  {
+    "pytanie": "O ile decybeli spada wzmocnienie wzmacniacza na częstotliwościach granicznych ($f_d$ i $f_g$) w stosunku do wzmocnienia w środku pasma?",
+    "odp": "O 3 dB (dokładnie $20 \\log(\\frac{1}{\\sqrt{2}}) \\approx -3$ dB)."
+  },
+  {
+    "pytanie": "Jakie elementy układu elektronicznego są odpowiedzialne za spadek wzmocnienia w zakresie małych częstotliwości?",
+    "odp": "Kondensatory sprzęgające (na wejściu i wyjściu) oraz kondensatory blokujące (w obwodach emiterowych/źródłowych)."
+  },
+  {
+    "pytanie": "Jakie zjawiska powodują spadek wzmocnienia w zakresie dużych częstotliwości?",
+    "odp": "Pojemności złączowe elementów czynnych (tranzystorów) oraz pojemności montażowe układu."
+  },
+  {
+    "pytanie": "Jak zmienia się reaktancja kondensatorów sprzęgających wraz ze wzrostem częstotliwości i jaki ma to wpływ na wzmocnienie?",
+    "odp": "Reaktancja maleje ($X_C = \\frac{1}{2\\pi fC}$), co powoduje wzrost napięcia przekazywanego do wzmacniacza, aż do osiągnięcia wartości maksymalnej w paśmie przenoszenia."
+  },
+  {
+    "pytanie": "Czym jest transmitancja operatorowa układu $K(s)$?",
+    "odp": "Jest to stosunek transformaty Laplace'a sygnału wyjściowego do transformaty Laplace'a sygnału wejściowego przy zerowych warunkach początkowych."
+  },
+  {
+    "pytanie": "Jak z transmitancji operatorowej $K(s)$ uzyskać charakterystykę częstotliwościową?",
+    "odp": "Podstawiając $s = j\\omega$, gdzie $\\omega = 2\\pi f$."
+  },
+  {
+    "pytanie": "Jakie filtry tworzą układy RC odpowiedzialne za dolną i górną częstotliwość graniczną?",
+    "odp": "Za dolną częstotliwość graniczną odpowiadają filtry górnoprzepustowe, a za górną – filtry dolnoprzepustowe."
+  },
+  {
+    "pytanie": "Co to jest biegun transmitancji?",
+    "odp": "Jest to wartość zmiennej zespolonej $s$, dla której mianownik transmitancji jest równy zeru (wartość transmitancji dąży do nieskończoności)."
+  },
+  {
+    "pytanie": "Jaka jest zależność między stałą czasową układu RC ($\\tau$) a jego częstotliwością graniczną ($f_{gr}$)?",
+    "odp": "$f_{gr} = \\frac{1}{2\\pi \\tau} = \\frac{1}{2\\pi RC}$."
+  },
+  {
+    "pytanie": "Jak wygląda charakterystyka asymptotyczna wzmocnienia (Bode plot) dla pojedynczego bieguna?",
+    "odp": "Składa się z dwóch odcinków prostych: poziomego do częstotliwości granicznej i nachylonego o $\\pm 20$ dB/dekadę powyżej tej częstotliwości."
+  },
+  {
+    "pytanie": "Jakie nachylenie charakterystyki amplitudowej wprowadza pojedynczy kondensator (pojedynczy biegun) poza pasmem przepustowym?",
+    "odp": "Nachylenie wynosi 20 dB na dekadę (lub 6 dB na oktawę)."
+  },
+  {
+    "pytanie": "Jeżeli wzmacniacz posiada trzy kondensatory kształtujące dolną częstotliwość graniczną, jakie będzie maksymalne nachylenie charakterystyki poniżej pasma przenoszenia?",
+    "odp": "60 dB na dekadę (3 * 20 dB/dek)."
+  },
+  {
+    "pytanie": "Który z kondensatorów decyduje o wypadkowej dolnej częstotliwości granicznej wzmacniacza wielostopniowego (metoda dominującego bieguna)?",
+    "odp": "Ten, który tworzy układ RC o największej częstotliwości granicznej (najmniejszej stałej czasowej) w zakresie małych częstotliwości."
+  },
+  {
+    "pytanie": "Jak wpływa sprzężenie zwrotne ujemne na pasmo przenoszenia wzmacniacza?",
+    "odp": "Rozszerza pasmo przenoszenia (zmniejsza dolną częstotliwość graniczną i zwiększa górną)."
+  },
+  {
+    "pytanie": "Co to jest iloczyn wzmocnienia i pasma ($GBW$ - Gain Bandwidth Product)?",
+    "odp": "Jest to parametr wzmacniacza operacyjnego, oznaczający iloczyn wzmocnienia napięciowego i pasma przenoszenia, który jest stały dla danego typu wzmacniacza."
+  },
+  {
+    "pytanie": "Jakie przesunięcie fazowe wprowadza typowy wzmacniacz w układzie Wspólnego Emitera (WE) w środku pasma?",
+    "odp": "Wprowadza przesunięcie fazowe $180^\\circ$ (odwraca fazę)."
+  },
+  {
+    "pytanie": "O ile stopni zmienia się przesunięcie fazowe na każdej z częstotliwości granicznych (względem fazy w środku pasma) dla pojedynczego układu RC?",
+    "odp": "Zmienia się o $45^\\circ$ (np. dla filtru GP wyprzedza, dla DP opóźnia)."
+  },
+  {
+    "pytanie": "Do jakiej wartości dąży przesunięcie fazowe wprowadzane przez pojedynczy filtr dolnoprzepustowy RC dla częstotliwości dążącej do nieskończoności?",
+    "odp": "Dąży do $-90^\\circ$."
+  },
+  {
+    "pytanie": "Co to jest metoda stałych czasowych zwarciowych?",
+    "odp": "Metoda przybliżonego obliczania dolnej częstotliwości granicznej poprzez sumowanie częstotliwości granicznych poszczególnych obwodów RC przy założeniu, że pozostałe kondensatory są zwarte."
+  },
+  {
+    "pytanie": "Co to jest metoda stałych czasowych rozwarciowych?",
+    "odp": "Metoda przybliżonego obliczania górnej częstotliwości granicznej, uwzględniająca stałe czasowe poszczególnych pojemności przy rozwarciu pozostałych."
+  },
+  {
+    "pytanie": "Dlaczego w układach scalonych unika się stosowania kondensatorów sprzęgających o dużych pojemnościach?",
+    "odp": "Ponieważ zajmują one bardzo dużą powierzchnię struktury krzemowej; zamiast tego stosuje się sprzężenia bezpośrednie (galwaniczne)."
+  },
+  {
+    "pytanie": "Czym charakteryzuje się wzmacniacz prądu stałego (DC)?",
+    "odp": "Jego dolna częstotliwość graniczna wynosi 0 Hz, co oznacza, że wzmacnia również sygnały stałe."
+  },
+  {
+    "pytanie": "Jakie jest typowe pasmo przenoszenia wzmacniacza akustycznego (audio)?",
+    "odp": "Od około 20 Hz do 20 kHz."
+  },
+  {
+    "pytanie": "Co oznacza termin \"częstotliwość jednostkowego wzmocnienia\" ($f_T$)?",
+    "odp": "Jest to częstotliwość, dla której wzmocnienie napięciowe wzmacniacza spada do 1 (0 dB)."
+  },
+  {
+    "pytanie": "Jaką rolę pełni efekt Millera we wzmacniaczach?",
+    "odp": "Zwiększa zastępczą pojemność wejściową wzmacniacza, co obniża górną częstotliwość graniczną."
+  },
+  {
+    "pytanie": "Jak obliczyć pojemność wejściową wynikającą z efektu Millera ($C_M$)?",
+    "odp": "$C_M = C_{sprzężenia} \\cdot (1 + |k_u|)$, gdzie $C_{sprzężenia}$ to pojemność między wejściem a wyjściem (np. $C_{b'c}$)."
+  },
+  {
+    "pytanie": "Jaki wpływ na charakterystykę częstotliwościową ma rezystancja wewnętrzna źródła sygnału?",
+    "odp": "Wraz z pojemnością wejściową wzmacniacza tworzy filtr dolnoprzepustowy, wpływając na górną częstotliwość graniczną."
+  },
+  {
+    "pytanie": "Co przedstawia wykres Bodego?",
+    "odp": "Jest to wykres charakterystyki częstotliwościowej (amplitudowej i fazowej) w skali logarytmicznej."
+  },
+  {
+    "pytanie": "Czym jest dekada na osi częstotliwości?",
+    "odp": "Jest to przedział częstotliwości, w którym częstotliwość końcowa jest dziesięciokrotnie większa od początkowej ($f_2 = 10f_1$)."
+  },
+  {
+    "pytanie": "Czym jest oktawa na osi częstotliwości?",
+    "odp": "Jest to przedział częstotliwości, w którym częstotliwość końcowa jest dwukrotnie większa od początkowej ($f_2 = 2f_1$)."
+  },
+  {
+    "pytanie": "Jakie są zalety stosowania skali logarytmicznej do przedstawiania charakterystyk?",
+    "odp": "Umożliwia przedstawienie szerokiego zakresu częstotliwości i wzmocnień na jednym wykresie oraz upraszcza operacje mnożenia do dodawania (w dB)."
+  },
+  {
+    "pytanie": "Co się dzieje z charakterystyką fazową, gdy charakterystyka amplitudowa jest płaska (w środku pasma)?",
+    "odp": "Faza jest stała (dla wzmacniacza odwracającego wynosi ok. $180^\\circ$, dla nieodwracającego $0^\\circ$)."
+  },
+  {
+    "pytanie": "W jaki sposób można programowo lub układowo ograniczyć pasmo przenoszenia wzmacniacza?",
+    "odp": "Dodając dodatkowe filtry (dolno- lub górnoprzepustowe) na wejściu, wyjściu lub w pętli sprzężenia zwrotnego."
+  },
+  {
+    "pytanie": "Co to jest szum termiczny i jak zależy od pasma przenoszenia?",
+    "odp": "Jest to szum generowany przez ruch cieplny elektronów; jego wartość skuteczna napięcia jest proporcjonalna do pierwiastka z szerokości pasma ($\\sqrt{B}$)."
+  },
+  {
+    "pytanie": "Dlaczego ograniczenie pasma przenoszenia może być korzystne?",
+    "odp": "Pozwala na zmniejszenie poziomu szumów i zakłóceń poza pasmem użytecznym sygnału."
+  },
+  {
+    "pytanie": "Jaką funkcję pełni kondensator w emiterze ($C_E$) w układzie WE w kontekście charakterystyki częstotliwościowej?",
+    "odp": "Zwiera rezystor emiterowy dla sygnałów zmiennych, zwiększając wzmocnienie w paśmie przenoszenia; jego reaktancja wpływa na dolną częstotliwość graniczną."
+  },
+  {
+    "pytanie": "Co się dzieje ze wzmocnieniem wzmacniacza operacyjnego z otwartą pętlą sprzężenia wraz ze wzrostem częstotliwości?",
+    "odp": "Gwałtownie maleje (zazwyczaj już od bardzo niskich częstotliwości, rzędu kilku-kilkunastu Hz)."
+  },
+  {
+    "pytanie": "Jaki jest wpływ temperatury na charakterystyki częstotliwościowe elementów półprzewodnikowych?",
+    "odp": "Zmiana temperatury wpływa na parametry tranzystorów (np. $\\beta$, rezystancje złączowe), co może przesuwać częstotliwości graniczne i zmieniać wzmocnienie."
+  },
+  {
+    "pytanie": "Co to jest układ kaskodowy i jak wpływa na pasmo?",
+    "odp": "To połączenie tranzystorów (WE-WB), które eliminuje efekt Millera, znacznie zwiększając górną częstotliwość graniczną."
+  },
+  {
+    "pytanie": "W jakim celu stosuje się kompensację częstotliwościową we wzmacniaczach operacyjnych?",
+    "odp": "Aby zapobiec wzbudzaniu się wzmacniacza (oscylacjom) i zapewnić stabilność pracy przy różnych wartościach sprzężenia zwrotnego."
+  },
+  {
+    "pytanie": "Co oznacza margines fazy w analizie stabilności wzmacniacza?",
+    "odp": "Jest to różnica między przesunięciem fazowym przy częstotliwości, dla której wzmocnienie pętli wynosi 1 (0 dB), a wartością $-180^\\circ$."
+  },
+  {
+    "pytanie": "Jaki jest bezpieczny margines fazy dla stabilnego wzmacniacza?",
+    "odp": "Zazwyczaj przyjmuje się wartość co najmniej $45^\\circ$ do $60^\\circ$."
+  },
+  {
+    "pytanie": "Jakie są skutki zbyt małego marginesu fazy?",
+    "odp": "Odpowiedź impulsowa układu będzie wykazywać oscylacje (dzwonienie) lub układ może stać się niestabilny (generator)."
+  },
+  {
+    "pytanie": "Czy wzmacniacz idealny ma ograniczone pasmo przenoszenia?",
+    "odp": "Nie, wzmacniacz idealny ma nieskończone pasmo przenoszenia (wzmacnia tak samo od DC do nieskończoności)."
+  },
+  {
+    "pytanie": "W jaki sposób pasożytnicze indukcyjności wyprowadzeń wpływają na charakterystykę w zakresie bardzo wielkich częstotliwości?",
+    "odp": "Mogą tworzyć obwody rezonansowe z pojemnościami, powodując podbicia charakterystyki lub gwałtowne spadki wzmocnienia."
+  },
+  {
+    "pytanie": "Co to jest Slew Rate (szybkość narastania napięcia wyjściowego) i jak wiąże się z pasmem?",
+    "odp": "To maksymalna szybkość zmiany napięcia na wyjściu; ogranicza ona pasmo dla dużych sygnałów (tzw. pasmo pełnej mocy)."
+  },
+  {
+    "pytanie": "Jak zdefiniowane jest pasmo pełnej mocy ($f_{max}$)?",
+    "odp": "Jest to maksymalna częstotliwość, przy której wzmacniacz może oddać pełną amplitudę napięcia wyjściowego bez zniekształceń wynikających ze Slew Rate."
+  },
+  {
+    "pytanie": "Czy pasmo przenoszenia dla małych sygnałów jest takie samo jak dla dużych sygnałów?",
+    "odp": "Zazwyczaj nie; dla dużych sygnałów pasmo jest często węższe ze względu na ograniczenia Slew Rate."
+  },
+  {
+    "pytanie": "Jakie znaczenie ma impedancja obciążenia dla charakterystyki częstotliwościowej?",
+    "odp": "Pojemnościowy charakter obciążenia może wprowadzać dodatkowy biegun, zmniejszając margines fazy i pogarszając stabilność."
+  },
+  {
+    "pytanie": "W jaki sposób w układach w.cz. (wielkiej częstotliwości) dopasowuje się impedancje?",
+    "odp": "Stosuje się obwody rezonansowe lub transformatory w.cz., aby uzyskać maksymalne przeniesienie mocy w określonym paśmie."
+  },
+  {
+    "pytanie": "Co to jest częstotliwość rezonansowa w kontekście wzmacniaczy selektywnych?",
+    "odp": "To częstotliwość, na której wzmocnienie jest maksymalne, a układ jest nastrojony na przepuszczanie wąskiego pasma wokół niej."
+  },
+  {
+    "pytanie": "Jak definiuje się dobroć ($Q$) obwodu rezonansowego we wzmacniaczu selektywnym?",
+    "odp": "$Q = \\frac{f_0}{B}$, gdzie $f_0$ to częstotliwość rezonansowa, a $B$ to pasmo przenoszenia (-3 dB)."
+  },
+  {
+    "pytanie": "Jaki jest związek między czasem narastania impulsu ($t_r$) a górną częstotliwością graniczną ($f_g$)?",
+    "odp": "Związek ten opisuje przybliżony wzór: $t_r \\cdot f_g \\approx 0.35$."
+  }
+]
