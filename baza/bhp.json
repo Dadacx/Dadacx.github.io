@@ -1,11 +1,31 @@
 [
   {
     "pytanie": "Na czym polega prawna ochrona pracy?",
-    "odp": "To zestaw przepisów mających na celu zapewnienie bezpieczeństwa, zdrowia i dobrych warunków pracy. Obejmuje m.in.: ochronę stosunku pracy (przed nieuzasadnionym zwolnieniem), ochronę wynagrodzenia, ochronę warunków pracy (oświetlenie, wentylacja), ochronę pracy kobiet i młodocianych oraz ochronę świadczeń pracowniczych (urlopy, zwolnienia)."
+    "odp": "To zestaw przepisów mających na celu zapewnienie bezpieczeństwa, zdrowia i dobrych warunków pracy.\n\n- ochrona stosunku pracy (przed nieuzasadnionym zwolnieniem)\n- ochrona wynagrodzenia\n- ochrona warunków pracy (oświetlenie, wentylacja)\n- ochrona organizacji w pracy\n- ochrona pracy kobiet i młodocianych\n- ochrona świadczeń pracowniczych (urlopy, zwolnienia)."
   },
   {
     "pytanie": "Na czym polega techniczne bezpieczeństwo pracy?",
     "odp": "Jest to zapewnienie bezpiecznych warunków pracy poprzez odpowiednie projektowanie, budowanie, instalowanie, konserwację i eksploatację obiektów, maszyn, narzędzi i urządzeń technicznych.\n\n- bezpieczeństwo obiektów i pomieszczeń pracy\n- bezpieczeństwo maszyn, narzędzi i urządzeń technicznych\n- energetyka, transport, procesy technologiczne\n- materiały i surowce\n- dokumentacja budowlana, techniczna, ruchowa i instrukcje"
+  },
+  {
+    "pytanie": "Higiena pracy?",
+    "odp": "- higiena pomieszczeń pracy\n- higiena pomieszczeń technicznych\n- higiena osobista pracowników\n- zaplecze sanitarno higieniczne\n- środki higieny i zabezpieczenia higieniczne"
+  },
+  {
+    "pytanie": "Czym rózni się sprzęt ochrony indywidualnej klasy I i III?",
+    "odp": "I - chroni przed urazem odwracalnym \nIII - chroni przed urazem nieodwracalnym"
+  },
+  {
+    "pytanie": "Organy Nadzoru nad warunkami pracy",
+    "odp": "Państwowe organy: Państwowa Inspekcja Pracy, Państwowa Inspekcja Sanitarna, Urząd Dozoru Technicznego, Państwowa Straż Pożarna, Ochrona Środowiska, Inne państwowe organy: (Urzędy Morskie, Górnicze, Prokuratura, Główny Inspektor Nadzoru Budowlanego, Inspektorat Gospodarki Paliwowo-Energetycznej)\nSpołeczny nadzór: Związki zawodowe, Społeczna Inspekcja Pracy – Zakładowy Społeczny Inspektor Pracy"
+  },
+  {
+    "pytanie": "Odpowiedzialność pracodawcy",
+    "odp": "- Postępowanie mandatowe: do 500 zł, do 1000 zł, 2000 zł (5000 jeśli jest to 3 wykroczenie w ciągu ostatnich 24 miesięcy)\n- Grzywna: od 1000 do 30 000 zł - jak nie przyjmie mandatu lub gdy wykroczenie jest duże\n- Art 220 Kodeksu Karnego - na skutek świadomego niedopełnienia obowiązku BHP naraża zdrowie lub życie pracownika popełnia przestępstwo ; podlega karze do 3 lat pozbawienia wolności"
+  },
+  {
+    "pytanie": "Obowiązki pracodawcy",
+    "odp": "- organizować pracę w sposób zapewniający bezpieczne i higieniczne warunki pracy\n- zapewnić przestrzeganie w zakładzie przepisów oraz zasad bhp, wydać polecenia usunięcia uchybień w tym zakresie oraz kontrolować usunięcie tych uchybień\n- zapewnić wykonanie nakazów, wystąpień, decyzji i zarządzeń wydanych przez organy nadzoru nad warunkami pracy\n- zapewnić wykonanie zaleceń zakładowego społecznego inspektora pracy\n- ograniczanie ryzyka zawodowego\n- przeprowadzanie oceny ryzyka zawodowego\n- likwidowanie zagrożeń u źródła ich powstania\n- dostosowanie warunków i procesów pracy do możliwości pracownika\n- stosowanie nowych rozwiązań technicznych\n- zastępowanie niebezpiecznych procesów technologicznych, urządzeń, substancji i materiałów – bezpiecznymi lub mniej niebezpiecznymi\n- nadawanie priorytetu środkom ochrony zbiorowej przed środkami ochrony indywidualnej\n- instruowanie pracowników w zakresie BHP"
   },
   {
     "pytanie": "Proszę omówić parametry stanowiska komputerowego?",
@@ -25,11 +45,31 @@
   },
   {
     "pytanie": "Proszę wymienić główne rodzaje wentylacji?",
-    "odp": "1. Ogólna: naturalna (grawitacyjna, przewietrzanie) i mechaniczna (nawiewna, wywiewna, nawiewno-wywiewna). 2. Miejscowa: ssawki, okapy, obudowy (digestoria)."
+    "odp": "1. Ogólna: naturalna (grawitacyjna, przewietrzanie, infiltracja, aeracja) i mechaniczna (nawiewna, wywiewna, nawiewno-wywiewna).\n2. Miejscowa: ssawki, okapy, obudowy (digestoria)."
   },
   {
     "pytanie": "Gdzie nie można stosować wentylacji mechanicznej?",
-    "odp": "Nie można stosować np. w pomieszczeniach z paleniskami na paliwo stałe/płynne (kotłownie) pobierającymi powietrze z wewnątrz, chyba że bilans powietrza jest wyrównany nawiewem."
+    "odp": "Nie można stosować np. w pomieszczeniach z paleniskami na paliwo stałe/płynne (kotłownie) pobierającymi powietrze z pomieszczenia i z grawitacyjnym odprowadzaniem spalin przewodem"
+  },
+      {
+    "pytanie": "Cel ergonomii",
+    "odp": "Celem ergonomii jest zapewnienie człowiekowi dobrego życia, zadowolenia, poczucia bezpieczeństwa i komfortu psychicznego jakiego może on doznać z chwilą stworzenia mu optymalnych warunków do pracy i wypoczynku."
+  },
+        {
+    "pytanie": "Efekty uzyskiwane dzieki ergonomii",
+    "odp": "- zmniejszenie zmęczenia i różnic indywidualnych\n- zmniejszenie zmęczenia pracą\n- zwiększenie wydajności pracy\n- zapobieganie patologicznym skutkom wykonywania pracy, ograniczenie ilości chorób zawodowych\n- zmniejszenie liczby wypadków przy pracy"
+  },
+        {
+    "pytanie": "Ergonomia koncepcyjna",
+    "odp": "jej celem jest takie zaprojektowanie narzędzia, urządzenia, maszyny czy też całego obiektu przemysłowego, aby spełniał on podstawowe wymagania ergonomii. Badania prowadzone w ramach ergonomii koncepcyjnej mają charakter badań podstawowych i dominuje w nich eksperyment"
+  },
+        {
+    "pytanie": "Wibracja miejscowa, ogólna",
+    "odp": "Wibracja miejscowa – drgania przenoszone są na pracownika przez kończyny górne.\nWibracja ogólna – przez całe ciało."
+  },
+      {
+    "pytanie": "Jakie środki profilaktyczne musi zapewnić pracodawca dla pracowników pracujących poniżej 0 stopni",
+    "odp": "pomieszczenie do ogrzewania się (min 14 stopni), odzież ochronna, ciepłe napoje"
   },
   {
     "pytanie": "Przepisy jakich rozporządzeń regulują wymagania techniczne maszyn?",
@@ -57,7 +97,7 @@
   },
   {
     "pytanie": "Co to ergonomia?",
-    "odp": "Nauka o optymalnym przystosowaniu stanowisk, procesów i środowiska pracy do możliwości psychofizycznych człowieka. (W. Jastrzębowski, 1857 r.)."
+    "odp": "Ergonomia to nauka interdyscyplinarna, zajmująca się przystosowaniem narzędzi, maszyn, środowiska i warunków pracy do anatomicznych i psychofizycznych cech i możliwości człowieka, zapewniając sprawne, wydajne i bezpieczne wykonanie pracy."
   },
   {
     "pytanie": "Co to jest ergonomia korekcyjna?",
@@ -65,27 +105,39 @@
   },
   {
     "pytanie": "W układzie człowiek-maszyna różnica w możliwościach człowieka a możliwościach maszyny polega na?",
-    "odp": "Maszyny: szybkość, siła, powtarzalność, odporność na środowisko. Człowiek: kreatywność, podejmowanie decyzji w sytuacjach nietypowych, inteligencja, adaptacja, uczenie się."
+    "odp": "Maszyny: szybkość, siła, powtarzalność, odporność na środowisko. Człowiek: kreatywność, podejmowanie decyzji w sytuacjach nietypowych, inteligencja, adaptacja, uczenie się.\nMożliwości maszyny są nie ograniczone, a człowieka już tak"
   },
   {
     "pytanie": "Proszę wymienić czynniki materialnego środowiska pracy według Ergonomii?",
-    "odp": "Oświetlenie, hałas, drgania, mikroklimat (temperatura, wilgotność, ruch powietrza), ciśnienie, promieniowanie, zanieczyszczenia powietrza."
+    "odp": "Oświetlenie, hałas, drgania, mikroklimat (temperatura, wilgotność, ruch powietrza, ciśnienie), promieniowanie, pole elektromagnetyczne, zanieczyszczenia powietrza."
+  },
+        {
+    "pytanie": "Centyl",
+    "odp": "Centyl to punkt na skali pomiarowej, poniżej którego mieści się określony procent zaobserwowanych wartości zmiennej. Na przykład centyl 25 (C25) oznacza wynik wyższy od wyników testowania 25 procent badanych. Centyle dzielą zaobserwowane wartości zmiennej na 100 jednakowo licznych grup. Centyl pięćdziesiąty jest równy medianie. "
   },
   {
     "pytanie": "Proszę wymienić czynniki antropotechniczne i organizatorskie stanowiska roboczego?",
     "odp": "Antropotechniczne: wymiary stanowiska, charakterystyka ruchów, obciążeń. Organizatorskie: organizacja pracy, przerwy, kontrola, komunikacja, wsparcie społeczne, system zmianowy."
   },
+        {
+    "pytanie": "Co to jest mikroklimat",
+    "odp": "Mikroklimat to specyficzne warunki klimatyczne (temperatura, wilgotność, ruch powietrza, ciśnienie) panujące na małym, wydzielonym obszarze (np. polana w lesie, dolina) lub w zamkniętym pomieszczeniu"
+  },
   {
     "pytanie": "Na czym polega zasada miar ograniczających?",
-    "odp": "Projektowanie dla skrajnych wymiarów populacji (np. przejścia dla 95. centyla mężczyzn - duzi, a zasięgi dla 5. centyla kobiet - małe), aby pasowało większości."
+    "odp": "Zasada miar ograniczających w ergonomii polega na projektowaniu stanowisk pracy i maszyn w oparciu o wymiary antropometryczne skrajnych grup populacji (zazwyczaj 5. i 95. centyla), aby zapewnić funkcjonalność dla ok. 90-95% użytkowników. Umożliwia to dostosowanie wymiarów do najmniejszych i największych osób. Zapewnienie, że stanowisko nie będzie za małe dla osoby dużej ani za duże (nieosiągalne) dla osoby małej, optymalizując komfort i bezpieczeństwo. "
+  },
+  {
+    "pytanie": "Ergonomia w projektowaniu – zasady projektowania",
+    "odp": "I zasada: Projekt powinien spełniać wszystkie postawione wymagania wynikające z obowiązujących przepisów, norm i oczekiwań użytkowników, odbiorców oraz innych szczegółowych zasad.\nII zasada: Projekt powinien być optymalny w danych warunkach ze względu na przyjęte kryterium optymalizacji.\n\nNie należy zadowalać się stworzeniem projektu dobrego, tylko dążyć do doskonałego"
   },
   {
     "pytanie": "Na jakiej podstawie następuje rozróżnianie elementów sterowniczych w ergonomii?",
-    "odp": "Kształtu, rozmiaru, umiejscowienia, barwy, sposobu działania (np. opór)."
+    "odp": "Kształtu, rozmiaru, umiejscowienia, barwy."
   },
   {
     "pytanie": "Co to jest dobrostan?",
-    "odp": "Stan fizycznego, umysłowego i społecznego zadowolenia/szczęścia, a nie tylko brak choroby."
+    "odp": "Dobrostan – to stan odczuwalny przez operatora podczas zgodnego z przeznaczeniem użytkowania maszyny, jeżeli dyskomfort, zmęczenie fizyczne i obciążenie psychiczne ograniczono do możliwego minimum"
   },
   {
     "pytanie": "Jaka jest odpowiedzialność pracodawcy za BHP?",
@@ -102,7 +154,9 @@
   {
     "pytanie": "Różnice między znakiem China Export a European Certification (CE):",
     "odp": "Oryginalne CE: litery oddalone od siebie (wpisane w dwa okręgi), środkowa belka 'E' krótsza. China Export: litery blisko siebie, 'E' ma równe belki. Znak CE oznacza zgodność z dyrektywami UE.",
-    "imgs":["https://www.kimuagroup.com/wp-content/uploads/2021/03/ce-china-export-difference.png"]
+    "imgs": [
+      "https://www.kimuagroup.com/wp-content/uploads/2021/03/ce-china-export-difference.png"
+    ]
   },
   {
     "pytanie": "Co to jest Dokumentacja techniczno-ruchowa (DTR)?",
@@ -126,11 +180,11 @@
   },
   {
     "pytanie": "Co to jest Komisja BHP i kiedy się ją powołuje?",
-    "odp": "Organ doradczy pracodawcy. Powoływana, gdy zakład zatrudnia powyżej 250 pracowników. Skład: pracodawca, służba BHP, lekarz, przedstawiciele pracowników."
+    "odp": "Organ doradczy i opiniodawczy pracodawcy. Powoływana, gdy zakład zatrudnia powyżej 250 pracowników. Skład: pracodawca, służba BHP, lekarz, przedstawiciele pracowników."
   },
   {
     "pytanie": "Trójkąt (hierarchia) środków ochrony - kolejność stosowania:",
-    "odp": "1. Środki techniczne (eliminacja zagrożenia u źródła). 2. Środki organizacyjne (rotacja, procedury). 3. Środki ochrony zbiorowej. 4. Środki ochrony indywidualnej (jako ostateczność)."
+    "odp": "1. Środki techniczne (eliminacja zagrożenia u źródła). 2. Środki ochrony zbiorowej. 3. Środki ochrony organizacyjnej (rotacja, procedury) 4. Środki ochrony indywidualnej (jako ostateczność)."
   },
   {
     "pytanie": "Wymagane natężenie oświetlenia dla różnych czynności:",
