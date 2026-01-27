@@ -5,7 +5,7 @@
   },
   {
     "pytanie": "Na czym polega techniczne bezpieczeństwo pracy?",
-    "odp": "To zapewnienie bezpiecznych warunków poprzez odpowiednie projektowanie, budowanie, eksploatację maszyn i obiektów. Obejmuje: obiekty/pomieszczenia pracy, maszyny i narzędzia, energetykę i transport, procesy technologiczne, materiały oraz dokumentację techniczną (DTR, instrukcje)."
+    "odp": "Jest to zapewnienie bezpiecznych warunków pracy poprzez odpowiednie projektowanie, budowanie, instalowanie, konserwację i eksploatację obiektów, maszyn, narzędzi i urządzeń technicznych.\n\n- bezpieczeństwo obiektów i pomieszczeń pracy\n- bezpieczeństwo maszyn, narzędzi i urządzeń technicznych\n- energetyka, transport, procesy technologiczne\n- materiały i surowce\n- dokumentacja budowlana, techniczna, ruchowa i instrukcje"
   },
   {
     "pytanie": "Proszę omówić parametry stanowiska komputerowego?",
@@ -101,7 +101,8 @@
   },
   {
     "pytanie": "Różnice między znakiem China Export a European Certification (CE):",
-    "odp": "Oryginalne CE: litery oddalone od siebie (wpisane w dwa okręgi), środkowa belka 'E' krótsza. China Export: litery blisko siebie, 'E' ma równe belki. Znak CE oznacza zgodność z dyrektywami UE."
+    "odp": "Oryginalne CE: litery oddalone od siebie (wpisane w dwa okręgi), środkowa belka 'E' krótsza. China Export: litery blisko siebie, 'E' ma równe belki. Znak CE oznacza zgodność z dyrektywami UE.",
+    "imgs":["https://www.kimuagroup.com/wp-content/uploads/2021/03/ce-china-export-difference.png"]
   },
   {
     "pytanie": "Co to jest Dokumentacja techniczno-ruchowa (DTR)?",

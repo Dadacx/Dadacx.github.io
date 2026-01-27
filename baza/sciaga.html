@@ -4,12 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baza Pytań i Odpowiedzi</title>
-    
+    <title>Baza Pytań (Dark Mode + Zdjęcia)</title>
+
     <script>
         window.MathJax = {
             tex: {
-                inlineMath: [['$', '$'], ['\\(', '\\)']] // Pozwala używać $...$ do wzorów
+                inlineMath: [['$', '$'], ['\\(', '\\)']]
             }
         };
     </script>
@@ -19,11 +19,11 @@
 
     <style>
         /* --- CIEMNY MOTYW (DARK MODE) --- */
-        
+
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #121212; /* Bardzo ciemne tło strony */
-            color: #e0e0e0; /* Jasny tekst */
+            background-color: #121212;
+            color: #e0e0e0;
             margin: 0;
             padding: 20px;
             display: flex;
@@ -31,7 +31,6 @@
             align-items: center;
         }
 
-        /* Styl wyszukiwarki */
         .search-container {
             width: 100%;
             max-width: 600px;
@@ -42,9 +41,9 @@
             width: 100%;
             padding: 15px;
             font-size: 16px;
-            background-color: #1e1e1e; /* Ciemne tło inputa */
-            color: #ffffff; /* Biały tekst wpisywania */
-            border: 2px solid #333; /* Ciemna ramka */
+            background-color: #1e1e1e;
+            color: #ffffff;
+            border: 2px solid #333;
             border-radius: 8px;
             box-sizing: border-box;
             transition: border-color 0.3s, box-shadow 0.3s;
@@ -52,7 +51,7 @@
 
         #searchInput:focus {
             outline: none;
-            border-color: #bb86fc; /* Fioletowy akcent przy aktywności (lub inny jasny) */
+            border-color: #bb86fc;
             box-shadow: 0 0 8px rgba(187, 134, 252, 0.2);
         }
 
@@ -60,7 +59,6 @@
             color: #888;
         }
 
-        /* Kontener na bloczki */
         #container {
             display: flex;
             flex-wrap: wrap;
@@ -70,18 +68,17 @@
             max-width: 1000px;
         }
 
-        /* Styl pojedynczego bloczka */
         .qa-card {
-            background-color: #1e1e1e; /* Ciemnoszare tło karty */
+            background-color: #1e1e1e;
             border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* Mocniejszy cień dla głębi */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
             width: 100%;
             max-width: 300px;
             overflow: hidden;
             display: flex;
             flex-direction: column;
             transition: transform 0.2s, box-shadow 0.2s;
-            border: 1px solid #333; /* Subtelna ramka */
+            border: 1px solid #333;
         }
 
         .qa-card:hover {
@@ -90,27 +87,50 @@
             border-color: #444;
         }
 
-        /* Sekcja Pytania (Góra) */
         .card-header {
-            background-color: #272727; /* Nieco jaśniejszy od tła body, ale ciemny */
+            background-color: #272727;
             color: #ffffff;
             padding: 15px;
             font-weight: bold;
             font-size: 1.1em;
-            border-bottom: 3px solid #cf6679; /* Zgaszona czerwień/róż (dobra dla dark mode) */
+            border-bottom: 3px solid #cf6679;
         }
 
-        /* Sekcja Odpowiedzi (Dół) */
         .card-body {
-            background-color: #1e1e1e; /* To samo co tło karty */
-            color: #cccccc; /* Lekko szary tekst, żeby nie męczył oczu jak czysta biel */
+            background-color: #1e1e1e;
+            color: #cccccc;
             padding: 15px;
             line-height: 1.5;
             flex-grow: 1;
+            /* Wypycha obrazy na dół, jeśli tekstu jest mało */
             font-size: 0.95em;
+            white-space: pre-line;
         }
-        
-        /* Dostosowanie koloru wzorów MathJax */
+
+        /* --- Style dla zdjęć --- */
+        .card-images {
+            background-color: #1e1e1e;
+            padding: 0 15px 15px 15px;
+            /* Padding tylko po bokach i na dole */
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .qa-image {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            border: 1px solid #444;
+            cursor: pointer;
+            /* Kursor rączki sugeruje klikalność */
+            transition: opacity 0.2s;
+        }
+
+        .qa-image:hover {
+            opacity: 0.9;
+        }
+
         mjx-container {
             color: #e0e0e0 !important;
         }
@@ -128,47 +148,38 @@
     <script>
         const container = document.getElementById('container');
         const searchInput = document.getElementById('searchInput');
-        let allData = []; // Tutaj przechowamy pobrane dane
+        let allData = [];
 
         async function fetchData() {
             try {
                 var val = document.URL;
-                var start;
-                start = val.search(/q=/);
-                
-                // Domyślna nazwa pliku jeśli nie podano parametru ?q=
-                let baza = "baza"; 
+                var start = val.search(/q=/);
+                let baza = "baza";
 
                 if (start !== -1) {
-                    var end;
-                    end = val.search(/&/);
-                    // Poprawka indeksowania: start + 2 (pomijamy "q=")
+                    var end = val.search(/&/);
                     baza = val.substring(start + 2, end !== -1 ? end : val.length);
-                } else {
-                    console.log("Brak parametru q= w URL, próbuję załadować domyślny plik lub zgłoś błąd.");
-                    // Możesz tu wpisać sztywną nazwę pliku, np. 'flashcards' dla testów
-                    // baza = 'flashcards'; 
                 }
 
-                console.log("Pobieranie pliku:", `./${baza}.json`);
+                console.log("Pobieranie:", `./${baza}.json`);
                 const response = await fetch(`./${baza}.json`);
-                
+
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
                 }
-                
+
                 allData = await response.json();
                 renderData(allData);
-                
+
             } catch (error) {
-                console.error("Błąd pobierania danych:", error);
-                container.innerHTML = `<p style='color:red'>Nie udało się pobrać danych (plik: ${baza || 'nieznany'}.json). Sprawdź parametr ?q= w adresie URL.</p>`;
+                console.error("Błąd:", error);
+
+                container.innerHTML = `<p style='color:#cf6679'>Nie udało się pobrać danych.</p>`;
             }
         }
 
-        // Funkcja wyświetlająca kafelki (renderowanie)
         function renderData(dataArray) {
-            container.innerHTML = ''; // Wyczyść kontener przed rysowaniem
+            container.innerHTML = '';
 
             if (!dataArray || dataArray.length === 0) {
                 container.innerHTML = '<p>Brak wyników wyszukiwania.</p>';
@@ -176,50 +187,64 @@
             }
 
             dataArray.forEach(item => {
-                // Tworzenie elementów DOM
                 const card = document.createElement('div');
                 card.classList.add('qa-card');
 
+                // 1. Nagłówek (Pytanie)
                 const header = document.createElement('div');
                 header.classList.add('card-header');
                 header.textContent = item.pytanie;
 
+                // 2. Treść (Odpowiedź)
                 const body = document.createElement('div');
                 body.classList.add('card-body');
-                body.textContent = item.odp; // MathJax przetworzy ten tekst
+                body.textContent = item.odp;
 
-                // Składanie klocków
                 card.appendChild(header);
                 card.appendChild(body);
+
+                // 3. Zdjęcia (jeśli istnieją)
+                if (item.imgs && Array.isArray(item.imgs) && item.imgs.length > 0) {
+                    const imgContainer = document.createElement('div');
+                    imgContainer.classList.add('card-images');
+
+                    item.imgs.forEach(imgSrc => {
+                        // Tworzymy obrazek
+                        const img = document.createElement('img');
+                        img.src = imgSrc;
+                        img.classList.add('qa-image');
+                        img.alt = "Zdjęcie do pytania";
+                        img.loading = "lazy"; // Leniwe ładowanie dla wydajności
+
+                        // Opcjonalnie: Kliknięcie otwiera oryginał w nowej karcie
+                        img.ondblclick = () => window.open(imgSrc, '_blank');
+
+                        imgContainer.appendChild(img);
+                    });
+
+                    card.appendChild(imgContainer);
+                }
+
                 container.appendChild(card);
             });
 
-            // 3. ODŚWIEŻENIE MATHJAX
-            // To jest kluczowe: po wstawieniu nowych elementów do DOM, każemy MathJaxowi poszukać wzorów w kontenerze
+            // Odświeżenie MathJax
             if (window.MathJax && window.MathJax.typesetPromise) {
-                window.MathJax.typesetPromise([container]).then(() => {
-                    console.log("MathJax przetworzył wzory.");
-                }).catch((err) => console.log("Błąd MathJax:", err));
+                window.MathJax.typesetPromise([container]).catch((err) => console.log(err));
             }
         }
 
-        // Logika wyszukiwania
         searchInput.addEventListener('input', (e) => {
             const searchTerm = e.target.value.toLowerCase();
-
-            // Filtrujemy tylko po pytaniu
             const filteredData = allData.filter(item =>
                 item.pytanie.toLowerCase().includes(searchTerm)
             );
-
             renderData(filteredData);
         });
 
-        // Start aplikacji
         fetchData();
 
     </script>
 </body>
-
 
 </html>
