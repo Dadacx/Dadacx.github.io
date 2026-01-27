@@ -1,0 +1,198 @@
+[
+  {
+    "pytanie": "Na czym polega prawna ochrona pracy?",
+    "odp": "To zestaw przepisów mających na celu zapewnienie bezpieczeństwa, zdrowia i dobrych warunków pracy. Obejmuje m.in.: ochronę stosunku pracy (przed nieuzasadnionym zwolnieniem), ochronę wynagrodzenia, ochronę warunków pracy (oświetlenie, wentylacja), ochronę pracy kobiet i młodocianych oraz ochronę świadczeń pracowniczych (urlopy, zwolnienia)."
+  },
+  {
+    "pytanie": "Na czym polega techniczne bezpieczeństwo pracy?",
+    "odp": "To zapewnienie bezpiecznych warunków poprzez odpowiednie projektowanie, budowanie, eksploatację maszyn i obiektów. Obejmuje: obiekty/pomieszczenia pracy, maszyny i narzędzia, energetykę i transport, procesy technologiczne, materiały oraz dokumentację techniczną (DTR, instrukcje)."
+  },
+  {
+    "pytanie": "Proszę omówić parametry stanowiska komputerowego?",
+    "odp": "Odległość monitora od oczu: 40-75 cm. Kąt prosty (90°) między ramionami a łokciami oraz udami a łydkami. Krzesło obrotowe, regulowane, z możliwością odchylenia 5° do tyłu. Jeśli osoba jest niska, wymagany opcjonalny podnóżek."
+  },
+  {
+    "pytanie": "Jaka powinna być temperatura w pokojach biurowych, a jaka w szatniach?",
+    "odp": "Pokoje mieszkalne i biurowe: min. 20°C. Rozbieralnie, szatnie, baseny, gabinety medyczne: min. 24°C."
+  },
+  {
+    "pytanie": "Proszę podać rodzaje i wielkość oświetlenia stanowiska pracy?",
+    "odp": "Oświetlenie sztuczne: min. 500 luksów dla pracy przy PC, czytania, sal wykładowych. Oświetlenie naturalne (stosunek okno:podłoga): 1:8 dla stałego pobytu ludzi, 1:12 jeśli wymagane tylko technologicznie."
+  },
+  {
+    "pytanie": "Pod jakim warunkiem można tworzyć stanowiska pracy w pomieszczeniach bez okien?",
+    "odp": "Tylko jeśli oświetlenie naturalne jest niemożliwe/niewskazane technologicznie ORAZ pracodawca uzyska zgodę Państwowego Wojewódzkiego Inspektora Sanitarnego w porozumieniu z Okręgowym Inspektorem Pracy. Wymagana klimatyzacja i oświetlenie awaryjne."
+  },
+  {
+    "pytanie": "Proszę wymienić główne rodzaje wentylacji?",
+    "odp": "1. Ogólna: naturalna (grawitacyjna, przewietrzanie) i mechaniczna (nawiewna, wywiewna, nawiewno-wywiewna). 2. Miejscowa: ssawki, okapy, obudowy (digestoria)."
+  },
+  {
+    "pytanie": "Gdzie nie można stosować wentylacji mechanicznej?",
+    "odp": "Nie można stosować np. w pomieszczeniach z paleniskami na paliwo stałe/płynne (kotłownie) pobierającymi powietrze z wewnątrz, chyba że bilans powietrza jest wyrównany nawiewem."
+  },
+  {
+    "pytanie": "Przepisy jakich rozporządzeń regulują wymagania techniczne maszyn?",
+    "odp": "Rozp. Ministra Pracy i Polityki Socjalnej (ogólne przepisy BHP), Rozp. Ministra Gospodarki (w sprawie bezpieczeństwa maszyn), Rozp. Ministra Infrastruktury (warunki techniczne budynków)."
+  },
+  {
+    "pytanie": "Jakie są ręczne normy przenoszenia ciężarów przy pracy stałej i dorywczej dla mężczyzn?",
+    "odp": "30 kg przy pracy stałej oraz 50 kg przy pracy dorywczej."
+  },
+  {
+    "pytanie": "Kiedy pracodawca musi zapewnić pomieszczenie do odpoczynku i jakie warunki musi ono spełniać?",
+    "odp": "Gdy temp. przekracza 30°C (technologiczna), praca w maskach, praca stojąca/chodząca lub uciążliwa. Wymogi: min. 8m², klimatyzacja (przy >30°C), miejsca siedzące (min. 1 na 5 osób), odległość max 75m od stanowiska."
+  },
+  {
+    "pytanie": "Kiedy pracodawca musi zapewnić pomieszczenie do ogrzewania się pracowników?",
+    "odp": "Przy pracach na otwartej przestrzeni lub w nieogrzewanych pomieszczeniach zimą. Temp. wewnątrz min. 16°C, powierzchnia min. 8m², możliwość podgrzania posiłku."
+  },
+  {
+    "pytanie": "Praca na wysokości i wymagania z tym związane?",
+    "odp": "To praca na pow. >1m nad ziemią. Wymagania: balustrady (1,1m z krawężnikiem 15cm), siatki lub środki ochrony indywidualnej (szelki, uprzęże). Szkolenia, nadzór, badania wysokościowe."
+  },
+  {
+    "pytanie": "Jakie mają obowiązki pracodawcy, których pracownicy wykonują pracę w tym samym miejscu?",
+    "odp": "Muszą wyznaczyć koordynatora sprawującego nadzór nad BHP wszystkich pracowników, ustalić zasady współdziałania i informować się nawzajem o zagrożeniach."
+  },
+  {
+    "pytanie": "Co to ergonomia?",
+    "odp": "Nauka o optymalnym przystosowaniu stanowisk, procesów i środowiska pracy do możliwości psychofizycznych człowieka. (W. Jastrzębowski, 1857 r.)."
+  },
+  {
+    "pytanie": "Co to jest ergonomia korekcyjna?",
+    "odp": "Dział ergonomii zajmujący się analizą i poprawą już istniejących rozwiązań/stanowisk. (Przeciwieństwem jest ergonomia koncepcyjna - projektowanie od nowa)."
+  },
+  {
+    "pytanie": "W układzie człowiek-maszyna różnica w możliwościach człowieka a możliwościach maszyny polega na?",
+    "odp": "Maszyny: szybkość, siła, powtarzalność, odporność na środowisko. Człowiek: kreatywność, podejmowanie decyzji w sytuacjach nietypowych, inteligencja, adaptacja, uczenie się."
+  },
+  {
+    "pytanie": "Proszę wymienić czynniki materialnego środowiska pracy według Ergonomii?",
+    "odp": "Oświetlenie, hałas, drgania, mikroklimat (temperatura, wilgotność, ruch powietrza), ciśnienie, promieniowanie, zanieczyszczenia powietrza."
+  },
+  {
+    "pytanie": "Proszę wymienić czynniki antropotechniczne i organizatorskie stanowiska roboczego?",
+    "odp": "Antropotechniczne: wymiary stanowiska, charakterystyka ruchów, obciążeń. Organizatorskie: organizacja pracy, przerwy, kontrola, komunikacja, wsparcie społeczne, system zmianowy."
+  },
+  {
+    "pytanie": "Na czym polega zasada miar ograniczających?",
+    "odp": "Projektowanie dla skrajnych wymiarów populacji (np. przejścia dla 95. centyla mężczyzn - duzi, a zasięgi dla 5. centyla kobiet - małe), aby pasowało większości."
+  },
+  {
+    "pytanie": "Na jakiej podstawie następuje rozróżnianie elementów sterowniczych w ergonomii?",
+    "odp": "Kształtu, rozmiaru, umiejscowienia, barwy, sposobu działania (np. opór)."
+  },
+  {
+    "pytanie": "Co to jest dobrostan?",
+    "odp": "Stan fizycznego, umysłowego i społecznego zadowolenia/szczęścia, a nie tylko brak choroby."
+  },
+  {
+    "pytanie": "Jaka jest odpowiedzialność pracodawcy za BHP?",
+    "odp": "Ponoszą odpowiedzialność porządkową, wykroczeniową (grzywny do 30 tys. zł) oraz karną (do 3 lat więzienia za narażenie życia/zdrowia). Odpowiadają za stan BHP w zakładzie."
+  },
+  {
+    "pytanie": "Jaka jest odpowiedzialność pracownika?",
+    "odp": "Przestrzeganie przepisów BHP, udział w szkoleniach, wykonywanie badań lekarskich, dbanie o maszyny, informowanie o zagrożeniach. Grożą kary porządkowe (upomnienie, nagana, kara pieniężna)."
+  },
+  {
+    "pytanie": "Co to są zasady BHP?",
+    "odp": "Zbiór reguł i norm prawnych oraz technicznych mających na celu stworzenie pracownikowi bezpiecznych i higienicznych warunków pracy oraz ochronę przed wypadkami i chorobami."
+  },
+  {
+    "pytanie": "Różnice między znakiem China Export a European Certification (CE):",
+    "odp": "Oryginalne CE: litery oddalone od siebie (wpisane w dwa okręgi), środkowa belka 'E' krótsza. China Export: litery blisko siebie, 'E' ma równe belki. Znak CE oznacza zgodność z dyrektywami UE."
+  },
+  {
+    "pytanie": "Co to jest Dokumentacja techniczno-ruchowa (DTR)?",
+    "odp": "Instrukcja (paszport) maszyny zawierająca dane techniczne, instrukcje obsługi, konserwacji, BHP, schematy. Musi być w języku zrozumiałym dla pracownika (polskim)."
+  },
+  {
+    "pytanie": "Co to jest Instrukcja bezpiecznego wykonywania robót (IBWR)?",
+    "odp": "Dokument opracowywany przez wykonawcę przed rozpoczęciem robót budowlanych, określający sposoby zapobiegania zagrożeniom specyficznym dla danej budowy."
+  },
+  {
+    "pytanie": "Jakie przerwy przysługują pracownikowi?",
+    "odp": "Przy pracy min. 6h: 15 minut (wliczane do czasu pracy). Przy komputerze: 5 min po każdej godzinie pracy. Kobiety w ciąży przy komputerze: 10 min po 50 min pracy."
+  },
+  {
+    "pytanie": "Definicja stałego miejsca pracy:",
+    "odp": "Pomieszczenie/miejsce, w którym pracownik przebywa łącznie ponad 4 godziny w ciągu doby."
+  },
+  {
+    "pytanie": "Wymagania dla stałego miejsca pracy (wysokość, powierzchnia, kubatura):",
+    "odp": "Wysokość: 3m (lub 2.5m przy zgodzie sanepidu dla <4 osób). Powierzchnia wolna podłogi: min. 2m²/os. Kubatura: min. 13m³/os."
+  },
+  {
+    "pytanie": "Co to jest Komisja BHP i kiedy się ją powołuje?",
+    "odp": "Organ doradczy pracodawcy. Powoływana, gdy zakład zatrudnia powyżej 250 pracowników. Skład: pracodawca, służba BHP, lekarz, przedstawiciele pracowników."
+  },
+  {
+    "pytanie": "Trójkąt (hierarchia) środków ochrony - kolejność stosowania:",
+    "odp": "1. Środki techniczne (eliminacja zagrożenia u źródła). 2. Środki organizacyjne (rotacja, procedury). 3. Środki ochrony zbiorowej. 4. Środki ochrony indywidualnej (jako ostateczność)."
+  },
+  {
+    "pytanie": "Wymagane natężenie oświetlenia dla różnych czynności:",
+    "odp": "Korytarz: 100 lx. Łazienki: 200 lx. Praca biurowa/PC: 500 lx. Montaż precyzyjny: 1000 lx."
+  },
+  {
+    "pytanie": "Jakie są ręczne normy przenoszenia ciężarów dla kobiet?",
+    "odp": "Praca stała: 12 kg (3 kg w ciąży). Praca dorywcza: 20 kg (5 kg w ciąży)."
+  },
+  {
+    "pytanie": "Co to są czynniki niebezpieczne?",
+    "odp": "Czynniki, których oddziaływanie na pracownika prowadzi lub może prowadzić do urazu (wypadku), np. ruchome części maszyn, prąd elektryczny, śliska nawierzchnia."
+  },
+  {
+    "pytanie": "Co to są czynniki szkodliwe?",
+    "odp": "Czynniki, których oddziaływanie może prowadzić do schorzenia (choroby zawodowej) po pewnym czasie, np. hałas, pyły, substancje chemiczne."
+  },
+  {
+    "pytanie": "Co to są czynniki uciążliwe?",
+    "odp": "Czynniki utrudniające pracę, obniżające wydajność, ale niepowodujące trwałego uszczerbku na zdrowiu, np. monotonność, wysiłek fizyczny."
+  },
+  {
+    "pytanie": "Co to jest wypadek przy pracy?",
+    "odp": "Nagłe zdarzenie wywołane przyczyną zewnętrzną powodujące uraz lub śmierć, które nastąpiło w związku z pracą."
+  },
+  {
+    "pytanie": "Rodzaje wypadków przy pracy:",
+    "odp": "Śmiertelny (zgon do 6 miesięcy), Ciężki (ciężkie uszkodzenie ciała), Zbiorowy (min. 2 osoby), Powodujący czasową niezdolność do pracy (lekki)."
+  },
+  {
+    "pytanie": "Choroba zawodowa - definicja:",
+    "odp": "Schorzenie wymienione w wykazie chorób zawodowych, spowodowane działaniem czynników szkodliwych w środowisku pracy lub sposobem wykonywania pracy."
+  },
+  {
+    "pytanie": "Co zawiera ocena ryzyka zawodowego?",
+    "odp": "Identyfikację zagrożeń, oszacowanie ryzyka, wyznaczenie środków profilaktycznych zmniejszających ryzyko. Pracownik musi być z nią zapoznany."
+  },
+  {
+    "pytanie": "Kto płaci za badania lekarskie (wstępne, okresowe)?",
+    "odp": "Zawsze pracodawca. Odbywają się w godzinach pracy (z zachowaniem prawa do wynagrodzenia)."
+  },
+  {
+    "pytanie": "Kto zapewnia odzież roboczą i środki ochrony indywidualnej?",
+    "odp": "Pracodawca - nieodpłatnie. Musi też zapewnić ich pranie i konserwację."
+  },
+  {
+    "pytanie": "Służba BHP - kiedy jest obowiązkowa?",
+    "odp": "W zakładach zatrudniających powyżej 100 pracowników należy utworzyć służbę BHP. Poniżej 100 - zadania te może wykonywać pracodawca lub specjalista z zewnątrz."
+  },
+  {
+    "pytanie": "Instruktaż ogólny a stanowiskowy - różnice:",
+    "odp": "Ogólny: dla nowo zatrudnionych, zapoznaje z przepisami ogólnymi i regulaminem. Stanowiskowy: na konkretnym stanowisku, zapoznaje z ryzykiem, maszynami i procesem pracy."
+  },
+  {
+    "pytanie": "Symboliczne kolory bezpieczeństwa:",
+    "odp": "Czerwony: zakaz, pożar, stop. Żółty: ostrzeżenie. Niebieski: nakaz. Zielony: wyjście ewakuacyjne, pierwsza pomoc, stan bezpieczny."
+  },
+  {
+    "pytanie": "NDS - co to znaczy?",
+    "odp": "Najwyższe Dopuszczalne Stężenie - średnie stężenie czynnika szkodliwego, którego oddziaływanie przez 8h dziennie nie powinno spowodować ujemnych zmian w zdrowiu."
+  },
+  {
+    "pytanie": "NDN - co to znaczy?",
+    "odp": "Najwyższe Dopuszczalne Natężenie - dotyczy czynników fizycznych jak hałas czy wibracje."
+  }
+]
