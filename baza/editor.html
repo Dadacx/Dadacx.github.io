@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edytor Pytań (Inline)</title>
+    
+    <script>
+        window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1, h2 { color: #bb86fc; margin-bottom: 10px; }
+
+        .container {
+            width: 100%;
+            max-width: 900px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        /* --- STYLE OGÓLNE FORMULARZY --- */
+        .editor-panel {
+            background-color: #1e1e1e;
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid #333;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #cf6679;
+            font-size: 0.9em;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            background-color: #2c2c2c;
+            border: 1px solid #444;
+            color: white;
+            border-radius: 5px;
+            font-family: inherit;
+            box-sizing: border-box;
+        }
+
+        textarea { resize: vertical; min-height: 60px; }
+
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #bb86fc;
+        }
+
+        .btn-row {
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+            margin-top: 10px;
+        }
+
+        button {
+            padding: 8px 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: opacity 0.2s;
+            font-size: 14px;
+        }
+
+        button:hover { opacity: 0.9; }
+
+        .btn-primary { background-color: #bb86fc; color: black; }
+        .btn-success { background-color: #03dac6; color: black; }
+        .btn-danger { background-color: #cf6679; color: black; }
+        .btn-secondary { background-color: #444; color: white; }
+
+        /* --- LISTA ELEMENTÓW --- */
+        #preview-list {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .qa-item {
+            background-color: #252525;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 15px;
+            position: relative;
+            transition: border-color 0.3s;
+        }
+
+        /* Styl dla aktywnej edycji */
+        .qa-item.editing {
+            border-color: #bb86fc;
+            background-color: #2a2a2a;
+        }
+
+        .qa-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #444;
+            padding-bottom: 5px;
+        }
+
+        .qa-index {
+            color: #888;
+            font-size: 0.8em;
+            font-family: monospace;
+        }
+
+        .qa-question-text {
+            color: #bb86fc;
+            font-weight: bold;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .qa-answer-text {
+            color: #ccc;
+            white-space: pre-wrap;
+            line-height: 1.5;
+        }
+
+        .qa-images {
+            margin-top: 10px;
+            display: flex;
+            gap: 5px;
+            flex-wrap: wrap;
+        }
+        
+        .qa-thumb {
+            height: 60px;
+            border-radius: 4px;
+            border: 1px solid #555;
+            cursor: pointer;
+        }
+
+        .item-actions {
+            margin-top: 15px;
+            display: flex;
+            gap: 10px;
+            justify-content: flex-end;
+        }
+
+        /* --- JSON Output --- */
+        .json-output {
+            font-family: monospace;
+            font-size: 12px;
+            min-height: 100px;
+            color: #aaddaa;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Edytor Bazy Pytań (v2)</h1>
+
+        <div class="editor-panel">
+            <div style="display:flex; justify-content: space-between; align-items: center;">
+                <h2 style="margin:0; font-size:1.2em;">Eksport / Import JSON</h2>
+                <div class="btn-row" style="margin:0;">
+                    <button class="btn-secondary" onclick="loadFromTextarea()">⬆️ Załaduj</button>
+                    <button class="btn-success" onclick="copyJSON()">📋 Kopiuj</button>
+                </div>
+            </div>
+            <textarea id="json-output" class="json-output" placeholder="Wklej tutaj treść pliku baza.json aby edytować..."></textarea>
+        </div>
+
+        <div class="editor-panel">
+            <h2 style="font-size:1.2em; color:#03dac6;">➕ Dodaj nowe pytanie (na koniec listy)</h2>
+            <div class="form-group">
+                <input id="new-q" placeholder="Treść pytania...">
+            </div>
+            <div class="form-group">
+                <textarea id="new-a" placeholder="Treść odpowiedzi..." style="min-height: 40px;"></textarea>
+            </div>
+            <div class="btn-row">
+                <button class="btn-primary" onclick="addNewItem()">Dodaj</button>
+            </div>
+        </div>
+
+        <h2>Lista pytań (<span id="count">0</span>)</h2>
+        <div id="preview-list"></div>
+    </div>
+
+    <script>
+        let questions = [];
+        let currentlyEditingId = null; // Przechowuje indeks elementu aktualnie edytowanego
+
+        const jsonOutput = document.getElementById('json-output');
+        const previewList = document.getElementById('preview-list');
+        const countSpan = document.getElementById('count');
+        const inpNewQ = document.getElementById('new-q');
+        const inpNewA = document.getElementById('new-a');
+
+        // --- DODAWANIE ---
+        function addNewItem() {
+            const q = inpNewQ.value.trim();
+            const a = inpNewA.value.trim();
+            
+            if (!q || !a) return alert("Wpisz pytanie i odpowiedź.");
+
+            questions.push({
+                pytanie: q,
+                odp: a,
+                imgs: [] // Domyślnie pusta tablica zdjęć przy szybkim dodawaniu
+            });
+
+            inpNewQ.value = "";
+            inpNewA.value = "";
+            
+            updateJSON();
+            renderList();
+            
+            // Scroll na sam dół do nowego elementu
+            setTimeout(() => {
+                window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+            }, 100);
+        }
+
+        // --- EDYCJA ---
+        
+        function startEditing(index) {
+            currentlyEditingId = index;
+            renderList(); // Przerysowujemy listę, żeby ten jeden element zmienił się w formularz
+        }
+
+        function cancelEditing() {
+            currentlyEditingId = null;
+            renderList();
+        }
+
+        function saveInline(index) {
+            const qInput = document.getElementById(`edit-q-${index}`);
+            const aInput = document.getElementById(`edit-a-${index}`);
+            const imgInput = document.getElementById(`edit-img-${index}`);
+
+            if (!qInput || !aInput) return;
+
+            const newQ = qInput.value.trim();
+            const newA = aInput.value.trim();
+            
+            // Parsowanie zdjęć
+            const rawImgs = imgInput.value.split('\n');
+            const cleanImgs = rawImgs.map(s => s.trim()).filter(s => s.length > 0);
+
+            if (!newQ || !newA) return alert("Pytanie i odpowiedź nie mogą być puste.");
+
+            // Aktualizacja w tablicy
+            questions[index] = {
+                pytanie: newQ,
+                odp: newA,
+                imgs: cleanImgs
+            };
+
+            currentlyEditingId = null;
+            updateJSON();
+            renderList();
+        }
+
+        function deleteItem(index) {
+            if(confirm("Usunąć to pytanie?")) {
+                questions.splice(index, 1);
+                // Jeśli usunęliśmy element przed tym, który edytujemy, trzeba przesunąć indeks
+                if (currentlyEditingId !== null && index < currentlyEditingId) {
+                    currentlyEditingId--;
+                } else if (currentlyEditingId === index) {
+                    currentlyEditingId = null;
+                }
+                
+                updateJSON();
+                renderList();
+            }
+        }
+
+        // --- LOGIKA JSON ---
+
+        function updateJSON() {
+            jsonOutput.value = JSON.stringify(questions, null, 2);
+            countSpan.textContent = questions.length;
+        }
+
+        function loadFromTextarea() {
+            try {
+                const raw = jsonOutput.value.trim();
+                if (!raw) return;
+                const parsed = JSON.parse(raw);
+                if (Array.isArray(parsed)) {
+                    questions = parsed;
+                    currentlyEditingId = null;
+                    renderList();
+                    countSpan.textContent = questions.length;
+                    alert("Załadowano listę!");
+                }
+            } catch (e) {
+                alert("Błąd JSON: " + e.message);
+            }
+        }
+
+        function copyJSON() {
+            jsonOutput.select();
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(jsonOutput.value);
+                alert("Skopiowano!");
+            } else {
+                document.execCommand('copy');
+                alert("Skopiowano!");
+            }
+        }
+
+        // --- RENDEROWANIE ---
+
+        function renderList() {
+            previewList.innerHTML = "";
+
+            questions.forEach((item, index) => {
+                const div = document.createElement('div');
+                div.className = 'qa-item';
+
+                // SPRAWDZAMY CZY TEN ELEMENT JEST EDYTOWANY
+                if (index === currentlyEditingId) {
+                    // --- TRYB EDYCJI (INLINE FORM) ---
+                    div.classList.add('editing');
+                    
+                    const imgsText = (item.imgs || []).join('\n');
+
+                    div.innerHTML = `
+                        <div class="qa-header">
+                            <span class="qa-index">Edycja #${index + 1}</span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label>Pytanie:</label>
+                            <textarea id="edit-q-${index}" rows="2">${escapeHtml(item.pytanie)}</textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Odpowiedź:</label>
+                            <textarea id="edit-a-${index}" rows="4">${escapeHtml(item.odp)}</textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Zdjęcia (URL w nowych liniach):</label>
+                            <textarea id="edit-img-${index}" rows="3" style="font-family:monospace; font-size:0.9em;">${escapeHtml(imgsText)}</textarea>
+                        </div>
+
+                        <div class="btn-row">
+                            <button class="btn-secondary" onclick="cancelEditing()">Anuluj</button>
+                            <button class="btn-success" onclick="saveInline(${index})">💾 Zapisz zmiany</button>
+                        </div>
+                    `;
+
+                } else {
+                    // --- TRYB PODGLĄDU (NORMALNY) ---
+                    
+                    // Generowanie HTML dla zdjęć
+                    let imagesHtml = '';
+                    if (item.imgs && item.imgs.length > 0) {
+                        imagesHtml = `<div class="qa-images">
+                            ${item.imgs.map(url => `<img src="${url}" class="qa-thumb" onclick="window.open('${url}')" title="Kliknij, aby powiększyć">`).join('')}
+                        </div>`;
+                    }
+
+                    div.innerHTML = `
+                        <div class="qa-header">
+                            <span class="qa-index">#${index + 1}</span>
+                            <div style="display:flex; gap:10px;">
+                                <button class="btn-secondary btn-sm" style="padding:4px 8px; font-size:12px;" onclick="startEditing(${index})">✏️ Edytuj</button>
+                                <button class="btn-danger btn-sm" style="padding:4px 8px; font-size:12px;" onclick="deleteItem(${index})">🗑️</button>
+                            </div>
+                        </div>
+                        <div class="qa-question-text">${escapeHtml(item.pytanie)}</div>
+                        <div class="qa-answer-text">${escapeHtml(item.odp)}</div>
+                        ${imagesHtml}
+                    `;
+                }
+
+                previewList.appendChild(div);
+            });
+
+            // Odśwież MathJax po przerysowaniu DOM
+            if (window.MathJax && window.MathJax.typesetPromise) {
+                window.MathJax.typesetPromise([previewList]).catch(err => console.log(err));
+            }
+        }
+
+        function escapeHtml(text) {
+            console.log("Escaping text:", text);
+            if (!text) return "";
+            console.log("Escaping text:", text);
+            return text
+                .replace(/&/g, "&amp;")
+                .replace(/</g, "&lt;")
+                .replace(/>/g, "&gt;")
+                .replace(/"/g, "&quot;")
+                .replace(/'/g, "&#039;")
+                .replace(/\\n/g, "\n");
+        }
+
+        // Inicjalizacja
+        updateJSON();
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,372 @@
+[
+  {
+    "pytanie": "1 Sprawdź czy liczba jest parzysta",
+    "odp": "if (!(a & 1)) LUB if (~a & 1)",
+    "imgs": []
+  },
+  {
+    "pytanie": "2 Sprawdź czy liczba jest nieparzysta",
+    "odp": "if ( a & 1 )",
+    "imgs": []
+  },
+  {
+    "pytanie": "3 Sprawdzenie znaku liczby",
+    "odp": "if ( a < 0) …",
+    "imgs": []
+  },
+  {
+    "pytanie": "Wymień abstrakcyjne typy danych",
+    "odp": "drzewo, graf, lista",
+    "imgs": []
+  },
+  {
+    "pytanie": "Jaki abstrakcyjny typ danych, najbardziej nadaje się do realizacji stosu",
+    "odp": "lista jednokierunkowa",
+    "imgs": []
+  },
+  {
+    "pytanie": "Opisz (w jednym, dwóch zdaniach) zasady powiększania rozmiaru N-bitowego rejestru liczby w systemach NKB i U2.",
+    "odp": "NKB – dodanie nowego najbardziej znaczącego bitu o wartości 0. \\nU2 – dodanie nowego najbardziej znaczącego bitu o wartości bitu znaku pierwotnej liczby.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Systemy liczbowe:",
+    "odp": "addytywne - wartość wyznaczana jest przez dodawanie znaków. \\npozycyjne - wartość cyfry zależy od jej położenia",
+    "imgs": []
+  },
+  {
+    "pytanie": "Wartość liczby w systemie liczbowym o podstawie R:",
+    "odp": "L = $\\sum_{i=0}^{n-1} a_i * R^i$\n gdzie R - podstawa systemu, \n$a_i$ - wartość cyfry, \nn - liczba cyfr",
+    "imgs": []
+  },
+  {
+    "pytanie": "Bajt",
+    "odp": "- najmniejsza adresowalna jednostka pamięci, składa się z 8 bitów",
+    "imgs": []
+  },
+  {
+    "pytanie": "Bit",
+    "odp": "- najmniejsza nieadresowalna jednostka pamięci",
+    "imgs": []
+  },
+  {
+    "pytanie": "System liczbowy",
+    "odp": "- określa jednolite zasady zapisu liczb oraz reguły działań arytmetycznych na liczbach.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Zakres wartości dla NKB:",
+    "odp": "[0, $2^n$ - 1] dla n-bitów, [0, 255] dla 8 bitów, [0, 65535] dla 16-bit",
+    "imgs": []
+  },
+  {
+    "pytanie": "Zakres wartości dla U2:",
+    "odp": "[$ - 2^{n-1} , 2^{n-1} - 1$] dla n-bitów, [-128, 127] dla 8 bitów, [-32768, 32767] dla 16-bit",
+    "imgs": []
+  },
+  {
+    "pytanie": "Wzór (formuła matematyczna) na wartość liczby w NKB dla n bitów (konwersja na DEC):",
+    "odp": "$B_{DEC} = \\sum_{i=0}^{n-1} a_i * 2^i$",
+    "imgs": []
+  },
+  {
+    "pytanie": "Konwersja liczb z systemu DEC na NKB",
+    "odp": "- polega na wykonywaniu kolejnych dzieleń całkowitych liczby dziesiętnej przez podstawę systemu (2) i zapisywaniu reszt z tych dzieleń, które po odczytaniu w odwrotnej kolejności tworzą reprezentację binarną (NKB).",
+    "imgs": []
+  },
+  {
+    "pytanie": "Konwersja liczby nieujemnej z systemu DEC na system U2",
+    "odp": "polega na przeliczeniu liczby na system NKB a następnie dodanie 0 przed najbardziej znaczący bit.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Konwersja liczby ujemnej z systemu DEC na system U2",
+    "odp": "polega na wyznaczeniu jej reprezentacji binarnej w kodzie NKB, wykonaniu operacji negacji wszystkich bitów (negacja bitowa), a następnie dodaniu jedynki do najmłodszego bitu.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Zmiana rozmiaru rejestru w kodzie U2:",
+    "odp": "Przy powiększaniu rejestru polega na rozszerzeniu znaku – nowe, bardziej znaczące bity przyjmują wartość najbardziej znaczącego bitu liczby oryginalnej. Przy zmniejszaniu polega na odrzuceniu najstarszych bitów. Operacja jest poprawna tylko wtedy, gdy wszystkie usuwane bity oraz nowy bit znaku mają tę samą wartość.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Operatory arytmetyczne:",
+    "odp": "+, -, *, /, %, ++, - -",
+    "imgs": []
+  },
+  {
+    "pytanie": "Operatory przypisania:",
+    "odp": "=, -=, +=, *=, /=, %=, &=, |=, ~=, ^=, <<=, >>=",
+    "imgs": []
+  },
+  {
+    "pytanie": "Operatory logiczne (boolowskie):",
+    "odp": "&& - and, || - or, ! - not (TYLKO TRUE I FALSE)",
+    "imgs": []
+  },
+  {
+    "pytanie": "Operacje porównania:",
+    "odp": "<, >, <=, >=, !=, ==",
+    "imgs": []
+  },
+  {
+    "pytanie": "Operacje bitowe, operatory:",
+    "odp": "& - and, koniunkcja \\n| - or, alternatywa \\n~ - not, negacja \\n^ - alternatywa wykluczająca \\n>>, <<, >>> - przesunięcia bitów",
+    "imgs": []
+  },
+  {
+    "pytanie": "Przesuwanie bitów w NKB i U2",
+    "odp": "Przy przesuwaniu bitów w prawo w NKB powielamy 0, a w U2 powielamy bit znaku (najbardziej znaczący bit). \\n>> - ekwiwalent dzielenia przez 2",
+    "imgs": []
+  },
+  {
+    "pytanie": "Sprawdzanie bitu",
+    "odp": "ustawienie maski na 1, M = 1 przesunięcie bitu maski na pozycję na której chcemy sprawdzić bit, operator <<, następnie wykonujemy koniunkcję z liczbą M = 1, if (A & M<<2)",
+    "imgs": []
+  },
+  {
+    "pytanie": "Ustawianie bitu",
+    "odp": "ustawienie maski na 1, M = 1 przesunięcie bitu maski (operator <<) na pozycję ustawianego bitu i operacja alternatywy z liczbą",
+    "imgs": []
+  },
+  {
+    "pytanie": "Zerowanie bitu",
+    "odp": "ustawienie maski na 1, przesunięcie bitu maski (operator <<) na pozycję zerowanego bitu, negacja maski i następnie wykonanie operacji koniunkcji z liczbą B = A & ~(1 << 3)",
+    "imgs": []
+  },
+  {
+    "pytanie": "Negowanie bitu",
+    "odp": "ustawienie maski na 1, M = 1 przesunięcie bitu maski (operator <<) na pozycję negowanego bitu, następnie wykonanie operacji alternatywy wykluczającej z liczbą (XOR ^)",
+    "imgs": []
+  },
+  {
+    "pytanie": "Badanie nieparzystości",
+    "odp": "if (a & 1) … wykonać operację koniunkcji liczby z jedynką",
+    "imgs": []
+  },
+  {
+    "pytanie": "Badanie parzystości",
+    "odp": "if (!(a & 1)) … wykonać negacje operacji koniunkcji liczby z jedynką LUB if (~a & 1)",
+    "imgs": []
+  },
+  {
+    "pytanie": "Sprawdzenie czy liczba jest większa od zera",
+    "odp": "if (a > 0)",
+    "imgs": []
+  },
+  {
+    "pytanie": "Sprawdzanie znaku liczby (czy jest nieujemny)",
+    "odp": "if ( a >= 0 )",
+    "imgs": []
+  },
+  {
+    "pytanie": "Sprawdzanie znaku liczby (czy jest ujemny)",
+    "odp": "if ( a < 0 )",
+    "imgs": []
+  },
+  {
+    "pytanie": "Mnożenie / dzielenie przez 2^k",
+    "odp": "int B = A << k; inaczej A * 2^k. int B = A >> k; inaczej A / 2^k",
+    "imgs": []
+  },
+  {
+    "pytanie": "Zmienna",
+    "odp": "– to obszar pamięci zarezerwowany do przechowywania wartości danego typu, którego zawartość może być modyfikowana w trakcie działania programu",
+    "imgs": []
+  },
+  {
+    "pytanie": "Stała",
+    "odp": "– to obszar pamięci zarezerwowany do przechowywania wartości danego typu, którego zawartość zostaje ustalona raz w momencie rezerwacji i nie może być modyfikowana podczas działania programu",
+    "imgs": []
+  },
+  {
+    "pytanie": "Wskaźnik",
+    "odp": "– jest to liczba całkowita, której wartość oznacza adres komórki pamięci. Rozmiar wskaźnika jest równy rozmiarowi szyny adresowej obsługiwanej przez system operacyjny.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Podstawowe rodzaje danych - liczby całkowite",
+    "odp": "char - U2(8) | unsigned char - NKB(8). \\nshort - U2(16) | unsigned short - NKB(16). \\nint - U2(32) | unsigned int - NKB(32).",
+    "imgs": []
+  },
+  {
+    "pytanie": "Podstawowe rodzaje danych - liczby rzeczywiste",
+    "odp": "float - 32 bity (4 bajty). \\ndouble - 64 bity (8 bajtów). \\nlong double - 80 bitów (10 bajtów).",
+    "imgs": []
+  },
+  {
+    "pytanie": "TABLICA JEDNOWYMIAROWA (reprezentacja logiczna)",
+    "odp": "indeks komórki [0, n-1] \n- numer komórki [1, n]. \ni = n - nie istnieje. \ni nalezy do [0, n-1]. \nCA = BA + i * sizeof(cell)",
+    "imgs": []
+  },
+  {
+    "pytanie": "TABLICA DWUWYMIAROWA (reprezentacja logiczna)",
+    "odp": "m - liczba wierszy, \\nn - liczba kolumn. \\ni, j - indeksy komórki (wiersze, kolumny). \\ni nalezy do [0, m-1], j nalezy do [0, n-1]. \\nimplementacja: np. int A[5][10]; \\nCA = BA + (i * N + j) * sizeof(cell)",
+    "imgs": []
+  },
+  {
+    "pytanie": "Rekord",
+    "odp": "– to struktura przypominająca tablicę jednowymiarową jednak zamiast indeksów używa unikalnych nazw pól a każde pole może mieć inny typ danych.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Unia",
+    "odp": "– to struktura danych, w której wszystkie pola mają ten sam adres bazowy i się na siebie nakładają. Zajmuje tyle pamięci co jej największy element.",
+    "imgs": []
+  },
+  {
+    "pytanie": "STRUKTURY MIESZANE",
+    "odp": "- struktury łączące różne prostsze struktury danych w jedną, bardziej złożoną całość.",
+    "imgs": []
+  },
+  {
+    "pytanie": "POLA BITOWE",
+    "odp": "- elementy struktury, dla których jawnie deklaruje się liczbę bitów przeznaczonych na ich przechowywanie.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Adres komórki",
+    "odp": "– określa położenie pojedynczej komórki pamięci",
+    "imgs": []
+  },
+  {
+    "pytanie": "Base Address",
+    "odp": "- bezwzględny adres tablicy, początek obszaru pamięci zarezerwowanego dla tablicy",
+    "imgs": []
+  },
+  {
+    "pytanie": "Cell Address",
+    "odp": "- bezwzględny adres komórki tablicy, początek obszaru pamięci zarezerwowanego dla komórki",
+    "imgs": []
+  },
+  {
+    "pytanie": "Adresowanie komórek tablicy dwuwymiarowej",
+    "odp": "CellAddress = BaseAddress + (RowIndex * M + ColIndex) * sizeof(cell) LUB CellAddress = BaseAddress + (ColIndex * N + RowIndex) * sizeof(cell)",
+    "imgs": []
+  },
+  {
+    "pytanie": "IF",
+    "odp": "- instrukcja warunkowa, wykonuje określony kod jeżeli spełniony jest warunek",
+    "imgs": []
+  },
+  {
+    "pytanie": "While",
+    "odp": "- pętla, która sprawdza warunek przed każdym wykonaniem bloku kodu. Jeśli na samym początku warunek jest fałszywy, pętla nie wykona się ani razu",
+    "imgs": []
+  },
+  {
+    "pytanie": "For",
+    "odp": "- pętla stosowana zazwyczaj w sytuacjach, gdy liczba powtórzeń jest znana lub gdy przechodzimy przez sekwencję danych. Integruje w sobie inicjalizację, warunek oraz krok (inkrementację)",
+    "imgs": []
+  },
+  {
+    "pytanie": "Do.. while",
+    "odp": "- pętla z warunkiem sprawdzanym po wykonaniu bloku instrukcji, co gwarantuje jej przynajmniej jednokrotne uruchomienie",
+    "imgs": []
+  },
+  {
+    "pytanie": "Break",
+    "odp": "– natychmiastowo przerywa działanie pętli (lub instrukcji switch) i wychodzi poza jej blok. Program kontynuuje pracę od pierwszej instrukcji za pętlą.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Continue",
+    "odp": "– przerywa bieżącą iterację pętli i natychmiast przechodzi do sprawdzenia warunku.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Return",
+    "odp": "– kończy działanie całej funkcji, w której się znajduje, i opcjonalnie zwraca wynik tam, gdzie ta funkcja została wywołana.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Złożoność obliczeniowa algorytmów - Najczęstsze klasy złożoności",
+    "odp": "O(1) – Stała: Czas wykonania jest niezależny od ilości danych. \\nO(logn) – Logarytmiczna: Bardzo efektywna. Z każdym krokiem zbiór danych zmniejsza się o połowę. \\nO(n) – Liniowa: Czas rośnie proporcjonalnie (liniowo) do liczby elementów. \\nO(nlogn) – Liniowo-logarytmiczna: Czas wykonania rośnie nieco szybciej niż liniowo, ale znacznie wolniej niż kwadratowo. \\nO(n^2) – Złożoność kwadratowa. \\nO(C^n) – Wykładnicza. \\nO(N!) - Silnie-wykładnicza.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Złożoność obliczeniowa",
+    "odp": "informuje, jak zmienia się zapotrzebowanie algorytmu na czas lub pamięć w zależności od rozmiaru danych wejściowych.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Złożoność czasowa",
+    "odp": "– określa liczbę operacji elementarnych potrzebnych do rozwiązania zadania",
+    "imgs": []
+  },
+  {
+    "pytanie": "Złożoność pamięciowa",
+    "odp": "– określa ilość pamięci potrzebnej do rozwiązania zadania",
+    "imgs": []
+  },
+  {
+    "pytanie": "Asymptotyczne tempo wzrostu",
+    "odp": "jest miarą określającą szybkość wzrostu wartości funkcji wraz ze wzrostem jej argumentów.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Notacja duże “O”",
+    "odp": "- Informuje jak szybko rosną zasoby potrzebne algorytmowi (czas lub pamięć) w miarę powiększania się liczby danych.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Klasa zadań algorytmicznych",
+    "odp": "jest to zbiór problemów algorytmicznych o podobnej złożoności obliczeniowej",
+    "imgs": []
+  },
+  {
+    "pytanie": "Zadania Klasy P (proste problemy)",
+    "odp": "To zbiór problemów decyzyjnych, które da się rozwiązać w czasie wielomianowym przez deterministyczny algorytm",
+    "imgs": []
+  },
+  {
+    "pytanie": "Zadania Klasy NP (trudne problemy)",
+    "odp": "To zbiór problemów decyzyjnych, dla których da się w czasie wielomianowym sprawdzić poprawność rozwiązania (nawet jeśli samo znalezienie rozwiązania może być trudne).",
+    "imgs": []
+  },
+  {
+    "pytanie": "Algorytmy deterministyczne",
+    "odp": "są używane do zadań klasy p oraz nie używają liczb losowych",
+    "imgs": []
+  },
+  {
+    "pytanie": "Algorytmy niedeterministyczne",
+    "odp": "są używane do zadań klasy np oraz używają liczb losowych",
+    "imgs": []
+  },
+  {
+    "pytanie": "Algorytm",
+    "odp": "to skończony, uporządkowany ciąg jednoznacznie zdefiniowanych działań, prowadzących do rozwiązania określonego zadania w skończonym czasie",
+    "imgs": []
+  },
+  {
+    "pytanie": "Algorytm musi być",
+    "odp": "poprawny, jednoznaczny, skończony, skuteczny oraz uniwersalny",
+    "imgs": []
+  },
+  {
+    "pytanie": "deterministyczny",
+    "odp": "- wielokrotnie uruchamiany algorytm z tym samym zestawem danych wejściowych, generuje za każdym razem te same wyniki",
+    "imgs": []
+  },
+  {
+    "pytanie": "niedeterministyczny",
+    "odp": "- wielokrotnie uruchamiany algorytm z tym samym zestawem danych wejściowych może mieć różne przebiegi działania, przez co czasami generuje różne wyniki",
+    "imgs": []
+  },
+  {
+    "pytanie": "Co to jest algorytm rekurencyjny?",
+    "odp": "Algorytm rekurencyjny to algorytm wywołujący samego siebie. Algorytm rekurencyjny – algorytm, który odwołuje się do samego siebie aż do osiągnięcia warunku zakończenia",
+    "imgs": []
+  },
+  {
+    "pytanie": "Algorytm iteracyjny",
+    "odp": "- wykonuje operację w pętli",
+    "imgs": []
+  },
+  {
+    "pytanie": "Wzór (formuła matematyczna) na wartość liczby w NKB dla n bitów (konwersja na DEC):",
+    "odp": "$B_{DEC} = -a_{n-1} * 2^{n-1} +  \\sum_{i=0}^{n-2} a_i * 2^i$",
+    "imgs": []
+  }
+]
