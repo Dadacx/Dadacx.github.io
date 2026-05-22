@@ -1,195 +1,40 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edytor Pytań (Inline)</title>
-    
+
     <script>
         window.MathJax = { tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] } };
     </script>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
+    <link rel="stylesheet" href="editor.css">
+    <link rel="stylesheet" href="main.css">
     <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #121212;
-            color: #e0e0e0;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
 
-        h1, h2 { color: #bb86fc; margin-bottom: 10px; }
-
-        .container {
-            width: 100%;
-            max-width: 900px;
-            display: flex;
-            flex-direction: column;
-            gap: 20px;
-        }
-
-        /* --- STYLE OGÓLNE FORMULARZY --- */
-        .editor-panel {
-            background-color: #1e1e1e;
-            padding: 20px;
-            border-radius: 10px;
-            border: 1px solid #333;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.5);
-        }
-
-        .form-group {
-            margin-bottom: 15px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-            color: #cf6679;
-            font-size: 0.9em;
-        }
-
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            background-color: #2c2c2c;
-            border: 1px solid #444;
-            color: white;
-            border-radius: 5px;
-            font-family: inherit;
-            box-sizing: border-box;
-        }
-
-        textarea { resize: vertical; min-height: 60px; }
-
-        input:focus, textarea:focus {
-            outline: none;
-            border-color: #bb86fc;
-        }
-
-        .btn-row {
-            display: flex;
-            gap: 10px;
-            justify-content: flex-end;
-            margin-top: 10px;
-        }
-
-        button {
-            padding: 8px 16px;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: opacity 0.2s;
-            font-size: 14px;
-        }
-
-        button:hover { opacity: 0.9; }
-
-        .btn-primary { background-color: #bb86fc; color: black; }
-        .btn-success { background-color: #03dac6; color: black; }
-        .btn-danger { background-color: #cf6679; color: black; }
-        .btn-secondary { background-color: #444; color: white; }
-
-        /* --- LISTA ELEMENTÓW --- */
-        #preview-list {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
-
-        .qa-item {
-            background-color: #252525;
-            border: 1px solid #333;
-            border-radius: 8px;
-            padding: 15px;
-            position: relative;
-            transition: border-color 0.3s;
-        }
-
-        /* Styl dla aktywnej edycji */
-        .qa-item.editing {
-            border-color: #bb86fc;
-            background-color: #2a2a2a;
-        }
-
-        .qa-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 10px;
-            border-bottom: 1px solid #444;
-            padding-bottom: 5px;
-        }
-
-        .qa-index {
-            color: #888;
-            font-size: 0.8em;
-            font-family: monospace;
-        }
-
-        .qa-question-text {
-            color: #bb86fc;
-            font-weight: bold;
-            margin-bottom: 10px;
-            font-size: 1.1em;
-        }
-
-        .qa-answer-text {
-            color: #ccc;
-            white-space: pre-wrap;
-            line-height: 1.5;
-        }
-
-        .qa-images {
-            margin-top: 10px;
-            display: flex;
-            gap: 5px;
-            flex-wrap: wrap;
-        }
-        
-        .qa-thumb {
-            height: 60px;
-            border-radius: 4px;
-            border: 1px solid #555;
-            cursor: pointer;
-        }
-
-        .item-actions {
-            margin-top: 15px;
-            display: flex;
-            gap: 10px;
-            justify-content: flex-end;
-        }
-
-        /* --- JSON Output --- */
-        .json-output {
-            font-family: monospace;
-            font-size: 12px;
-            min-height: 100px;
-            color: #aaddaa;
-        }
     </style>
 </head>
+
 <body>
 
     <div class="container">
         <h1>Edytor Bazy Pytań (v2)</h1>
 
         <div class="editor-panel">
-            <div style="display:flex; justify-content: space-between; align-items: center;">
+            <div style="display:flex; justify-content: space-between; align-items: center;margin-bottom: 10px;">
                 <h2 style="margin:0; font-size:1.2em;">Eksport / Import JSON</h2>
                 <div class="btn-row" style="margin:0;">
-                    <button class="btn-secondary" onclick="loadFromTextarea()">⬆️ Załaduj</button>
+                    <button class="btn-secondary" onclick="loadFromLocalStorage()">🔄 Przywróć ostatnie</button>
+                    <button class="btn-secondary" onclick="loadFromBase()">📥 Załaduj z bazy</button>
+                    <button class="btn-secondary" onclick="loadFromTextarea()">⬆️ Załaduj z textarea</button>
                     <button class="btn-success" onclick="copyJSON()">📋 Kopiuj</button>
                 </div>
             </div>
-            <textarea id="json-output" class="json-output" placeholder="Wklej tutaj treść pliku baza.json aby edytować..."></textarea>
+            <textarea id="json-output" class="json-output"
+                placeholder="Wklej tutaj treść pliku baza.json aby edytować..."></textarea>
         </div>
 
         <div class="editor-panel">
@@ -210,6 +55,34 @@
     </div>
 
     <script>
+        function applyFormatting(text) {
+            // Zastępuje _x{tekst} na formatowanie
+            // nowa linia: \\n            
+            // pogrubienie: _b{tekst}
+            // kursywa: _i{tekst}
+            // podkreślenie: _u{tekst}
+            // lista: _-{tekst} lub _-n{tekst} (n to liczba zagnieżdżeń)
+            // kod: _code{tekst}_
+            // lista numerowana: _list{punkt1|punkt2|punkt3} lub _listn{punkt1|punkt2|punkt3} (n to liczba zagnieżdżeń)
+            
+            let result = text.replace(/\\n/g, "\n");
+            result = result.replace(/_b\{([^}]+)\}/g, '<b>$1</b>');
+            result = result.replace(/_i\{([^}]+)\}/g, '<i>$1</i>');
+            result = result.replace(/_u\{([^}]+)\}/g, '<u>$1</u>');
+
+            result = result.replace(/_-(\d*)\{([^}]+)\}/g, function(match, count, content) {
+                const tabs = parseInt(count || '1', 10);
+                return '\t'.repeat(tabs) + '- ' + content;
+            });
+            result = result.replace(/_code\{([\s\S]*?)\}_/g, '<pre class="code-content"><code>$1</code></pre>');            
+            result = result.replace(/_list(\d*)\{([^}]+)\}/g, function(match, count, content) {
+                const tabs = parseInt(count || '1', 10);
+                return '\t'.repeat(tabs) + '<ol>' + content.split('|').map(function(item) {
+                    return '<li>' + item.trim() + '</li>';
+                }).join('') + '</ol>';
+            });         
+            return result;
+        }
         let questions = [];
         let currentlyEditingId = null; // Przechowuje indeks elementu aktualnie edytowanego
 
@@ -219,11 +92,19 @@
         const inpNewQ = document.getElementById('new-q');
         const inpNewA = document.getElementById('new-a');
 
+        const saveToLocalStorage = (data) => {
+            try {
+                localStorage.setItem('bazaLastData', JSON.stringify(data));
+            } catch (e) {
+                console.log("Błąd zapisu do localStorage:", e);
+            }
+        }
+
         // --- DODAWANIE ---
         function addNewItem() {
             const q = inpNewQ.value.trim();
             const a = inpNewA.value.trim();
-            
+
             if (!q || !a) return alert("Wpisz pytanie i odpowiedź.");
 
             questions.push({
@@ -234,10 +115,10 @@
 
             inpNewQ.value = "";
             inpNewA.value = "";
-            
+
             updateJSON();
             renderList();
-            
+
             // Scroll na sam dół do nowego elementu
             setTimeout(() => {
                 window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
@@ -245,7 +126,7 @@
         }
 
         // --- EDYCJA ---
-        
+
         function startEditing(index) {
             currentlyEditingId = index;
             renderList(); // Przerysowujemy listę, żeby ten jeden element zmienił się w formularz
@@ -265,7 +146,7 @@
 
             const newQ = qInput.value.trim();
             const newA = aInput.value.trim();
-            
+
             // Parsowanie zdjęć
             const rawImgs = imgInput.value.split('\n');
             const cleanImgs = rawImgs.map(s => s.trim()).filter(s => s.length > 0);
@@ -285,7 +166,7 @@
         }
 
         function deleteItem(index) {
-            if(confirm("Usunąć to pytanie?")) {
+            if (confirm("Usunąć to pytanie?")) {
                 questions.splice(index, 1);
                 // Jeśli usunęliśmy element przed tym, który edytujemy, trzeba przesunąć indeks
                 if (currentlyEditingId !== null && index < currentlyEditingId) {
@@ -293,7 +174,7 @@
                 } else if (currentlyEditingId === index) {
                     currentlyEditingId = null;
                 }
-                
+
                 updateJSON();
                 renderList();
             }
@@ -304,9 +185,37 @@
         function updateJSON() {
             jsonOutput.value = JSON.stringify(questions, null, 2);
             countSpan.textContent = questions.length;
+            if(questions.length > 0) saveToLocalStorage(questions);
+        }
+
+        async function loadFromBase() {
+            try {
+                const baza = prompt("Podaj nazwę bazy:");
+
+                console.log("Pobieranie:", `./data/${baza}.json`);
+                const response = await fetch(`./data/${baza}.json`);
+
+                if (!response.ok) {
+                    if (response.status === 404) throw new Error(`Nie ma bazy o takiej nazwie (${baza})`);
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+
+                const parsed = await response.json();;
+                if (Array.isArray(parsed)) {
+                    questions = parsed;
+                    currentlyEditingId = null;
+                    renderList();
+                    countSpan.textContent = questions.length;
+                    alert("Załadowano listę!");
+                }
+            } catch (e) {
+                console.log(e);
+                alert("Błąd: " + e.message);
+            }
         }
 
         function loadFromTextarea() {
+            console.log("Ładowanie z textarea...");
             try {
                 const raw = jsonOutput.value.trim();
                 if (!raw) return;
@@ -320,6 +229,23 @@
                 }
             } catch (e) {
                 alert("Błąd JSON: " + e.message);
+            }
+        }
+
+        function loadFromLocalStorage() {
+            try {
+                const raw = localStorage.getItem('bazaLastData');
+                if (!raw) return alert("Brak zapisanych danych w localStorage.");
+                const parsed = JSON.parse(raw);
+                if (Array.isArray(parsed)) {
+                    questions = parsed;
+                    currentlyEditingId = null;
+                    renderList();
+                    countSpan.textContent = questions.length;
+                    alert("Załadowano ostatnie dane z localStorage!");
+                }
+            } catch (e) {
+                alert("Błąd przy ładowaniu z localStorage: " + e.message);
             }
         }
 
@@ -347,7 +273,7 @@
                 if (index === currentlyEditingId) {
                     // --- TRYB EDYCJI (INLINE FORM) ---
                     div.classList.add('editing');
-                    
+
                     const imgsText = (item.imgs || []).join('\n');
 
                     div.innerHTML = `
@@ -378,7 +304,7 @@
 
                 } else {
                     // --- TRYB PODGLĄDU (NORMALNY) ---
-                    
+
                     // Generowanie HTML dla zdjęć
                     let imagesHtml = '';
                     if (item.imgs && item.imgs.length > 0) {
@@ -395,8 +321,8 @@
                                 <button class="btn-danger btn-sm" style="padding:4px 8px; font-size:12px;" onclick="deleteItem(${index})">🗑️</button>
                             </div>
                         </div>
-                        <div class="qa-question-text">${escapeHtml(item.pytanie)}</div>
-                        <div class="qa-answer-text">${escapeHtml(item.odp)}</div>
+                        <div class="qa-question-text">${applyFormatting(escapeHtml(item.pytanie))}</div>
+                        <div class="qa-answer-text">${applyFormatting(escapeHtml(item.odp))}</div>
                         ${imagesHtml}
                     `;
                 }
@@ -428,4 +354,5 @@
 
     </script>
 </body>
+
 </html>

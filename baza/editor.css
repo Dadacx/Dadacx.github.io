@@ -1,0 +1,177 @@
+h1,
+h2 {
+    color: #bb86fc;
+    margin-bottom: 10px;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* --- STYLE OGÓLNE FORMULARZY --- */
+.editor-panel {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #cf6679;
+    font-size: 0.9em;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    background-color: #2c2c2c;
+    border: 1px solid #444;
+    color: white;
+    border-radius: 5px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #bb86fc;
+}
+
+.btn-row {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: opacity 0.2s;
+    font-size: 14px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.btn-primary {
+    background-color: #bb86fc;
+    color: black;
+}
+
+.btn-success {
+    background-color: #03dac6;
+    color: black;
+}
+
+.btn-danger {
+    background-color: #cf6679;
+    color: black;
+}
+
+.btn-secondary {
+    background-color: #444;
+    color: white;
+}
+
+/* --- LISTA ELEMENTÓW --- */
+#preview-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.qa-item {
+    background-color: #252525;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 15px;
+    position: relative;
+    transition: border-color 0.3s;
+}
+
+/* Styl dla aktywnej edycji */
+.qa-item.editing {
+    border-color: #bb86fc;
+    background-color: #2a2a2a;
+}
+
+.qa-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+}
+
+.qa-index {
+    color: #888;
+    font-size: 0.8em;
+    font-family: monospace;
+}
+
+.qa-question-text {
+    color: #bb86fc;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.qa-answer-text {
+    color: #ccc;
+    white-space: pre-wrap;
+    line-height: 1.5;
+}
+
+.qa-images {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.qa-thumb {
+    height: 60px;
+    border-radius: 4px;
+    border: 1px solid #555;
+    cursor: pointer;
+}
+
+.item-actions {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+/* --- JSON Output --- */
+.json-output {
+    font-family: monospace;
+    font-size: 12px;
+    min-height: 100px;
+    color: #aaddaa;
+}

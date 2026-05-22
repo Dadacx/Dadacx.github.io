@@ -1,0 +1,31 @@
+/* --- Style wspólne (wspólne dla editor.css i sciaga.css) --- */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.code-content {
+    background-color: #282c34; /* Ciemne tło (styl One Dark) */
+    color: #abb2bf;            /* Główny, jasnoszary kolor tekstu */
+    font-family: 'Fira Code', 'Consolas', 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    padding: 20px;
+    border-radius: 8px;        /* Zaokrąglone rogi */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15); /* Delikatny cień pod spodem */
+    overflow-x: auto;          /* Scroll w poziomie dla długich linijek */
+    margin: 5px 0;            /* Odstęp z góry i z dołu */
+}
+
+/* Upewniamy się, że tag code dziedziczy czcionkę i nie dodaje własnych marginesów */
+.code-content code {
+    font-family: inherit;
+    padding: 0;
+    background: transparent;
+}

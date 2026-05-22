@@ -16,125 +16,8 @@
 
     <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-    <style>
-        /* --- CIEMNY MOTYW (DARK MODE) --- */
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #121212;
-            color: #e0e0e0;
-            margin: 0;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .search-container {
-            width: 100%;
-            max-width: 600px;
-            margin-bottom: 30px;
-        }
-
-        #searchInput {
-            width: 100%;
-            padding: 15px;
-            font-size: 16px;
-            background-color: #1e1e1e;
-            color: #ffffff;
-            border: 2px solid #333;
-            border-radius: 8px;
-            box-sizing: border-box;
-            transition: border-color 0.3s, box-shadow 0.3s;
-        }
-
-        #searchInput:focus {
-            outline: none;
-            border-color: #bb86fc;
-            box-shadow: 0 0 8px rgba(187, 134, 252, 0.2);
-        }
-
-        #searchInput::placeholder {
-            color: #888;
-        }
-
-        #container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-            width: 100%;
-            max-width: 1000px;
-        }
-
-        .qa-card {
-            background-color: #1e1e1e;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
-            width: 100%;
-            max-width: 300px;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            transition: transform 0.2s, box-shadow 0.2s;
-            border: 1px solid #333;
-        }
-
-        .qa-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7);
-            border-color: #444;
-        }
-
-        .card-header {
-            background-color: #272727;
-            color: #ffffff;
-            padding: 15px;
-            font-weight: bold;
-            font-size: 1.1em;
-            border-bottom: 3px solid #cf6679;
-        }
-
-        .card-body {
-            background-color: #1e1e1e;
-            color: #cccccc;
-            padding: 15px;
-            line-height: 1.5;
-            flex-grow: 1;
-            /* Wypycha obrazy na dół, jeśli tekstu jest mało */
-            font-size: 0.95em;
-            white-space: pre-line;
-        }
-
-        /* --- Style dla zdjęć --- */
-        .card-images {
-            background-color: #1e1e1e;
-            padding: 0 15px 15px 15px;
-            /* Padding tylko po bokach i na dole */
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
-
-        .qa-image {
-            width: 100%;
-            height: auto;
-            border-radius: 5px;
-            border: 1px solid #444;
-            cursor: pointer;
-            /* Kursor rączki sugeruje klikalność */
-            transition: opacity 0.2s;
-        }
-
-        .qa-image:hover {
-            opacity: 0.9;
-        }
-
-        mjx-container {
-            color: #e0e0e0 !important;
-        }
-    </style>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="sciaga.css">
 </head>
 
 <body>
@@ -146,6 +29,35 @@
     <div id="container"></div>
 
     <script>
+        function applyFormatting(text) {
+            // Zastępuje _x{tekst} na formatowanie
+            // nowa linia: \\n            
+            // pogrubienie: _b{tekst}
+            // kursywa: _i{tekst}
+            // podkreślenie: _u{tekst}
+            // lista: _-{tekst} lub _-n{tekst} (n to liczba zagnieżdżeń)
+            // kod: _code{tekst}_
+            // lista numerowana: _list{punkt1|punkt2|punkt3} lub _listn{punkt1|punkt2|punkt3} (n to liczba zagnieżdżeń)
+            
+            let result = text.replace(/\\n/g, "\n");
+            result = result.replace(/_b\{([^}]+)\}/g, '<b>$1</b>');
+            result = result.replace(/_i\{([^}]+)\}/g, '<i>$1</i>');
+            result = result.replace(/_u\{([^}]+)\}/g, '<u>$1</u>');
+
+            result = result.replace(/_-(\d*)\{([^}]+)\}/g, function(match, count, content) {
+                const tabs = parseInt(count || '1', 10);
+                return '\t'.repeat(tabs) + '- ' + content;
+            });
+            result = result.replace(/_code\{([\s\S]*?)\}_/g, '<pre class="code-content"><code>$1</code></pre>');            
+            result = result.replace(/_list(\d*)\{([^}]+)\}/g, function(match, count, content) {
+                const tabs = parseInt(count || '1', 10);
+                return '\t'.repeat(tabs) + '<ol>' + content.split('|').map(function(item) {
+                    return '<li>' + item.trim() + '</li>';
+                }).join('') + '</ol>';
+            });         
+            return result;
+        }
+
         const container = document.getElementById('container');
         const searchInput = document.getElementById('searchInput');
         let allData = [];
@@ -161,8 +73,8 @@
                     baza = val.substring(start + 2, end !== -1 ? end : val.length);
                 }
 
-                console.log("Pobieranie:", `./${baza}.json`);
-                const response = await fetch(`./${baza}.json`);
+                console.log("Pobieranie:", `./data/${baza}.json`);
+                const response = await fetch(`./data/${baza}.json`);
 
                 if (!response.ok) {
                     throw new Error(`HTTP error! status: ${response.status}`);
@@ -193,12 +105,12 @@
                 // 1. Nagłówek (Pytanie)
                 const header = document.createElement('div');
                 header.classList.add('card-header');
-                header.textContent = item.pytanie.replace(/\\n/g, "\n");
+                header.innerHTML = applyFormatting(item.pytanie);
 
                 // 2. Treść (Odpowiedź)
                 const body = document.createElement('div');
                 body.classList.add('card-body');
-                body.textContent = item.odp.replace(/\\n/g, "\n");
+                body.innerHTML = applyFormatting(item.odp);
 
                 card.appendChild(header);
                 card.appendChild(body);

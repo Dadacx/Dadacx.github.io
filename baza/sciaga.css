@@ -1,0 +1,109 @@
+.search-container {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+#searchInput {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 2px solid #333;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #bb86fc;
+    box-shadow: 0 0 8px rgba(187, 134, 252, 0.2);
+}
+
+#searchInput::placeholder {
+    color: #888;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+    /* max-width: 1000px; */
+}
+
+.qa-card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: calc(50% - 30px);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: 1px solid #333;
+}
+
+.qa-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.7);
+    border-color: #444;
+}
+
+.card-header {
+    background-color: #272727;
+    color: #ffffff;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 1.1em;
+    border-bottom: 3px solid #cf6679;
+}
+
+.card-body {
+    background-color: #1e1e1e;
+    color: #cccccc;
+    padding: 15px;
+    line-height: 1.5;
+    flex-grow: 1;
+    /* Wypycha obrazy na dół, jeśli tekstu jest mało */
+    font-size: 0.95em;
+    white-space: pre-wrap;
+}
+
+/* --- Style dla zdjęć --- */
+.card-images {
+    background-color: #1e1e1e;
+    padding: 0 15px 15px 15px;
+    /* Padding tylko po bokach i na dole */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.qa-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid #444;
+    cursor: pointer;
+    /* Kursor rączki sugeruje klikalność */
+    transition: opacity 0.2s;
+}
+
+.qa-image:hover {
+    opacity: 0.9;
+}
+
+mjx-container {
+    color: #e0e0e0 !important;
+}
+
+@media only screen and (max-width: 600px)  {
+    .qa-card {
+        max-width: unset;
+    }
+}
