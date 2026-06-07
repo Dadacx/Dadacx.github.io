@@ -1,0 +1,202 @@
+[
+  {
+    "pytanie": "1. Kod znak-moduł (ZM)...",
+    "odp": "a) to inna nazwa dla kodu U2\\n_b{_i{b) pozwala na zapis liczb ujemnych}}\\nc) nie ma obecnie zastosowania w systemach komputerowych",
+    "imgs": []
+  },
+  {
+    "pytanie": "2. Kodowanie ASCII...",
+    "odp": "a) to rodzaj odmiana UFT-64\\n_b{_i{b) to obecnie podzbiór kodowania UTF}}\\nc) obie odpowiedzi są poprawne",
+    "imgs": []
+  },
+  {
+    "pytanie": "3. Pamięć RAM...",
+    "odp": "a) stosuje się w systemach komputerowych incydentalnie\\nb) zastąpiła matryce holograficzne\\n_b{_i{c) nie jest urządzeniem blokowym}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "4. Pamięć RAM...",
+    "odp": "a) ma dużą przepustowość, ale duży czas dostępu\nb) ma małą przepustowość, ale krótki czas dostępu\n_b{_i{c) żadna z odpowiedzi nie jest poprawna}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "5. Po włączeniu zasilania BIOS...",
+    "odp": "_b{_i{a) weryfikuje poprawność pracy CPU}}\\nb) próbuje nawiązać połączenie z hostem\\nc) czeka na reakcję użytkownika",
+    "imgs": []
+  },
+  {
+    "pytanie": "6. Procedura POST...",
+    "odp": "a) polega na ponownym wykonaniu czynności\\n_b{_i{b) jest jednym z cykli pracy programu BIOSu}}\\nc) to skrót od Pattern Or Strict Testing",
+    "imgs": []
+  },
+  {
+    "pytanie": "7. Faza aplikacyjna...",
+    "odp": "_b{_i{a) dotyczy systemu operacyjnego}}\\nb) dotyczy BIOSU\\nc) jest fazą podczas zamykania systemu operacyjnego",
+    "imgs": []
+  },
+  {
+    "pytanie": "8. Istniejącą architekturą procesorów jest...",
+    "odp": "a) SOMD\\n_b{_i{b) SIMD}}\\nc) SEMD",
+    "imgs": []
+  },
+  {
+    "pytanie": "9. W odniesieniu do architektury NUMA...",
+    "odp": "a) implementacją są procesory SEMD\\nb) nie istnieje implementacja tej architektury\\n_b{_i{c) implementacją są procesory MIMD}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "10. Skrót CISC oznacza...",
+    "odp": "_b{_i{a) Complex Instruction Set Computer}}\\nb) Coded Instruction Set Computer\\nc) żadna z odpowiedzi nie jest poprawna",
+    "imgs": []
+  },
+  {
+    "pytanie": "11. W architekturze von Neumanna...",
+    "odp": "a) nie ma pamięci operacyjnej\n_b{_i{b) nie ma pamięci masowej}}\nc) są oba typy pamięci",
+    "imgs": []
+  },
+  {
+    "pytanie": "12. W architekturze harwardzkiej...",
+    "odp": "a) nie ma wyjścia\\n_b{_i{b) rozdzielono pamięć instrukcji i danych}}\\nc) jest wyjście, ale nie ma wejścia - tą funkcję pełni pamięć",
+    "imgs": []
+  },
+  {
+    "pytanie": "13. W odniesieniu do CPU ścieżka danych...",
+    "odp": "_b{_i{a) zależnie od implementacji, może wykonywać obliczenia cząstkowe}}\\nb) nie jest elementem CPU, tylko jego kontrolera\\nc) zawiera głównie układy pamiętające",
+    "imgs": []
+  },
+  {
+    "pytanie": "14. W architekturze x86...",
+    "odp": "_b{_i{a) rejestr IP wskazuje aktualnie wykonywany rozkaz}}\\nb) rejestr IP zawiera dane aktualnie wykonywanego rozkazu\\nc) rejestr AX wskazuje aktualnie wykonywany rozkaz",
+    "imgs": []
+  },
+  {
+    "pytanie": "15. Wyznaczenie adresu efektywnego...",
+    "odp": "_b{_i{a) jest elementem cyklu rozkazowego CPU}}\\nb) pozwala obliczyć efekt wykonania kolejnego rozkazu przez CPU\\nc) żadna odpowiedź nie jest poprawna",
+    "imgs": []
+  },
+  {
+    "pytanie": "16. Pamięć podręczna w CPU...",
+    "odp": "a) wskazuje co procesor powinien zrobić w danym momencie\\n_b{_i{b) nie jest niezbędna do jego działania}}\\nc) jest niezbędna do jego działania",
+    "imgs": []
+  },
+  {
+    "pytanie": "17. W odniesieniu do CPU przerwanie...",
+    "odp": "_b{_i{a) to także wyjątek, którego źródłem jest sam procesor}}\\nb) jest elementem cyklu pracy pojawiającym się tuż przed wyłączeniem komputera\\nc) polega na pominięciu kilku instrukcji, co odpowiada przerwie w programie",
+    "imgs": []
+  },
+  {
+    "pytanie": "18. Praca krokowa CPU...",
+    "odp": "a) obecnie nie jest używana\\n_b{_i{b) pozwala na wykonanie jednej instrukcji i wymaga reakcji}}\\nc) obie odpowiedzi są błędne",
+    "imgs": []
+  },
+  {
+    "pytanie": "19. Pamięć ROM w komputerach klasy PC...",
+    "odp": "a) nie jest używana, ponieważ została wyparta przez pamięć RAM\\n_b{_i{b) zawiera program ładujący system operacyjny}}\\nc) żadna odpowiedź nie jest poprawna",
+    "imgs": []
+  },
+  {
+    "pytanie": "20. Pamięć RAM...",
+    "odp": "_b{_i{a) można znaleźć w CPU}}\nb) można stosować zamiennie z pamięcią masową\nc) występuje tylko w architekturze PC",
+    "imgs": []
+  },
+  {
+    "pytanie": "21. Magistrala FSB...",
+    "odp": "_b{_i{a) to główna magistrala, przy pomocy której CPU łączy się z innymi urządzeniami}}\\nb) to wewnętrzna magistrala CPU\\nc) to magistrala Fast-Switch-Band",
+    "imgs": []
+  },
+  {
+    "pytanie": "22. Instrukcja dla CPU koniecznie powinna zawierać...",
+    "odp": "_b{_i{a) pole z unikatowym kodem rozkazu}}\\nb) pola adresowe rozkazu\\nc) pola względne rozkazu",
+    "imgs": []
+  },
+  {
+    "pytanie": "23. W odniesieniu do architektury CPU mikrooperacja...",
+    "odp": "_b{_i{a) jest składową rozkazu, jeśli architektura została wykonana w technice mikroprogramowania}}\nb) jest cechą charakterystyczną architektury von Neumanna\nc) ma charakter historyczny, ponieważ została wyparta przez architekturę harwardzką",
+    "imgs": []
+  },
+  {
+    "pytanie": "24. Przetwarzanie potokowe w CPU...",
+    "odp": "a) zwiększa wydajność przetwarzania, kosztem zmniejszenia długości rozkazu\\n_b{_i{b) wymaga podziału ścieżki danych na stopnie przetwarzające}}\\nc) obie odpowiedzi są błędne",
+    "imgs": []
+  },
+  {
+    "pytanie": "25. Spekulatywne wykonanie rozkazu...",
+    "odp": "a) obecnie nie jest stosowane, ze względu na koszty produkcji CPU\\nb) polega na wylosowaniu następnego, najbardziej prawdopodobnego do wykonania rozkaz\\n_b{_i{c) jest związane z przetwarzaniem potokowym}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "26. W odniesieniu do CPU hazard strukturalny...",
+    "odp": "a) jest zjawiskiem korzystnie wpływającym na wydajność\\n_b{_i{b) może pojawić się, jeśli CPU posiada architekturę potokową}}\\nc) może pojawić się, jeśli CPU wykonuje instrukcje sekwencyjne",
+    "imgs": []
+  },
+  {
+    "pytanie": "27. W trakcie pracy potoku można...",
+    "odp": "_b{_i{a) unieważnić wszystkie instrukcje znajdujące się w potoku}}\\nb) przesunąć instrukcje, tak, żeby znaleźć miejsce na nowe\\nc) wyłączyć część instrukcji",
+    "imgs": []
+  },
+  {
+    "pytanie": "28. W trakcie pracy potoku w CPU instrukcja skoku...",
+    "odp": "_b{_i{a) może spowodować opróżnienie potoku}}\\nb) jest obsługiwana przez pamięć cache CPU\\nc) obie odpowiedzi są poprawne",
+    "imgs": []
+  },
+  {
+    "pytanie": "29. Dysk HDD to...",
+    "odp": "a) obecnie rodzaj interface'u w nowej formie GUI\\n_b{_i{b) rodzaj pamięci masowej}}\\nc) element analizy systemowej",
+    "imgs": []
+  },
+  {
+    "pytanie": "30. Układy sekwencyjne...",
+    "odp": "a) muszą posiadać wejście zegarowe\\n_b{_i{b) mają stan wewnętrzny}}\\nc) są ulepszoną wersją układów kombinacyjnych",
+    "imgs": []
+  },
+  {
+    "pytanie": "31.W systemach komputerowych kodowanie...",
+    "odp": "_b{_i{a) jest metodą reprezentacji danych}}\\nb) stosuje się tylko w systemach operacyjnych\\nc) obie odpowiedzi są poprawne",
+    "imgs": []
+  },
+  {
+    "pytanie": "32. W układach cyfrowych kombinacyjnych...",
+    "odp": "a) stan następny zależy od stanu poprzedniego\\nb) powyższe odpowiedzi są poprawne, zależnie od warunków\\n_b{_i{c) stan następny nie zależy od stanu poprzedniego}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "33. Kodowanie UNICODE...",
+    "odp": "a) to U1 i U2\\nb) to inaczej UFT\\n_b{_i{c) obie odpowiedzi nie są poprawne}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "34. Kod liczbowy U1...",
+    "odp": "_b{_i{a) posiada dwie wartości odpowiadające liczbowo wartości zera}}\\nb) nie jest w rzeczywistości kodem liczbowym\\nc) w większości składa się z jedyne binarnych",
+    "imgs": []
+  },
+  {
+    "pytanie": "35. W komputerach komunikacja...",
+    "odp": "a) odbywa się na poziomie równoległym\\n_b{_i{b) odbywa się na poziomie sprzętowym}}\\nc) obie odpowiedzi są błędne",
+    "imgs": []
+  },
+  {
+    "pytanie": "36. Kod korekcyjny...",
+    "odp": "a) jest hipotetycznym sposobem kodowania danych\\nb) jest oparty o analizę ósemkową\\n_b{_i{c) to np. kod Hamminga}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "37. Wśród typowych rodzajów magistral nie ma...",
+    "odp": "a) gwiazdy\\n_b{_i{b) m-sześcianu}}\\nc) pierścienia",
+    "imgs": []
+  },
+  {
+    "pytanie": "38. W odniesieniu do architektury PC, CPU to...",
+    "odp": "a) Clean Project Usage\\nb) obie odpowiedzi nie są poprawne\\n_b{_i{c) Central Processing Unit}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "39. Istniejącą architekturą procesów jest...",
+    "odp": "a) MOMD\\n_b{_i{b) MISD}}\\nc) MAMD",
+    "imgs": []
+  },
+  {
+    "pytanie": "40. Algebra Boole'a...",
+    "odp": "_b{_i{a) pozwala przedstawić funkcje logiczne}}\\nb) składa się z bitów, zbieranych w bajty\\nc) pozwala na działania na częściach stringów",
+    "imgs": []
+  }
+]
