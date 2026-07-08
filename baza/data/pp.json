@@ -1,0 +1,107 @@
+[
+  {
+    "pytanie": "count_odd_numbers",
+    "odp": "_code{unsigned int count_odd_numbers(struct list_node *node) {\\n    if (node == NULL) return 0;\\n    unsigned int is_odd = (node->number % 2 != 0) ? 1 : 0;\\n    return is_odd + count_odd_numbers(node->next);\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "set_level",
+    "odp": "_code{void set_level(struct tree_node *node, unsigned int level) {\\n    if (node == NULL) return;\\n    node->level = level;\\n    set_level(node->left, level + 1);\\n    set_level(node->right, level + 1);\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "modulo",
+    "odp": "_code{unsigned int modulo(unsigned int dividend, unsigned int divisor) {\\n    if (dividend < divisor) return dividend;\\n    return modulo(dividend - divisor, divisor);\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "count_nodes",
+    "odp": "_code{unsigned int count_nodes(struct list_node *node) {\\n    if (node == NULL) return 0;\\n    return 1 + count_nodes(node->next);\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "assign_level",
+    "odp": "_code{void assign_level(struct tree_node *node, unsigned int current_level) {\\n    if (node == NULL) return;\\n    node->level = current_level;\\n    assign_level(node->left, current_level + 1);\\n    assign_level(node->right, current_level + 1);\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "print_backwards",
+    "odp": "_code{void print_backwards(struct list_node *node) {\\n    if (node == NULL) return;\\n    print_backwards(node->next);\\n    printf(\"%d \", node->number);\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "get_height",
+    "odp": "_code{unsigned int get_height(struct tree_node *node) {\\n    if (node == NULL) return 0;\\n    unsigned int left_height = get_height(node->left);\\n    unsigned int right_height = get_height(node->right);\\n    return 1 + (left_height > right_height ? left_height : right_height);\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "multiply",
+    "odp": "_code{unsigned long int multiply(unsigned int a, unsigned int b) {\\n    if (b == 0) return 0;\\n    return a + multiply(a, b - 1);\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "sum_of_odd_numbers",
+    "odp": "_code{int sum_of_odd_numbers(struct tree_node * node) {\n    if (node == NULL) {\n        return 0;\n    }\n\n    int sum = 0;\n    // Sprawdzamy, czy wartość węzła jest nieparzysta\n    if (node->number % 2 != 0) {\n        sum = node->number;\n    }\n\n    // Dodajemy sumę z lewego i prawego poddrzewa\n    return sum + sum_of_odd_numbers(node->left) + sum_of_odd_numbers(node->right);\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "is_palindrome",
+    "odp": "_code{bool is_palindrome(char word[], int first, int last) {\n    // Warunek końcowy: wskaźniki się spotkały lub minęły - wszystkie znaki pasują\n    if (first >= last) {\n        return true;\n    }\n\n    // Jeśli znaki na krańcach są różne, nie jest to palindrom\n    if (word[first] != word[last]) {\n        return false;\n    }\n\n    // Wywołanie rekurencyjne dla zawężonego przedziału znaków\n    return is_palindrome(word, first + 1, last - 1);\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "count_long_words",
+    "odp": "_code{unsigned int count_long_words(struct tree_node *node) {\\n    if (node == NULL) return 0;\\n    unsigned int count = (strlen(node->word) > 10) ? 1 : 0;\\n    return count + count_long_words(node->left) + count_long_words(node->right);\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "get_square_root",
+    "odp": "_code{#include <math.h>\\n\\ndouble get_square_root(double x, double root) {\\n    if (fabs(x - root * root) <= 1e-12) return root;\\n    return get_square_root(x, 0.5 * (root + x / root));\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "find_number",
+    "odp": "_code{unsigned int find_number(struct list_node *node, int number) {\\n    if (node == NULL) return 0;\\n    if (node->data == number) return 1;\\n    return find_number(node->next, number);\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "find_max",
+    "odp": "_code{long int find_max(struct list_node *node) {\\n    if (node == NULL) return -1;\\n    if (node->next == NULL) return node->number;\\n\\n    long int max_in_rest = find_max(node->next);\\n    return (node->number > max_in_rest) ? node->number : max_in_rest;\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "is_odd",
+    "odp": "_code{unsigned int is_odd(struct tree_node *node) {\\n    if (node == NULL) return 0;\\n    return (1 + is_odd(node->left) + is_odd(node->right)) % 2;\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "gcd",
+    "odp": "_code{unsigned int gcd(unsigned int m, unsigned int n) {\\n    if (n == 0) return m;\\n    return gcd(n, m % n);\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "total",
+    "odp": "_code{long int total(struct list_node *node) {\\n    if (node == NULL) return 0;\\n    return node->number + total(node->next);\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "find_minimum",
+    "odp": "_code{char find_minimum(struct list_node *node) {\\n    if (node->next == NULL) return node->number;\\n    char min_in_rest = find_minimum(node->next);\\n    return (node->number < min_in_rest) ? node->number : min_in_rest;\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "make_double",
+    "odp": "_code{void make_double(struct list_node *node) {\\n    if (node == NULL) return;\\n    node->number *= 2;\\n    make_double(node->next);\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "divide",
+    "odp": "_code{unsigned int divide(unsigned int dividend, unsigned int divisor) {\\n    if (dividend < divisor) return 0;\\n    return 1 + divide(dividend - divisor, divisor);\\n}}_",
+    "imgs": []
+  },
+  {
+    "pytanie": "count_leaves",
+    "odp": "_code{unsigned int count_leaves(struct tree_node *node) {\\n    if (node == NULL) return 0;\\n    if (node->left == NULL && node->right == NULL) return 1;\\n    return count_leaves(node->left) + count_leaves(node->right);\\n}}_",
+    "imgs": []
+  }
+]
