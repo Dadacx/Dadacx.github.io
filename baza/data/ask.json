@@ -1,0 +1,332 @@
+[
+  {
+    "pytanie": "1. Kod znak-moduł (ZM)...",
+    "odp": "a) to inna nazwa dla kodu U2\n_b{_i{b) pozwala na zapis liczb ujemnych}}\nc) nie ma obecnie zastosowania w systemach komputerowych",
+    "imgs": []
+  },
+  {
+    "pytanie": "2. Kodowanie ASCII...",
+    "odp": "a) to rodzaj odmiana UFT-64\\n_b{_i{b) to obecnie podzbiór kodowania UTF}}\\nc) obie odpowiedzi są poprawne",
+    "imgs": []
+  },
+  {
+    "pytanie": "3. Pamięć RAM...",
+    "odp": "a) stosuje się w systemach komputerowych incydentalnie\\nb) zastąpiła matryce holograficzne\\n_b{_i{c) nie jest urządzeniem blokowym}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "4. Pamięć RAM...",
+    "odp": "a) ma dużą przepustowość, ale duży czas dostępu\nb) ma małą przepustowość, ale krótki czas dostępu\n_b{_i{c) żadna z odpowiedzi nie jest poprawna}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "5. Po włączeniu zasilania BIOS...",
+    "odp": "_b{_i{a) weryfikuje poprawność pracy CPU}}\\nb) próbuje nawiązać połączenie z hostem\\nc) czeka na reakcję użytkownika",
+    "imgs": []
+  },
+  {
+    "pytanie": "6. Procedura POST...",
+    "odp": "a) polega na ponownym wykonaniu czynności\\n_b{_i{b) jest jednym z cykli pracy programu BIOSu}}\\nc) to skrót od Pattern Or Strict Testing",
+    "imgs": []
+  },
+  {
+    "pytanie": "7. Faza aplikacyjna...",
+    "odp": "_b{_i{a) dotyczy systemu operacyjnego}}\\nb) dotyczy BIOSU\\nc) jest fazą podczas zamykania systemu operacyjnego",
+    "imgs": []
+  },
+  {
+    "pytanie": "8. Istniejącą architekturą procesorów jest...",
+    "odp": "a) SOMD\\n_b{_i{b) SIMD}}\\nc) SEMD",
+    "imgs": []
+  },
+  {
+    "pytanie": "9. W odniesieniu do architektury NUMA...",
+    "odp": "a) implementacją są procesory SEMD\\nb) nie istnieje implementacja tej architektury\\n_b{_i{c) implementacją są procesory MIMD}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "10. Skrót CISC oznacza...",
+    "odp": "_b{_i{a) Complex Instruction Set Computer}}\\nb) Coded Instruction Set Computer\\nc) żadna z odpowiedzi nie jest poprawna",
+    "imgs": []
+  },
+  {
+    "pytanie": "11. W architekturze von Neumanna...",
+    "odp": "a) nie ma pamięci operacyjnej\n_b{_i{b) nie ma pamięci masowej}}\nc) są oba typy pamięci",
+    "imgs": []
+  },
+  {
+    "pytanie": "12. W architekturze harwardzkiej...",
+    "odp": "a) nie ma wyjścia\\n_b{_i{b) rozdzielono pamięć instrukcji i danych}}\\nc) jest wyjście, ale nie ma wejścia - tą funkcję pełni pamięć",
+    "imgs": []
+  },
+  {
+    "pytanie": "13. W odniesieniu do CPU ścieżka danych...",
+    "odp": "_b{_i{a) zależnie od implementacji, może wykonywać obliczenia cząstkowe}}\\nb) nie jest elementem CPU, tylko jego kontrolera\\nc) zawiera głównie układy pamiętające",
+    "imgs": []
+  },
+  {
+    "pytanie": "14. W architekturze x86...",
+    "odp": "_b{_i{a) rejestr IP wskazuje aktualnie wykonywany rozkaz}}\\nb) rejestr IP zawiera dane aktualnie wykonywanego rozkazu\\nc) rejestr AX wskazuje aktualnie wykonywany rozkaz",
+    "imgs": []
+  },
+  {
+    "pytanie": "15. Wyznaczenie adresu efektywnego...",
+    "odp": "_b{_i{a) jest elementem cyklu rozkazowego CPU}}\\nb) pozwala obliczyć efekt wykonania kolejnego rozkazu przez CPU\\nc) żadna odpowiedź nie jest poprawna",
+    "imgs": []
+  },
+  {
+    "pytanie": "16. Pamięć podręczna w CPU...",
+    "odp": "a) wskazuje co procesor powinien zrobić w danym momencie\\n_b{_i{b) nie jest niezbędna do jego działania}}\\nc) jest niezbędna do jego działania",
+    "imgs": []
+  },
+  {
+    "pytanie": "17. W odniesieniu do CPU przerwanie...",
+    "odp": "_b{_i{a) to także wyjątek, którego źródłem jest sam procesor}}\\nb) jest elementem cyklu pracy pojawiającym się tuż przed wyłączeniem komputera\\nc) polega na pominięciu kilku instrukcji, co odpowiada przerwie w programie",
+    "imgs": []
+  },
+  {
+    "pytanie": "18. Praca krokowa CPU...",
+    "odp": "a) obecnie nie jest używana\\n_b{_i{b) pozwala na wykonanie jednej instrukcji i wymaga reakcji}}\\nc) obie odpowiedzi są błędne",
+    "imgs": []
+  },
+  {
+    "pytanie": "19. Pamięć ROM w komputerach klasy PC...",
+    "odp": "a) nie jest używana, ponieważ została wyparta przez pamięć RAM\\n_b{_i{b) zawiera program ładujący system operacyjny}}\\nc) żadna odpowiedź nie jest poprawna",
+    "imgs": []
+  },
+  {
+    "pytanie": "20. Pamięć RAM...",
+    "odp": "_b{_i{a) można znaleźć w CPU}}\nb) można stosować zamiennie z pamięcią masową\nc) występuje tylko w architekturze PC",
+    "imgs": []
+  },
+  {
+    "pytanie": "21. Magistrala FSB...",
+    "odp": "_b{_i{a) to główna magistrala, przy pomocy której CPU łączy się z innymi urządzeniami}}\\nb) to wewnętrzna magistrala CPU\\nc) to magistrala Fast-Switch-Band",
+    "imgs": []
+  },
+  {
+    "pytanie": "22. Instrukcja dla CPU koniecznie powinna zawierać...",
+    "odp": "_b{_i{a) pole z unikatowym kodem rozkazu}}\\nb) pola adresowe rozkazu\\nc) pola względne rozkazu",
+    "imgs": []
+  },
+  {
+    "pytanie": "23. W odniesieniu do architektury CPU mikrooperacja...",
+    "odp": "_b{_i{a) jest składową rozkazu, jeśli architektura została wykonana w technice mikroprogramowania}}\nb) jest cechą charakterystyczną architektury von Neumanna\nc) ma charakter historyczny, ponieważ została wyparta przez architekturę harwardzką",
+    "imgs": []
+  },
+  {
+    "pytanie": "24. Przetwarzanie potokowe w CPU...",
+    "odp": "a) zwiększa wydajność przetwarzania, kosztem zmniejszenia długości rozkazu\\n_b{_i{b) wymaga podziału ścieżki danych na stopnie przetwarzające}}\\nc) obie odpowiedzi są błędne",
+    "imgs": []
+  },
+  {
+    "pytanie": "25. Spekulatywne wykonanie rozkazu...",
+    "odp": "a) obecnie nie jest stosowane, ze względu na koszty produkcji CPU\\nb) polega na wylosowaniu następnego, najbardziej prawdopodobnego do wykonania rozkaz\\n_b{_i{c) jest związane z przetwarzaniem potokowym}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "26. W odniesieniu do CPU hazard strukturalny...",
+    "odp": "a) jest zjawiskiem korzystnie wpływającym na wydajność\\n_b{_i{b) może pojawić się, jeśli CPU posiada architekturę potokową}}\\nc) może pojawić się, jeśli CPU wykonuje instrukcje sekwencyjne",
+    "imgs": []
+  },
+  {
+    "pytanie": "27. W trakcie pracy potoku można...",
+    "odp": "_b{_i{a) unieważnić wszystkie instrukcje znajdujące się w potoku}}\\nb) przesunąć instrukcje, tak, żeby znaleźć miejsce na nowe\\nc) wyłączyć część instrukcji",
+    "imgs": []
+  },
+  {
+    "pytanie": "28. W trakcie pracy potoku w CPU instrukcja skoku...",
+    "odp": "_b{_i{a) może spowodować opróżnienie potoku}}\\nb) jest obsługiwana przez pamięć cache CPU\\nc) obie odpowiedzi są poprawne",
+    "imgs": []
+  },
+  {
+    "pytanie": "29. Dysk HDD to...",
+    "odp": "a) obecnie rodzaj interface'u w nowej formie GUI\\n_b{_i{b) rodzaj pamięci masowej}}\\nc) element analizy systemowej",
+    "imgs": []
+  },
+  {
+    "pytanie": "30. Układy sekwencyjne...",
+    "odp": "a) muszą posiadać wejście zegarowe\\n_b{_i{b) mają stan wewnętrzny}}\\nc) są ulepszoną wersją układów kombinacyjnych",
+    "imgs": []
+  },
+  {
+    "pytanie": "31.W systemach komputerowych kodowanie...",
+    "odp": "_b{_i{a) jest metodą reprezentacji danych}}\\nb) stosuje się tylko w systemach operacyjnych\\nc) obie odpowiedzi są poprawne",
+    "imgs": []
+  },
+  {
+    "pytanie": "32. W układach cyfrowych kombinacyjnych...",
+    "odp": "a) stan następny zależy od stanu poprzedniego\\nb) powyższe odpowiedzi są poprawne, zależnie od warunków\\n_b{_i{c) stan następny nie zależy od stanu poprzedniego}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "33. Kodowanie UNICODE...",
+    "odp": "a) to U1 i U2\\nb) to inaczej UFT\\n_b{_i{c) obie odpowiedzi nie są poprawne}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "34. Kod liczbowy U1...",
+    "odp": "_b{_i{a) posiada dwie wartości odpowiadające liczbowo wartości zera}}\\nb) nie jest w rzeczywistości kodem liczbowym\\nc) w większości składa się z jedyne binarnych",
+    "imgs": []
+  },
+  {
+    "pytanie": "35. W komputerach komunikacja...",
+    "odp": "a) odbywa się na poziomie równoległym\\n_b{_i{b) odbywa się na poziomie sprzętowym}}\\nc) obie odpowiedzi są błędne",
+    "imgs": []
+  },
+  {
+    "pytanie": "36. Kod korekcyjny...",
+    "odp": "a) jest hipotetycznym sposobem kodowania danych\\nb) jest oparty o analizę ósemkową\\n_b{_i{c) to np. kod Hamminga}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "37. Wśród typowych rodzajów magistral nie ma...",
+    "odp": "a) gwiazdy\\n_b{_i{b) m-sześcianu}}\\nc) pierścienia",
+    "imgs": []
+  },
+  {
+    "pytanie": "38. W odniesieniu do architektury PC, CPU to...",
+    "odp": "a) Clean Project Usage\\nb) obie odpowiedzi nie są poprawne\\n_b{_i{c) Central Processing Unit}}",
+    "imgs": []
+  },
+  {
+    "pytanie": "39. Istniejącą architekturą procesów jest...",
+    "odp": "a) MOMD\\n_b{_i{b) MISD}}\\nc) MAMD",
+    "imgs": []
+  },
+  {
+    "pytanie": "40. Algebra Boole'a...",
+    "odp": "_b{_i{a) pozwala przedstawić funkcje logiczne}}\\nb) składa się z bitów, zbieranych w bajty\\nc) pozwala na działania na częściach stringów",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić pojęcia: komunikacja i architektura połączeń.",
+    "odp": "_b{Platformy komunikacji:}\na) Sprzętowa - między podzespołami\nb) Softwarowa - między aplikacjami (oraz między systemami komputerowymi - sieci komputerowe)\nPonadto występuje komunikacja między platformą sprzętową, a programową.\nKomunikacja w systemach komputerowych wymaga obecności mediów: buforów na dane, fizycznych połączeń, protokołów komunikacyjnych, procesu synchronizacji - w ogólności architektury połączeń.\n_b{Architektura połączeń:}\n_-{magistrali}\n_-{pierścienia}\n_-{gwiazdy}\n_-{siatki}",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić pojęcia: funktory logiczne i moduły logiczne.",
+    "odp": "_b{Funktory logiczne} - są realizacją sprzętową matematycznego modelu funkcji logicznej. Dzielą się na:\na) Układy małej skali integracji (SSI) - realizujące podstawowe operacje logiczne: AND, OR, XOR, NOT i pochodne\nb) Układy średniej skali integracji (MSI) - składające się z układów SSI, realizujące bardziej złożone funkcje, są to: liczniki, rejestry, multipleksery, przerzutniki, itp.\nc) Układy dużej skali integracji (LSI) - będące komponentami większych systemów cyfrowych, np. kontrolery, sterowniki magistral, bloki rejestrów, bloki obliczeniowe, itp.\nd) Układy bardzo dużej skali integracji (VLSI) - procesory\ne) Układy ASIC/ASIP - np. dekoder mp4\n_b{Moduły logiczne} - bramki logiczne realizujące proste operacje: iloczynu, sumy, różnicy symetrycznej i negacji",
+    "imgs": []
+  },
+  {
+    "pytanie": "Podać szczegółową budowę mikroprocesora z podziałem na moduły.",
+    "odp": "_b{Moduły konstrukcyjne:}\na) Magistrale zewnętrzne:\n_-{danych - zazwyczaj o długości słowa maszynowego procesora}\n_-{adresowa - determinująca rozmiar pamięci jaką może procesor zaadresować}\n_-{kontrolna - służąca do: przesyłania poleceń dla procesora, komunikacji z różnymi układami komputera, sterowania zapisem do i odczytem z pamięci oraz urządzeń we/wy.}\n\nb) Rejestry:\nRejestry służą do przechowywania wartości, jakie są produktami wykonania instrukcji procesora. Konstrukcyjnie rejestr jest pamięcią statyczną, wykonaną z przerzutników (typu D). Procesor w rejestrach przechowuje:\n_-{argumenty i wyniki operacji arytmetycznych i logicznych}\n_-{wartości stałe (tylko do odczytu)}\n_-{adresy pamięci}\n_-{dane aplikacji}\n_-{dane kontrolne.}\nZazwyczaj rejestry łączy się w bloki (ang. registers fields), posiadające wspólne wejścia i wyjścia (magistrale) oraz wejścia sterujące. W nowoczesnych procesorach rejestry potrafią samodzielnie wykonywać złożone operacje arytmetyczno-logiczne.\nc) Układ arytmetyczny i rejestr stanu:\nUkład arytmetyczno-logiczny (ALU) jest modułem wykonującym w procesorze obliczenia. Nowoczesne procesory posiadają od kilku do kilkunastu ALU na jeden rdzeń, dzięki czemu możliwe jest realizowane zadań optymalizacyjnych. Zazwyczaj ALU wykonuje operacje:\n_-{arytmetyczne: dodawanie, odejmowanie, mnożenie ...}\n_-{logiczne: sumę logiczną, iloczyn logiczny, negację ...}\n_-{inkrementację / dekrementację,}\n_-{wyliczenie na żądanie bitów stanu.}\nW typowych konstrukcjach układ ALU oblicza również pewne dodatkowe dane, charakteryzujące wynik, np. informujące, że wynikiem jest wartość zero. Takie informacje znajdują się w rejestrze stanu (statusu). Informacje z rejestru stanu wpływają na decyzje podejmowane przez procesor odnośnie wykonania instrukcji z różnych grup rozkazów, w szczególności skoków warunkowych. W prostych procesorach często układ ALU wykorzystywany jest również w cyklu instrukcyjnym.\n_b{Kontrolery:}\na) układ sterujący:\nUkład sterujący ma za zadanie kontrolowanie przepływu danych i sterowania. Większość procesorów jest wykonana w modelu RTL, w którym kontroler steruje przepływem danych między rejestrami poszczególnych bloków. Dba o to, aby dane i wyniki operacji trafiały w odpowiednie miejsca.\nb) kontroler we/wy:\nProcesory współpracują z urządzeniami zewnętrznymi, takimi jak:\n_-{układy szeregowej transmisji danych}\n_-{układy równoległej transmisji danych}\n_-{karty graficzne}\n_-{karty dźwiękowe}\n_-{sterowniki pamięci masowych}\nTego typu urządzenia wymieniają dane z CPU za pośrednictwem jego magistral. Natomiast za odpowiednie sterowanie urządzeń we/wy odpowiada układ kontrolera we/wy - w nowoczesnych systemach komputerowych jest zlokalizowany w mostku południowym.\nc) kontroler pamięci:\nKontroler pamięci jest układem pośredniczącym między pamięcią RAM, a procesorem (zazwyczaj jest to część mostka północnego lub jest wbudowany w procesor).\n\nW rejestrze MAR zapisane są adresy, rejestr MBR to bufor. Pamięć jest klientem tego systemu, wykonuje polecenia z sygnałów sterujących.\nRD - pamięć będzie odczytywana\nWR - pamięć będzie zapisywana\nCS-Chip Select - wybiera moduł pamięci do którego będzie zapisywane\n_b{Moduły procesora:}\na) Moduły ścieżki danych:\n_-{Bloki rejestrów ogólnego przeznaczenia}\n_-{Pamięci podręczne pierwszego poziomu}\n_-{Rejestry adresowe}\n_-{Pamięć stronicowania i translacji adresów TLB}\n_-{Układ arytmetyczno-logiczny}\nb) Moduły kontrolera:\n_-{Sterownik magistral}\n_-{Układy sterujące}\n_-{Układ adresowy}\n_-{Blok pobierania rozkazów}\n_-{Dekoder instrukcji}\nŚcieżka danych to układ wykonawczy. Kontroler to układ sterujący. Konstrukcyjnie procesor jest układem FSM wykonanym zgodnie z modelem RTL.\nFSM - Finite State Machine - maszyna stanów skończonych\nRTL - Register Transfer Level - model przesłań międzyrejestrowych\nWykonanie instrukcji polega na powiedzeniu co z których rejestrów do których rejestrów należy przesłać. Procesor jest ściśle synchroniczny.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Przedstawić poglądowo mechanizmy zarządzania pamięcią w architekturze IA-32.",
+    "odp": "Procesory x86 posiadają rozbudowany mechanizm zarządzania pamięcią, w skład którego wchodzą:\na) tryby adresowania:\n_-{domyślny}\n_-{natychmiastowe}\n_-{rejestrowe}\n_-{bezpośrednie}\n_-{pośrednie}\n_-{bazowe}\n_-{indeksowe}\n_-{bazowo-indeksowe}\nb) mechanizmy ochrony:\n_-{typu selektor:przemieszczenie}\n_-{bazujące na deskryptorach segmentów globalnych GDT i lokalnych LDT}\nc) obsługa stronicowania - wykorzystuje tablicę TLB do odwzorowania nieciągłego obszaru pamięci fizycznej w ciągłe obszary pamięci logicznej (segmentów)\nd) obsługa pamięci wirtualnej- pozwala na wymianę stron pamięci RAM z pamięcią masową w trakcie odwołania do segmentów pamięci.\nWiększość mechanizmów zarządzania pamięcią jest dostępnych tylko w trybie chronionym.\nDo pamięci wirtualnej system przerzuca zadania, które są dłuższy czas uśpione lub niewiele robią.\nGDT - tablica dla całej pamięci, zarządzana przez system, jedna dla instancji systemu, obszerna\nLDT - tablica dla konkretnej aplikacji, system tworzy początkowe wartości, a dalej zarządza aplikacja, tablic tyle, ile aplikacji",
+    "imgs": []
+  },
+  {
+    "pytanie": "Przedstawić poglądowo główne cechy architektur ARM i SPARC.",
+    "odp": "SPARC i ARM należą do rodziny układów RISC. Zostały opracowane przez firmy Sun Microsystems i Acom Computers.\n_b{Cechy SPARC (ang. Scalable Processor ARChitecture):}\n_-{procesory są rodzaju RISC}\n_-{posiadają dużą liczbę rejestrów ogólnego przeznaczenia, zorganizowanych w okna-wejściowe, robocze (lokalne) i wyjściowe}\n_-{rejestry są całkowitoliczbowe lub zmiennoprzecinkowe, dostępne są również rejestry statusu i kontrolne}\n_-{procesory mogą pracować w trybie little-endian,- domyślnym trybem jest big-endian (zmianę trybu pracy wykonuje się przez ustawienie odpowiedniego bitu w rejestrze kontrolnym)}\n_b{Zastosowanie SPARC:}\n_-{w serwerach}\n_-{w superkomputerach}\n_-{w stacjach graficznych i roboczych}\n_b{Cechy ARM (Advanced RISC Machine):}\n_-{niewielka liczba tranzystorów - mały pobór energii}\n_-{całkowity brak mikrokodu}\n_-{większość rozkazów wykonuje się w jednym cyklu}\n_-{wbudowany stos TCP/IP}\n_-{wbudowana obsługa systemu plików FAT32}\n_-{niektóre modele potrafią natywnie wykonywać kod bajtowy Javy (Java bytecode)}\n_b{Lista instrukcji:}\n_-{każda instrukcja poprzedzona jest 4-bitowym prefiksem warunkowym - co powoduje skrócenie kodu}\n_-{instrukcje arytmetyczne zmieniają bity warunków, gdy to jest wymagane}\n_-{32-bitowy licznik cykliczny może być stosowany do większości instrukcji arytmetycznych i adresowych.}\nARM jest szeroko stosowany w systemach wbudowanych (SoC).",
+    "imgs": []
+  },
+  {
+    "pytanie": "Wyjaśnić różnice między klasycznym modelem RISC a CISC. Podać reprezentatywne przykłady.",
+    "odp": "_b{CISC (Complex Instruction Set Computer):} instrukcje wykonują się w wielu cyklach pracy, pozwalają na wykorzystanie różnych trybów adresowania pamięci, instrukcje o zmiennej długości.\nPrzykład: procesor 8086\n_b{RISC (Reduced Instruction Set Computer):} proste instrukcje, zazwyczaj wykonywane atomowo w jednym cyklu pracy procesora, instrukcje o stałej długości.\nPrzykład: procesory ARM wykorzystywane między innymi w telefonach i tabletach\nZarówno CISC, jak i RISC wykonają to samo, ale CISC w jednej instrukcji, a RISC w kilku.\nObecne procesory w komputerach są CISCowo - RISCowe.\nCISC pozwala zarządzać pamięcią w sposób logiczny i ma to zorganizowane sprzętowo, RISC tego nie posiada.\nProcesor CISC posiada kilkanaście rejestrów, RISC ma ich kilkadziesiąt.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić pojęcia: algebra Boole'a., kody liczbowe i znakowe.",
+    "odp": "_b{Algebra Boole'a:}\nB = B(B, ∩, U, ~, 0, 1) dla a, b ∈ B zachodzą:\na U a = a\na U 0 = a\na U 1 = 1\n~0 = 1\na ∩ a = a\na ∩ 1 = a\na ∩ 0 = 0\n~1 = 0\n_b{Prawa de Morgana:}\nI prawo de Morgana: zanegowana suma to iloczyn zanegowanych literałów\nII prawo de Morgana: zanegowany iloczyn to jest suma zanegowanych literałów\nPraktyczne zastosowanie praw de Morgana: rozbudowany if i chcemy odwrócić warunek lub uprościć.\nW systemach komputerowych kodowanie informacji polega na przedstawieniu liczb za pomocą zbioru sygnałów elektrycznych o odpowiednich poziomach logicznych\n_b{Kody liczbowe:}\na) stało i zmiennoprzecinkowe\nb) NKB - naturalny kod binarny\nc) Uzupełnieniowe - U1 i U2\nd) ZM - kod znak - moduł\n_b{Kody znakowe:}\na) ASCII (wraz ze znakami narodowymi)\nb) UNICODE\n_b{Sposoby kodowania informacji:}\n_-{Ósemkowy, szesnastkowy - rodzaje kodów liczbowych}\n_-{Grey'a - dwa słowa różnią się tylko na jednej pozycji}\n_-{Hamminga - rodzaj kodu korekcyjnego}\n_-{Huffmana - rodzaj kodu prefiksowego}\n_-{Reed'a-Solomona - kod detekcyjno-korekcyjny (np. kody QR)}\n_-{Kody szyfrujące (np. RSA)}",
+    "imgs": []
+  },
+  {
+    "pytanie": "Przedstawić cykl wykonania programu. Omówić pojęcie pracy jedno- i wielowątkowej.",
+    "odp": "W systemach wielozadaniowych istnieje możliwość podziału programu na części, nazywane wątkami, które mogą być wykonywane współbieżnie.\nCPU zawsze kończy wykonanie aktualnego rozkazu i dopiero potem idzie o obsługi przerwania.\n_b{Wątek} - z punktu widzenia programisty jest jednostką wykonania kodu. Są to ciągi instrukcji realizowane do pewnego stopnia niezależnie.\n_b{Jednowątkowość} - oznacza wykonywanie tylko jednego wątku w danym czasie przez jednostkę wykonawczą - zeń CPU. Jest to stosunkowo mało efektywna technika wykonywania instrukcji, nie wymaga wywłaszczania procesów, synchronizacji.\n_b{Wielowątkowość} - oznacza ona możliwość jednoczesnego wykonywania wielu wątków w sposób sprzętowy na pojedynczej jednostce wykonawczej - rdzeniu fizycznym.\nProgram wielowątkowy wymaga stosowania specjalnych technik programistycznych. Ponadto uruchomienie takiej aplikacji wymaga odpowiedniego systemu komputerowego, posiadającego mechanizmy wielozadaniowości, synchronizacji oraz wywłaszczania procesów. Aby zadania mogły wykonać się współbieżnie to muszą być od siebie niezależne.\nWielowątkowość wiąże się także z kosztami w związku z koniecznością przełączania się CPU na obsługę wątku.\nWywłaszczanie procesów polega na przełączaniu procesora między zadania. W systemach Windows jest to widoczne w postaci aplikacji pierwszoplanowych i drugoplanowych, pierwszoplanowe dostają więcej czasu procesora.\nWielowątkowość można symulować programowo.\n_b{Wielozadaniowość} - cecha systemu operacyjnego umożliwiająca równoczesne wykonywanie więcej niż jednego procesu (programu). Zwykle za poprawną realizację wielozadaniowości odpowiedzialne jest jądro systemu operacyjnego.\n_b{Synchronizacja} - synchronizacja (zadań między wątkami) wykonania wątków. Zapobiega błędom danych podczas gdy są one w różnym czasie wykorzystywane przez więcej niż jeden wątek.\n_b{Wywłaszczenie procesów} - występuje wtedy, kiedy system musi odebrać procesorowi wykonanie jednego zadania i przydzielić go na wykonywanie innego zadania (wątku), dzieje się to na określony „kwant” czasu. Czym dłuższy kwant czasu tym dłuższe wykonanie danego wątku wyższy jego priorytet”.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić szczegółowo pojęcia: pamięć ROM, pamięć RAM, parametry pamięci, konstrukcja pamięci.",
+    "odp": "Układ _b{ROM} (ang. Read-only Memory) jest pamięcią nieulotną. W systemach komputerowych służy do:\n_-{przechowywania programu i danych BIOSu}\n_-{przechowywania programów inicjujących i danych konfiguracyjnych urządzeń rozszerzających komputera.}\nUkład _b{RAM} (ang. Random Access Memory) jest pamięcią ulotną, w której zapis i odczyt ma charakter swobodny możliwe jest adresowanie dowolnej komórki pamięci. Jest układem scalonym o dużej szybkości działania, służącym do przechowywania informacji.\nW procesorze pamięć RAM znajduje się w:\n_-{rejestrach}\n_-{strukturach systemowych, np. TLB}\n_-{pamięci podręcznej L1, L2 i L3.}\nPamięci podręczne najczęściej są statyczne o małych czasach dostępu, pracujące z szybkością procesora (L1).\nPamięć statyczna jest zbudowana z tranzystorów, tworzących przerzutnik typu D.\nKomórka pamięci dynamicznej zbudowana jest z tranzystora i kondensatora, stanowiącego jednostkę pamiętającą.\nZe względu na małą złożoność komórek moduły pamięci DRAM mogą posiadać duże pojemności. Jednocześnie zastosowanie kondensatora powoduje konieczność tzw. odświeżania pamięci - czyli uzupełniania ładunku w kondensatorze pamiętającym.\nPamięć dynamiczna jest znacznie wolniejsza od pamięci statycznej - uwarunkowania konstrukcyjne. Jednocześnie:\n_-{moduły osiągają znacznie większe pojemności - objętościowo zajmuje co najmniej 2 razy mniej miejsca przy tej samej pojemności}\n_-{czas dostępu jest o rząd wielkości lepszy od czasu pracy pamięci masowych}\n_-{każda komórka może zostać zaadresowana.}\n_-{Mniejszy pobór prądu od statycznej}\n_b{Układ pamięciowe cechują parametry:}\n_-{pojemność - mierzona w bajtach}\n_-{czas dostępu - czas od wysłania żądania do otrzymania odpowiedzi}\n_-{czas oczekiwania CAS - ang. Column Adres Select Latency}\n_-{czas aktywacji wiersza RCD - RAS to CAS Delay}\n_-{przepustowość - mierzona w GB/s.}\nKonstrukcyjnie pamięć jest matrycą komórek, najczęściej zawierających jeden bit danych, wybieranych poprzez podanie numeru wiersza i kolumny.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić szczegółowo pojęcia: układ DMA, tryby pracy DMA, DMA a pamięć podręczna.",
+    "odp": "Układ _b{DMA} (ang. Direct Access Memory) służy do przesyłania danych z/do pamięci bez udziału procesora głównego komputera.\nUkład DMA jest specjalizowanym procesorem potrafiącym inicjować i przeprowadzać transfery pamięci bez udziału CPU. Układy DMA są wykorzystywane przez:\n_-{Procesor}\n_-{kontrolery pamięci masowych}\n_-{urządzenia we/wy i rozszerzające.}\nObecnie komputery nie posiadają dedykowanych układów DMA. Stosuje się specjalne tryby pracy magistral, w których kontroler realizuje podobne funkcje.\nDziałalność układu DMA może powodować niespójność pamięci cache procesora. Jest to spowodowane możliwością zapisu danych do pamięci RAM bez ich aktualizacji w cache.\nUkłady DMA mogą pracować w następujących trybach:\na) _b{tryb transferu blokowego:}\n_-{układ DMA przejmuje kontrolę na magistralą systemową, transfer danych następuje w trakcie jednego blokowego przesłania - tzw. tryb burst}\n_-{CPU nie ma dostępu do pamięci RAM - może pracować jedynie na danych z cache (w trakcie transferu)}\nb) _b{tryb „ukradzionego cyklu” (ang. stealing cycle mode):}\n_-{DMA otrzymuje dostęp do magistrali systemowej na żądanie, jednak wykonuje transfer jednej porcji danych,}\n_-{CPU i DMA otrzymują dostęp do magistrali na przemian,}\n_-{CPU posiada dostęp do pamięci RAM}\nc) _b{tryb transparentny:}\n_-{DMA wykonuje jedynie transfery w chwilach, gdy CPU zwalnia magistralę systemową - np. w trakcie wykonywania złożonych operacji}",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić szczegółowo pojęcia: pamięć masowa.",
+    "odp": "Dla systemu komputerowego pamięć masowa stanowi bank danych, który cechuje zwiększona trwałość zapisu danych. Typu pamięci masowych:\n_-{magnetyczne (dyski twarde, dyskietki, pamięci taśmowe)}\n_-{optyczne (płyty CD i pochodne)}\n_-{półprzewodnikowe (pam. flash i pochodne).}\n_b{Pamięci masowe cechują parametry:}\n_-{pojemność - mierzona obecnie w GB/TB}\n_-{szybkość transferu danych}\n_-{średni czas dostępu - ma duży wpływ na odczyt losowy, co wpływa zauważalnie na szybkość działania całego systemu}\n_-{MTBF (ang. Mean Time Between Failures) - średni czas pomiędzy awariami}\n_-{koszt (w przeliczeniu na 1 GB danych)}\nJakość parametrów zależy od technologii, w jakiej wykonano pamięć masową.\nPamięci masowe nie posiadają możliwości adresowania pojedynczych bajtów (lub bitów) danych. Dostęp do pamięci odbywa się w trybie blokowym - adresuje się blok danych, nazywany sektorem. Z tego powodu pamięć masowa jest nazywana urządzeniem blokowym.\nW systemach komputerowych w stosunku do pamięci masowych określa się ich organizację logiczną:\n_-{w przypadku systemów ogólnego przeznaczenia - dane są zorganizowane w tzw. system plików}\n_-{w niektórych systemach bazodanowych tabele mogę być przechowywane bez użycia ujednoliconej formy logicznej}\nPamięci masowe można ze sobą łączyć, uzyskując dodatkową funkcjonalność:\n_-{zwiększenie wydajności - technologia RAID}\n_-{odporność na błędy i uszkodzenia - technologia RAID}\n_-{zwiększoną pojemność - serwery plików.}\nNajpopularniejszymi nośnikami pamięci masowej są dyski HDD (Hard Disk Drive) i SSD (Solid State Drive).\nDysk HDD jest urządzeniem mechanicznym, gdzie nośnikiem danych są talerze pokryte materiałem magnetycznym. Odczyt i zapis danych wykonuje głowica, która generuje strumień indukcji magnetycznej, zmieniający polaryzację struktury talerza podczas zapisu. Podczas odczytu w cewce głowicy indukuje się napięcie elektryczne lub zmienia się jej opór elektryczny.\nNośnikiem danych w dyskach SSD jest pamięć flash (półprzewodnikowa) NAND lub NOR. Dyski SSD są w zasadzie pozbawione wszystkich niekorzystnych cech związanych z dyskami HDD.\nW systemach komputerowych wykorzystuje się również inne rodzaje nośników danych, np. nośniki optyczne i pamięci flash. W dyskach optycznych nośnikiem danych jest warstwa odblaskowa (na której znajdują się pola i wgłębienia), od której odbija się strumień światła. Technologia wykonania, jak również zasada działania pamięci flash jest podobna jak w SSD.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Przedstawić szczegółowo zagadnienia: rozkaz CPU, model ISA rozkazu, rodzaje i typy rozkazów.",
+    "odp": "Rozkaz CPU jest kodem operacji, wykonywanej przez procesor. Postać rozkazu jest następująca: kod rozkazu | argumenty.\n\nZarówno pole kodu rozkazu, jak i pole argumentów są umowne w zależności od typu rozkazu poszczególne bity mogą mieć różne znaczenia. Z tego powodu wyróżnia się dwa rodzaje rozkazów:\n_-{Bezadresowe - w których operandy są domyślne}\n_-{adresowe - dla których należy podać adresy argumentów.}\nJedynym stałym polem rozkazu jest jego kod. Pozostałe elementy mogą być stałe lub zmienne. Z tego względu rozkazy można podzielić na:\n_-{instrukcje o stałej długości - domena RISC}\n_-{instrukcje o zmiennej długości - często związane z modelem CISC.}\nWyróżnia się dwa modele ISA:\na) _b{CISC-ang. Complex Instruction Set Computer:}\n_-{duża liczba różnorodnych rozkazów}\n_-{wykonanie instrukcji może zająć wiele cykli zegara.}\nb) _b{RISC-ang. Reduced Instruction Set Computer:}\n_-{mała liczba rozkazów (typowo do 32)}\n_-{zazwyczaj każda instrukcja wykonuje się w jednym cyklu zegara}\n_-{łatwa implementacja potoku}\n_b{Typy rozkazów:}\n_-{rozkazy przetwarzania danych i operacji na pamięci}\n_-{operacje arytmetyczne i logiczne}\n_-{instrukcje modyfikujące przepływ sterowania.}\nPowyższe grupy rozkazów są związane z konkretnymi blokami mikroarchitektury CPU.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić pojęcie: mikrorozkaz, mikroprogramowanie, techniki projektowania układów korzystające z mikroprogramowania.",
+    "odp": "W ogólności sterowanie w układach cyfrowych polega na wygenerowaniu sygnałów sterujących, będących funkcją stanu układu. Owa funkcja jest postaci: \n_b{C = F(S,t) gdzie: \nC to wektor sterujący, \nS to wektor stanu maszyny, \nt oznacza czas (sygnał zegara).}\n_b{Mikrorozkaz:} Uporządkowany zbiór sygnałów sterujących C, w czasie t, nazywa się mikrooperacją. Maksymalna liczba mikrooperacji w systemie wynosi 2^n, gdzie n jest liczbą sygnałów sterujących. Na etapie projektowania układu cyfrowego sygnały sterujące można przypisać do:\n_-{modułów układu}\n_-{wejść układu}\nZazwyczaj interakcje między modułami maszyny cyfrowej opisuje się za pomocą grafu skierowanego, którego węzły odpowiadają modułom. Krawędzie w grafie oznaczają możliwość przesyłu danych między modułami, które łączą. Wagi na krawędziach odpowiadają sygnałom sterującym.\n_b{Mikroprogramowanie:} Jest to uporządkowany ciąg mikrooperacji, których wykonanie powoduje także wykonanie rozkazu. Mikroprogram powstaje na podstawie diagramów instrukcji, tworzonych przez uporządkowanie względem czasu sygnałów sterujących odpowiadających rozkazom. Mikroprogram musi uwzględniać fazy cyklu rozkazu. Zależnie od modelu mikrooperacji w mikroprogramie mogą być dostępne rozgałęzienia, tak, jak w zwykłym programie - co pozwala wykonywać złożone operacje. W CPU mikroprogram znajduje się pamięci wbudowanej w układ procesora.\n_b{Format mikrooperacji:} sygnały sterujące | czas | ctrl | adres | adr mod\nPole czas określa jak dużo cykli zegara zajmie wykonanie danej mikrooperacji.\nPole ctrl zawiera bity kontrolne - zazwyczaj wykonuje się sprawdzanie parzystości.\nPole adres zawiera adres następnej mikrooperacji, jaką należy wykonać po bieżącej.\nPole modyfikacji adresu - umożliwia realizację rozgałęzień w mikrokodzie, pozwalając na realizację rozkazów z wariantami.\n_b{Zalety RISC w stosunku do mikrokodu CISC:}\n_-{ze względu na model programowania wysokopoziomowego, stosowanie złożonych instrukcji jest mniej opłacalne - zwiększa się rola kompilatorów}\n_-{wydajność CPU może być większa w przypadku prostszych instrukcji - udział % złożonych instrukcji w kodzie wynikowym może być niewielki}\n_-{proste instrukcje można wykonywać bezpośrednio przez dedykowane komponenty}\n_-{jeśli udział złożonych instrukcji w kodzie programu jest niewielki, to zasoby sprzętowe CPU nie są w pełni wykorzystywane}\n_-{złożone instrukcje mogą wymagać wielu cykli zegara oraz zazwyczaj ta liczba nie jest stała, co utrudnia realizację przetwarzania potokowego.}\n_b{Zalety CISC w stosunku do architektury RISC:}\n_-{w CPU opartym w całości na mikrokodzie moduły procesora mogą wykonywać czynności, do których nie są dedykowane - np. ALU może służyć również do obliczania adresu efektywnego}\n_-{kompilatory chętnie wykorzystują instrukcje, których operandy odwołują się do pamięci - takie rozkazy ułatwiają generowanie kodu wynikowego, ponadto nie utrudniają zbytnio organizacji potoku}\n_-{złożone rozkazy wykonują więcej operacji/obliczeń, co zmniejsza długość kodu wynikowego}\n_-{nowoczesne procesory CISC/RISC - np. konstrukcje x86 - dekodują instrukcje korzystając z buforowania mikrooperacji, dzięki czemu można jednocześnie wykonywać różne, niewykluczające się czynności}\n_-{proste instrukcje CISC procesory również wykonują w trakcie jednego cyklu zegara.}",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić pojęcia: architektura harwardzka, model von Neumana.",
+    "odp": "_b{Architektura harwardzka:}\nCechy:\na) Pamięć jest podzielona na rozdzielne bloki programu i danych\nb) dostęp do pamięci jest uproszczony\nc) Instrukcje posiadają prostą konstrukcję, nie występuje mikrokod, a każda instrukcja wykonuje się jeden cykl\nArchitektura harwardzka wykorzystywana jest w modelu RISC.\n_b{Model von Neumana:}\nCechy:\na) Posiadanie skończonej, w pełni funkcjonalnej listy rozkazów (instrukcji procesora)\nb) Posiadanie możliwości wprowadzania programów oraz przechowywania ich w pamięci\nc) Dane i rozkazy powinny być swobodnie dostępne\nd) Przetwarzanie informacji następuje na skutek sekwencyjnego odczytywania instrukcji z pamięci i wykonywania ich przez procesor komputera\nModel von Neumana wykorzystywany jest w modelu CISC.\nKomputer PC był wzorowany na architekturze von Neumana.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić pojęcia: kody liczbowe niecałkowite, stałopozycyjne i zmiennoprzecinkowe.",
+    "odp": "Kody liczbowe niecałkowite dzielą się na:\n_-{Liczby zmiennoprzecinkowe}\n_-{Liczby stałopozycyjne}\nW ogólności liczby zmiennoprzecinkowe mają postać: L = S * M * B^E, gdzie:\nS - znak liczby, S=1 - liczba dodatnia,\nM - znormalizowana mantysa liczby, część ułamkowa liczby,\nB - podstawa liczby, B=2 dla systemów komputerowych,\nE - wykładnik liczby.\nMantysa - część ułamkowa liczby. Zazwyczaj dąży się do tego, aby mantysa była znormalizowana. Normalizacja liczby polega na doprowadzeniu mantysy liczby do postaci, w której najstarszy bit będzie równy 1. Staramy się tak przesuwać mantysę w lewo, żeby na pierwszym miejscu zaraz po przecinku była jedynka. Podczas normalizacji modyfikuje się wykładnik liczby. W zapisie liczby zmiennoprzecinkowej pomija się pierwszy bit mantysy. Liczby zmiennoprzecinkowe zostały zestandardyzowane w normie IEEE-754.\nZapis stałopozycyjny liczb polega na umownym wskazaniu bitu liczby po którym znajdzie się przecinek oddzielający część całkowitą liczby od ułamkowej. Ponieważ pozycja przecinka jest umowna - można dopasować zakres liczb do wymagań systemu. W tym wypadku bity liczby należy interpretować następująco:\n_-{w części całkowitej - jako liczbę NKB}\n_-{w części ułamkowej - każdy bit jest równy wartości dziesiętnej h=1/2^(liczba bitów ułamkowych)}",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić pojęcia: znak i ciąg znaków, kod ASCII, unicode.",
+    "odp": "Znak wyświetlany na ekranie komputera jest reprezentacją graficzną liczby zapisanej w pamięci komputera. Zbiory takich liczb są znane pod pojęciem ciągu znaków.\nW systemie komputerowym znak jest graficzną reprezentacją liczby (bajtu lub słowa) - jest kwestia umowną jak dany znak ma wygląd. Liczby również wyświetlane są w postaci znaków inaczej widzielibyśmy wartości binarne.\nZbiór bajtów zajmujących pewien obszar RAM może stanowić ciąg znaków. W zależności od umownej interpretacji przyjęło się, że ciąg znaków składa się:\n_-{ze słowa (bajtu) określającego liczbę znaków w ciągu oraz bajtów (słów) odpowiadających znakom ciągu}\n_-{z bajtów należących do ciągu znaków, przy czym ostatni bajt ciągu jest równy wartości liczbowej 0.}\nOdnośnie ciągów znakowych wykonuje się:\n_-{łączenie dwóch ciągów}\n_-{usuwanie znaków z ciągu}\n_-{wyodrębnianie podciągu z ciągu.}\nPowyższe czynności polegają na wykonaniu rozkazów CPU służących do przenoszenia bajtów z jednego obszaru pamięci do drugiego.\n_b{Kod ASCII} jest standardem definiującym wygląd znaków w zakresie liczbowym od 0 do 127 (7-bitów). Znaki zostały podzielone na zakresy:\n_-{kody sterujące terminalem lub drukarką (0-31 i 127)}\n_-{znaki drukowalne: białe, interpunkcyjne, cyfry, litery małe i duże (pozostałe 95 liczb).}\nObecnie stosuje się kod ASCII 8-bitowy, w którym zostały zdefiniowano inne znaki, często zamieniane na znaki charakterystyczne dla danego języka (narodowe).\n_b{Unicode} jest standardem znaków w systemach komputerowych, obejmujący wszystkie znaki używane na świecie. Najpowszechniej obecnie używaną odmianą unicode jest system UTF-8, gdzie jeden znak zapisuje się za pomocą 1, 2 lub 3 bajtów, przy czym wartość 0 nie jest przypisana do żadnego znaku (pozwala na tworzenie ciągów ASCIIZ).",
+    "imgs": []
+  },
+  {
+    "pytanie": "Przedstawić szczegółowo zagadnienia związane z ALU.",
+    "odp": "Zasadniczo komputery wykonują dwie czynności: przesyłanie danych oraz obliczenia. W drugim przypadku komputer musi posiadać do tego zadania specjalnie opracowany moduł.\nUkład arytmetyczno-logiczny (ALU) jest modułem wykonującym w procesorze obliczenia. Nowoczesne procesory posiadają od kilku do kilkunastu ALU na jeden rdzeń, dzięki czemu możliwe jest realizowane zadań optymalizacyjnych.\nZazwyczaj ALU wykonuje operacje:\n_-{arytmetyczne: dodawanie, odejmowanie, mnożenie}\n_-{logiczne: sumę logiczną, iloczyn logiczny, negację}\n_-{inkrementację / dekrementację,}\n_-{wyliczenie na żądanie bitów stanu.}\nW typowych konstrukcjach układ ALU oblicza również pewne dodatkowe dane, charakteryzujące wynik, np. informujące, że wynikiem jest wartość zero. Takie informacje znajdują się w rejestrze stanu (statusu). Informacje z rejestru stanu wpływają na decyzje podejmowane przez procesor odnośnie wykonania instrukcji z różnych grup rozkazów, w szczególności skoków warunkowych. W prostych procesorach często układ ALU wykorzystywany jest również w cyklu instrukcyjnym.\nUkład ALU posiada pewną liczbę rejestrów dostępnych tylko dla niego, w których są np. przechowywane wyniki częściowe obliczeń. W minimalnej implementacji ALU udostępnia dwa rejestry:\n_-{rejestr akumulatora - będący argumentem rozkazów oraz miejscem na wyniki}\n_-{rejestr bitów statusu.}\nZazwyczaj w trakcie wykonywania obliczeń układ ALU generuje dodatkowe informacje charakteryzujące wynik, nazywane bitami statusu:\n_-{cf- znacznik przeniesienia}\n_-{pf- znacznik parzystości}\n_-{zf- znacznik zera}\n_-{sf- znacznik znaku}\n_-{of- znacznik nadmiaru w kodzie U2, obliczany wg zależności of = cf_n xor cfn-1}\n_b{Konstrukcja ALU:}\nW układzie ALU mogą znajdować się: moduły logiczne, sumatory, mnożarki i dzielarki, ewentualnie logika sterująca, jeśli operacje ALU nie są mikrooperacjami.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić cechy: komputera klasy PC, mikroprocesora i pamięci.",
+    "odp": "_b{Cechy komputera klasy PC:}\na) Programowalność\nb) Uniwersalne zastosowania\nc) Modularność konstrukcji\n_b{Mikroprocesor:} układ cyfrowy sekwencyjny, wykonujący polecenia (instrukcje).\n_b{Typy procesorów:}\na) Podział ze względu na sposób pobierania instrukcji i danych:\n_-{SISD - architektura posiada jeden strumień instrukcji i jeden strumień danych\nPrzykład: procesor 8086.\nPojedynczy rdzeń współczesnego procesora to SISD, ale jeśli ma MMX to jest to SIMD.\nJeśli procesor ma dwa rdzenie, to jako całość już nie jest SISD.}\n_-{SIMD - architektura posiada jeden strumień instrukcji i wiele strumieni danych\nJedna instrukcja może przetworzyć wiele danych.\nPrzykład: procesor Pentium, tam gdzie jest MMX.\nMMX - obliczenia związane z grafiką.}\n_-{MISD - architektura posiada wiele strumieni instrukcji i jeden strumień danych\nPrzykład: stacje latające w kosmos, kilka procesorów wykonuje to samo i podejmowana jest taka decyzja, jaką wybierze większość z nich.}\n_-{MIMD- architektura posiada wiele strumieni instrukcji i wiele strumieni danych\nPrzykład: superkomputery, architektury macierzowe jak NUMA, procesory technologią EPIC}\nb) Podział ze względu na architekturę:\n_-{CISC - (Complex Instruction Set Computer)}\n_-{RISC - (Reduced Instruction Set Computer)}\n_-{VLIW- (Very Long Instruction Word), przykłady: Intel Itanium oraz Elbrus 2000}\n_b{Pamięć RAM:}\nPosiada krótki czas dostępu i dużą przepustowość, zbliżoną szybkością do transmisji danych CPU. Dostęp CPU do pamięci RAM jest bezpośredni (poprzez kontroler). Pamięć RAM posiada swobodny dostęp do każdej komórki, w przeciwieństwie do pamięci masowych, gdzie wykonywany jest odczyt/zapis całych bloków danych.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić pojęcie superskalarności.",
+    "odp": "_b{Superskalarność:} procesor potrafi w jednym cyklu pracy wykonać więcej niż jedną operację skalarną, np. dwa dodawania, trzy dodawania, cztery mnożenia, itd. Obecnie wszystkie procesory są superskalarne. Rozwiązanie to jest tanie i proste w implementacji, wadą jest wyższy pobór prądu.\nSuperskalarność jest możliwa gdy:\n_-{procesor posiada odpowiednią architekturę}\n_-{odpowiednie zasoby CPU nie są zajęte}\n_-{instrukcje nie mają wspólnych operandów}\nProcesory superskalarne charakteryzują się:\na) wykonywaniem instrukcji poza porządkiem sekwencyjnym programu\nb) dynamicznym sprawdzaniem powiązań między danymi rozkazów\nc) przetwarzaniem więcej niż jednej instrukcji na cykl\n_b{Ograniczenia superskalarności:}\nZwiększenie wydajności dzięki superskalarności ogranicza:\n_-{poziom równoległości w strumieniu instrukcji}\n_-{złożoność i koszt obliczeniowy dispatcher'a oraz logiki analizującej zależności między instrukcjami}\n_-{mechanika przetwarzania instrukcji rozgałęziających strumień rozkazów}\nImplementacja superskalarności wymaga wykorzystania dodatkowych zasobów wykonawczych takich jak:\n_-{jednostki ALU i/ lub inne jednostki wykonawcze}\n_-{bufory instrukcji CPU musi wczytać jednorazowo większą ich liczbę}\nPonadto w procesorach superskalarnych implementuje się:\n_-{mechanizm zmiany kolejności wykonywania rozkazów}\n_-{mechanizm spekulatywnego wykonywania rozkazów}\nPraktycznie wszystkie procesory superskalarne posiadają przetwarzanie potokowe. W architekturze procesorów superskalarnych powinny znajdować się moduły odpowiedzialne za realizację poszczególnych zadań. W szczególności konieczna jest implementacja dispatcher'a oraz pewna reorganizacja jednostek towarzyszących, np. układu pobierania instrukcji.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Przedstawić pojęcie ścieżki danych w CPU z omówieniem jej elementów i zasad projektowania.",
+    "odp": "Przetwarzanie danych wymaga zastosowania jednostek obliczeniowych i pamiętających, takich jak:\n_-{jednostki arytmetyczne i logiczne}\n_-{mnożarki / dzielarki}\n_-{rejestry i bufory danych, które łącznie stanowią ścieżkę danych.}\nPrzepływ danych w ścieżce organizuje kontroler. Pojęcie ścieżki danych odnosi się do drogi, jaką pokonuje informacja podczas przekazywania jej między rejestrami. W zależności od rodzajów operacji, ścieżka danych może prowadzić również przez komponenty operacyjne.\nW procesorze do ścieżki danych zalicza się również następujące bloki funkcjonalne:\n_-{rejestr rozkazów (IR)}\n_-{licznik programu (PC)}\n_-{rejestr adresowy pamięci (MAR)}\n_-{rejestr danych pamięci (MBR).}\nZależnie od stopnia złożoności architektury CPU konstrukcyjnie powyższe jednostki mogą zostać wykonane w postaci pojedynczego rejestru lub bloku funkcjonalnego, posiadającego znacznie bardziej rozbudowaną mechanikę pracy. Elementarną jednostką konstrukcyjną ścieżki danych jest magistrala systemowa CPU, łącząca ze sobą wszystkie moduły ścieżki.\nMagistrala systemowa wykorzystywana jest:\n_-{do transferów danych między rejestrami CPU}\n_-{w operacjach arytmetycznych i logicznych}\n_-{podczas operacji odczytu danych z pamięci RAM}\n_-{w czasie zapisu danych do pamięci RAM}\nW przypadku procesora projekt ścieżki danych rozpoczyna się od jej najbardziej podstawowego elementu. W miarę postępowania prac projektowych w ścieżce danych znajdzie się coraz więcej modułów.\n_b{Moduły:}\n_-{rejestr PC}\n_-{rejestr IR}\nRejestr PC wskazuje miejsce w pamięci, z którego zostanie pobrany następny rozkaz po wykonaniu bieżącego. Rejestr będzie podlegał zmianom w następujących przypadkach:\n_-{po wykonaniu „zwykłej” instrukcji}\n_-{po wykonaniu instrukcji modyfikującej kolejność wykonania rozkazów}\nWartości L(I)oznaczają liczbę bajtów (słów) jakie należy dodać do bieżącej wartości PC, aby po wykonaniu instrukcji możliwe było pobranie następnego rozkazu.\nRejestr IR przechowuje pobrany rozkaz. W praktyce stanowi zbiór rejestrów adresowanych bitowo. Zależnie od modelu rozkazu, wartość natychmiastowa może być przekazana jako osobne słowo. W takim przypadku obecność dedykowanego rejestru na takie dane jest opcjonalna.\nPoniżej przedstawiono swego rodzaju superskalarność, ponieważ występują jednocześnie dwie ścieżki danych. Można uznać, że wykonały się dwie operacje skalarne w jednym czasie. Musi być to odpowiednio obsłużone przez kontroler.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić funkcje kontrolera CPU, rodzaje i role sygnałów sterujących oraz metody jego projektowania.",
+    "odp": "_b{Funkcje kontrolera:}\n_-{szeregowanie zadań dla modułów CPU}\n_-{synchronizacja operacji: pobrania rozkazu, dekodowania i wykonania rozkazu}\n_-{zapisania wyników wykonania operacji.}\nPewne typu procesorów posiadają kontroler rozproszony, realizujący złożone funkcje - np. wykonanie rozkazów poza kolejnością, przetwarzanie potokowe.\nUkład kontrolera generuje sygnały sterujące dla modułów CPU. W ogólności są to:\n_-{sygnały sterujące rejestrami: włączanie, wyłączanie, zatrzaskiwanie danych}\n_-{sygnały sterujące magistralami: blokowanie dostępu do magistrali, przekierowania}\n_-{sygnały faz rozkazu}\n_-{sygnały sterujące pamięcią.}\n_b{Układu kontrolera można zrealizować stosując:}\na) _b{logikę układową (ang. hard-wired, hardware):}\n_-{stosuje się dowolne elementy logiczne, układu PLA, FPGA, pamięć ROM/RAM itp.}\n_-{uzyskuje się szybkie urządzenie, ale dedykowane}\nb) _b{programowanie sprzętowe (ang. firmware):}\n_-{stosując mikroprogramowanie}\n_-{kontroler przypomina komputer - posiada mikroinstrukcje oraz mikroprogram}\n_-{moduł ma elastyczną konstrukcję: możliwe są zmiany w sposobie wykonania rozkazów lub kompletna zmiana całego zbioru instrukcji}\n_-{układ ma mniejszą szybkość działania niż w logice układowej, głównie wynikającą z szybkości działania pamięci mikrokomputera.}",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić pojęcia: cykl rozkazowy, moduły kontrolera, źródła sygnałów sterujących.",
+    "odp": "_b{Cykl instrukcyjny} - jest podstawowym cyklem w systemie komputerowym, odpowiadający za pobranie instrukcji programu z pamięci komputera. Proces powtarza się cyklicznie od włączenia komputera do jego wyłączenia.\n_b{Moduły konstrukcyjne} - W cyklu instrukcyjnym CPU wykorzystuje następujące moduły:\n_-{wskaźnik instrukcji - rejestr IP / PC,}\n_-{rejestr adresowy pamięci (MAR),}\n_-{rejestr danych pamięci (MDR),}\n_-{rejestr instrukcji (IR),}\n_-{układ sterujący oraz ALU.}\n_b{Etapy cyklu} - Różne modele CPU posiadają inne etapy cyklu instrukcyjnego, zależne głównie od zbioru instrukcji. W ogólności cykl instrukcyjny składa się z następujących etapów:\n_-{pobranie instrukcji: IR <- MEM[IP], IP <- IP + <liczba bajtów rozkazu>. Od razu po pobraniu rozkazu wyznaczany jest adres kolejnego rozkazu. Po wczytaniu instrukcji w całości lub w części, zaczyna się dekodowanie.}\n_-{dekodowanie instrukcji: dekoder rozpoznaje instrukcję zapisaną w IR, wprowadzając w odpowiedni stan pracy układ sterujący CPU.}\n_-{wyznaczenie adresu efektywnego: etap występuje w razie konieczności wczytania dodatkowych danych (np. Danej z pamięci RAM, wejścia I/O).}\n_-{wykonanie instrukcji: układ sterujący generuje ciąg sygnałów, które włączają i wyłączają rejestry / bloki funkcjonalne procesora.}\nLiczba bajtów rozkazu - może być różna w zależności od rozkazu.\nEtap wyznaczenia adresu efektywnego - jest związany z operacjami bezpośredniego lub pośredniego dostępu do pamięci RAM:\n_-{dostęp bezpośredni - najczęściej operand jest dostępny w kodzie rozkazu, wtedy żadna dodatkowa czynność nie jest podejmowana,}\n_-{dostęp pośredni - adres / operand należy pobrać z pamięci, wtedy cykl instrukcyjny będzie wymagał dodatkowego cyklu zegara.}\nDekoder instrukcji musi mieć możliwość określenia rodzaju pobranej instrukcji.\n_b{Cykle dostępu do pamięci:}\nNowoczesne systemu komputerowe posiadają często pamięć podręczną (cache), dla której liczba cykli dostępu jest znaczenie mniejsza niż w przypadku pamięci RAM, odpowiednio:\n_-{dostęp do rejestru zajmuje średnio 1 cykl (jeśli odległość od rejestru jest duża to może być znacznie więcej cykli)}\n_-{dostęp do pamięci L1 zajmie ok. 4 cykle,}\n_-{dostęp do pamięci L2 zajmie ok. 10 cykli,}\n_-{dostęp do pamięci L3 zajmie ok. 75 cykli,}\n_-{dostęp do pamięci RAM wymaga setek cykli.}\nCykl dostępu do pamięci jest zależny od wielu cech CPU, również takich jak obecność potoku, specjalnych trybów pracy, posiadania lub niepamięci cache. W każdym przypadku te elementy należy uwzględnić w modelowaniu dostępu CPU do pamięci. Najpierw procesor szuka danych w cache L1, następnie L2, L3, a na końcu RAM. Odpowiednie algorytmy przewidują, jakich danych procesor będzie potrzebował i ładują je do cache L1. Współczynnik trafień wynosi średnio 95%.\n_b{Tryby adresowania!!!:}\nW większości wariantów tryb adresowania może posiadać przesunięcie (offset). Adres pamięci zapisuje się w postaci: [element_adresowy + offset]\nTryby adresowania (8086):\n_-{natychmiastowy - operand znajduje się w kodzie rozk.,}\n_-{rejestrowe - operand znajduje się w rejestrze,}\n_-{bezpośrednie - np. [100h], [FF00h]}\n_-{pośrednie - np. [DX], [R0+100]}\n_-{bazowe - np. [BP], [BP+SP+100]}\n_-{indeksowe np. [DI], [Sl+OFFh]}\n_-{bazowo-indeksowe - np. [SI+BP+123]}\nZazwyczaj procesory RISC posiadają niewielką liczbę trybów adresowania pamięci. Natomiast procesor CISC mają do dyspozycji bardziej złożone instrukcje i przez to znacznie więcej trybów adresowania.\n_b{Przerwania:}\nPrzerwanie sygnalizuje procesorowi konieczność obsługi sytuacji wyjątkowych, które nie należą do wykonywanego strumienia instrukcji.\n_b{Przerwania programowe} - są wywoływane poprzez użycie odpowiednich rozkazów procesora - odpowiadają podprogramom. Przerwania programowe stosuje się w następujących przypadkach:\n_-{w odwołaniach do funkcji BIOSU,}\n_-{w żądaniach dostępu do zasobów / funkcji systemu operacyjnego,}\n_-{do komunikacji z aplikacjami uruchamianymi w tle (programy rezydentne).}\nDostępność przerwań programowych zależy od trybu pracy procesora.\n_b{Przerwania sprzętowe} - pochodzą spoza procesora - są zgłaszane przez urządzenia zewnętrzne. Liczba i czas wystąpienia takich zdarzeń nie jest znana, dlatego konieczne jest ustalenie priorytetu obsługi danego przerwania. Ustalaniem priorytetów przerwań sprzętowych zajmuje się kontroler przerwań, który jest osobnym układem lub może być wbudowany w mikroprocesor.\n_b{Wyjątek} - jest przerwaniem sprzętowym, którego źródłem jest procesor. Obsługa tego typu przerwania odbywa się w podobny sposób jak w przypadku przerwań sprzętowych, ale wyjątki mogą mieć inny priorytet. Wyjątek może pojawić się w następujących sytuacjach:\n_-{podczas próby dzielenia przez zero,}\n_-{w czasie pracy krokowej,}\n_-{w trakcie naruszenia mechanizmów ochrony pamięci,}\n_-{w trakcie próby użycia rozkazu o innym priorytecie niż priorytet aktualnie wykonywanej aplikacji,}\n_-{przy próbie dostępu do nieistniejących zasobów,}\n_-{przy dostępie pamięci wirtualnej, jeśli wybrana strona jest aktualnie przechowywana w pamięci masowej.}\nObsługą wyjątków zajmuje się system operacyjny. Z reguły w procedurach obsługi takich przerwań podejmowane są działania mające na celu przywrócenie poprawnej pracy aplikacji (systemu operacyjnego).",
+    "imgs": []
+  },
+  {
+    "pytanie": "Przedstawić sposób syntezy kontrolera uwzględniające: stany pracy, diagram pracy, oraz model mikroinstrukcji.",
+    "odp": "Kontroler projektowanego CPU musi spełniać pewne założenia konstrukcyjne, wynikające w dużej mierze z architektury procesora.\n_b{stany pracy:}\n_-{RST - ustawianie CPU w stan początkowy}\n_-{IF - pobranie rozkazu}\n_-{ID - zdekodowanie rozkazu}\n_-{OF pobranie operandów}\n_-{EX - wykonanie rozkazu}\n_-{AC - obliczenie adresu w pamięci}\n_-{MEM - wykonanie operacji na pamięci}\n_-{WB - zapisanie wyników}\nW każdym ze stanów znajdują się podstany, przeznaczone dla automatu asynchronicznego, zdefiniowane w mikroinstrukcjach.\n\nProcesory są układami złożonymi konstrukcyjnie, z tego powodu w syntezie takich układów trudno jest zastosować metody klasyczne.\n_b{Technologie:}\nW konstrukcjach prototypowych (poza przemysłowych) w syntezie modułów CPU, w tym kontrolera stosuje się układy programowalne PLD:\n_-{PAL, PLE, PLA, GAL}\n_-{FPGA (Field Programmable Gate Array).}\nUkłady FPGA mogą posiadać w swojej strukturze programowalną pamięć RAM(ROM), którą można wykorzystać jako pamięć mikroinstrukcji. Proces projektowy odbywa się przy pomocy dedykowanych płyt prototypowych, zawierających, poza układem FPGA, urządzenia towarzyszące.\n_b{Metody:}\nModuły CPU, po podziale na mniejsze części, można syntezować metodami klasycznymi - takie podejście utrudnia jednak procesy optymalizacji zmniejszając jakość układu. Zazwyczaj na etapie prototypowania stosuje się języki opisu sprzętu HDL. Na przykład w języku VHDL każdy moduł zawierający blok process po syntezie będzie układem sekwencyjnym, czyli taki opis pozwoli na uzyskanie funkcjonalności modułu kontrolera. Należy pamiętać, że praca z językami HDL wymaga uwzględnienia następujących zasad:\n_-{projektuje się rzeczywiste urządzenie, którego opis ma charakter sekwencyjny}\n_-{wynik syntezy generuje pewną liczbę równolegle działających blików, które nie zawsze są wprost definiowane w języku HDL.}",
+    "imgs": []
+  },
+  {
+    "pytanie": "Przedstawić poglądowo pojęcie potoku.",
+    "odp": "Praca potokowa to cykl połączonych ze sobą operacji, w których wyniki poprzedniej stają się argumentami dla następnej. W odniesieniu do komputerów pojęcie potoku powiązane jest z:\n_-{procesorem - potok instrukcyjny- wymaga podziału pracy CPU na etapy, w których wynik wykonania rozkazu zostaje skompletowany po wykonaniu wszystkich etapów, związanych z daną instrukcją}\n_-{układem GPU - spotykane w większości procesorów graficznych, składający się z wielu bloków funkcjonalnych lub całych procesorów specjalizowanych. Potok graficzny jest zoptymalizowany pod kontem wykonywania operacji graficznych, np.: operacji teksturowania, manipulacji światłami oraz kolorami, odwzorowania perspektywy itp.}\n_-{oprogramowaniem - jest funkcją systemu operacyjnego, umożliwiając komunikację (wymianę danych) między uruchomionymi aplikacjami. Przykładem jest potok nazwany lub nienazwany systemu UNIX/Linux.}\nZastosowanie potoku nie powoduje zmniejszenia czasu potrzebnego na wykonanie czynności, natomiast zwiększa znacznie wydajność systemu. Jednocześnie obecność potoku powoduje:\n_-{powstawanie opóźnień w propagacji sygnałów (wyników)}\n_-{zwiększone zapotrzebowanie na komponenty służące do budowy systemu, takie jak: jednostki wykonawcze, moduły pamiętające, bufory i magistrale, itp..}\nIstnieją trzy główne metody implementacji potoku:\n_-{potok rejestrowy synchroniczny}\n_-{potok rejestrowy asynchroniczny}\n_-{potok niebuforowany.}\nDla rozwiązań niebuforowanych proces sterowania jest tak zaprojektowany, że przekazywanie danych następuje tylko podczas ich stabilność. W każdym przypadku szybkość pracy potoku zależy od jego najwolniejszego stopnia.",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić wydajność pracy potokowej.",
+    "odp": "Wydajność systemu można przedstawić jako liczbę produkcji w jednostce czasu. Wydajność jest zależna architektury danego systemu. Są dwa przypadki:\n_b{Architektura liniowa}\nczas wykonania jednego zadania = n jednostek czasu,\nczas wykonania jednego podzadania ~ 1 jednostka czasu,\nwydajność systemu = 1 / n zadań w jednostce czasu.\n_b{Architektura potokowa}\nczas wykonania pierwszego zadania = n jednostek czasu (opóźnienie),\nliczba zadań wykonanych w czasie T = T - n + 1\nwydajność systemu = (1 - (n - 1)) / T zadań w jednostce czasu.\n_b{Współczynnik zwiększenia wydajności:}\nwydajność architektury potokowej / wydajność architektury liniowej",
+    "imgs": []
+  },
+  {
+    "pytanie": "Omówić koncepcję potoku rozkazowego.",
+    "odp": "Potok instrukcji zwiększa wydajność procesora w zakresie liczby wykonywanych instrukcji w jednostce czasu. W procesorach najpowszechniej stosuje się potok instrukcji, którego etapy - nazywane stopniami, odpowiadają fazom cyklu rozkazowego CPU. Procesor jest urządzeniem synchronicznym, rozpoczynającym każdą z czynności zgodnie z taktami zegara systemowego. Zazwyczaj koncepcja potoku zakłada rozpoczynanie akcji w każdym jego stopniu w tym samym momencie, kiedy zegar systemowy zmienia stan, generując kolejny takt.\nArchitektura potoku zależy od różnych czynników, w ogólności:\n_-{od modelu ISA procesora}\n_-{od architektury CPU}\n_-{uwzględnia ograniczenia zasobów wykonawczych procesora}\nNowoczesne procesory posiadają mocno rozbudowane potoki instrukcyjne - złożone z ponad 20 stopni, które realizują również zadania optymalizacyjne pracy potoku.\nW podstawowej konfiguracji potok powinien zawierać następujące stopnie:\na) _b{pobranie rozkazu:}\n_-{adres w RAM określa rejestr PC/IP}\n_-{pobranie rozkazu (opcodu i ewentualnie argumentu)}\nb) _b{dekodowanie rozkazu i pobranie wartości rejestrów:}\n_-{wybranie rejestrów biorących udział w operacjach}\n_-{wskazanie dodatkowych argumentów}\nc) _b{pobranie argumentów z pamięci (opcjonalnie):}\n_-{obliczenie adresu efektywnego argumentu w RAM}\n_-{pobranie argumentu do rejestru tymczasowego}\nd) _b{wykonanie rozkazu:}\n_-{wykonanie obliczeń lub przekształceń}\n_-{wykonanie operacji na pamięci RAM}\n_-{wyznaczenie adresu następnej instrukcji}\ne) _b{zapisanie wyników:}\n_-{zapisanie do rejestrów procesora wyników obliczeń}\n_-{zapisanie adresu następnego rozkazu do rejestru PC/IP}",
+    "imgs": []
+  }
+]
